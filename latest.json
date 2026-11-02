@@ -1,6 +1,6 @@
 {
  "schema": "jls-forecast-feed/1",
- "created_utc": "2026-11-02T15:49:48Z",
+ "created_utc": "2026-11-02T16:08:01Z",
  "data_through_jst": "2026-11-01 16:03",
  "model": {
   "name": "J League Scout forecaster",
@@ -142,6 +142,17 @@
    "baseline_rps": 0.2306
   }
  },
+ "market_odds": {
+  "available": true,
+  "source": "The Odds API",
+  "fetched_utc": "2026-11-02T16:07:57Z",
+  "regions": "eu",
+  "events_in_snapshot": 10,
+  "matched_fixtures": 10,
+  "unmatched_names": [],
+  "quota_remaining": "498",
+  "method": "Average over bookmakers of implied probabilities with the margin removed proportionally; best = highest decimal price."
+ },
  "rounds": [
   {
    "round": 14,
@@ -184,7 +195,33 @@
       0.372,
       0.45
      ],
-     "confidence": "higher"
+     "confidence": "higher",
+     "market": {
+      "p_home": 0.419,
+      "p_draw": 0.296,
+      "p_away": 0.284,
+      "p_over_2_5": 0.405,
+      "model_minus_market": {
+       "home": -0.012,
+       "draw": -0.008,
+       "away": 0.02
+      },
+      "best_price": {
+       "home": {
+        "price": 2.31,
+        "bookmaker": "Pinnacle"
+       },
+       "draw": {
+        "price": 3.25,
+        "bookmaker": "1xBet"
+       },
+       "away": {
+        "price": 3.6,
+        "bookmaker": "LeoVegas (SE)"
+       }
+      },
+      "bookmakers": 18
+     }
     },
     {
      "site_match_slug": "nagoya-grampus-vs-kyoto-sanga-2026-11-07",
@@ -224,7 +261,33 @@
       0.357,
       0.442
      ],
-     "confidence": "medium"
+     "confidence": "medium",
+     "market": {
+      "p_home": 0.503,
+      "p_draw": 0.252,
+      "p_away": 0.245,
+      "p_over_2_5": 0.567,
+      "model_minus_market": {
+       "home": -0.104,
+       "draw": 0.005,
+       "away": 0.098
+      },
+      "best_price": {
+       "home": {
+        "price": 1.87,
+        "bookmaker": "LeoVegas (SE)"
+       },
+       "draw": {
+        "price": 3.88,
+        "bookmaker": "1xBet"
+       },
+       "away": {
+        "price": 4.0,
+        "bookmaker": "Pinnacle"
+       }
+      },
+      "bookmakers": 18
+     }
     },
     {
      "site_match_slug": "yokohama-f-marinos-vs-fagiano-okayama-2026-11-07",
@@ -264,7 +327,33 @@
       0.457,
       0.541
      ],
-     "confidence": "medium"
+     "confidence": "medium",
+     "market": {
+      "p_home": 0.359,
+      "p_draw": 0.282,
+      "p_away": 0.359,
+      "p_over_2_5": 0.504,
+      "model_minus_market": {
+       "home": 0.137,
+       "draw": -0.026,
+       "away": -0.111
+      },
+      "best_price": {
+       "home": {
+        "price": 2.69,
+        "bookmaker": "1xBet"
+       },
+       "draw": {
+        "price": 3.5,
+        "bookmaker": "Coolbet"
+       },
+       "away": {
+        "price": 2.7,
+        "bookmaker": "Tipico"
+       }
+      },
+      "bookmakers": 17
+     }
     },
     {
      "site_match_slug": "fc-tokyo-vs-kashima-antlers-2026-11-07",
@@ -304,7 +393,33 @@
       0.325,
       0.404
      ],
-     "confidence": "higher"
+     "confidence": "higher",
+     "market": {
+      "p_home": 0.452,
+      "p_draw": 0.265,
+      "p_away": 0.283,
+      "p_over_2_5": 0.555,
+      "model_minus_market": {
+       "home": -0.088,
+       "draw": 0.005,
+       "away": 0.082
+      },
+      "best_price": {
+       "home": {
+        "price": 2.08,
+        "bookmaker": "Betsson"
+       },
+       "draw": {
+        "price": 3.75,
+        "bookmaker": "Coolbet"
+       },
+       "away": {
+        "price": 3.45,
+        "bookmaker": "BetOnline.ag"
+       }
+      },
+      "bookmakers": 18
+     }
     },
     {
      "site_match_slug": "avispa-fukuoka-vs-v-varen-nagasaki-2026-11-07",
@@ -344,7 +459,33 @@
       0.331,
       0.416
      ],
-     "confidence": "medium"
+     "confidence": "medium",
+     "market": {
+      "p_home": 0.459,
+      "p_draw": 0.278,
+      "p_away": 0.263,
+      "p_over_2_5": 0.461,
+      "model_minus_market": {
+       "home": -0.088,
+       "draw": -0.001,
+       "away": 0.089
+      },
+      "best_price": {
+       "home": {
+        "price": 2.1,
+        "bookmaker": "BetOnline.ag"
+       },
+       "draw": {
+        "price": 3.5,
+        "bookmaker": "Coolbet"
+       },
+       "away": {
+        "price": 3.85,
+        "bookmaker": "LeoVegas (SE)"
+       }
+      },
+      "bookmakers": 18
+     }
     },
     {
      "site_match_slug": "kashiwa-reysol-vs-kawasaki-frontale-2026-11-07",
@@ -384,7 +525,33 @@
       0.424,
       0.518
      ],
-     "confidence": "medium"
+     "confidence": "medium",
+     "market": {
+      "p_home": 0.429,
+      "p_draw": 0.246,
+      "p_away": 0.325,
+      "p_over_2_5": 0.637,
+      "model_minus_market": {
+       "home": 0.043,
+       "draw": -0.007,
+       "away": -0.036
+      },
+      "best_price": {
+       "home": {
+        "price": 2.26,
+        "bookmaker": "1xBet"
+       },
+       "draw": {
+        "price": 4.0,
+        "bookmaker": "Coolbet"
+       },
+       "away": {
+        "price": 2.95,
+        "bookmaker": "Unibet (NL)"
+       }
+      },
+      "bookmakers": 16
+     }
     },
     {
      "site_match_slug": "machida-zelvia-vs-sanfrecce-hiroshima-2026-11-08",
@@ -424,7 +591,33 @@
       0.335,
       0.412
      ],
-     "confidence": "higher"
+     "confidence": "higher",
+     "market": {
+      "p_home": 0.323,
+      "p_draw": 0.276,
+      "p_away": 0.401,
+      "p_over_2_5": 0.524,
+      "model_minus_market": {
+       "home": 0.051,
+       "draw": 0.005,
+       "away": -0.056
+      },
+      "best_price": {
+       "home": {
+        "price": 2.98,
+        "bookmaker": "1xBet"
+       },
+       "draw": {
+        "price": 3.6,
+        "bookmaker": "Coolbet"
+       },
+       "away": {
+        "price": 2.4,
+        "bookmaker": "Coolbet"
+       }
+      },
+      "bookmakers": 14
+     }
     },
     {
      "site_match_slug": "vissel-kobe-vs-urawa-red-diamonds-2026-11-08",
@@ -464,7 +657,33 @@
       0.475,
       0.562
      ],
-     "confidence": "medium"
+     "confidence": "medium",
+     "market": {
+      "p_home": 0.443,
+      "p_draw": 0.272,
+      "p_away": 0.284,
+      "p_over_2_5": 0.528,
+      "model_minus_market": {
+       "home": 0.073,
+       "draw": -0.017,
+       "away": -0.057
+      },
+      "best_price": {
+       "home": {
+        "price": 2.2,
+        "bookmaker": "Pinnacle"
+       },
+       "draw": {
+        "price": 3.6,
+        "bookmaker": "Coolbet"
+       },
+       "away": {
+        "price": 3.33,
+        "bookmaker": "1xBet"
+       }
+      },
+      "bookmakers": 14
+     }
     },
     {
      "site_match_slug": "gamba-osaka-vs-cerezo-osaka-2026-11-08",
@@ -504,7 +723,33 @@
       0.377,
       0.465
      ],
-     "confidence": "medium"
+     "confidence": "medium",
+     "market": {
+      "p_home": 0.423,
+      "p_draw": 0.268,
+      "p_away": 0.308,
+      "p_over_2_5": 0.552,
+      "model_minus_market": {
+       "home": -0.0,
+       "draw": -0.012,
+       "away": 0.012
+      },
+      "best_price": {
+       "home": {
+        "price": 2.3,
+        "bookmaker": "Coolbet"
+       },
+       "draw": {
+        "price": 3.6,
+        "bookmaker": "Coolbet"
+       },
+       "away": {
+        "price": 3.12,
+        "bookmaker": "Pinnacle"
+       }
+      },
+      "bookmakers": 14
+     }
     },
     {
      "site_match_slug": "jef-united-chiba-vs-mito-hollyhock-2026-11-08",
@@ -544,7 +789,33 @@
       0.421,
       0.504
      ],
-     "confidence": "medium"
+     "confidence": "medium",
+     "market": {
+      "p_home": 0.452,
+      "p_draw": 0.276,
+      "p_away": 0.271,
+      "p_over_2_5": 0.492,
+      "model_minus_market": {
+       "home": 0.013,
+       "draw": -0.02,
+       "away": 0.007
+      },
+      "best_price": {
+       "home": {
+        "price": 2.12,
+        "bookmaker": "1xBet"
+       },
+       "draw": {
+        "price": 3.5,
+        "bookmaker": "Coolbet"
+       },
+       "away": {
+        "price": 3.56,
+        "bookmaker": "Pinnacle"
+       }
+      },
+      "bookmakers": 13
+     }
     }
    ]
   },
@@ -589,7 +860,8 @@
       0.573,
       0.665
      ],
-     "confidence": "medium"
+     "confidence": "medium",
+     "market": null
     },
     {
      "site_match_slug": "vissel-kobe-vs-mito-hollyhock-2026-11-20",
@@ -629,7 +901,8 @@
       0.651,
       0.733
      ],
-     "confidence": "medium"
+     "confidence": "medium",
+     "market": null
     },
     {
      "site_match_slug": "kashima-antlers-vs-shimizu-s-pulse-2026-11-20",
@@ -669,7 +942,8 @@
       0.599,
       0.681
      ],
-     "confidence": "medium"
+     "confidence": "medium",
+     "market": null
     },
     {
      "site_match_slug": "kyoto-sanga-vs-urawa-red-diamonds-2026-11-21",
@@ -709,7 +983,8 @@
       0.346,
       0.425
      ],
-     "confidence": "higher"
+     "confidence": "higher",
+     "market": null
     },
     {
      "site_match_slug": "sanfrecce-hiroshima-vs-yokohama-f-marinos-2026-11-21",
@@ -749,7 +1024,8 @@
       0.511,
       0.593
      ],
-     "confidence": "medium"
+     "confidence": "medium",
+     "market": null
     },
     {
      "site_match_slug": "tokyo-verdy-vs-nagoya-grampus-2026-11-21",
@@ -789,7 +1065,8 @@
       0.297,
       0.371
      ],
-     "confidence": "higher"
+     "confidence": "higher",
+     "market": null
     },
     {
      "site_match_slug": "machida-zelvia-vs-v-varen-nagasaki-2026-11-21",
@@ -829,7 +1106,8 @@
       0.575,
       0.661
      ],
-     "confidence": "medium"
+     "confidence": "medium",
+     "market": null
     },
     {
      "site_match_slug": "kawasaki-frontale-vs-avispa-fukuoka-2026-11-21",
@@ -869,7 +1147,8 @@
       0.504,
       0.598
      ],
-     "confidence": "medium"
+     "confidence": "medium",
+     "market": null
     },
     {
      "site_match_slug": "cerezo-osaka-vs-fc-tokyo-2026-11-21",
@@ -909,7 +1188,8 @@
       0.262,
       0.34
      ],
-     "confidence": "higher"
+     "confidence": "higher",
+     "market": null
     },
     {
      "site_match_slug": "gamba-osaka-vs-fagiano-okayama-2026-11-21",
@@ -949,7 +1229,8 @@
       0.417,
       0.503
      ],
-     "confidence": "medium"
+     "confidence": "medium",
+     "market": null
     }
    ]
   },
@@ -994,7 +1275,8 @@
       0.306,
       0.379
      ],
-     "confidence": "higher"
+     "confidence": "higher",
+     "market": null
     },
     {
      "site_match_slug": "jef-united-chiba-vs-nagoya-grampus-2026-11-25",
@@ -1034,7 +1316,8 @@
       0.293,
       0.369
      ],
-     "confidence": "higher"
+     "confidence": "higher",
+     "market": null
     },
     {
      "site_match_slug": "fagiano-okayama-vs-shimizu-s-pulse-2026-11-25",
@@ -1074,7 +1357,8 @@
       0.386,
       0.466
      ],
-     "confidence": "medium"
+     "confidence": "medium",
+     "market": null
     },
     {
      "site_match_slug": "mito-hollyhock-vs-tokyo-verdy-2026-11-25",
@@ -1114,7 +1398,8 @@
       0.298,
       0.376
      ],
-     "confidence": "higher"
+     "confidence": "higher",
+     "market": null
     },
     {
      "site_match_slug": "avispa-fukuoka-vs-yokohama-f-marinos-2026-11-25",
@@ -1154,7 +1439,8 @@
       0.251,
       0.321
      ],
-     "confidence": "higher"
+     "confidence": "higher",
+     "market": null
     },
     {
      "site_match_slug": "v-varen-nagasaki-vs-kawasaki-frontale-2026-11-25",
@@ -1194,7 +1480,8 @@
       0.279,
       0.37
      ],
-     "confidence": "medium"
+     "confidence": "medium",
+     "market": null
     },
     {
      "site_match_slug": "urawa-red-diamonds-vs-cerezo-osaka-2026-11-25",
@@ -1234,7 +1521,8 @@
       0.388,
       0.472
      ],
-     "confidence": "medium"
+     "confidence": "medium",
+     "market": null
     },
     {
      "site_match_slug": "kashima-antlers-vs-machida-zelvia-2026-12-16",
@@ -1274,7 +1562,8 @@
       0.375,
       0.453
      ],
-     "confidence": "higher"
+     "confidence": "higher",
+     "market": null
     },
     {
      "site_match_slug": "gamba-osaka-vs-kashiwa-reysol-2026-12-16",
@@ -1314,7 +1603,8 @@
       0.294,
       0.371
      ],
-     "confidence": "higher"
+     "confidence": "higher",
+     "market": null
     },
     {
      "site_match_slug": "kyoto-sanga-vs-vissel-kobe-2027-04-14",
@@ -1354,7 +1644,8 @@
       0.238,
       0.31
      ],
-     "confidence": "higher"
+     "confidence": "higher",
+     "market": null
     }
    ]
   },
@@ -1399,7 +1690,8 @@
       0.365,
       0.454
      ],
-     "confidence": "medium"
+     "confidence": "medium",
+     "market": null
     },
     {
      "site_match_slug": "shimizu-s-pulse-vs-urawa-red-diamonds-2026-11-28",
@@ -1439,7 +1731,8 @@
       0.277,
       0.354
      ],
-     "confidence": "higher"
+     "confidence": "higher",
+     "market": null
     },
     {
      "site_match_slug": "vissel-kobe-vs-jef-united-chiba-2026-11-28",
@@ -1479,7 +1772,8 @@
       0.609,
       0.688
      ],
-     "confidence": "higher"
+     "confidence": "higher",
+     "market": null
     },
     {
      "site_match_slug": "kashima-antlers-vs-fagiano-okayama-2026-11-28",
@@ -1519,7 +1813,8 @@
       0.567,
       0.655
      ],
-     "confidence": "medium"
+     "confidence": "medium",
+     "market": null
     },
     {
      "site_match_slug": "kashiwa-reysol-vs-sanfrecce-hiroshima-2026-11-28",
@@ -1559,7 +1854,8 @@
       0.286,
       0.359
      ],
-     "confidence": "higher"
+     "confidence": "higher",
+     "market": null
     },
     {
      "site_match_slug": "yokohama-f-marinos-vs-fc-tokyo-2026-11-29",
@@ -1599,7 +1895,8 @@
       0.3,
       0.377
      ],
-     "confidence": "higher"
+     "confidence": "higher",
+     "market": null
     },
     {
      "site_match_slug": "mito-hollyhock-vs-v-varen-nagasaki-2026-11-29",
@@ -1639,7 +1936,8 @@
       0.272,
       0.349
      ],
-     "confidence": "higher"
+     "confidence": "higher",
+     "market": null
     },
     {
      "site_match_slug": "nagoya-grampus-vs-avispa-fukuoka-2026-11-29",
@@ -1679,7 +1977,8 @@
       0.421,
       0.511
      ],
-     "confidence": "medium"
+     "confidence": "medium",
+     "market": null
     },
     {
      "site_match_slug": "kawasaki-frontale-vs-gamba-osaka-2026-11-29",
@@ -1719,7 +2018,8 @@
       0.422,
       0.511
      ],
-     "confidence": "medium"
+     "confidence": "medium",
+     "market": null
     },
     {
      "site_match_slug": "machida-zelvia-vs-tokyo-verdy-2026-11-29",
@@ -1759,7 +2059,8 @@
       0.587,
       0.666
      ],
-     "confidence": "higher"
+     "confidence": "higher",
+     "market": null
     }
    ]
   },
@@ -1804,7 +2105,8 @@
       0.452,
       0.545
      ],
-     "confidence": "medium"
+     "confidence": "medium",
+     "market": null
     },
     {
      "site_match_slug": "jef-united-chiba-vs-kashima-antlers-2026-12-05",
@@ -1844,7 +2146,8 @@
       0.157,
       0.213
      ],
-     "confidence": "higher"
+     "confidence": "higher",
+     "market": null
     },
     {
      "site_match_slug": "tokyo-verdy-vs-kyoto-sanga-2026-12-05",
@@ -1884,7 +2187,8 @@
       0.282,
       0.362
      ],
-     "confidence": "higher"
+     "confidence": "higher",
+     "market": null
     },
     {
      "site_match_slug": "urawa-red-diamonds-vs-nagoya-grampus-2026-12-05",
@@ -1924,7 +2228,8 @@
       0.407,
       0.496
      ],
-     "confidence": "medium"
+     "confidence": "medium",
+     "market": null
     },
     {
      "site_match_slug": "v-varen-nagasaki-vs-shimizu-s-pulse-2026-12-05",
@@ -1964,7 +2269,8 @@
       0.387,
       0.472
      ],
-     "confidence": "medium"
+     "confidence": "medium",
+     "market": null
     },
     {
      "site_match_slug": "cerezo-osaka-vs-mito-hollyhock-2026-12-05",
@@ -2004,7 +2310,8 @@
       0.533,
       0.624
      ],
-     "confidence": "medium"
+     "confidence": "medium",
+     "market": null
     },
     {
      "site_match_slug": "sanfrecce-hiroshima-vs-vissel-kobe-2026-12-06",
@@ -2044,7 +2351,8 @@
       0.402,
       0.486
      ],
-     "confidence": "medium"
+     "confidence": "medium",
+     "market": null
     },
     {
      "site_match_slug": "gamba-osaka-vs-yokohama-f-marinos-2026-12-06",
@@ -2084,7 +2392,8 @@
       0.337,
       0.418
      ],
-     "confidence": "medium"
+     "confidence": "medium",
+     "market": null
     },
     {
      "site_match_slug": "kashiwa-reysol-vs-avispa-fukuoka-2026-12-06",
@@ -2124,7 +2433,8 @@
       0.533,
       0.62
      ],
-     "confidence": "medium"
+     "confidence": "medium",
+     "market": null
     },
     {
      "site_match_slug": "machida-zelvia-vs-fagiano-okayama-2026-12-06",
@@ -2164,7 +2474,8 @@
       0.549,
       0.63
      ],
-     "confidence": "medium"
+     "confidence": "medium",
+     "market": null
     }
    ]
   }
@@ -4533,5 +4844,5 @@
    "forecast_source": "backtest"
   }
  ],
- "credit": "Forecasts: J League Scout. Results data from the official J.League sites, compiled by mokekuma-git/JLeague_Matches-Bar_Graph (CC BY 4.0) and k-addtimes/jleague_open_data (MIT)."
+ "credit": "Forecasts: J League Scout. Bookmaker odds: The Odds API. Results data from the official J.League sites, compiled by mokekuma-git/JLeague_Matches-Bar_Graph (CC BY 4.0) and k-addtimes/jleague_open_data (MIT)."
 }
