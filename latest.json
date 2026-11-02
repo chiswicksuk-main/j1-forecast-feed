@@ -1,6 +1,6 @@
 {
  "schema": "jls-forecast-feed/1",
- "created_utc": "2026-11-02T15:27:57Z",
+ "created_utc": "2026-11-02T15:49:48Z",
  "data_through_jst": "2026-11-01 16:03",
  "model": {
   "name": "J League Scout forecaster",
@@ -17,6 +17,125 @@
    "baseline_rps": 0.2327,
    "note": "Ranked probability score, lower is better; baseline = league home/draw/away rates"
   },
+  "by_round": [
+   {
+    "round": 1,
+    "matches": 10,
+    "model_rps": 0.2023,
+    "baseline_rps": 0.2505,
+    "model_running_avg": 0.2023,
+    "baseline_running_avg": 0.2505,
+    "source": "backtest"
+   },
+   {
+    "round": 2,
+    "matches": 10,
+    "model_rps": 0.199,
+    "baseline_rps": 0.2341,
+    "model_running_avg": 0.2007,
+    "baseline_running_avg": 0.2423,
+    "source": "backtest"
+   },
+   {
+    "round": 3,
+    "matches": 10,
+    "model_rps": 0.2117,
+    "baseline_rps": 0.2173,
+    "model_running_avg": 0.2043,
+    "baseline_running_avg": 0.234,
+    "source": "backtest"
+   },
+   {
+    "round": 4,
+    "matches": 10,
+    "model_rps": 0.1897,
+    "baseline_rps": 0.234,
+    "model_running_avg": 0.2007,
+    "baseline_running_avg": 0.234,
+    "source": "backtest"
+   },
+   {
+    "round": 5,
+    "matches": 10,
+    "model_rps": 0.2134,
+    "baseline_rps": 0.2258,
+    "model_running_avg": 0.2032,
+    "baseline_running_avg": 0.2323,
+    "source": "backtest"
+   },
+   {
+    "round": 6,
+    "matches": 10,
+    "model_rps": 0.2521,
+    "baseline_rps": 0.234,
+    "model_running_avg": 0.2114,
+    "baseline_running_avg": 0.2326,
+    "source": "backtest"
+   },
+   {
+    "round": 7,
+    "matches": 10,
+    "model_rps": 0.2266,
+    "baseline_rps": 0.2423,
+    "model_running_avg": 0.2135,
+    "baseline_running_avg": 0.234,
+    "source": "backtest"
+   },
+   {
+    "round": 8,
+    "matches": 10,
+    "model_rps": 0.197,
+    "baseline_rps": 0.2423,
+    "model_running_avg": 0.2115,
+    "baseline_running_avg": 0.235,
+    "source": "backtest"
+   },
+   {
+    "round": 9,
+    "matches": 10,
+    "model_rps": 0.215,
+    "baseline_rps": 0.2423,
+    "model_running_avg": 0.2119,
+    "baseline_running_avg": 0.2358,
+    "source": "backtest"
+   },
+   {
+    "round": 10,
+    "matches": 10,
+    "model_rps": 0.1892,
+    "baseline_rps": 0.2506,
+    "model_running_avg": 0.2096,
+    "baseline_running_avg": 0.2373,
+    "source": "backtest"
+   },
+   {
+    "round": 11,
+    "matches": 10,
+    "model_rps": 0.2101,
+    "baseline_rps": 0.2093,
+    "model_running_avg": 0.2096,
+    "baseline_running_avg": 0.2348,
+    "source": "backtest"
+   },
+   {
+    "round": 12,
+    "matches": 10,
+    "model_rps": 0.1787,
+    "baseline_rps": 0.2009,
+    "model_running_avg": 0.2071,
+    "baseline_running_avg": 0.2319,
+    "source": "backtest"
+   },
+   {
+    "round": 13,
+    "matches": 10,
+    "model_rps": 0.1973,
+    "baseline_rps": 0.2421,
+    "model_running_avg": 0.2063,
+    "baseline_running_avg": 0.2327,
+    "source": "backtest"
+   }
+  ],
   "tested_2021_to_now": {
    "matches": 4472,
    "model_rps": 0.2194,
