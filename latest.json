@@ -1,0 +1,4418 @@
+{
+ "schema": "jls-forecast-feed/1",
+ "created_utc": "2026-11-02T15:27:57Z",
+ "data_through_jst": "2026-11-01 16:03",
+ "model": {
+  "name": "J League Scout forecaster",
+  "version": "blend-0.2.0 w_elo=0.4 | markets v2 (lambda tilt) | elo-0.1.1 fb3a832281",
+  "inputs": "Official J1/J2 results since 2003 only. No team news, injuries or betting odds.",
+  "season_simulations": 20000
+ },
+ "track_record": {
+  "this_season": {
+   "matches": 130,
+   "rounds": 13,
+   "published_rounds": 0,
+   "model_rps": 0.2063,
+   "baseline_rps": 0.2327,
+   "note": "Ranked probability score, lower is better; baseline = league home/draw/away rates"
+  },
+  "tested_2021_to_now": {
+   "matches": 4472,
+   "model_rps": 0.2194,
+   "baseline_rps": 0.2306
+  }
+ },
+ "rounds": [
+  {
+   "round": 14,
+   "matches": [
+    {
+     "site_match_slug": "shimizu-s-pulse-vs-tokyo-verdy-2026-11-07",
+     "home": "Shimizu S-Pulse",
+     "away": "Tokyo Verdy",
+     "home_slug": "shimizu-s-pulse",
+     "away_slug": "tokyo-verdy",
+     "date_jst": "2026-11-07",
+     "kickoff_jst": "13:00",
+     "venue_ja": "アイスタ",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.407,
+     "p_draw": 0.288,
+     "p_away": 0.305,
+     "lean": "Open game",
+     "home_xg": 1.21,
+     "away_xg": 1.01,
+     "home_clean_sheet": 0.366,
+     "away_clean_sheet": 0.298,
+     "p_over_2_5": 0.382,
+     "p_btts": 0.445,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.13
+      },
+      {
+       "score": "1-0",
+       "p": 0.13
+      },
+      {
+       "score": "0-1",
+       "p": 0.11
+      }
+     ],
+     "p_home_range80": [
+      0.372,
+      0.45
+     ],
+     "confidence": "higher"
+    },
+    {
+     "site_match_slug": "nagoya-grampus-vs-kyoto-sanga-2026-11-07",
+     "home": "Nagoya Grampus",
+     "away": "Kyoto Sanga",
+     "home_slug": "nagoya-grampus",
+     "away_slug": "kyoto-sanga",
+     "date_jst": "2026-11-07",
+     "kickoff_jst": "14:00",
+     "venue_ja": "豊田ス",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.399,
+     "p_draw": 0.258,
+     "p_away": 0.343,
+     "lean": "Open game",
+     "home_xg": 1.41,
+     "away_xg": 1.29,
+     "home_clean_sheet": 0.275,
+     "away_clean_sheet": 0.244,
+     "p_over_2_5": 0.507,
+     "p_btts": 0.548,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.12
+      },
+      {
+       "score": "1-0",
+       "p": 0.09
+      },
+      {
+       "score": "0-1",
+       "p": 0.09
+      }
+     ],
+     "p_home_range80": [
+      0.357,
+      0.442
+     ],
+     "confidence": "medium"
+    },
+    {
+     "site_match_slug": "yokohama-f-marinos-vs-fagiano-okayama-2026-11-07",
+     "home": "Yokohama F. Marinos",
+     "away": "Fagiano Okayama",
+     "home_slug": "yokohama-f-marinos",
+     "away_slug": "fagiano-okayama",
+     "date_jst": "2026-11-07",
+     "kickoff_jst": "14:00",
+     "venue_ja": "日産ス",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.497,
+     "p_draw": 0.255,
+     "p_away": 0.248,
+     "lean": "Lean Yokohama F. Marinos",
+     "home_xg": 1.54,
+     "away_xg": 1.01,
+     "home_clean_sheet": 0.364,
+     "away_clean_sheet": 0.214,
+     "p_over_2_5": 0.47,
+     "p_btts": 0.5,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.12
+      },
+      {
+       "score": "1-0",
+       "p": 0.12
+      },
+      {
+       "score": "2-1",
+       "p": 0.09
+      }
+     ],
+     "p_home_range80": [
+      0.457,
+      0.541
+     ],
+     "confidence": "medium"
+    },
+    {
+     "site_match_slug": "fc-tokyo-vs-kashima-antlers-2026-11-07",
+     "home": "FC Tokyo",
+     "away": "Kashima Antlers",
+     "home_slug": "fc-tokyo",
+     "away_slug": "kashima-antlers",
+     "date_jst": "2026-11-07",
+     "kickoff_jst": "15:00",
+     "venue_ja": "味スタ",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.364,
+     "p_draw": 0.271,
+     "p_away": 0.365,
+     "lean": "Open game",
+     "home_xg": 1.24,
+     "away_xg": 1.24,
+     "home_clean_sheet": 0.288,
+     "away_clean_sheet": 0.289,
+     "p_over_2_5": 0.452,
+     "p_btts": 0.506,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.13
+      },
+      {
+       "score": "0-1",
+       "p": 0.1
+      },
+      {
+       "score": "1-0",
+       "p": 0.1
+      }
+     ],
+     "p_home_range80": [
+      0.325,
+      0.404
+     ],
+     "confidence": "higher"
+    },
+    {
+     "site_match_slug": "avispa-fukuoka-vs-v-varen-nagasaki-2026-11-07",
+     "home": "Avispa Fukuoka",
+     "away": "V-Varen Nagasaki",
+     "home_slug": "avispa-fukuoka",
+     "away_slug": "v-varen-nagasaki",
+     "date_jst": "2026-11-07",
+     "kickoff_jst": "15:00",
+     "venue_ja": "ベススタ",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.371,
+     "p_draw": 0.277,
+     "p_away": 0.352,
+     "lean": "Open game",
+     "home_xg": 1.22,
+     "away_xg": 1.18,
+     "home_clean_sheet": 0.308,
+     "away_clean_sheet": 0.296,
+     "p_over_2_5": 0.429,
+     "p_btts": 0.487,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.13
+      },
+      {
+       "score": "1-0",
+       "p": 0.11
+      },
+      {
+       "score": "0-1",
+       "p": 0.11
+      }
+     ],
+     "p_home_range80": [
+      0.331,
+      0.416
+     ],
+     "confidence": "medium"
+    },
+    {
+     "site_match_slug": "kashiwa-reysol-vs-kawasaki-frontale-2026-11-07",
+     "home": "Kashiwa Reysol",
+     "away": "Kawasaki Frontale",
+     "home_slug": "kashiwa-reysol",
+     "away_slug": "kawasaki-frontale",
+     "date_jst": "2026-11-07",
+     "kickoff_jst": "16:00",
+     "venue_ja": "三協F柏",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.472,
+     "p_draw": 0.238,
+     "p_away": 0.289,
+     "lean": "Lean Kashiwa Reysol",
+     "home_xg": 1.7,
+     "away_xg": 1.28,
+     "home_clean_sheet": 0.279,
+     "away_clean_sheet": 0.183,
+     "p_over_2_5": 0.571,
+     "p_btts": 0.589,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.11
+      },
+      {
+       "score": "2-1",
+       "p": 0.09
+      },
+      {
+       "score": "1-0",
+       "p": 0.09
+      }
+     ],
+     "p_home_range80": [
+      0.424,
+      0.518
+     ],
+     "confidence": "medium"
+    },
+    {
+     "site_match_slug": "machida-zelvia-vs-sanfrecce-hiroshima-2026-11-08",
+     "home": "Machida Zelvia",
+     "away": "Sanfrecce Hiroshima",
+     "home_slug": "machida-zelvia",
+     "away_slug": "sanfrecce-hiroshima",
+     "date_jst": "2026-11-08",
+     "kickoff_jst": "14:00",
+     "venue_ja": "Gスタ",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.374,
+     "p_draw": 0.281,
+     "p_away": 0.345,
+     "lean": "Open game",
+     "home_xg": 1.2,
+     "away_xg": 1.14,
+     "home_clean_sheet": 0.32,
+     "away_clean_sheet": 0.301,
+     "p_over_2_5": 0.415,
+     "p_btts": 0.475,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.13
+      },
+      {
+       "score": "1-0",
+       "p": 0.12
+      },
+      {
+       "score": "0-1",
+       "p": 0.11
+      }
+     ],
+     "p_home_range80": [
+      0.335,
+      0.412
+     ],
+     "confidence": "higher"
+    },
+    {
+     "site_match_slug": "vissel-kobe-vs-urawa-red-diamonds-2026-11-08",
+     "home": "Vissel Kobe",
+     "away": "Urawa Red Diamonds",
+     "home_slug": "vissel-kobe",
+     "away_slug": "urawa-red-diamonds",
+     "date_jst": "2026-11-08",
+     "kickoff_jst": "14:00",
+     "venue_ja": "MUFG国立",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.517,
+     "p_draw": 0.256,
+     "p_away": 0.228,
+     "lean": "Lean Vissel Kobe",
+     "home_xg": 1.55,
+     "away_xg": 0.93,
+     "home_clean_sheet": 0.393,
+     "away_clean_sheet": 0.212,
+     "p_over_2_5": 0.452,
+     "p_btts": 0.478,
+     "likely_scores": [
+      {
+       "score": "1-0",
+       "p": 0.13
+      },
+      {
+       "score": "1-1",
+       "p": 0.12
+      },
+      {
+       "score": "2-0",
+       "p": 0.1
+      }
+     ],
+     "p_home_range80": [
+      0.475,
+      0.562
+     ],
+     "confidence": "medium"
+    },
+    {
+     "site_match_slug": "gamba-osaka-vs-cerezo-osaka-2026-11-08",
+     "home": "Gamba Osaka",
+     "away": "Cerezo Osaka",
+     "home_slug": "gamba-osaka",
+     "away_slug": "cerezo-osaka",
+     "date_jst": "2026-11-08",
+     "kickoff_jst": "15:00",
+     "venue_ja": "パナスタ",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.423,
+     "p_draw": 0.257,
+     "p_away": 0.32,
+     "lean": "Open game",
+     "home_xg": 1.46,
+     "away_xg": 1.23,
+     "home_clean_sheet": 0.291,
+     "away_clean_sheet": 0.233,
+     "p_over_2_5": 0.504,
+     "p_btts": 0.543,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.12
+      },
+      {
+       "score": "1-0",
+       "p": 0.1
+      },
+      {
+       "score": "2-1",
+       "p": 0.09
+      }
+     ],
+     "p_home_range80": [
+      0.377,
+      0.465
+     ],
+     "confidence": "medium"
+    },
+    {
+     "site_match_slug": "jef-united-chiba-vs-mito-hollyhock-2026-11-08",
+     "home": "JEF United Chiba",
+     "away": "Mito HollyHock",
+     "home_slug": "jef-united-chiba",
+     "away_slug": "mito-hollyhock",
+     "date_jst": "2026-11-08",
+     "kickoff_jst": "17:00",
+     "venue_ja": "フクアリ",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.465,
+     "p_draw": 0.257,
+     "p_away": 0.278,
+     "lean": "Lean JEF United Chiba",
+     "home_xg": 1.51,
+     "away_xg": 1.11,
+     "home_clean_sheet": 0.33,
+     "away_clean_sheet": 0.221,
+     "p_over_2_5": 0.486,
+     "p_btts": 0.522,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.12
+      },
+      {
+       "score": "1-0",
+       "p": 0.11
+      },
+      {
+       "score": "2-1",
+       "p": 0.09
+      }
+     ],
+     "p_home_range80": [
+      0.421,
+      0.504
+     ],
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "round": 15,
+   "matches": [
+    {
+     "site_match_slug": "kashiwa-reysol-vs-jef-united-chiba-2026-11-20",
+     "home": "Kashiwa Reysol",
+     "away": "JEF United Chiba",
+     "home_slug": "kashiwa-reysol",
+     "away_slug": "jef-united-chiba",
+     "date_jst": "2026-11-20",
+     "kickoff_jst": "19:00",
+     "venue_ja": "三協F柏",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.622,
+     "p_draw": 0.208,
+     "p_away": 0.17,
+     "lean": "Strong lean Kashiwa Reysol",
+     "home_xg": 2.03,
+     "away_xg": 0.96,
+     "home_clean_sheet": 0.383,
+     "away_clean_sheet": 0.131,
+     "p_over_2_5": 0.575,
+     "p_btts": 0.536,
+     "likely_scores": [
+      {
+       "score": "2-0",
+       "p": 0.1
+      },
+      {
+       "score": "1-0",
+       "p": 0.1
+      },
+      {
+       "score": "2-1",
+       "p": 0.1
+      }
+     ],
+     "p_home_range80": [
+      0.573,
+      0.665
+     ],
+     "confidence": "medium"
+    },
+    {
+     "site_match_slug": "vissel-kobe-vs-mito-hollyhock-2026-11-20",
+     "home": "Vissel Kobe",
+     "away": "Mito HollyHock",
+     "home_slug": "vissel-kobe",
+     "away_slug": "mito-hollyhock",
+     "date_jst": "2026-11-20",
+     "kickoff_jst": "19:00",
+     "venue_ja": "ノエスタ",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.692,
+     "p_draw": 0.19,
+     "p_away": 0.118,
+     "lean": "Strong lean Vissel Kobe",
+     "home_xg": 2.11,
+     "away_xg": 0.73,
+     "home_clean_sheet": 0.481,
+     "away_clean_sheet": 0.122,
+     "p_over_2_5": 0.54,
+     "p_btts": 0.456,
+     "likely_scores": [
+      {
+       "score": "2-0",
+       "p": 0.13
+      },
+      {
+       "score": "1-0",
+       "p": 0.12
+      },
+      {
+       "score": "2-1",
+       "p": 0.1
+      }
+     ],
+     "p_home_range80": [
+      0.651,
+      0.733
+     ],
+     "confidence": "medium"
+    },
+    {
+     "site_match_slug": "kashima-antlers-vs-shimizu-s-pulse-2026-11-20",
+     "home": "Kashima Antlers",
+     "away": "Shimizu S-Pulse",
+     "home_slug": "kashima-antlers",
+     "away_slug": "shimizu-s-pulse",
+     "date_jst": "2026-11-20",
+     "kickoff_jst": "19:00",
+     "venue_ja": "メルスタ",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.641,
+     "p_draw": 0.21,
+     "p_away": 0.148,
+     "lean": "Strong lean Kashima Antlers",
+     "home_xg": 1.95,
+     "away_xg": 0.81,
+     "home_clean_sheet": 0.443,
+     "away_clean_sheet": 0.142,
+     "p_over_2_5": 0.522,
+     "p_btts": 0.478,
+     "likely_scores": [
+      {
+       "score": "1-0",
+       "p": 0.12
+      },
+      {
+       "score": "2-0",
+       "p": 0.12
+      },
+      {
+       "score": "1-1",
+       "p": 0.1
+      }
+     ],
+     "p_home_range80": [
+      0.599,
+      0.681
+     ],
+     "confidence": "medium"
+    },
+    {
+     "site_match_slug": "kyoto-sanga-vs-urawa-red-diamonds-2026-11-21",
+     "home": "Kyoto Sanga",
+     "away": "Urawa Red Diamonds",
+     "home_slug": "kyoto-sanga",
+     "away_slug": "urawa-red-diamonds",
+     "date_jst": "2026-11-21",
+     "kickoff_jst": "14:00",
+     "venue_ja": "サンガS",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.382,
+     "p_draw": 0.265,
+     "p_away": 0.353,
+     "lean": "Open game",
+     "home_xg": 1.32,
+     "away_xg": 1.26,
+     "home_clean_sheet": 0.283,
+     "away_clean_sheet": 0.266,
+     "p_over_2_5": 0.478,
+     "p_btts": 0.526,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.13
+      },
+      {
+       "score": "1-0",
+       "p": 0.1
+      },
+      {
+       "score": "0-1",
+       "p": 0.1
+      }
+     ],
+     "p_home_range80": [
+      0.346,
+      0.425
+     ],
+     "confidence": "higher"
+    },
+    {
+     "site_match_slug": "sanfrecce-hiroshima-vs-yokohama-f-marinos-2026-11-21",
+     "home": "Sanfrecce Hiroshima",
+     "away": "Yokohama F. Marinos",
+     "home_slug": "sanfrecce-hiroshima",
+     "away_slug": "yokohama-f-marinos",
+     "date_jst": "2026-11-21",
+     "kickoff_jst": "14:00",
+     "venue_ja": "Eピース",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.552,
+     "p_draw": 0.237,
+     "p_away": 0.211,
+     "lean": "Strong lean Sanfrecce Hiroshima",
+     "home_xg": 1.73,
+     "away_xg": 0.97,
+     "home_clean_sheet": 0.379,
+     "away_clean_sheet": 0.178,
+     "p_over_2_5": 0.506,
+     "p_btts": 0.511,
+     "likely_scores": [
+      {
+       "score": "1-0",
+       "p": 0.12
+      },
+      {
+       "score": "1-1",
+       "p": 0.11
+      },
+      {
+       "score": "2-0",
+       "p": 0.1
+      }
+     ],
+     "p_home_range80": [
+      0.511,
+      0.593
+     ],
+     "confidence": "medium"
+    },
+    {
+     "site_match_slug": "tokyo-verdy-vs-nagoya-grampus-2026-11-21",
+     "home": "Tokyo Verdy",
+     "away": "Nagoya Grampus",
+     "home_slug": "tokyo-verdy",
+     "away_slug": "nagoya-grampus",
+     "date_jst": "2026-11-21",
+     "kickoff_jst": "14:00",
+     "venue_ja": "味スタ",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.337,
+     "p_draw": 0.277,
+     "p_away": 0.386,
+     "lean": "Open game",
+     "home_xg": 1.14,
+     "away_xg": 1.24,
+     "home_clean_sheet": 0.288,
+     "away_clean_sheet": 0.319,
+     "p_over_2_5": 0.427,
+     "p_btts": 0.485,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.13
+      },
+      {
+       "score": "0-1",
+       "p": 0.11
+      },
+      {
+       "score": "1-0",
+       "p": 0.1
+      }
+     ],
+     "p_home_range80": [
+      0.297,
+      0.371
+     ],
+     "confidence": "higher"
+    },
+    {
+     "site_match_slug": "machida-zelvia-vs-v-varen-nagasaki-2026-11-21",
+     "home": "Machida Zelvia",
+     "away": "V-Varen Nagasaki",
+     "home_slug": "machida-zelvia",
+     "away_slug": "v-varen-nagasaki",
+     "date_jst": "2026-11-21",
+     "kickoff_jst": "14:00",
+     "venue_ja": "Gスタ",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.618,
+     "p_draw": 0.217,
+     "p_away": 0.166,
+     "lean": "Strong lean Machida Zelvia",
+     "home_xg": 1.91,
+     "away_xg": 0.87,
+     "home_clean_sheet": 0.418,
+     "away_clean_sheet": 0.148,
+     "p_over_2_5": 0.527,
+     "p_btts": 0.496,
+     "likely_scores": [
+      {
+       "score": "1-0",
+       "p": 0.12
+      },
+      {
+       "score": "2-0",
+       "p": 0.11
+      },
+      {
+       "score": "1-1",
+       "p": 0.1
+      }
+     ],
+     "p_home_range80": [
+      0.575,
+      0.661
+     ],
+     "confidence": "medium"
+    },
+    {
+     "site_match_slug": "kawasaki-frontale-vs-avispa-fukuoka-2026-11-21",
+     "home": "Kawasaki Frontale",
+     "away": "Avispa Fukuoka",
+     "home_slug": "kawasaki-frontale",
+     "away_slug": "avispa-fukuoka",
+     "date_jst": "2026-11-21",
+     "kickoff_jst": "15:00",
+     "venue_ja": "U等々力",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.551,
+     "p_draw": 0.234,
+     "p_away": 0.215,
+     "lean": "Strong lean Kawasaki Frontale",
+     "home_xg": 1.76,
+     "away_xg": 1.01,
+     "home_clean_sheet": 0.365,
+     "away_clean_sheet": 0.172,
+     "p_over_2_5": 0.524,
+     "p_btts": 0.526,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.11
+      },
+      {
+       "score": "1-0",
+       "p": 0.11
+      },
+      {
+       "score": "2-1",
+       "p": 0.1
+      }
+     ],
+     "p_home_range80": [
+      0.504,
+      0.598
+     ],
+     "confidence": "medium"
+    },
+    {
+     "site_match_slug": "cerezo-osaka-vs-fc-tokyo-2026-11-21",
+     "home": "Cerezo Osaka",
+     "away": "FC Tokyo",
+     "home_slug": "cerezo-osaka",
+     "away_slug": "fc-tokyo",
+     "date_jst": "2026-11-21",
+     "kickoff_jst": "15:00",
+     "venue_ja": "ハナサカ",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.297,
+     "p_draw": 0.26,
+     "p_away": 0.443,
+     "lean": "Open game",
+     "home_xg": 1.15,
+     "away_xg": 1.46,
+     "home_clean_sheet": 0.232,
+     "away_clean_sheet": 0.318,
+     "p_over_2_5": 0.483,
+     "p_btts": 0.524,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.12
+      },
+      {
+       "score": "0-1",
+       "p": 0.11
+      },
+      {
+       "score": "1-2",
+       "p": 0.09
+      }
+     ],
+     "p_home_range80": [
+      0.262,
+      0.34
+     ],
+     "confidence": "higher"
+    },
+    {
+     "site_match_slug": "gamba-osaka-vs-fagiano-okayama-2026-11-21",
+     "home": "Gamba Osaka",
+     "away": "Fagiano Okayama",
+     "home_slug": "gamba-osaka",
+     "away_slug": "fagiano-okayama",
+     "date_jst": "2026-11-21",
+     "kickoff_jst": "16:00",
+     "venue_ja": "パナスタ",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.46,
+     "p_draw": 0.265,
+     "p_away": 0.275,
+     "lean": "Lean Gamba Osaka",
+     "home_xg": 1.43,
+     "away_xg": 1.05,
+     "home_clean_sheet": 0.351,
+     "away_clean_sheet": 0.238,
+     "p_over_2_5": 0.451,
+     "p_btts": 0.494,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.13
+      },
+      {
+       "score": "1-0",
+       "p": 0.12
+      },
+      {
+       "score": "2-1",
+       "p": 0.09
+      }
+     ],
+     "p_home_range80": [
+      0.417,
+      0.503
+     ],
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "round": 16,
+   "matches": [
+    {
+     "site_match_slug": "fc-tokyo-vs-sanfrecce-hiroshima-2026-11-25",
+     "home": "FC Tokyo",
+     "away": "Sanfrecce Hiroshima",
+     "home_slug": "fc-tokyo",
+     "away_slug": "sanfrecce-hiroshima",
+     "date_jst": "2026-11-25",
+     "kickoff_jst": "19:00",
+     "venue_ja": "味スタ",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.345,
+     "p_draw": 0.275,
+     "p_away": 0.38,
+     "lean": "Open game",
+     "home_xg": 1.18,
+     "away_xg": 1.25,
+     "home_clean_sheet": 0.287,
+     "away_clean_sheet": 0.309,
+     "p_over_2_5": 0.436,
+     "p_btts": 0.493,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.13
+      },
+      {
+       "score": "0-1",
+       "p": 0.11
+      },
+      {
+       "score": "1-0",
+       "p": 0.1
+      }
+     ],
+     "p_home_range80": [
+      0.306,
+      0.379
+     ],
+     "confidence": "higher"
+    },
+    {
+     "site_match_slug": "jef-united-chiba-vs-nagoya-grampus-2026-11-25",
+     "home": "JEF United Chiba",
+     "away": "Nagoya Grampus",
+     "home_slug": "jef-united-chiba",
+     "away_slug": "nagoya-grampus",
+     "date_jst": "2026-11-25",
+     "kickoff_jst": "19:00",
+     "venue_ja": "フクアリ",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.33,
+     "p_draw": 0.255,
+     "p_away": 0.416,
+     "lean": "Open game",
+     "home_xg": 1.28,
+     "away_xg": 1.47,
+     "home_clean_sheet": 0.231,
+     "away_clean_sheet": 0.279,
+     "p_over_2_5": 0.517,
+     "p_btts": 0.555,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.12
+      },
+      {
+       "score": "0-1",
+       "p": 0.09
+      },
+      {
+       "score": "1-2",
+       "p": 0.09
+      }
+     ],
+     "p_home_range80": [
+      0.293,
+      0.369
+     ],
+     "confidence": "higher"
+    },
+    {
+     "site_match_slug": "fagiano-okayama-vs-shimizu-s-pulse-2026-11-25",
+     "home": "Fagiano Okayama",
+     "away": "Shimizu S-Pulse",
+     "home_slug": "fagiano-okayama",
+     "away_slug": "shimizu-s-pulse",
+     "date_jst": "2026-11-25",
+     "kickoff_jst": "19:00",
+     "venue_ja": "JFEス",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.425,
+     "p_draw": 0.28,
+     "p_away": 0.295,
+     "lean": "Open game",
+     "home_xg": 1.29,
+     "away_xg": 1.02,
+     "home_clean_sheet": 0.359,
+     "away_clean_sheet": 0.276,
+     "p_over_2_5": 0.407,
+     "p_btts": 0.464,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.13
+      },
+      {
+       "score": "1-0",
+       "p": 0.13
+      },
+      {
+       "score": "0-1",
+       "p": 0.1
+      }
+     ],
+     "p_home_range80": [
+      0.386,
+      0.466
+     ],
+     "confidence": "medium"
+    },
+    {
+     "site_match_slug": "mito-hollyhock-vs-tokyo-verdy-2026-11-25",
+     "home": "Mito HollyHock",
+     "away": "Tokyo Verdy",
+     "home_slug": "mito-hollyhock",
+     "away_slug": "tokyo-verdy",
+     "date_jst": "2026-11-25",
+     "kickoff_jst": "19:00",
+     "venue_ja": "水戸信ス",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.331,
+     "p_draw": 0.285,
+     "p_away": 0.384,
+     "lean": "Open game",
+     "home_xg": 1.08,
+     "away_xg": 1.19,
+     "home_clean_sheet": 0.305,
+     "away_clean_sheet": 0.339,
+     "p_over_2_5": 0.396,
+     "p_btts": 0.46,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.13
+      },
+      {
+       "score": "0-1",
+       "p": 0.12
+      },
+      {
+       "score": "1-0",
+       "p": 0.11
+      }
+     ],
+     "p_home_range80": [
+      0.298,
+      0.376
+     ],
+     "confidence": "higher"
+    },
+    {
+     "site_match_slug": "avispa-fukuoka-vs-yokohama-f-marinos-2026-11-25",
+     "home": "Avispa Fukuoka",
+     "away": "Yokohama F. Marinos",
+     "home_slug": "avispa-fukuoka",
+     "away_slug": "yokohama-f-marinos",
+     "date_jst": "2026-11-25",
+     "kickoff_jst": "19:00",
+     "venue_ja": "ベススタ",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.285,
+     "p_draw": 0.27,
+     "p_away": 0.445,
+     "lean": "Open game",
+     "home_xg": 1.05,
+     "away_xg": 1.38,
+     "home_clean_sheet": 0.252,
+     "away_clean_sheet": 0.352,
+     "p_over_2_5": 0.437,
+     "p_btts": 0.485,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.13
+      },
+      {
+       "score": "0-1",
+       "p": 0.12
+      },
+      {
+       "score": "1-0",
+       "p": 0.09
+      }
+     ],
+     "p_home_range80": [
+      0.251,
+      0.321
+     ],
+     "confidence": "higher"
+    },
+    {
+     "site_match_slug": "v-varen-nagasaki-vs-kawasaki-frontale-2026-11-25",
+     "home": "V-Varen Nagasaki",
+     "away": "Kawasaki Frontale",
+     "home_slug": "v-varen-nagasaki",
+     "away_slug": "kawasaki-frontale",
+     "date_jst": "2026-11-25",
+     "kickoff_jst": "19:00",
+     "venue_ja": "ピースタ",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.323,
+     "p_draw": 0.24,
+     "p_away": 0.437,
+     "lean": "Open game",
+     "home_xg": 1.37,
+     "away_xg": 1.63,
+     "home_clean_sheet": 0.195,
+     "away_clean_sheet": 0.253,
+     "p_over_2_5": 0.578,
+     "p_btts": 0.601,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.11
+      },
+      {
+       "score": "1-2",
+       "p": 0.09
+      },
+      {
+       "score": "0-1",
+       "p": 0.08
+      }
+     ],
+     "p_home_range80": [
+      0.279,
+      0.37
+     ],
+     "confidence": "medium"
+    },
+    {
+     "site_match_slug": "urawa-red-diamonds-vs-cerezo-osaka-2026-11-25",
+     "home": "Urawa Red Diamonds",
+     "away": "Cerezo Osaka",
+     "home_slug": "urawa-red-diamonds",
+     "away_slug": "cerezo-osaka",
+     "date_jst": "2026-11-25",
+     "kickoff_jst": "19:30",
+     "venue_ja": "埼玉",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.434,
+     "p_draw": 0.26,
+     "p_away": 0.306,
+     "lean": "Open game",
+     "home_xg": 1.45,
+     "away_xg": 1.17,
+     "home_clean_sheet": 0.31,
+     "away_clean_sheet": 0.236,
+     "p_over_2_5": 0.486,
+     "p_btts": 0.528,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.12
+      },
+      {
+       "score": "1-0",
+       "p": 0.11
+      },
+      {
+       "score": "2-1",
+       "p": 0.09
+      }
+     ],
+     "p_home_range80": [
+      0.388,
+      0.472
+     ],
+     "confidence": "medium"
+    },
+    {
+     "site_match_slug": "kashima-antlers-vs-machida-zelvia-2026-12-16",
+     "home": "Kashima Antlers",
+     "away": "Machida Zelvia",
+     "home_slug": "kashima-antlers",
+     "away_slug": "machida-zelvia",
+     "date_jst": "2026-12-16",
+     "kickoff_jst": "19:00",
+     "venue_ja": "メルスタ",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.412,
+     "p_draw": 0.274,
+     "p_away": 0.315,
+     "lean": "Open game",
+     "home_xg": 1.31,
+     "away_xg": 1.11,
+     "home_clean_sheet": 0.33,
+     "away_clean_sheet": 0.27,
+     "p_over_2_5": 0.434,
+     "p_btts": 0.489,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.13
+      },
+      {
+       "score": "1-0",
+       "p": 0.12
+      },
+      {
+       "score": "0-1",
+       "p": 0.1
+      }
+     ],
+     "p_home_range80": [
+      0.375,
+      0.453
+     ],
+     "confidence": "higher"
+    },
+    {
+     "site_match_slug": "gamba-osaka-vs-kashiwa-reysol-2026-12-16",
+     "home": "Gamba Osaka",
+     "away": "Kashiwa Reysol",
+     "home_slug": "gamba-osaka",
+     "away_slug": "kashiwa-reysol",
+     "date_jst": "2026-12-16",
+     "kickoff_jst": "19:00",
+     "venue_ja": "パナスタ",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.333,
+     "p_draw": 0.259,
+     "p_away": 0.408,
+     "lean": "Open game",
+     "home_xg": 1.25,
+     "away_xg": 1.41,
+     "home_clean_sheet": 0.243,
+     "away_clean_sheet": 0.286,
+     "p_over_2_5": 0.498,
+     "p_btts": 0.54,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.12
+      },
+      {
+       "score": "0-1",
+       "p": 0.1
+      },
+      {
+       "score": "1-0",
+       "p": 0.09
+      }
+     ],
+     "p_home_range80": [
+      0.294,
+      0.371
+     ],
+     "confidence": "higher"
+    },
+    {
+     "site_match_slug": "kyoto-sanga-vs-vissel-kobe-2027-04-14",
+     "home": "Kyoto Sanga",
+     "away": "Vissel Kobe",
+     "home_slug": "kyoto-sanga",
+     "away_slug": "vissel-kobe",
+     "date_jst": "2027-04-14",
+     "kickoff_jst": "19:00",
+     "venue_ja": "サンガS",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.274,
+     "p_draw": 0.263,
+     "p_away": 0.464,
+     "lean": "Lean Vissel Kobe",
+     "home_xg": 1.06,
+     "away_xg": 1.46,
+     "home_clean_sheet": 0.233,
+     "away_clean_sheet": 0.348,
+     "p_over_2_5": 0.46,
+     "p_btts": 0.501,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.12
+      },
+      {
+       "score": "0-1",
+       "p": 0.12
+      },
+      {
+       "score": "1-2",
+       "p": 0.09
+      }
+     ],
+     "p_home_range80": [
+      0.238,
+      0.31
+     ],
+     "confidence": "higher"
+    }
+   ]
+  },
+  {
+   "round": 17,
+   "matches": [
+    {
+     "site_match_slug": "kyoto-sanga-vs-cerezo-osaka-2026-11-28",
+     "home": "Kyoto Sanga",
+     "away": "Cerezo Osaka",
+     "home_slug": "kyoto-sanga",
+     "away_slug": "cerezo-osaka",
+     "date_jst": "2026-11-28",
+     "kickoff_jst": "14:00",
+     "venue_ja": "サンガS",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.408,
+     "p_draw": 0.257,
+     "p_away": 0.334,
+     "lean": "Open game",
+     "home_xg": 1.43,
+     "away_xg": 1.27,
+     "home_clean_sheet": 0.281,
+     "away_clean_sheet": 0.239,
+     "p_over_2_5": 0.506,
+     "p_btts": 0.547,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.12
+      },
+      {
+       "score": "1-0",
+       "p": 0.1
+      },
+      {
+       "score": "2-1",
+       "p": 0.09
+      }
+     ],
+     "p_home_range80": [
+      0.365,
+      0.454
+     ],
+     "confidence": "medium"
+    },
+    {
+     "site_match_slug": "shimizu-s-pulse-vs-urawa-red-diamonds-2026-11-28",
+     "home": "Shimizu S-Pulse",
+     "away": "Urawa Red Diamonds",
+     "home_slug": "shimizu-s-pulse",
+     "away_slug": "urawa-red-diamonds",
+     "date_jst": "2026-11-28",
+     "kickoff_jst": "14:00",
+     "venue_ja": "アイスタ",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.313,
+     "p_draw": 0.273,
+     "p_away": 0.415,
+     "lean": "Open game",
+     "home_xg": 1.11,
+     "away_xg": 1.32,
+     "home_clean_sheet": 0.267,
+     "away_clean_sheet": 0.33,
+     "p_over_2_5": 0.438,
+     "p_btts": 0.492,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.13
+      },
+      {
+       "score": "0-1",
+       "p": 0.12
+      },
+      {
+       "score": "1-0",
+       "p": 0.1
+      }
+     ],
+     "p_home_range80": [
+      0.277,
+      0.354
+     ],
+     "confidence": "higher"
+    },
+    {
+     "site_match_slug": "vissel-kobe-vs-jef-united-chiba-2026-11-28",
+     "home": "Vissel Kobe",
+     "away": "JEF United Chiba",
+     "home_slug": "vissel-kobe",
+     "away_slug": "jef-united-chiba",
+     "date_jst": "2026-11-28",
+     "kickoff_jst": "15:00",
+     "venue_ja": "ノエスタ",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.654,
+     "p_draw": 0.203,
+     "p_away": 0.144,
+     "lean": "Strong lean Vissel Kobe",
+     "home_xg": 2.03,
+     "away_xg": 0.83,
+     "home_clean_sheet": 0.436,
+     "away_clean_sheet": 0.131,
+     "p_over_2_5": 0.546,
+     "p_btts": 0.49,
+     "likely_scores": [
+      {
+       "score": "2-0",
+       "p": 0.12
+      },
+      {
+       "score": "1-0",
+       "p": 0.12
+      },
+      {
+       "score": "2-1",
+       "p": 0.1
+      }
+     ],
+     "p_home_range80": [
+      0.609,
+      0.688
+     ],
+     "confidence": "higher"
+    },
+    {
+     "site_match_slug": "kashima-antlers-vs-fagiano-okayama-2026-11-28",
+     "home": "Kashima Antlers",
+     "away": "Fagiano Okayama",
+     "home_slug": "kashima-antlers",
+     "away_slug": "fagiano-okayama",
+     "date_jst": "2026-11-28",
+     "kickoff_jst": "15:00",
+     "venue_ja": "メルスタ",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.61,
+     "p_draw": 0.225,
+     "p_away": 0.165,
+     "lean": "Strong lean Kashima Antlers",
+     "home_xg": 1.82,
+     "away_xg": 0.82,
+     "home_clean_sheet": 0.439,
+     "away_clean_sheet": 0.162,
+     "p_over_2_5": 0.493,
+     "p_btts": 0.47,
+     "likely_scores": [
+      {
+       "score": "1-0",
+       "p": 0.13
+      },
+      {
+       "score": "2-0",
+       "p": 0.12
+      },
+      {
+       "score": "1-1",
+       "p": 0.11
+      }
+     ],
+     "p_home_range80": [
+      0.567,
+      0.655
+     ],
+     "confidence": "medium"
+    },
+    {
+     "site_match_slug": "kashiwa-reysol-vs-sanfrecce-hiroshima-2026-11-28",
+     "home": "Kashiwa Reysol",
+     "away": "Sanfrecce Hiroshima",
+     "home_slug": "kashiwa-reysol",
+     "away_slug": "sanfrecce-hiroshima",
+     "date_jst": "2026-11-28",
+     "kickoff_jst": "16:00",
+     "venue_ja": "三協F柏",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.321,
+     "p_draw": 0.266,
+     "p_away": 0.413,
+     "lean": "Open game",
+     "home_xg": 1.17,
+     "away_xg": 1.36,
+     "home_clean_sheet": 0.255,
+     "away_clean_sheet": 0.311,
+     "p_over_2_5": 0.465,
+     "p_btts": 0.513,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.13
+      },
+      {
+       "score": "0-1",
+       "p": 0.11
+      },
+      {
+       "score": "1-0",
+       "p": 0.09
+      }
+     ],
+     "p_home_range80": [
+      0.286,
+      0.359
+     ],
+     "confidence": "higher"
+    },
+    {
+     "site_match_slug": "yokohama-f-marinos-vs-fc-tokyo-2026-11-29",
+     "home": "Yokohama F. Marinos",
+     "away": "FC Tokyo",
+     "home_slug": "yokohama-f-marinos",
+     "away_slug": "fc-tokyo",
+     "date_jst": "2026-11-29",
+     "kickoff_jst": "14:00",
+     "venue_ja": "日産ス",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.336,
+     "p_draw": 0.264,
+     "p_away": 0.4,
+     "lean": "Open game",
+     "home_xg": 1.23,
+     "away_xg": 1.36,
+     "home_clean_sheet": 0.255,
+     "away_clean_sheet": 0.293,
+     "p_over_2_5": 0.48,
+     "p_btts": 0.527,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.13
+      },
+      {
+       "score": "0-1",
+       "p": 0.1
+      },
+      {
+       "score": "1-0",
+       "p": 0.09
+      }
+     ],
+     "p_home_range80": [
+      0.3,
+      0.377
+     ],
+     "confidence": "higher"
+    },
+    {
+     "site_match_slug": "mito-hollyhock-vs-v-varen-nagasaki-2026-11-29",
+     "home": "Mito HollyHock",
+     "away": "V-Varen Nagasaki",
+     "home_slug": "mito-hollyhock",
+     "away_slug": "v-varen-nagasaki",
+     "date_jst": "2026-11-29",
+     "kickoff_jst": "14:00",
+     "venue_ja": "水戸信ス",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.306,
+     "p_draw": 0.261,
+     "p_away": 0.433,
+     "lean": "Open game",
+     "home_xg": 1.17,
+     "away_xg": 1.44,
+     "home_clean_sheet": 0.238,
+     "away_clean_sheet": 0.312,
+     "p_over_2_5": 0.482,
+     "p_btts": 0.524,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.12
+      },
+      {
+       "score": "0-1",
+       "p": 0.11
+      },
+      {
+       "score": "1-2",
+       "p": 0.09
+      }
+     ],
+     "p_home_range80": [
+      0.272,
+      0.349
+     ],
+     "confidence": "higher"
+    },
+    {
+     "site_match_slug": "nagoya-grampus-vs-avispa-fukuoka-2026-11-29",
+     "home": "Nagoya Grampus",
+     "away": "Avispa Fukuoka",
+     "home_slug": "nagoya-grampus",
+     "away_slug": "avispa-fukuoka",
+     "date_jst": "2026-11-29",
+     "kickoff_jst": "15:00",
+     "venue_ja": "豊田ス",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.468,
+     "p_draw": 0.266,
+     "p_away": 0.266,
+     "lean": "Lean Nagoya Grampus",
+     "home_xg": 1.43,
+     "away_xg": 1.01,
+     "home_clean_sheet": 0.364,
+     "away_clean_sheet": 0.239,
+     "p_over_2_5": 0.441,
+     "p_btts": 0.484,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.13
+      },
+      {
+       "score": "1-0",
+       "p": 0.12
+      },
+      {
+       "score": "2-1",
+       "p": 0.09
+      }
+     ],
+     "p_home_range80": [
+      0.421,
+      0.511
+     ],
+     "confidence": "medium"
+    },
+    {
+     "site_match_slug": "kawasaki-frontale-vs-gamba-osaka-2026-11-29",
+     "home": "Kawasaki Frontale",
+     "away": "Gamba Osaka",
+     "home_slug": "kawasaki-frontale",
+     "away_slug": "gamba-osaka",
+     "date_jst": "2026-11-29",
+     "kickoff_jst": "15:00",
+     "venue_ja": "U等々力",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.464,
+     "p_draw": 0.24,
+     "p_away": 0.297,
+     "lean": "Lean Kawasaki Frontale",
+     "home_xg": 1.67,
+     "away_xg": 1.29,
+     "home_clean_sheet": 0.275,
+     "away_clean_sheet": 0.188,
+     "p_over_2_5": 0.569,
+     "p_btts": 0.589,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.11
+      },
+      {
+       "score": "2-1",
+       "p": 0.09
+      },
+      {
+       "score": "1-0",
+       "p": 0.09
+      }
+     ],
+     "p_home_range80": [
+      0.422,
+      0.511
+     ],
+     "confidence": "medium"
+    },
+    {
+     "site_match_slug": "machida-zelvia-vs-tokyo-verdy-2026-11-29",
+     "home": "Machida Zelvia",
+     "away": "Tokyo Verdy",
+     "home_slug": "machida-zelvia",
+     "away_slug": "tokyo-verdy",
+     "date_jst": "2026-11-29",
+     "kickoff_jst": "16:00",
+     "venue_ja": "Gスタ",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.625,
+     "p_draw": 0.228,
+     "p_away": 0.147,
+     "lean": "Strong lean Machida Zelvia",
+     "home_xg": 1.77,
+     "away_xg": 0.72,
+     "home_clean_sheet": 0.488,
+     "away_clean_sheet": 0.171,
+     "p_over_2_5": 0.452,
+     "p_btts": 0.424,
+     "likely_scores": [
+      {
+       "score": "1-0",
+       "p": 0.15
+      },
+      {
+       "score": "2-0",
+       "p": 0.13
+      },
+      {
+       "score": "1-1",
+       "p": 0.11
+      }
+     ],
+     "p_home_range80": [
+      0.587,
+      0.666
+     ],
+     "confidence": "higher"
+    }
+   ]
+  },
+  {
+   "round": 18,
+   "matches": [
+    {
+     "site_match_slug": "fc-tokyo-vs-kawasaki-frontale-2026-12-04",
+     "home": "FC Tokyo",
+     "away": "Kawasaki Frontale",
+     "home_slug": "fc-tokyo",
+     "away_slug": "kawasaki-frontale",
+     "date_jst": "2026-12-04",
+     "kickoff_jst": "18:30",
+     "venue_ja": "MUFG国立",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.499,
+     "p_draw": 0.238,
+     "p_away": 0.263,
+     "lean": "Lean FC Tokyo",
+     "home_xg": 1.71,
+     "away_xg": 1.18,
+     "home_clean_sheet": 0.307,
+     "away_clean_sheet": 0.18,
+     "p_over_2_5": 0.553,
+     "p_btts": 0.568,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.11
+      },
+      {
+       "score": "2-1",
+       "p": 0.1
+      },
+      {
+       "score": "1-0",
+       "p": 0.09
+      }
+     ],
+     "p_home_range80": [
+      0.452,
+      0.545
+     ],
+     "confidence": "medium"
+    },
+    {
+     "site_match_slug": "jef-united-chiba-vs-kashima-antlers-2026-12-05",
+     "home": "JEF United Chiba",
+     "away": "Kashima Antlers",
+     "home_slug": "jef-united-chiba",
+     "away_slug": "kashima-antlers",
+     "date_jst": "2026-12-05",
+     "kickoff_jst": "13:00",
+     "venue_ja": "フクアリ",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.181,
+     "p_draw": 0.217,
+     "p_away": 0.603,
+     "lean": "Strong lean Kashima Antlers",
+     "home_xg": 0.96,
+     "away_xg": 1.94,
+     "home_clean_sheet": 0.144,
+     "away_clean_sheet": 0.384,
+     "p_over_2_5": 0.552,
+     "p_btts": 0.527,
+     "likely_scores": [
+      {
+       "score": "0-1",
+       "p": 0.11
+      },
+      {
+       "score": "0-2",
+       "p": 0.1
+      },
+      {
+       "score": "1-1",
+       "p": 0.1
+      }
+     ],
+     "p_home_range80": [
+      0.157,
+      0.213
+     ],
+     "confidence": "higher"
+    },
+    {
+     "site_match_slug": "tokyo-verdy-vs-kyoto-sanga-2026-12-05",
+     "home": "Tokyo Verdy",
+     "away": "Kyoto Sanga",
+     "home_slug": "tokyo-verdy",
+     "away_slug": "kyoto-sanga",
+     "date_jst": "2026-12-05",
+     "kickoff_jst": "14:00",
+     "venue_ja": "味スタ",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.323,
+     "p_draw": 0.278,
+     "p_away": 0.399,
+     "lean": "Open game",
+     "home_xg": 1.11,
+     "away_xg": 1.26,
+     "home_clean_sheet": 0.283,
+     "away_clean_sheet": 0.33,
+     "p_over_2_5": 0.423,
+     "p_btts": 0.48,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.13
+      },
+      {
+       "score": "0-1",
+       "p": 0.12
+      },
+      {
+       "score": "1-0",
+       "p": 0.1
+      }
+     ],
+     "p_home_range80": [
+      0.282,
+      0.362
+     ],
+     "confidence": "higher"
+    },
+    {
+     "site_match_slug": "urawa-red-diamonds-vs-nagoya-grampus-2026-12-05",
+     "home": "Urawa Red Diamonds",
+     "away": "Nagoya Grampus",
+     "home_slug": "urawa-red-diamonds",
+     "away_slug": "nagoya-grampus",
+     "date_jst": "2026-12-05",
+     "kickoff_jst": "14:00",
+     "venue_ja": "埼玉",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.456,
+     "p_draw": 0.256,
+     "p_away": 0.288,
+     "lean": "Lean Urawa Red Diamonds",
+     "home_xg": 1.5,
+     "away_xg": 1.14,
+     "home_clean_sheet": 0.32,
+     "away_clean_sheet": 0.223,
+     "p_over_2_5": 0.492,
+     "p_btts": 0.528,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.12
+      },
+      {
+       "score": "1-0",
+       "p": 0.11
+      },
+      {
+       "score": "2-1",
+       "p": 0.09
+      }
+     ],
+     "p_home_range80": [
+      0.407,
+      0.496
+     ],
+     "confidence": "medium"
+    },
+    {
+     "site_match_slug": "v-varen-nagasaki-vs-shimizu-s-pulse-2026-12-05",
+     "home": "V-Varen Nagasaki",
+     "away": "Shimizu S-Pulse",
+     "home_slug": "v-varen-nagasaki",
+     "away_slug": "shimizu-s-pulse",
+     "date_jst": "2026-12-05",
+     "kickoff_jst": "15:00",
+     "venue_ja": "ピースタ",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.43,
+     "p_draw": 0.264,
+     "p_away": 0.306,
+     "lean": "Open game",
+     "home_xg": 1.4,
+     "away_xg": 1.14,
+     "home_clean_sheet": 0.32,
+     "away_clean_sheet": 0.246,
+     "p_over_2_5": 0.468,
+     "p_btts": 0.513,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.13
+      },
+      {
+       "score": "1-0",
+       "p": 0.11
+      },
+      {
+       "score": "0-1",
+       "p": 0.09
+      }
+     ],
+     "p_home_range80": [
+      0.387,
+      0.472
+     ],
+     "confidence": "medium"
+    },
+    {
+     "site_match_slug": "cerezo-osaka-vs-mito-hollyhock-2026-12-05",
+     "home": "Cerezo Osaka",
+     "away": "Mito HollyHock",
+     "home_slug": "cerezo-osaka",
+     "away_slug": "mito-hollyhock",
+     "date_jst": "2026-12-05",
+     "kickoff_jst": "15:00",
+     "venue_ja": "ハナサカ",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.578,
+     "p_draw": 0.227,
+     "p_away": 0.195,
+     "lean": "Strong lean Cerezo Osaka",
+     "home_xg": 1.83,
+     "away_xg": 0.96,
+     "home_clean_sheet": 0.384,
+     "away_clean_sheet": 0.161,
+     "p_over_2_5": 0.527,
+     "p_btts": 0.517,
+     "likely_scores": [
+      {
+       "score": "1-0",
+       "p": 0.11
+      },
+      {
+       "score": "1-1",
+       "p": 0.11
+      },
+      {
+       "score": "2-0",
+       "p": 0.1
+      }
+     ],
+     "p_home_range80": [
+      0.533,
+      0.624
+     ],
+     "confidence": "medium"
+    },
+    {
+     "site_match_slug": "sanfrecce-hiroshima-vs-vissel-kobe-2026-12-06",
+     "home": "Sanfrecce Hiroshima",
+     "away": "Vissel Kobe",
+     "home_slug": "sanfrecce-hiroshima",
+     "away_slug": "vissel-kobe",
+     "date_jst": "2026-12-06",
+     "kickoff_jst": "14:00",
+     "venue_ja": "Eピース",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.441,
+     "p_draw": 0.275,
+     "p_away": 0.284,
+     "lean": "Open game",
+     "home_xg": 1.34,
+     "away_xg": 1.02,
+     "home_clean_sheet": 0.362,
+     "away_clean_sheet": 0.262,
+     "p_over_2_5": 0.419,
+     "p_btts": 0.471,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.13
+      },
+      {
+       "score": "1-0",
+       "p": 0.13
+      },
+      {
+       "score": "0-1",
+       "p": 0.1
+      }
+     ],
+     "p_home_range80": [
+      0.402,
+      0.486
+     ],
+     "confidence": "medium"
+    },
+    {
+     "site_match_slug": "gamba-osaka-vs-yokohama-f-marinos-2026-12-06",
+     "home": "Gamba Osaka",
+     "away": "Yokohama F. Marinos",
+     "home_slug": "gamba-osaka",
+     "away_slug": "yokohama-f-marinos",
+     "date_jst": "2026-12-06",
+     "kickoff_jst": "15:00",
+     "venue_ja": "パナスタ",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.38,
+     "p_draw": 0.259,
+     "p_away": 0.361,
+     "lean": "Open game",
+     "home_xg": 1.36,
+     "away_xg": 1.32,
+     "home_clean_sheet": 0.267,
+     "away_clean_sheet": 0.256,
+     "p_over_2_5": 0.503,
+     "p_btts": 0.546,
+     "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.12
+      },
+      {
+       "score": "1-0",
+       "p": 0.09
+      },
+      {
+       "score": "0-1",
+       "p": 0.09
+      }
+     ],
+     "p_home_range80": [
+      0.337,
+      0.418
+     ],
+     "confidence": "medium"
+    },
+    {
+     "site_match_slug": "kashiwa-reysol-vs-avispa-fukuoka-2026-12-06",
+     "home": "Kashiwa Reysol",
+     "away": "Avispa Fukuoka",
+     "home_slug": "kashiwa-reysol",
+     "away_slug": "avispa-fukuoka",
+     "date_jst": "2026-12-06",
+     "kickoff_jst": "16:00",
+     "venue_ja": "三協F柏",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.577,
+     "p_draw": 0.238,
+     "p_away": 0.186,
+     "lean": "Strong lean Kashiwa Reysol",
+     "home_xg": 1.71,
+     "away_xg": 0.85,
+     "home_clean_sheet": 0.426,
+     "away_clean_sheet": 0.181,
+     "p_over_2_5": 0.473,
+     "p_btts": 0.471,
+     "likely_scores": [
+      {
+       "score": "1-0",
+       "p": 0.13
+      },
+      {
+       "score": "2-0",
+       "p": 0.11
+      },
+      {
+       "score": "1-1",
+       "p": 0.11
+      }
+     ],
+     "p_home_range80": [
+      0.533,
+      0.62
+     ],
+     "confidence": "medium"
+    },
+    {
+     "site_match_slug": "machida-zelvia-vs-fagiano-okayama-2026-12-06",
+     "home": "Machida Zelvia",
+     "away": "Fagiano Okayama",
+     "home_slug": "machida-zelvia",
+     "away_slug": "fagiano-okayama",
+     "date_jst": "2026-12-06",
+     "kickoff_jst": "16:00",
+     "venue_ja": "Gスタ",
+     "fixture_check": "official schedule; matches June PDF round",
+     "p_home": 0.592,
+     "p_draw": 0.237,
+     "p_away": 0.171,
+     "lean": "Strong lean Machida Zelvia",
+     "home_xg": 1.71,
+     "away_xg": 0.79,
+     "home_clean_sheet": 0.453,
+     "away_clean_sheet": 0.181,
+     "p_over_2_5": 0.456,
+     "p_btts": 0.447,
+     "likely_scores": [
+      {
+       "score": "1-0",
+       "p": 0.14
+      },
+      {
+       "score": "2-0",
+       "p": 0.12
+      },
+      {
+       "score": "1-1",
+       "p": 0.11
+      }
+     ],
+     "p_home_range80": [
+      0.549,
+      0.63
+     ],
+     "confidence": "medium"
+    }
+   ]
+  }
+ ],
+ "season": [
+  {
+   "team": "Sanfrecce Hiroshima",
+   "team_slug": "sanfrecce-hiroshima",
+   "elo": 1626,
+   "rating": 61.1,
+   "goals_for_vs_avg": 1.49,
+   "goals_against_vs_avg": 0.88,
+   "points_now": 29,
+   "projected_points": 73.4,
+   "projected_gd": 37.0,
+   "p_title": 0.31,
+   "p_top3": 0.6838,
+   "p_relegation": 0.0
+  },
+  {
+   "team": "Machida Zelvia",
+   "team_slug": "machida-zelvia",
+   "elo": 1617,
+   "rating": 58.4,
+   "goals_for_vs_avg": 1.39,
+   "goals_against_vs_avg": 0.88,
+   "points_now": 28,
+   "projected_points": 72.0,
+   "projected_gd": 34.3,
+   "p_title": 0.2234,
+   "p_top3": 0.6076,
+   "p_relegation": 0.0
+  },
+  {
+   "team": "FC Tokyo",
+   "team_slug": "fc-tokyo",
+   "elo": 1612,
+   "rating": 55.4,
+   "goals_for_vs_avg": 1.36,
+   "goals_against_vs_avg": 1.01,
+   "points_now": 30,
+   "projected_points": 70.9,
+   "projected_gd": 32.7,
+   "p_title": 0.1769,
+   "p_top3": 0.5344,
+   "p_relegation": 0.0
+  },
+  {
+   "team": "Vissel Kobe",
+   "team_slug": "vissel-kobe",
+   "elo": 1615,
+   "rating": 56.8,
+   "goals_for_vs_avg": 1.33,
+   "goals_against_vs_avg": 0.91,
+   "points_now": 26,
+   "projected_points": 69.6,
+   "projected_gd": 22.6,
+   "p_title": 0.1213,
+   "p_top3": 0.4281,
+   "p_relegation": 0.0
+  },
+  {
+   "team": "Kashiwa Reysol",
+   "team_slug": "kashiwa-reysol",
+   "elo": 1602,
+   "rating": 52.9,
+   "goals_for_vs_avg": 1.41,
+   "goals_against_vs_avg": 1.12,
+   "points_now": 28,
+   "projected_points": 68.1,
+   "projected_gd": 18.6,
+   "p_title": 0.0842,
+   "p_top3": 0.3432,
+   "p_relegation": 0.0
+  },
+  {
+   "team": "Kashima Antlers",
+   "team_slug": "kashima-antlers",
+   "elo": 1624,
+   "rating": 59.6,
+   "goals_for_vs_avg": 1.5,
+   "goals_against_vs_avg": 0.96,
+   "points_now": 23,
+   "projected_points": 67.6,
+   "projected_gd": 22.4,
+   "p_title": 0.0756,
+   "p_top3": 0.3195,
+   "p_relegation": 0.0
+  },
+  {
+   "team": "Kawasaki Frontale",
+   "team_slug": "kawasaki-frontale",
+   "elo": 1590,
+   "rating": 48.9,
+   "goals_for_vs_avg": 1.56,
+   "goals_against_vs_avg": 1.44,
+   "points_now": 22,
+   "projected_points": 58.8,
+   "projected_gd": 8.5,
+   "p_title": 0.0043,
+   "p_top3": 0.0407,
+   "p_relegation": 0.0004
+  },
+  {
+   "team": "Yokohama F. Marinos",
+   "team_slug": "yokohama-f-marinos",
+   "elo": 1588,
+   "rating": 48.3,
+   "goals_for_vs_avg": 1.33,
+   "goals_against_vs_avg": 1.23,
+   "points_now": 21,
+   "projected_points": 57.3,
+   "projected_gd": 8.9,
+   "p_title": 0.0029,
+   "p_top3": 0.0263,
+   "p_relegation": 0.0008
+  },
+  {
+   "team": "Urawa Red Diamonds",
+   "team_slug": "urawa-red-diamonds",
+   "elo": 1582,
+   "rating": 46.2,
+   "goals_for_vs_avg": 1.19,
+   "goals_against_vs_avg": 1.18,
+   "points_now": 21,
+   "projected_points": 55.9,
+   "projected_gd": -5.1,
+   "p_title": 0.0014,
+   "p_top3": 0.0146,
+   "p_relegation": 0.0017
+  },
+  {
+   "team": "Nagoya Grampus",
+   "team_slug": "nagoya-grampus",
+   "elo": 1568,
+   "rating": 42.1,
+   "goals_for_vs_avg": 1.2,
+   "goals_against_vs_avg": 1.36,
+   "points_now": 14,
+   "projected_points": 47.2,
+   "projected_gd": -7.7,
+   "p_title": 0.0001,
+   "p_top3": 0.0003,
+   "p_relegation": 0.0437
+  },
+  {
+   "team": "Cerezo Osaka",
+   "team_slug": "cerezo-osaka",
+   "elo": 1577,
+   "rating": 44.1,
+   "goals_for_vs_avg": 1.23,
+   "goals_against_vs_avg": 1.32,
+   "points_now": 14,
+   "projected_points": 46.8,
+   "projected_gd": -12.3,
+   "p_title": 0.0,
+   "p_top3": 0.0004,
+   "p_relegation": 0.0524
+  },
+  {
+   "team": "Kyoto Sanga",
+   "team_slug": "kyoto-sanga",
+   "elo": 1571,
+   "rating": 43.5,
+   "goals_for_vs_avg": 1.22,
+   "goals_against_vs_avg": 1.3,
+   "points_now": 13,
+   "projected_points": 46.4,
+   "projected_gd": -7.6,
+   "p_title": 0.0001,
+   "p_top3": 0.0003,
+   "p_relegation": 0.0554
+  },
+  {
+   "team": "Gamba Osaka",
+   "team_slug": "gamba-osaka",
+   "elo": 1575,
+   "rating": 44.9,
+   "goals_for_vs_avg": 1.24,
+   "goals_against_vs_avg": 1.26,
+   "points_now": 12,
+   "projected_points": 46.3,
+   "projected_gd": -7.0,
+   "p_title": 0.0,
+   "p_top3": 0.0006,
+   "p_relegation": 0.0549
+  },
+  {
+   "team": "Fagiano Okayama",
+   "team_slug": "fagiano-okayama",
+   "elo": 1561,
+   "rating": 39.7,
+   "goals_for_vs_avg": 0.98,
+   "goals_against_vs_avg": 1.21,
+   "points_now": 16,
+   "projected_points": 44.9,
+   "projected_gd": -13.8,
+   "p_title": 0.0,
+   "p_top3": 0.0001,
+   "p_relegation": 0.0848
+  },
+  {
+   "team": "Shimizu S-Pulse",
+   "team_slug": "shimizu-s-pulse",
+   "elo": 1551,
+   "rating": 37.1,
+   "goals_for_vs_avg": 0.98,
+   "goals_against_vs_avg": 1.3,
+   "points_now": 14,
+   "projected_points": 41.8,
+   "projected_gd": -21.6,
+   "p_title": 0.0,
+   "p_top3": 0.0,
+   "p_relegation": 0.1885
+  },
+  {
+   "team": "V-Varen Nagasaki",
+   "team_slug": "v-varen-nagasaki",
+   "elo": 1551,
+   "rating": 39.0,
+   "goals_for_vs_avg": 1.18,
+   "goals_against_vs_avg": 1.39,
+   "points_now": 12,
+   "projected_points": 41.6,
+   "projected_gd": -12.4,
+   "p_title": 0.0,
+   "p_top3": 0.0,
+   "p_relegation": 0.1826
+  },
+  {
+   "team": "Tokyo Verdy",
+   "team_slug": "tokyo-verdy",
+   "elo": 1551,
+   "rating": 35.9,
+   "goals_for_vs_avg": 0.85,
+   "goals_against_vs_avg": 1.23,
+   "points_now": 11,
+   "projected_points": 38.2,
+   "projected_gd": -21.3,
+   "p_title": 0.0,
+   "p_top3": 0.0,
+   "p_relegation": 0.3757
+  },
+  {
+   "team": "JEF United Chiba",
+   "team_slug": "jef-united-chiba",
+   "elo": 1533,
+   "rating": 34.0,
+   "goals_for_vs_avg": 1.08,
+   "goals_against_vs_avg": 1.5,
+   "points_now": 10,
+   "projected_points": 35.4,
+   "projected_gd": -23.1,
+   "p_title": 0.0,
+   "p_top3": 0.0,
+   "p_relegation": 0.544
+  },
+  {
+   "team": "Avispa Fukuoka",
+   "team_slug": "avispa-fukuoka",
+   "elo": 1549,
+   "rating": 36.2,
+   "goals_for_vs_avg": 0.87,
+   "goals_against_vs_avg": 1.21,
+   "points_now": 7,
+   "projected_points": 33.7,
+   "projected_gd": -21.8,
+   "p_title": 0.0,
+   "p_top3": 0.0,
+   "p_relegation": 0.6409
+  },
+  {
+   "team": "Mito HollyHock",
+   "team_slug": "mito-hollyhock",
+   "elo": 1523,
+   "rating": 29.6,
+   "goals_for_vs_avg": 0.89,
+   "goals_against_vs_avg": 1.54,
+   "points_now": 9,
+   "projected_points": 31.7,
+   "projected_gd": -31.4,
+   "p_title": 0.0,
+   "p_top3": 0.0,
+   "p_relegation": 0.7741
+  }
+ ],
+ "season_history": [
+  {
+   "round": 1,
+   "date_jst": "2026-08-07",
+   "site_match_slug": "yokohama-f-marinos-vs-kashima-antlers-2026-08-07",
+   "home": "Yokohama F. Marinos",
+   "away": "Kashima Antlers",
+   "p_home": 0.285,
+   "p_draw": 0.261,
+   "p_away": 0.454,
+   "model_call": "Lean Kashima Antlers",
+   "score": "3-4",
+   "result": "Away win",
+   "called_it": true,
+   "p_on_result": 0.454,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 1,
+   "date_jst": "2026-08-07",
+   "site_match_slug": "gamba-osaka-vs-urawa-red-diamonds-2026-08-07",
+   "home": "Gamba Osaka",
+   "away": "Urawa Red Diamonds",
+   "p_home": 0.388,
+   "p_draw": 0.274,
+   "p_away": 0.338,
+   "model_call": "Open game",
+   "score": "4-3",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.388,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 1,
+   "date_jst": "2026-08-08",
+   "site_match_slug": "cerezo-osaka-vs-fagiano-okayama-2026-08-08",
+   "home": "Cerezo Osaka",
+   "away": "Fagiano Okayama",
+   "p_home": 0.457,
+   "p_draw": 0.266,
+   "p_away": 0.278,
+   "model_call": "Lean Cerezo Osaka",
+   "score": "2-1",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.457,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 1,
+   "date_jst": "2026-08-08",
+   "site_match_slug": "nagoya-grampus-vs-shimizu-s-pulse-2026-08-08",
+   "home": "Nagoya Grampus",
+   "away": "Shimizu S-Pulse",
+   "p_home": 0.42,
+   "p_draw": 0.262,
+   "p_away": 0.318,
+   "model_call": "Open game",
+   "score": "0-1",
+   "result": "Away win",
+   "called_it": false,
+   "p_on_result": 0.318,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 1,
+   "date_jst": "2026-08-08",
+   "site_match_slug": "avispa-fukuoka-vs-vissel-kobe-2026-08-08",
+   "home": "Avispa Fukuoka",
+   "away": "Vissel Kobe",
+   "p_home": 0.275,
+   "p_draw": 0.288,
+   "p_away": 0.437,
+   "model_call": "Open game",
+   "score": "0-1",
+   "result": "Away win",
+   "called_it": true,
+   "p_on_result": 0.437,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 1,
+   "date_jst": "2026-08-08",
+   "site_match_slug": "kashiwa-reysol-vs-mito-hollyhock-2026-08-08",
+   "home": "Kashiwa Reysol",
+   "away": "Mito HollyHock",
+   "p_home": 0.559,
+   "p_draw": 0.24,
+   "p_away": 0.201,
+   "model_call": "Strong lean Kashiwa Reysol",
+   "score": "2-1",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.559,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 1,
+   "date_jst": "2026-08-08",
+   "site_match_slug": "fc-tokyo-vs-machida-zelvia-2026-08-08",
+   "home": "FC Tokyo",
+   "away": "Machida Zelvia",
+   "p_home": 0.353,
+   "p_draw": 0.279,
+   "p_away": 0.368,
+   "model_call": "Open game",
+   "score": "1-5",
+   "result": "Away win",
+   "called_it": true,
+   "p_on_result": 0.368,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 1,
+   "date_jst": "2026-08-08",
+   "site_match_slug": "sanfrecce-hiroshima-vs-jef-united-chiba-2026-08-08",
+   "home": "Sanfrecce Hiroshima",
+   "away": "JEF United Chiba",
+   "p_home": 0.585,
+   "p_draw": 0.229,
+   "p_away": 0.186,
+   "model_call": "Strong lean Sanfrecce Hiroshima",
+   "score": "3-0",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.585,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 1,
+   "date_jst": "2026-08-09",
+   "site_match_slug": "tokyo-verdy-vs-kawasaki-frontale-2026-08-09",
+   "home": "Tokyo Verdy",
+   "away": "Kawasaki Frontale",
+   "p_home": 0.335,
+   "p_draw": 0.262,
+   "p_away": 0.402,
+   "model_call": "Open game",
+   "score": "1-1",
+   "result": "Draw",
+   "called_it": false,
+   "p_on_result": 0.262,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 1,
+   "date_jst": "2026-08-09",
+   "site_match_slug": "v-varen-nagasaki-vs-kyoto-sanga-2026-08-09",
+   "home": "V-Varen Nagasaki",
+   "away": "Kyoto Sanga",
+   "p_home": 0.371,
+   "p_draw": 0.26,
+   "p_away": 0.37,
+   "model_call": "Open game",
+   "score": "2-1",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.371,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 2,
+   "date_jst": "2026-08-14",
+   "site_match_slug": "tokyo-verdy-vs-kashiwa-reysol-2026-08-14",
+   "home": "Tokyo Verdy",
+   "away": "Kashiwa Reysol",
+   "p_home": 0.306,
+   "p_draw": 0.285,
+   "p_away": 0.409,
+   "model_call": "Open game",
+   "score": "1-3",
+   "result": "Away win",
+   "called_it": true,
+   "p_on_result": 0.409,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 2,
+   "date_jst": "2026-08-15",
+   "site_match_slug": "kashima-antlers-vs-nagoya-grampus-2026-08-15",
+   "home": "Kashima Antlers",
+   "away": "Nagoya Grampus",
+   "p_home": 0.562,
+   "p_draw": 0.237,
+   "p_away": 0.201,
+   "model_call": "Strong lean Kashima Antlers",
+   "score": "2-1",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.562,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 2,
+   "date_jst": "2026-08-15",
+   "site_match_slug": "mito-hollyhock-vs-gamba-osaka-2026-08-15",
+   "home": "Mito HollyHock",
+   "away": "Gamba Osaka",
+   "p_home": 0.266,
+   "p_draw": 0.251,
+   "p_away": 0.483,
+   "model_call": "Lean Gamba Osaka",
+   "score": "1-1",
+   "result": "Draw",
+   "called_it": false,
+   "p_on_result": 0.251,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 2,
+   "date_jst": "2026-08-15",
+   "site_match_slug": "shimizu-s-pulse-vs-yokohama-f-marinos-2026-08-15",
+   "home": "Shimizu S-Pulse",
+   "away": "Yokohama F. Marinos",
+   "p_home": 0.381,
+   "p_draw": 0.261,
+   "p_away": 0.359,
+   "model_call": "Open game",
+   "score": "0-1",
+   "result": "Away win",
+   "called_it": false,
+   "p_on_result": 0.359,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 2,
+   "date_jst": "2026-08-15",
+   "site_match_slug": "fagiano-okayama-vs-v-varen-nagasaki-2026-08-15",
+   "home": "Fagiano Okayama",
+   "away": "V-Varen Nagasaki",
+   "p_home": 0.402,
+   "p_draw": 0.271,
+   "p_away": 0.327,
+   "model_call": "Open game",
+   "score": "1-0",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.402,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 2,
+   "date_jst": "2026-08-15",
+   "site_match_slug": "avispa-fukuoka-vs-cerezo-osaka-2026-08-15",
+   "home": "Avispa Fukuoka",
+   "away": "Cerezo Osaka",
+   "p_home": 0.321,
+   "p_draw": 0.282,
+   "p_away": 0.397,
+   "model_call": "Open game",
+   "score": "3-0",
+   "result": "Home win",
+   "called_it": false,
+   "p_on_result": 0.321,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 2,
+   "date_jst": "2026-08-15",
+   "site_match_slug": "kawasaki-frontale-vs-kyoto-sanga-2026-08-15",
+   "home": "Kawasaki Frontale",
+   "away": "Kyoto Sanga",
+   "p_home": 0.432,
+   "p_draw": 0.247,
+   "p_away": 0.321,
+   "model_call": "Open game",
+   "score": "2-2",
+   "result": "Draw",
+   "called_it": false,
+   "p_on_result": 0.247,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 2,
+   "date_jst": "2026-08-15",
+   "site_match_slug": "urawa-red-diamonds-vs-sanfrecce-hiroshima-2026-08-15",
+   "home": "Urawa Red Diamonds",
+   "away": "Sanfrecce Hiroshima",
+   "p_home": 0.315,
+   "p_draw": 0.283,
+   "p_away": 0.402,
+   "model_call": "Open game",
+   "score": "1-4",
+   "result": "Away win",
+   "called_it": true,
+   "p_on_result": 0.402,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 2,
+   "date_jst": "2026-08-15",
+   "site_match_slug": "vissel-kobe-vs-fc-tokyo-2026-08-15",
+   "home": "Vissel Kobe",
+   "away": "FC Tokyo",
+   "p_home": 0.488,
+   "p_draw": 0.262,
+   "p_away": 0.249,
+   "model_call": "Lean Vissel Kobe",
+   "score": "2-2",
+   "result": "Draw",
+   "called_it": false,
+   "p_on_result": 0.262,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 2,
+   "date_jst": "2026-08-15",
+   "site_match_slug": "jef-united-chiba-vs-machida-zelvia-2026-08-15",
+   "home": "JEF United Chiba",
+   "away": "Machida Zelvia",
+   "p_home": 0.25,
+   "p_draw": 0.254,
+   "p_away": 0.496,
+   "model_call": "Lean Machida Zelvia",
+   "score": "0-4",
+   "result": "Away win",
+   "called_it": true,
+   "p_on_result": 0.496,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 3,
+   "date_jst": "2026-08-21",
+   "site_match_slug": "kashiwa-reysol-vs-v-varen-nagasaki-2026-08-21",
+   "home": "Kashiwa Reysol",
+   "away": "V-Varen Nagasaki",
+   "p_home": 0.495,
+   "p_draw": 0.25,
+   "p_away": 0.254,
+   "model_call": "Lean Kashiwa Reysol",
+   "score": "4-2",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.495,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 3,
+   "date_jst": "2026-08-21",
+   "site_match_slug": "fc-tokyo-vs-jef-united-chiba-2026-08-21",
+   "home": "FC Tokyo",
+   "away": "JEF United Chiba",
+   "p_home": 0.521,
+   "p_draw": 0.242,
+   "p_away": 0.237,
+   "model_call": "Lean FC Tokyo",
+   "score": "2-0",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.521,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 3,
+   "date_jst": "2026-08-22",
+   "site_match_slug": "kashima-antlers-vs-avispa-fukuoka-2026-08-22",
+   "home": "Kashima Antlers",
+   "away": "Avispa Fukuoka",
+   "p_home": 0.546,
+   "p_draw": 0.262,
+   "p_away": 0.192,
+   "model_call": "Lean Kashima Antlers",
+   "score": "3-2",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.546,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 3,
+   "date_jst": "2026-08-22",
+   "site_match_slug": "fagiano-okayama-vs-tokyo-verdy-2026-08-22",
+   "home": "Fagiano Okayama",
+   "away": "Tokyo Verdy",
+   "p_home": 0.423,
+   "p_draw": 0.293,
+   "p_away": 0.285,
+   "model_call": "Open game",
+   "score": "0-0",
+   "result": "Draw",
+   "called_it": false,
+   "p_on_result": 0.293,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 3,
+   "date_jst": "2026-08-22",
+   "site_match_slug": "cerezo-osaka-vs-shimizu-s-pulse-2026-08-22",
+   "home": "Cerezo Osaka",
+   "away": "Shimizu S-Pulse",
+   "p_home": 0.455,
+   "p_draw": 0.261,
+   "p_away": 0.284,
+   "model_call": "Lean Cerezo Osaka",
+   "score": "1-0",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.455,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 3,
+   "date_jst": "2026-08-22",
+   "site_match_slug": "kyoto-sanga-vs-mito-hollyhock-2026-08-22",
+   "home": "Kyoto Sanga",
+   "away": "Mito HollyHock",
+   "p_home": 0.533,
+   "p_draw": 0.244,
+   "p_away": 0.223,
+   "model_call": "Lean Kyoto Sanga",
+   "score": "1-3",
+   "result": "Away win",
+   "called_it": false,
+   "p_on_result": 0.223,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 3,
+   "date_jst": "2026-08-22",
+   "site_match_slug": "nagoya-grampus-vs-gamba-osaka-2026-08-22",
+   "home": "Nagoya Grampus",
+   "away": "Gamba Osaka",
+   "p_home": 0.363,
+   "p_draw": 0.256,
+   "p_away": 0.381,
+   "model_call": "Open game",
+   "score": "3-1",
+   "result": "Home win",
+   "called_it": false,
+   "p_on_result": 0.363,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 3,
+   "date_jst": "2026-08-22",
+   "site_match_slug": "sanfrecce-hiroshima-vs-kawasaki-frontale-2026-08-22",
+   "home": "Sanfrecce Hiroshima",
+   "away": "Kawasaki Frontale",
+   "p_home": 0.536,
+   "p_draw": 0.234,
+   "p_away": 0.229,
+   "model_call": "Lean Sanfrecce Hiroshima",
+   "score": "1-1",
+   "result": "Draw",
+   "called_it": false,
+   "p_on_result": 0.234,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 3,
+   "date_jst": "2026-08-22",
+   "site_match_slug": "yokohama-f-marinos-vs-vissel-kobe-2026-08-22",
+   "home": "Yokohama F. Marinos",
+   "away": "Vissel Kobe",
+   "p_home": 0.323,
+   "p_draw": 0.261,
+   "p_away": 0.415,
+   "model_call": "Open game",
+   "score": "1-0",
+   "result": "Home win",
+   "called_it": false,
+   "p_on_result": 0.323,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 3,
+   "date_jst": "2026-08-23",
+   "site_match_slug": "machida-zelvia-vs-urawa-red-diamonds-2026-08-23",
+   "home": "Machida Zelvia",
+   "away": "Urawa Red Diamonds",
+   "p_home": 0.478,
+   "p_draw": 0.268,
+   "p_away": 0.254,
+   "model_call": "Lean Machida Zelvia",
+   "score": "3-1",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.478,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 4,
+   "date_jst": "2026-08-29",
+   "site_match_slug": "gamba-osaka-vs-sanfrecce-hiroshima-2026-08-29",
+   "home": "Gamba Osaka",
+   "away": "Sanfrecce Hiroshima",
+   "p_home": 0.301,
+   "p_draw": 0.263,
+   "p_away": 0.436,
+   "model_call": "Open game",
+   "score": "0-0",
+   "result": "Draw",
+   "called_it": false,
+   "p_on_result": 0.263,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 4,
+   "date_jst": "2026-08-29",
+   "site_match_slug": "mito-hollyhock-vs-machida-zelvia-2026-08-29",
+   "home": "Mito HollyHock",
+   "away": "Machida Zelvia",
+   "p_home": 0.214,
+   "p_draw": 0.248,
+   "p_away": 0.538,
+   "model_call": "Lean Machida Zelvia",
+   "score": "1-1",
+   "result": "Draw",
+   "called_it": false,
+   "p_on_result": 0.248,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 4,
+   "date_jst": "2026-08-29",
+   "site_match_slug": "shimizu-s-pulse-vs-kashiwa-reysol-2026-08-29",
+   "home": "Shimizu S-Pulse",
+   "away": "Kashiwa Reysol",
+   "p_home": 0.318,
+   "p_draw": 0.274,
+   "p_away": 0.408,
+   "model_call": "Open game",
+   "score": "0-1",
+   "result": "Away win",
+   "called_it": true,
+   "p_on_result": 0.408,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 4,
+   "date_jst": "2026-08-29",
+   "site_match_slug": "v-varen-nagasaki-vs-fc-tokyo-2026-08-29",
+   "home": "V-Varen Nagasaki",
+   "away": "FC Tokyo",
+   "p_home": 0.35,
+   "p_draw": 0.261,
+   "p_away": 0.389,
+   "model_call": "Open game",
+   "score": "0-3",
+   "result": "Away win",
+   "called_it": true,
+   "p_on_result": 0.389,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 4,
+   "date_jst": "2026-08-29",
+   "site_match_slug": "kawasaki-frontale-vs-jef-united-chiba-2026-08-29",
+   "home": "Kawasaki Frontale",
+   "away": "JEF United Chiba",
+   "p_home": 0.551,
+   "p_draw": 0.224,
+   "p_away": 0.226,
+   "model_call": "Strong lean Kawasaki Frontale",
+   "score": "4-2",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.551,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 4,
+   "date_jst": "2026-08-29",
+   "site_match_slug": "kyoto-sanga-vs-avispa-fukuoka-2026-08-29",
+   "home": "Kyoto Sanga",
+   "away": "Avispa Fukuoka",
+   "p_home": 0.42,
+   "p_draw": 0.278,
+   "p_away": 0.302,
+   "model_call": "Open game",
+   "score": "2-1",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.42,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 4,
+   "date_jst": "2026-08-29",
+   "site_match_slug": "nagoya-grampus-vs-fagiano-okayama-2026-08-29",
+   "home": "Nagoya Grampus",
+   "away": "Fagiano Okayama",
+   "p_home": 0.417,
+   "p_draw": 0.272,
+   "p_away": 0.311,
+   "model_call": "Open game",
+   "score": "2-1",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.417,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 4,
+   "date_jst": "2026-08-29",
+   "site_match_slug": "tokyo-verdy-vs-kashima-antlers-2026-08-29",
+   "home": "Tokyo Verdy",
+   "away": "Kashima Antlers",
+   "p_home": 0.223,
+   "p_draw": 0.268,
+   "p_away": 0.509,
+   "model_call": "Lean Kashima Antlers",
+   "score": "0-2",
+   "result": "Away win",
+   "called_it": true,
+   "p_on_result": 0.509,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 4,
+   "date_jst": "2026-08-29",
+   "site_match_slug": "urawa-red-diamonds-vs-yokohama-f-marinos-2026-08-29",
+   "home": "Urawa Red Diamonds",
+   "away": "Yokohama F. Marinos",
+   "p_home": 0.402,
+   "p_draw": 0.262,
+   "p_away": 0.336,
+   "model_call": "Open game",
+   "score": "3-2",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.402,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 4,
+   "date_jst": "2026-08-29",
+   "site_match_slug": "vissel-kobe-vs-cerezo-osaka-2026-08-29",
+   "home": "Vissel Kobe",
+   "away": "Cerezo Osaka",
+   "p_home": 0.471,
+   "p_draw": 0.26,
+   "p_away": 0.269,
+   "model_call": "Lean Vissel Kobe",
+   "score": "1-0",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.471,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 5,
+   "date_jst": "2026-09-02",
+   "site_match_slug": "avispa-fukuoka-vs-urawa-red-diamonds-2026-09-02",
+   "home": "Avispa Fukuoka",
+   "away": "Urawa Red Diamonds",
+   "p_home": 0.345,
+   "p_draw": 0.289,
+   "p_away": 0.366,
+   "model_call": "Open game",
+   "score": "2-3",
+   "result": "Away win",
+   "called_it": true,
+   "p_on_result": 0.366,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 5,
+   "date_jst": "2026-09-02",
+   "site_match_slug": "cerezo-osaka-vs-kashiwa-reysol-2026-09-02",
+   "home": "Cerezo Osaka",
+   "away": "Kashiwa Reysol",
+   "p_home": 0.367,
+   "p_draw": 0.265,
+   "p_away": 0.368,
+   "model_call": "Open game",
+   "score": "2-0",
+   "result": "Home win",
+   "called_it": false,
+   "p_on_result": 0.367,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 5,
+   "date_jst": "2026-09-02",
+   "site_match_slug": "jef-united-chiba-vs-fagiano-okayama-2026-09-02",
+   "home": "JEF United Chiba",
+   "away": "Fagiano Okayama",
+   "p_home": 0.328,
+   "p_draw": 0.274,
+   "p_away": 0.398,
+   "model_call": "Open game",
+   "score": "1-2",
+   "result": "Away win",
+   "called_it": true,
+   "p_on_result": 0.398,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 5,
+   "date_jst": "2026-09-02",
+   "site_match_slug": "machida-zelvia-vs-kawasaki-frontale-2026-09-02",
+   "home": "Machida Zelvia",
+   "away": "Kawasaki Frontale",
+   "p_home": 0.503,
+   "p_draw": 0.242,
+   "p_away": 0.255,
+   "model_call": "Lean Machida Zelvia",
+   "score": "2-1",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.503,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 5,
+   "date_jst": "2026-09-02",
+   "site_match_slug": "mito-hollyhock-vs-kashima-antlers-2026-09-02",
+   "home": "Mito HollyHock",
+   "away": "Kashima Antlers",
+   "p_home": 0.187,
+   "p_draw": 0.238,
+   "p_away": 0.575,
+   "model_call": "Strong lean Kashima Antlers",
+   "score": "4-2",
+   "result": "Home win",
+   "called_it": false,
+   "p_on_result": 0.187,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 5,
+   "date_jst": "2026-09-02",
+   "site_match_slug": "sanfrecce-hiroshima-vs-nagoya-grampus-2026-09-02",
+   "home": "Sanfrecce Hiroshima",
+   "away": "Nagoya Grampus",
+   "p_home": 0.542,
+   "p_draw": 0.241,
+   "p_away": 0.216,
+   "model_call": "Lean Sanfrecce Hiroshima",
+   "score": "3-0",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.542,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 5,
+   "date_jst": "2026-09-02",
+   "site_match_slug": "shimizu-s-pulse-vs-fc-tokyo-2026-09-02",
+   "home": "Shimizu S-Pulse",
+   "away": "FC Tokyo",
+   "p_home": 0.335,
+   "p_draw": 0.277,
+   "p_away": 0.388,
+   "model_call": "Open game",
+   "score": "1-1",
+   "result": "Draw",
+   "called_it": false,
+   "p_on_result": 0.277,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 5,
+   "date_jst": "2026-09-02",
+   "site_match_slug": "tokyo-verdy-vs-vissel-kobe-2026-09-02",
+   "home": "Tokyo Verdy",
+   "away": "Vissel Kobe",
+   "p_home": 0.251,
+   "p_draw": 0.283,
+   "p_away": 0.467,
+   "model_call": "Lean Vissel Kobe",
+   "score": "0-2",
+   "result": "Away win",
+   "called_it": true,
+   "p_on_result": 0.467,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 5,
+   "date_jst": "2026-09-02",
+   "site_match_slug": "v-varen-nagasaki-vs-gamba-osaka-2026-09-02",
+   "home": "V-Varen Nagasaki",
+   "away": "Gamba Osaka",
+   "p_home": 0.336,
+   "p_draw": 0.254,
+   "p_away": 0.41,
+   "model_call": "Open game",
+   "score": "2-2",
+   "result": "Draw",
+   "called_it": false,
+   "p_on_result": 0.254,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 5,
+   "date_jst": "2026-09-02",
+   "site_match_slug": "yokohama-f-marinos-vs-kyoto-sanga-2026-09-02",
+   "home": "Yokohama F. Marinos",
+   "away": "Kyoto Sanga",
+   "p_home": 0.438,
+   "p_draw": 0.25,
+   "p_away": 0.312,
+   "model_call": "Open game",
+   "score": "1-1",
+   "result": "Draw",
+   "called_it": false,
+   "p_on_result": 0.25,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 6,
+   "date_jst": "2026-09-05",
+   "site_match_slug": "avispa-fukuoka-vs-mito-hollyhock-2026-09-05",
+   "home": "Avispa Fukuoka",
+   "away": "Mito HollyHock",
+   "p_home": 0.45,
+   "p_draw": 0.28,
+   "p_away": 0.269,
+   "model_call": "Lean Avispa Fukuoka",
+   "score": "1-1",
+   "result": "Draw",
+   "called_it": false,
+   "p_on_result": 0.28,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 6,
+   "date_jst": "2026-09-06",
+   "site_match_slug": "fagiano-okayama-vs-sanfrecce-hiroshima-2026-09-06",
+   "home": "Fagiano Okayama",
+   "away": "Sanfrecce Hiroshima",
+   "p_home": 0.254,
+   "p_draw": 0.279,
+   "p_away": 0.467,
+   "model_call": "Lean Sanfrecce Hiroshima",
+   "score": "3-2",
+   "result": "Home win",
+   "called_it": false,
+   "p_on_result": 0.254,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 6,
+   "date_jst": "2026-09-06",
+   "site_match_slug": "jef-united-chiba-vs-gamba-osaka-2026-09-06",
+   "home": "JEF United Chiba",
+   "away": "Gamba Osaka",
+   "p_home": 0.285,
+   "p_draw": 0.248,
+   "p_away": 0.467,
+   "model_call": "Lean Gamba Osaka",
+   "score": "2-0",
+   "result": "Home win",
+   "called_it": false,
+   "p_on_result": 0.285,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 6,
+   "date_jst": "2026-09-06",
+   "site_match_slug": "kashima-antlers-vs-urawa-red-diamonds-2026-09-06",
+   "home": "Kashima Antlers",
+   "away": "Urawa Red Diamonds",
+   "p_home": 0.525,
+   "p_draw": 0.254,
+   "p_away": 0.221,
+   "model_call": "Lean Kashima Antlers",
+   "score": "0-1",
+   "result": "Away win",
+   "called_it": false,
+   "p_on_result": 0.221,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 6,
+   "date_jst": "2026-09-06",
+   "site_match_slug": "nagoya-grampus-vs-machida-zelvia-2026-09-06",
+   "home": "Nagoya Grampus",
+   "away": "Machida Zelvia",
+   "p_home": 0.291,
+   "p_draw": 0.261,
+   "p_away": 0.448,
+   "model_call": "Open game",
+   "score": "1-3",
+   "result": "Away win",
+   "called_it": true,
+   "p_on_result": 0.448,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 6,
+   "date_jst": "2026-09-06",
+   "site_match_slug": "cerezo-osaka-vs-tokyo-verdy-2026-09-06",
+   "home": "Cerezo Osaka",
+   "away": "Tokyo Verdy",
+   "p_home": 0.496,
+   "p_draw": 0.264,
+   "p_away": 0.24,
+   "model_call": "Lean Cerezo Osaka",
+   "score": "0-0",
+   "result": "Draw",
+   "called_it": false,
+   "p_on_result": 0.264,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 6,
+   "date_jst": "2026-09-06",
+   "site_match_slug": "kashiwa-reysol-vs-yokohama-f-marinos-2026-09-06",
+   "home": "Kashiwa Reysol",
+   "away": "Yokohama F. Marinos",
+   "p_home": 0.457,
+   "p_draw": 0.251,
+   "p_away": 0.292,
+   "model_call": "Lean Kashiwa Reysol",
+   "score": "0-2",
+   "result": "Away win",
+   "called_it": false,
+   "p_on_result": 0.292,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 6,
+   "date_jst": "2026-09-06",
+   "site_match_slug": "kawasaki-frontale-vs-shimizu-s-pulse-2026-09-06",
+   "home": "Kawasaki Frontale",
+   "away": "Shimizu S-Pulse",
+   "p_home": 0.473,
+   "p_draw": 0.25,
+   "p_away": 0.277,
+   "model_call": "Lean Kawasaki Frontale",
+   "score": "3-1",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.473,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 6,
+   "date_jst": "2026-09-06",
+   "site_match_slug": "vissel-kobe-vs-v-varen-nagasaki-2026-09-06",
+   "home": "Vissel Kobe",
+   "away": "V-Varen Nagasaki",
+   "p_home": 0.566,
+   "p_draw": 0.236,
+   "p_away": 0.199,
+   "model_call": "Strong lean Vissel Kobe",
+   "score": "3-1",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.566,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 6,
+   "date_jst": "2026-09-06",
+   "site_match_slug": "fc-tokyo-vs-kyoto-sanga-2026-09-06",
+   "home": "FC Tokyo",
+   "away": "Kyoto Sanga",
+   "p_home": 0.446,
+   "p_draw": 0.259,
+   "p_away": 0.295,
+   "model_call": "Open game",
+   "score": "2-0",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.446,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 7,
+   "date_jst": "2026-09-11",
+   "site_match_slug": "kyoto-sanga-vs-kashiwa-reysol-2026-09-11",
+   "home": "Kyoto Sanga",
+   "away": "Kashiwa Reysol",
+   "p_home": 0.351,
+   "p_draw": 0.267,
+   "p_away": 0.382,
+   "model_call": "Open game",
+   "score": "2-3",
+   "result": "Away win",
+   "called_it": true,
+   "p_on_result": 0.382,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 7,
+   "date_jst": "2026-09-11",
+   "site_match_slug": "vissel-kobe-vs-kashima-antlers-2026-09-11",
+   "home": "Vissel Kobe",
+   "away": "Kashima Antlers",
+   "p_home": 0.377,
+   "p_draw": 0.283,
+   "p_away": 0.34,
+   "model_call": "Open game",
+   "score": "2-1",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.377,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 7,
+   "date_jst": "2026-09-12",
+   "site_match_slug": "mito-hollyhock-vs-kawasaki-frontale-2026-09-12",
+   "home": "Mito HollyHock",
+   "away": "Kawasaki Frontale",
+   "p_home": 0.294,
+   "p_draw": 0.245,
+   "p_away": 0.46,
+   "model_call": "Lean Kawasaki Frontale",
+   "score": "0-1",
+   "result": "Away win",
+   "called_it": true,
+   "p_on_result": 0.46,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 7,
+   "date_jst": "2026-09-12",
+   "site_match_slug": "shimizu-s-pulse-vs-avispa-fukuoka-2026-09-12",
+   "home": "Shimizu S-Pulse",
+   "away": "Avispa Fukuoka",
+   "p_home": 0.39,
+   "p_draw": 0.291,
+   "p_away": 0.318,
+   "model_call": "Open game",
+   "score": "1-0",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.39,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 7,
+   "date_jst": "2026-09-12",
+   "site_match_slug": "v-varen-nagasaki-vs-nagoya-grampus-2026-09-12",
+   "home": "V-Varen Nagasaki",
+   "away": "Nagoya Grampus",
+   "p_home": 0.38,
+   "p_draw": 0.252,
+   "p_away": 0.368,
+   "model_call": "Open game",
+   "score": "2-0",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.38,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 7,
+   "date_jst": "2026-09-12",
+   "site_match_slug": "gamba-osaka-vs-fc-tokyo-2026-09-12",
+   "home": "Gamba Osaka",
+   "away": "FC Tokyo",
+   "p_home": 0.378,
+   "p_draw": 0.264,
+   "p_away": 0.358,
+   "model_call": "Open game",
+   "score": "0-2",
+   "result": "Away win",
+   "called_it": false,
+   "p_on_result": 0.358,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 7,
+   "date_jst": "2026-09-12",
+   "site_match_slug": "machida-zelvia-vs-yokohama-f-marinos-2026-09-12",
+   "home": "Machida Zelvia",
+   "away": "Yokohama F. Marinos",
+   "p_home": 0.508,
+   "p_draw": 0.246,
+   "p_away": 0.246,
+   "model_call": "Lean Machida Zelvia",
+   "score": "1-1",
+   "result": "Draw",
+   "called_it": false,
+   "p_on_result": 0.246,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 7,
+   "date_jst": "2026-09-12",
+   "site_match_slug": "sanfrecce-hiroshima-vs-cerezo-osaka-2026-09-12",
+   "home": "Sanfrecce Hiroshima",
+   "away": "Cerezo Osaka",
+   "p_home": 0.505,
+   "p_draw": 0.255,
+   "p_away": 0.24,
+   "model_call": "Lean Sanfrecce Hiroshima",
+   "score": "6-1",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.505,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 7,
+   "date_jst": "2026-09-13",
+   "site_match_slug": "tokyo-verdy-vs-jef-united-chiba-2026-09-13",
+   "home": "Tokyo Verdy",
+   "away": "JEF United Chiba",
+   "p_home": 0.417,
+   "p_draw": 0.277,
+   "p_away": 0.306,
+   "model_call": "Open game",
+   "score": "1-1",
+   "result": "Draw",
+   "called_it": false,
+   "p_on_result": 0.277,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 7,
+   "date_jst": "2026-09-13",
+   "site_match_slug": "urawa-red-diamonds-vs-fagiano-okayama-2026-09-13",
+   "home": "Urawa Red Diamonds",
+   "away": "Fagiano Okayama",
+   "p_home": 0.441,
+   "p_draw": 0.276,
+   "p_away": 0.283,
+   "model_call": "Open game",
+   "score": "1-2",
+   "result": "Away win",
+   "called_it": false,
+   "p_on_result": 0.283,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 8,
+   "date_jst": "2026-09-19",
+   "site_match_slug": "avispa-fukuoka-vs-sanfrecce-hiroshima-2026-09-19",
+   "home": "Avispa Fukuoka",
+   "away": "Sanfrecce Hiroshima",
+   "p_home": 0.233,
+   "p_draw": 0.27,
+   "p_away": 0.497,
+   "model_call": "Lean Sanfrecce Hiroshima",
+   "score": "0-1",
+   "result": "Away win",
+   "called_it": true,
+   "p_on_result": 0.497,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 8,
+   "date_jst": "2026-09-19",
+   "site_match_slug": "kawasaki-frontale-vs-kashima-antlers-2026-09-19",
+   "home": "Kawasaki Frontale",
+   "away": "Kashima Antlers",
+   "p_home": 0.322,
+   "p_draw": 0.253,
+   "p_away": 0.425,
+   "model_call": "Open game",
+   "score": "3-3",
+   "result": "Draw",
+   "called_it": false,
+   "p_on_result": 0.253,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 8,
+   "date_jst": "2026-09-19",
+   "site_match_slug": "shimizu-s-pulse-vs-jef-united-chiba-2026-09-19",
+   "home": "Shimizu S-Pulse",
+   "away": "JEF United Chiba",
+   "p_home": 0.464,
+   "p_draw": 0.262,
+   "p_away": 0.274,
+   "model_call": "Lean Shimizu S-Pulse",
+   "score": "2-1",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.464,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 8,
+   "date_jst": "2026-09-19",
+   "site_match_slug": "urawa-red-diamonds-vs-tokyo-verdy-2026-09-19",
+   "home": "Urawa Red Diamonds",
+   "away": "Tokyo Verdy",
+   "p_home": 0.489,
+   "p_draw": 0.273,
+   "p_away": 0.238,
+   "model_call": "Lean Urawa Red Diamonds",
+   "score": "3-1",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.489,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 8,
+   "date_jst": "2026-09-19",
+   "site_match_slug": "v-varen-nagasaki-vs-cerezo-osaka-2026-09-19",
+   "home": "V-Varen Nagasaki",
+   "away": "Cerezo Osaka",
+   "p_home": 0.354,
+   "p_draw": 0.256,
+   "p_away": 0.39,
+   "model_call": "Open game",
+   "score": "1-1",
+   "result": "Draw",
+   "called_it": false,
+   "p_on_result": 0.256,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 8,
+   "date_jst": "2026-09-19",
+   "site_match_slug": "fagiano-okayama-vs-kyoto-sanga-2026-09-19",
+   "home": "Fagiano Okayama",
+   "away": "Kyoto Sanga",
+   "p_home": 0.408,
+   "p_draw": 0.273,
+   "p_away": 0.32,
+   "model_call": "Open game",
+   "score": "1-2",
+   "result": "Away win",
+   "called_it": false,
+   "p_on_result": 0.32,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 8,
+   "date_jst": "2026-09-19",
+   "site_match_slug": "fc-tokyo-vs-nagoya-grampus-2026-09-19",
+   "home": "FC Tokyo",
+   "away": "Nagoya Grampus",
+   "p_home": 0.495,
+   "p_draw": 0.249,
+   "p_away": 0.255,
+   "model_call": "Lean FC Tokyo",
+   "score": "1-0",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.495,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 8,
+   "date_jst": "2026-09-19",
+   "site_match_slug": "yokohama-f-marinos-vs-mito-hollyhock-2026-09-19",
+   "home": "Yokohama F. Marinos",
+   "away": "Mito HollyHock",
+   "p_home": 0.539,
+   "p_draw": 0.237,
+   "p_away": 0.224,
+   "model_call": "Lean Yokohama F. Marinos",
+   "score": "2-0",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.539,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 8,
+   "date_jst": "2026-09-20",
+   "site_match_slug": "gamba-osaka-vs-vissel-kobe-2026-09-20",
+   "home": "Gamba Osaka",
+   "away": "Vissel Kobe",
+   "p_home": 0.298,
+   "p_draw": 0.268,
+   "p_away": 0.434,
+   "model_call": "Open game",
+   "score": "0-1",
+   "result": "Away win",
+   "called_it": true,
+   "p_on_result": 0.434,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 8,
+   "date_jst": "2026-09-20",
+   "site_match_slug": "machida-zelvia-vs-kashiwa-reysol-2026-09-20",
+   "home": "Machida Zelvia",
+   "away": "Kashiwa Reysol",
+   "p_home": 0.476,
+   "p_draw": 0.262,
+   "p_away": 0.262,
+   "model_call": "Lean Machida Zelvia",
+   "score": "2-4",
+   "result": "Away win",
+   "called_it": false,
+   "p_on_result": 0.262,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 9,
+   "date_jst": "2026-10-09",
+   "site_match_slug": "kashiwa-reysol-vs-vissel-kobe-2026-10-09",
+   "home": "Kashiwa Reysol",
+   "away": "Vissel Kobe",
+   "p_home": 0.342,
+   "p_draw": 0.277,
+   "p_away": 0.382,
+   "model_call": "Open game",
+   "score": "4-2",
+   "result": "Home win",
+   "called_it": false,
+   "p_on_result": 0.342,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 9,
+   "date_jst": "2026-10-09",
+   "site_match_slug": "kashima-antlers-vs-gamba-osaka-2026-10-09",
+   "home": "Kashima Antlers",
+   "away": "Gamba Osaka",
+   "p_home": 0.534,
+   "p_draw": 0.242,
+   "p_away": 0.224,
+   "model_call": "Lean Kashima Antlers",
+   "score": "2-0",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.534,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 9,
+   "date_jst": "2026-10-10",
+   "site_match_slug": "cerezo-osaka-vs-yokohama-f-marinos-2026-10-10",
+   "home": "Cerezo Osaka",
+   "away": "Yokohama F. Marinos",
+   "p_home": 0.393,
+   "p_draw": 0.255,
+   "p_away": 0.352,
+   "model_call": "Open game",
+   "score": "0-0",
+   "result": "Draw",
+   "called_it": false,
+   "p_on_result": 0.255,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 9,
+   "date_jst": "2026-10-10",
+   "site_match_slug": "avispa-fukuoka-vs-fagiano-okayama-2026-10-10",
+   "home": "Avispa Fukuoka",
+   "away": "Fagiano Okayama",
+   "p_home": 0.351,
+   "p_draw": 0.299,
+   "p_away": 0.351,
+   "model_call": "Open game",
+   "score": "2-1",
+   "result": "Home win",
+   "called_it": false,
+   "p_on_result": 0.351,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 9,
+   "date_jst": "2026-10-10",
+   "site_match_slug": "fc-tokyo-vs-urawa-red-diamonds-2026-10-10",
+   "home": "FC Tokyo",
+   "away": "Urawa Red Diamonds",
+   "p_home": 0.427,
+   "p_draw": 0.269,
+   "p_away": 0.304,
+   "model_call": "Open game",
+   "score": "3-0",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.427,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 9,
+   "date_jst": "2026-10-10",
+   "site_match_slug": "kyoto-sanga-vs-machida-zelvia-2026-10-10",
+   "home": "Kyoto Sanga",
+   "away": "Machida Zelvia",
+   "p_home": 0.294,
+   "p_draw": 0.262,
+   "p_away": 0.444,
+   "model_call": "Open game",
+   "score": "0-1",
+   "result": "Away win",
+   "called_it": true,
+   "p_on_result": 0.444,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 9,
+   "date_jst": "2026-10-11",
+   "site_match_slug": "jef-united-chiba-vs-v-varen-nagasaki-2026-10-11",
+   "home": "JEF United Chiba",
+   "away": "V-Varen Nagasaki",
+   "p_home": 0.352,
+   "p_draw": 0.255,
+   "p_away": 0.392,
+   "model_call": "Open game",
+   "score": "1-1",
+   "result": "Draw",
+   "called_it": false,
+   "p_on_result": 0.255,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 9,
+   "date_jst": "2026-10-11",
+   "site_match_slug": "mito-hollyhock-vs-shimizu-s-pulse-2026-10-11",
+   "home": "Mito HollyHock",
+   "away": "Shimizu S-Pulse",
+   "p_home": 0.336,
+   "p_draw": 0.28,
+   "p_away": 0.384,
+   "model_call": "Open game",
+   "score": "1-2",
+   "result": "Away win",
+   "called_it": true,
+   "p_on_result": 0.384,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 9,
+   "date_jst": "2026-10-11",
+   "site_match_slug": "tokyo-verdy-vs-sanfrecce-hiroshima-2026-10-11",
+   "home": "Tokyo Verdy",
+   "away": "Sanfrecce Hiroshima",
+   "p_home": 0.204,
+   "p_draw": 0.263,
+   "p_away": 0.533,
+   "model_call": "Lean Sanfrecce Hiroshima",
+   "score": "0-2",
+   "result": "Away win",
+   "called_it": true,
+   "p_on_result": 0.533,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 9,
+   "date_jst": "2026-10-11",
+   "site_match_slug": "kawasaki-frontale-vs-nagoya-grampus-2026-10-11",
+   "home": "Kawasaki Frontale",
+   "away": "Nagoya Grampus",
+   "p_home": 0.498,
+   "p_draw": 0.234,
+   "p_away": 0.268,
+   "model_call": "Lean Kawasaki Frontale",
+   "score": "1-2",
+   "result": "Away win",
+   "called_it": false,
+   "p_on_result": 0.268,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 10,
+   "date_jst": "2026-10-17",
+   "site_match_slug": "shimizu-s-pulse-vs-gamba-osaka-2026-10-17",
+   "home": "Shimizu S-Pulse",
+   "away": "Gamba Osaka",
+   "p_home": 0.381,
+   "p_draw": 0.272,
+   "p_away": 0.347,
+   "model_call": "Open game",
+   "score": "2-2",
+   "result": "Draw",
+   "called_it": false,
+   "p_on_result": 0.272,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 10,
+   "date_jst": "2026-10-17",
+   "site_match_slug": "jef-united-chiba-vs-yokohama-f-marinos-2026-10-17",
+   "home": "JEF United Chiba",
+   "away": "Yokohama F. Marinos",
+   "p_home": 0.278,
+   "p_draw": 0.247,
+   "p_away": 0.475,
+   "model_call": "Lean Yokohama F. Marinos",
+   "score": "0-0",
+   "result": "Draw",
+   "called_it": false,
+   "p_on_result": 0.247,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 10,
+   "date_jst": "2026-10-17",
+   "site_match_slug": "sanfrecce-hiroshima-vs-kyoto-sanga-2026-10-17",
+   "home": "Sanfrecce Hiroshima",
+   "away": "Kyoto Sanga",
+   "p_home": 0.579,
+   "p_draw": 0.231,
+   "p_away": 0.19,
+   "model_call": "Strong lean Sanfrecce Hiroshima",
+   "score": "3-0",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.579,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 10,
+   "date_jst": "2026-10-17",
+   "site_match_slug": "tokyo-verdy-vs-fc-tokyo-2026-10-17",
+   "home": "Tokyo Verdy",
+   "away": "FC Tokyo",
+   "p_home": 0.256,
+   "p_draw": 0.28,
+   "p_away": 0.465,
+   "model_call": "Lean FC Tokyo",
+   "score": "0-4",
+   "result": "Away win",
+   "called_it": true,
+   "p_on_result": 0.465,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 10,
+   "date_jst": "2026-10-17",
+   "site_match_slug": "cerezo-osaka-vs-kawasaki-frontale-2026-10-17",
+   "home": "Cerezo Osaka",
+   "away": "Kawasaki Frontale",
+   "p_home": 0.403,
+   "p_draw": 0.248,
+   "p_away": 0.349,
+   "model_call": "Open game",
+   "score": "2-4",
+   "result": "Away win",
+   "called_it": false,
+   "p_on_result": 0.349,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 10,
+   "date_jst": "2026-10-17",
+   "site_match_slug": "kashima-antlers-vs-v-varen-nagasaki-2026-10-17",
+   "home": "Kashima Antlers",
+   "away": "V-Varen Nagasaki",
+   "p_home": 0.594,
+   "p_draw": 0.222,
+   "p_away": 0.184,
+   "model_call": "Strong lean Kashima Antlers",
+   "score": "2-0",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.594,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 10,
+   "date_jst": "2026-10-17",
+   "site_match_slug": "mito-hollyhock-vs-urawa-red-diamonds-2026-10-17",
+   "home": "Mito HollyHock",
+   "away": "Urawa Red Diamonds",
+   "p_home": 0.29,
+   "p_draw": 0.265,
+   "p_away": 0.445,
+   "model_call": "Open game",
+   "score": "0-1",
+   "result": "Away win",
+   "called_it": true,
+   "p_on_result": 0.445,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 10,
+   "date_jst": "2026-10-17",
+   "site_match_slug": "kashiwa-reysol-vs-nagoya-grampus-2026-10-17",
+   "home": "Kashiwa Reysol",
+   "away": "Nagoya Grampus",
+   "p_home": 0.512,
+   "p_draw": 0.242,
+   "p_away": 0.246,
+   "model_call": "Lean Kashiwa Reysol",
+   "score": "1-3",
+   "result": "Away win",
+   "called_it": false,
+   "p_on_result": 0.246,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 10,
+   "date_jst": "2026-10-18",
+   "site_match_slug": "fagiano-okayama-vs-vissel-kobe-2026-10-18",
+   "home": "Fagiano Okayama",
+   "away": "Vissel Kobe",
+   "p_home": 0.283,
+   "p_draw": 0.279,
+   "p_away": 0.438,
+   "model_call": "Open game",
+   "score": "0-3",
+   "result": "Away win",
+   "called_it": true,
+   "p_on_result": 0.438,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 10,
+   "date_jst": "2026-10-18",
+   "site_match_slug": "machida-zelvia-vs-avispa-fukuoka-2026-10-18",
+   "home": "Machida Zelvia",
+   "away": "Avispa Fukuoka",
+   "p_home": 0.548,
+   "p_draw": 0.256,
+   "p_away": 0.197,
+   "model_call": "Lean Machida Zelvia",
+   "score": "3-0",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.548,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 11,
+   "date_jst": "2026-10-21",
+   "site_match_slug": "avispa-fukuoka-vs-gamba-osaka-2026-10-21",
+   "home": "Avispa Fukuoka",
+   "away": "Gamba Osaka",
+   "p_home": 0.349,
+   "p_draw": 0.279,
+   "p_away": 0.371,
+   "model_call": "Open game",
+   "score": "1-2",
+   "result": "Away win",
+   "called_it": true,
+   "p_on_result": 0.371,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 11,
+   "date_jst": "2026-10-21",
+   "site_match_slug": "fagiano-okayama-vs-mito-hollyhock-2026-10-21",
+   "home": "Fagiano Okayama",
+   "away": "Mito HollyHock",
+   "p_home": 0.475,
+   "p_draw": 0.269,
+   "p_away": 0.256,
+   "model_call": "Lean Fagiano Okayama",
+   "score": "2-0",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.475,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 11,
+   "date_jst": "2026-10-21",
+   "site_match_slug": "fc-tokyo-vs-kashiwa-reysol-2026-10-21",
+   "home": "FC Tokyo",
+   "away": "Kashiwa Reysol",
+   "p_home": 0.432,
+   "p_draw": 0.262,
+   "p_away": 0.305,
+   "model_call": "Open game",
+   "score": "0-0",
+   "result": "Draw",
+   "called_it": false,
+   "p_on_result": 0.262,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 11,
+   "date_jst": "2026-10-21",
+   "site_match_slug": "kawasaki-frontale-vs-vissel-kobe-2026-10-21",
+   "home": "Kawasaki Frontale",
+   "away": "Vissel Kobe",
+   "p_home": 0.331,
+   "p_draw": 0.254,
+   "p_away": 0.415,
+   "model_call": "Open game",
+   "score": "2-1",
+   "result": "Home win",
+   "called_it": false,
+   "p_on_result": 0.331,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 11,
+   "date_jst": "2026-10-21",
+   "site_match_slug": "kyoto-sanga-vs-kashima-antlers-2026-10-21",
+   "home": "Kyoto Sanga",
+   "away": "Kashima Antlers",
+   "p_home": 0.257,
+   "p_draw": 0.255,
+   "p_away": 0.487,
+   "model_call": "Lean Kashima Antlers",
+   "score": "2-2",
+   "result": "Draw",
+   "called_it": false,
+   "p_on_result": 0.255,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 11,
+   "date_jst": "2026-10-21",
+   "site_match_slug": "nagoya-grampus-vs-cerezo-osaka-2026-10-21",
+   "home": "Nagoya Grampus",
+   "away": "Cerezo Osaka",
+   "p_home": 0.392,
+   "p_draw": 0.258,
+   "p_away": 0.35,
+   "model_call": "Open game",
+   "score": "1-1",
+   "result": "Draw",
+   "called_it": false,
+   "p_on_result": 0.258,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 11,
+   "date_jst": "2026-10-21",
+   "site_match_slug": "shimizu-s-pulse-vs-machida-zelvia-2026-10-21",
+   "home": "Shimizu S-Pulse",
+   "away": "Machida Zelvia",
+   "p_home": 0.264,
+   "p_draw": 0.27,
+   "p_away": 0.467,
+   "model_call": "Lean Machida Zelvia",
+   "score": "0-5",
+   "result": "Away win",
+   "called_it": true,
+   "p_on_result": 0.467,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 11,
+   "date_jst": "2026-10-21",
+   "site_match_slug": "v-varen-nagasaki-vs-sanfrecce-hiroshima-2026-10-21",
+   "home": "V-Varen Nagasaki",
+   "away": "Sanfrecce Hiroshima",
+   "p_home": 0.215,
+   "p_draw": 0.241,
+   "p_away": 0.544,
+   "model_call": "Lean Sanfrecce Hiroshima",
+   "score": "4-0",
+   "result": "Home win",
+   "called_it": false,
+   "p_on_result": 0.215,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 11,
+   "date_jst": "2026-10-21",
+   "site_match_slug": "yokohama-f-marinos-vs-tokyo-verdy-2026-10-21",
+   "home": "Yokohama F. Marinos",
+   "away": "Tokyo Verdy",
+   "p_home": 0.539,
+   "p_draw": 0.252,
+   "p_away": 0.209,
+   "model_call": "Lean Yokohama F. Marinos",
+   "score": "2-2",
+   "result": "Draw",
+   "called_it": false,
+   "p_on_result": 0.252,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 11,
+   "date_jst": "2026-10-21",
+   "site_match_slug": "urawa-red-diamonds-vs-jef-united-chiba-2026-10-21",
+   "home": "Urawa Red Diamonds",
+   "away": "JEF United Chiba",
+   "p_home": 0.537,
+   "p_draw": 0.241,
+   "p_away": 0.221,
+   "model_call": "Lean Urawa Red Diamonds",
+   "score": "3-2",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.537,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 12,
+   "date_jst": "2026-10-24",
+   "site_match_slug": "sanfrecce-hiroshima-vs-shimizu-s-pulse-2026-10-24",
+   "home": "Sanfrecce Hiroshima",
+   "away": "Shimizu S-Pulse",
+   "p_home": 0.588,
+   "p_draw": 0.236,
+   "p_away": 0.176,
+   "model_call": "Strong lean Sanfrecce Hiroshima",
+   "score": "4-0",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.588,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 12,
+   "date_jst": "2026-10-24",
+   "site_match_slug": "kashima-antlers-vs-kashiwa-reysol-2026-10-24",
+   "home": "Kashima Antlers",
+   "away": "Kashiwa Reysol",
+   "p_home": 0.491,
+   "p_draw": 0.253,
+   "p_away": 0.255,
+   "model_call": "Lean Kashima Antlers",
+   "score": "2-3",
+   "result": "Away win",
+   "called_it": false,
+   "p_on_result": 0.255,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 12,
+   "date_jst": "2026-10-24",
+   "site_match_slug": "tokyo-verdy-vs-avispa-fukuoka-2026-10-24",
+   "home": "Tokyo Verdy",
+   "away": "Avispa Fukuoka",
+   "p_home": 0.344,
+   "p_draw": 0.306,
+   "p_away": 0.35,
+   "model_call": "Open game",
+   "score": "3-1",
+   "result": "Home win",
+   "called_it": false,
+   "p_on_result": 0.344,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 12,
+   "date_jst": "2026-10-24",
+   "site_match_slug": "vissel-kobe-vs-machida-zelvia-2026-10-24",
+   "home": "Vissel Kobe",
+   "away": "Machida Zelvia",
+   "p_home": 0.386,
+   "p_draw": 0.28,
+   "p_away": 0.334,
+   "model_call": "Open game",
+   "score": "0-0",
+   "result": "Draw",
+   "called_it": false,
+   "p_on_result": 0.28,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 12,
+   "date_jst": "2026-10-24",
+   "site_match_slug": "gamba-osaka-vs-kyoto-sanga-2026-10-24",
+   "home": "Gamba Osaka",
+   "away": "Kyoto Sanga",
+   "p_home": 0.435,
+   "p_draw": 0.257,
+   "p_away": 0.308,
+   "model_call": "Open game",
+   "score": "2-2",
+   "result": "Draw",
+   "called_it": false,
+   "p_on_result": 0.257,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 12,
+   "date_jst": "2026-10-25",
+   "site_match_slug": "nagoya-grampus-vs-yokohama-f-marinos-2026-10-25",
+   "home": "Nagoya Grampus",
+   "away": "Yokohama F. Marinos",
+   "p_home": 0.363,
+   "p_draw": 0.257,
+   "p_away": 0.38,
+   "model_call": "Open game",
+   "score": "1-1",
+   "result": "Draw",
+   "called_it": false,
+   "p_on_result": 0.257,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 12,
+   "date_jst": "2026-10-25",
+   "site_match_slug": "cerezo-osaka-vs-jef-united-chiba-2026-10-25",
+   "home": "Cerezo Osaka",
+   "away": "JEF United Chiba",
+   "p_home": 0.528,
+   "p_draw": 0.239,
+   "p_away": 0.233,
+   "model_call": "Lean Cerezo Osaka",
+   "score": "2-2",
+   "result": "Draw",
+   "called_it": false,
+   "p_on_result": 0.239,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 12,
+   "date_jst": "2026-10-25",
+   "site_match_slug": "urawa-red-diamonds-vs-v-varen-nagasaki-2026-10-25",
+   "home": "Urawa Red Diamonds",
+   "away": "V-Varen Nagasaki",
+   "p_home": 0.481,
+   "p_draw": 0.253,
+   "p_away": 0.267,
+   "model_call": "Lean Urawa Red Diamonds",
+   "score": "1-0",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.481,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 12,
+   "date_jst": "2026-10-25",
+   "site_match_slug": "fc-tokyo-vs-mito-hollyhock-2026-10-25",
+   "home": "FC Tokyo",
+   "away": "Mito HollyHock",
+   "p_home": 0.597,
+   "p_draw": 0.228,
+   "p_away": 0.175,
+   "model_call": "Strong lean FC Tokyo",
+   "score": "6-0",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.597,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 12,
+   "date_jst": "2026-10-25",
+   "site_match_slug": "kawasaki-frontale-vs-fagiano-okayama-2026-10-25",
+   "home": "Kawasaki Frontale",
+   "away": "Fagiano Okayama",
+   "p_home": 0.485,
+   "p_draw": 0.246,
+   "p_away": 0.268,
+   "model_call": "Lean Kawasaki Frontale",
+   "score": "2-1",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.485,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 13,
+   "date_jst": "2026-10-31",
+   "site_match_slug": "fagiano-okayama-vs-fc-tokyo-2026-10-31",
+   "home": "Fagiano Okayama",
+   "away": "FC Tokyo",
+   "p_home": 0.285,
+   "p_draw": 0.275,
+   "p_away": 0.44,
+   "model_call": "Open game",
+   "score": "0-4",
+   "result": "Away win",
+   "called_it": true,
+   "p_on_result": 0.44,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 13,
+   "date_jst": "2026-10-31",
+   "site_match_slug": "kyoto-sanga-vs-shimizu-s-pulse-2026-10-31",
+   "home": "Kyoto Sanga",
+   "away": "Shimizu S-Pulse",
+   "p_home": 0.45,
+   "p_draw": 0.262,
+   "p_away": 0.288,
+   "model_call": "Lean Kyoto Sanga",
+   "score": "2-0",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.45,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 13,
+   "date_jst": "2026-10-31",
+   "site_match_slug": "mito-hollyhock-vs-sanfrecce-hiroshima-2026-10-31",
+   "home": "Mito HollyHock",
+   "away": "Sanfrecce Hiroshima",
+   "p_home": 0.167,
+   "p_draw": 0.223,
+   "p_away": 0.611,
+   "model_call": "Strong lean Sanfrecce Hiroshima",
+   "score": "0-3",
+   "result": "Away win",
+   "called_it": true,
+   "p_on_result": 0.611,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 13,
+   "date_jst": "2026-10-31",
+   "site_match_slug": "kashima-antlers-vs-cerezo-osaka-2026-10-31",
+   "home": "Kashima Antlers",
+   "away": "Cerezo Osaka",
+   "p_home": 0.541,
+   "p_draw": 0.239,
+   "p_away": 0.219,
+   "model_call": "Lean Kashima Antlers",
+   "score": "4-1",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.541,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 13,
+   "date_jst": "2026-10-31",
+   "site_match_slug": "vissel-kobe-vs-nagoya-grampus-2026-10-31",
+   "home": "Vissel Kobe",
+   "away": "Nagoya Grampus",
+   "p_home": 0.538,
+   "p_draw": 0.245,
+   "p_away": 0.217,
+   "model_call": "Lean Vissel Kobe",
+   "score": "3-1",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.538,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 13,
+   "date_jst": "2026-10-31",
+   "site_match_slug": "kashiwa-reysol-vs-urawa-red-diamonds-2026-10-31",
+   "home": "Kashiwa Reysol",
+   "away": "Urawa Red Diamonds",
+   "p_home": 0.446,
+   "p_draw": 0.261,
+   "p_away": 0.294,
+   "model_call": "Open game",
+   "score": "4-0",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.446,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 13,
+   "date_jst": "2026-11-01",
+   "site_match_slug": "yokohama-f-marinos-vs-kawasaki-frontale-2026-11-01",
+   "home": "Yokohama F. Marinos",
+   "away": "Kawasaki Frontale",
+   "p_home": 0.407,
+   "p_draw": 0.246,
+   "p_away": 0.347,
+   "model_call": "Open game",
+   "score": "4-2",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.407,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 13,
+   "date_jst": "2026-11-01",
+   "site_match_slug": "jef-united-chiba-vs-avispa-fukuoka-2026-11-01",
+   "home": "JEF United Chiba",
+   "away": "Avispa Fukuoka",
+   "p_home": 0.371,
+   "p_draw": 0.278,
+   "p_away": 0.351,
+   "model_call": "Open game",
+   "score": "3-0",
+   "result": "Home win",
+   "called_it": true,
+   "p_on_result": 0.371,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 13,
+   "date_jst": "2026-11-01",
+   "site_match_slug": "v-varen-nagasaki-vs-tokyo-verdy-2026-11-01",
+   "home": "V-Varen Nagasaki",
+   "away": "Tokyo Verdy",
+   "p_home": 0.454,
+   "p_draw": 0.27,
+   "p_away": 0.276,
+   "model_call": "Lean V-Varen Nagasaki",
+   "score": "1-2",
+   "result": "Away win",
+   "called_it": false,
+   "p_on_result": 0.276,
+   "forecast_source": "backtest"
+  },
+  {
+   "round": 13,
+   "date_jst": "2026-11-01",
+   "site_match_slug": "machida-zelvia-vs-gamba-osaka-2026-11-01",
+   "home": "Machida Zelvia",
+   "away": "Gamba Osaka",
+   "p_home": 0.554,
+   "p_draw": 0.238,
+   "p_away": 0.208,
+   "model_call": "Strong lean Machida Zelvia",
+   "score": "0-0",
+   "result": "Draw",
+   "called_it": false,
+   "p_on_result": 0.238,
+   "forecast_source": "backtest"
+  }
+ ],
+ "credit": "Forecasts: J League Scout. Results data from the official J.League sites, compiled by mokekuma-git/JLeague_Matches-Bar_Graph (CC BY 4.0) and k-addtimes/jleague_open_data (MIT)."
+}
