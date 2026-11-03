@@ -1,6 +1,6 @@
 {
  "schema": "jls-forecast-feed/1",
- "created_utc": "2026-11-03T09:58:16Z",
+ "created_utc": "2026-11-03T20:18:53Z",
  "data_through_jst": "2026-11-03 14:53",
  "model": {
   "name": "J League Scout forecaster",
@@ -145,12 +145,12 @@
  "market_odds": {
   "available": true,
   "source": "The Odds API",
-  "fetched_utc": "2026-11-03T09:58:09Z",
+  "fetched_utc": "2026-11-03T20:18:45Z",
   "regions": "eu",
   "events_in_snapshot": 10,
   "matched_fixtures": 10,
   "unmatched_names": [],
-  "quota_remaining": "488",
+  "quota_remaining": "486",
   "method": "Average over bookmakers of implied probabilities with the margin removed proportionally; best = highest decimal price."
  },
  "model_v_market": {
@@ -3032,7 +3032,7 @@
       "p_home": 0.418,
       "p_draw": 0.298,
       "p_away": 0.284,
-      "p_over_2_5": 0.403,
+      "p_over_2_5": 0.402,
       "model_minus_market": {
        "home": -0.013,
        "draw": -0.009,
@@ -3210,7 +3210,7 @@
       "p_home": 0.359,
       "p_draw": 0.282,
       "p_away": 0.359,
-      "p_over_2_5": 0.504,
+      "p_over_2_5": 0.506,
       "model_minus_market": {
        "home": 0.138,
        "draw": -0.026,
@@ -3376,23 +3376,23 @@
      },
      "adjustments": [],
      "market": {
-      "p_home": 0.467,
-      "p_draw": 0.276,
-      "p_away": 0.258,
-      "p_over_2_5": 0.472,
+      "p_home": 0.465,
+      "p_draw": 0.277,
+      "p_away": 0.257,
+      "p_over_2_5": 0.462,
       "model_minus_market": {
-       "home": -0.095,
-       "draw": 0.001,
-       "away": 0.094
+       "home": -0.094,
+       "draw": -0.001,
+       "away": 0.095
       },
       "best_price": {
        "home": {
-        "price": 2.05,
-        "bookmaker": "Coolbet"
+        "price": 2.06,
+        "bookmaker": "BetOnline.ag"
        },
        "draw": {
-        "price": 3.6,
-        "bookmaker": "1xBet"
+        "price": 3.5,
+        "bookmaker": "Coolbet"
        },
        "away": {
         "price": 3.85,
@@ -3474,13 +3474,13 @@
      ],
      "market": {
       "p_home": 0.429,
-      "p_draw": 0.248,
-      "p_away": 0.323,
+      "p_draw": 0.249,
+      "p_away": 0.322,
       "p_over_2_5": 0.637,
       "model_minus_market": {
        "home": -0.059,
-       "draw": -0.003,
-       "away": 0.062
+       "draw": -0.004,
+       "away": 0.063
       },
       "best_price": {
        "home": {
