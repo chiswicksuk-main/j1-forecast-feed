@@ -1,6 +1,6 @@
 {
  "schema": "jls-forecast-feed/1",
- "created_utc": "2026-11-04T10:22:07Z",
+ "created_utc": "2026-11-04T10:52:12Z",
  "data_through_jst": "2026-11-03 14:53",
  "model": {
   "name": "J League Scout forecaster",
@@ -145,12 +145,12 @@
  "market_odds": {
   "available": true,
   "source": "The Odds API",
-  "fetched_utc": "2026-11-04T10:22:01Z",
+  "fetched_utc": "2026-11-04T10:52:04Z",
   "regions": "eu",
   "events_in_snapshot": 10,
   "matched_fixtures": 10,
   "unmatched_names": [],
-  "quota_remaining": "480",
+  "quota_remaining": "478",
   "method": "Average over bookmakers of implied probabilities with the margin removed proportionally; best = highest decimal price."
  },
  "model_v_market": {
@@ -3036,7 +3036,7 @@
       "model_minus_market": {
        "home": -0.011,
        "draw": -0.01,
-       "away": 0.022
+       "away": 0.021
       },
       "best_price": {
        "home": {
@@ -3207,14 +3207,14 @@
       }
      ],
      "market": {
-      "p_home": 0.36,
+      "p_home": 0.361,
       "p_draw": 0.281,
-      "p_away": 0.359,
-      "p_over_2_5": 0.505,
+      "p_away": 0.358,
+      "p_over_2_5": 0.506,
       "model_minus_market": {
-       "home": 0.137,
+       "home": 0.136,
        "draw": -0.025,
-       "away": -0.111
+       "away": -0.11
       },
       "best_price": {
        "home": {
