@@ -1,6 +1,6 @@
 {
  "schema": "jls-forecast-feed/1",
- "created_utc": "2026-11-04T10:52:12Z",
+ "created_utc": "2026-11-04T20:33:56Z",
  "data_through_jst": "2026-11-03 14:53",
  "model": {
   "name": "J League Scout forecaster",
@@ -145,12 +145,12 @@
  "market_odds": {
   "available": true,
   "source": "The Odds API",
-  "fetched_utc": "2026-11-04T10:52:04Z",
+  "fetched_utc": "2026-11-04T20:33:49Z",
   "regions": "eu",
   "events_in_snapshot": 10,
   "matched_fixtures": 10,
   "unmatched_names": [],
-  "quota_remaining": "478",
+  "quota_remaining": "476",
   "method": "Average over bookmakers of implied probabilities with the margin removed proportionally; best = highest decimal price."
  },
  "model_v_market": {
@@ -3030,7 +3030,7 @@
      "adjustments": [],
      "market": {
       "p_home": 0.416,
-      "p_draw": 0.299,
+      "p_draw": 0.298,
       "p_away": 0.285,
       "p_over_2_5": 0.402,
       "model_minus_market": {
@@ -3118,14 +3118,14 @@
       }
      ],
      "market": {
-      "p_home": 0.502,
+      "p_home": 0.503,
       "p_draw": 0.253,
       "p_away": 0.245,
       "p_over_2_5": 0.565,
       "model_minus_market": {
        "home": -0.034,
        "draw": -0.005,
-       "away": 0.038
+       "away": 0.039
       },
       "best_price": {
        "home": {
@@ -3207,27 +3207,27 @@
       }
      ],
      "market": {
-      "p_home": 0.361,
-      "p_draw": 0.281,
-      "p_away": 0.358,
-      "p_over_2_5": 0.506,
+      "p_home": 0.368,
+      "p_draw": 0.278,
+      "p_away": 0.354,
+      "p_over_2_5": 0.509,
       "model_minus_market": {
-       "home": 0.136,
-       "draw": -0.025,
-       "away": -0.11
+       "home": 0.128,
+       "draw": -0.023,
+       "away": -0.106
       },
       "best_price": {
        "home": {
-        "price": 2.69,
-        "bookmaker": "1xBet"
+        "price": 2.65,
+        "bookmaker": "Unibet (NL)"
        },
        "draw": {
         "price": 3.5,
         "bookmaker": "Coolbet"
        },
        "away": {
-        "price": 2.7,
-        "bookmaker": "Tipico"
+        "price": 2.75,
+        "bookmaker": "Pinnacle"
        }
       },
       "bookmakers": 18
@@ -3379,7 +3379,7 @@
       "p_home": 0.459,
       "p_draw": 0.279,
       "p_away": 0.262,
-      "p_over_2_5": 0.461,
+      "p_over_2_5": 0.459,
       "model_minus_market": {
        "home": -0.088,
        "draw": -0.002,
@@ -3387,8 +3387,8 @@
       },
       "best_price": {
        "home": {
-        "price": 2.12,
-        "bookmaker": "BetOnline.ag"
+        "price": 2.14,
+        "bookmaker": "Betfair"
        },
        "draw": {
         "price": 3.49,
