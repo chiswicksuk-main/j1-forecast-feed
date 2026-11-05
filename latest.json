@@ -1,6 +1,6 @@
 {
  "schema": "jls-forecast-feed/1",
- "created_utc": "2026-11-05T21:21:08Z",
+ "created_utc": "2026-11-05T21:26:52Z",
  "data_through_jst": "2026-11-03 14:53",
  "model": {
   "name": "J League Scout forecaster",
@@ -158,8 +158,8 @@
   "method": "Average over bookmakers of implied probabilities with the margin removed proportionally; best = highest decimal price."
  },
  "status": {
-  "model_run_utc": "2026-11-05T21:21:08Z",
-  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/42111510565",
+  "model_run_utc": "2026-11-05T21:26:52Z",
+  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/42112397400",
   "odds_fetched_utc": "2026-11-05T10:50:31Z",
   "odds_note": null,
   "team_news_sync": {
@@ -3325,15 +3325,15 @@
      "kickoff_jst": "15:00",
      "venue_ja": "味スタ",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.397,
-     "p_draw": 0.27,
-     "p_away": 0.333,
+     "p_home": 0.38,
+     "p_draw": 0.271,
+     "p_away": 0.349,
      "lean": "Open game",
-     "home_xg": 1.31,
-     "away_xg": 1.18,
-     "home_clean_sheet": 0.307,
-     "away_clean_sheet": 0.269,
-     "p_over_2_5": 0.454,
+     "home_xg": 1.28,
+     "away_xg": 1.21,
+     "home_clean_sheet": 0.298,
+     "away_clean_sheet": 0.279,
+     "p_over_2_5": 0.453,
      "p_btts": 0.506,
      "likely_scores": [
       {
@@ -3350,8 +3350,8 @@
       }
      ],
      "p_home_range80": [
-      0.357,
-      0.439
+      0.341,
+      0.421
      ],
      "confidence": "medium",
      "results_only": {
@@ -3379,9 +3379,9 @@
       {
        "side": "away",
        "team_id": "kashima_antlers",
-       "elo": -15.0,
+       "elo": -10.0,
        "category": "acl_congestion",
-       "reason": "ACL Elite match 3 days earlier (A v Buriram United; rotation not recorded, 4,392 km away trip)",
+       "reason": "ACL Elite match 3 days earlier (A v Buriram United; 5-6 starters rested, 4,392 km away trip)",
        "source": "reference/acl_2026_27.csv; base effect src/audit/acl_effect.py, bands D-035"
       },
       {
@@ -3407,9 +3407,9 @@
       "p_away": 0.274,
       "p_over_2_5": 0.556,
       "model_minus_market": {
-       "home": -0.064,
-       "draw": 0.005,
-       "away": 0.059
+       "home": -0.081,
+       "draw": 0.006,
+       "away": 0.075
       },
       "best_price": {
        "home": {
