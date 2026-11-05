@@ -1,6 +1,6 @@
 {
  "schema": "jls-forecast-feed/1",
- "created_utc": "2026-11-05T10:50:39Z",
+ "created_utc": "2026-11-05T11:55:32Z",
  "data_through_jst": "2026-11-03 14:53",
  "model": {
   "name": "J League Scout forecaster",
@@ -136,6 +136,10 @@
     "source": "backtest"
    }
   ],
+  "team_news_test": {
+   "matches": 0,
+   "note": "No finished match with a published team news adjustment yet (first: round 14)."
+  },
   "tested_2021_to_now": {
    "matches": 4472,
    "model_rps": 0.2194,
@@ -152,6 +156,14 @@
   "unmatched_names": [],
   "quota_remaining": "470",
   "method": "Average over bookmakers of implied probabilities with the margin removed proportionally; best = highest decimal price."
+ },
+ "status": {
+  "model_run_utc": "2026-11-05T11:55:32Z",
+  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/42022589200",
+  "odds_fetched_utc": "2026-11-05T10:50:31Z",
+  "odds_note": null,
+  "team_news_sync": null,
+  "adjustment_warnings": []
  },
  "model_v_market": {
   "source": "Closing odds: football-data.co.uk (market average, margin removed)",
