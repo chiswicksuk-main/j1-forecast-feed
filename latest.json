@@ -1,6 +1,6 @@
 {
  "schema": "jls-forecast-feed/1",
- "created_utc": "2026-11-05T11:55:32Z",
+ "created_utc": "2026-11-05T12:02:42Z",
  "data_through_jst": "2026-11-03 14:53",
  "model": {
   "name": "J League Scout forecaster",
@@ -158,11 +158,16 @@
   "method": "Average over bookmakers of implied probabilities with the margin removed proportionally; best = highest decimal price."
  },
  "status": {
-  "model_run_utc": "2026-11-05T11:55:32Z",
-  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/42022589200",
+  "model_run_utc": "2026-11-05T12:02:42Z",
+  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/42023513747",
   "odds_fetched_utc": "2026-11-05T10:50:31Z",
   "odds_note": null,
-  "team_news_sync": null,
+  "team_news_sync": {
+   "run_utc": "2026-11-05T11:59:04Z",
+   "result": "ok",
+   "round": 14,
+   "error": null
+  },
   "adjustment_warnings": []
  },
  "model_v_market": {
@@ -3691,16 +3696,16 @@
      "kickoff_jst": "15:00",
      "venue_ja": "パナスタ",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.422,
-     "p_draw": 0.257,
-     "p_away": 0.321,
-     "lean": "Open game",
-     "home_xg": 1.45,
-     "away_xg": 1.23,
-     "home_clean_sheet": 0.291,
-     "away_clean_sheet": 0.233,
-     "p_over_2_5": 0.504,
-     "p_btts": 0.543,
+     "p_home": 0.457,
+     "p_draw": 0.253,
+     "p_away": 0.29,
+     "lean": "Lean Gamba Osaka",
+     "home_xg": 1.53,
+     "away_xg": 1.17,
+     "home_clean_sheet": 0.311,
+     "away_clean_sheet": 0.216,
+     "p_over_2_5": 0.506,
+     "p_btts": 0.54,
      "likely_scores": [
       {
        "score": "1-1",
@@ -3716,8 +3721,8 @@
       }
      ],
      "p_home_range80": [
-      0.376,
-      0.465
+      0.41,
+      0.5
      ],
      "confidence": "medium",
      "results_only": {
@@ -3737,9 +3742,9 @@
       {
        "side": "away",
        "team_id": "cerezo_osaka",
-       "elo": -10.0,
+       "elo": -20.0,
        "category": "team_news",
-       "reason": "Hatanaka Shinnosuke out",
+       "reason": "Hatanaka Shinnosuke out (key player)",
        "source": "Matsu GW sheet / Knowledge Hub"
       }
      ],
@@ -3749,9 +3754,9 @@
       "p_away": 0.317,
       "p_over_2_5": 0.569,
       "model_minus_market": {
-       "home": 0.006,
-       "draw": -0.01,
-       "away": 0.004
+       "home": 0.04,
+       "draw": -0.013,
+       "away": -0.027
       },
       "best_price": {
        "home": {
@@ -3780,7 +3785,7 @@
      "kickoff_jst": "17:00",
      "venue_ja": "フクアリ",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.497,
+     "p_home": 0.498,
      "p_draw": 0.251,
      "p_away": 0.252,
      "lean": "Lean JEF United Chiba",
@@ -3789,7 +3794,7 @@
      "home_clean_sheet": 0.349,
      "away_clean_sheet": 0.205,
      "p_over_2_5": 0.491,
-     "p_btts": 0.518,
+     "p_btts": 0.517,
      "likely_scores": [
       {
        "score": "1-1",
@@ -3805,8 +3810,8 @@
       }
      ],
      "p_home_range80": [
-      0.453,
-      0.536
+      0.454,
+      0.537
      ],
      "confidence": "medium",
      "results_only": {
@@ -3834,15 +3839,15 @@
       {
        "side": "away",
        "team_id": "mito_hollyhock",
-       "elo": -6.0,
+       "elo": -7.5,
        "category": "team_news",
-       "reason": "Mase Takumi out",
+       "reason": "Mase Takumi out (key player)",
        "source": "official: https://www.jleague.jp/news/article/35271/"
       },
       {
        "side": "away",
        "team_id": "mito_hollyhock",
-       "elo": -6.0,
+       "elo": -3.8,
        "category": "team_news",
        "reason": "Uchino Kotaro out",
        "source": "official: https://www.mito-hollyhock.net/news/p=55377/"
@@ -3850,7 +3855,7 @@
       {
        "side": "away",
        "team_id": "mito_hollyhock",
-       "elo": -6.0,
+       "elo": -3.8,
        "category": "team_news",
        "reason": "Kawazura Akinari out",
        "source": "Matsu GW sheet / Knowledge Hub"
@@ -3858,17 +3863,17 @@
       {
        "side": "away",
        "team_id": "mito_hollyhock",
-       "elo": -6.0,
+       "elo": -7.5,
        "category": "team_news",
-       "reason": "Torikai Yoshiki out",
+       "reason": "Torikai Yoshiki out (key player)",
        "source": "Matsu GW sheet / Knowledge Hub"
       },
       {
        "side": "away",
        "team_id": "mito_hollyhock",
-       "elo": -6.0,
+       "elo": -7.5,
        "category": "team_news",
-       "reason": "Watanabe Arata out",
+       "reason": "Watanabe Arata out (key player)",
        "source": "Matsu GW sheet / Knowledge Hub"
       }
      ],
@@ -3878,7 +3883,7 @@
       "p_away": 0.273,
       "p_over_2_5": 0.48,
       "model_minus_market": {
-       "home": 0.049,
+       "home": 0.05,
        "draw": -0.029,
        "away": -0.021
       },
