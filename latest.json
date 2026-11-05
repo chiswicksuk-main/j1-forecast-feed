@@ -1,6 +1,6 @@
 {
  "schema": "jls-forecast-feed/1",
- "created_utc": "2026-11-05T14:17:47Z",
+ "created_utc": "2026-11-05T14:42:20Z",
  "data_through_jst": "2026-11-03 14:53",
  "model": {
   "name": "J League Scout forecaster",
@@ -158,12 +158,12 @@
   "method": "Average over bookmakers of implied probabilities with the margin removed proportionally; best = highest decimal price."
  },
  "status": {
-  "model_run_utc": "2026-11-05T14:17:47Z",
-  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/42043443010",
+  "model_run_utc": "2026-11-05T14:42:20Z",
+  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/42047229569",
   "odds_fetched_utc": "2026-11-05T10:50:31Z",
   "odds_note": null,
   "team_news_sync": {
-   "run_utc": "2026-11-05T11:59:04Z",
+   "run_utc": "2026-11-05T14:19:52Z",
    "result": "ok",
    "round": 14,
    "error": null
@@ -3745,33 +3745,33 @@
      "kickoff_jst": "14:00",
      "venue_ja": "MUFG国立",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.569,
-     "p_draw": 0.239,
-     "p_away": 0.192,
-     "lean": "Strong lean Vissel Kobe",
-     "home_xg": 1.7,
-     "away_xg": 0.88,
-     "home_clean_sheet": 0.415,
-     "away_clean_sheet": 0.182,
-     "p_over_2_5": 0.477,
+     "p_home": 0.463,
+     "p_draw": 0.269,
+     "p_away": 0.268,
+     "lean": "Lean Vissel Kobe",
+     "home_xg": 1.41,
+     "away_xg": 1.0,
+     "home_clean_sheet": 0.367,
+     "away_clean_sheet": 0.245,
+     "p_over_2_5": 0.433,
      "p_btts": 0.478,
      "likely_scores": [
+      {
+       "score": "1-1",
+       "p": 0.13
+      },
       {
        "score": "1-0",
        "p": 0.13
       },
       {
-       "score": "1-1",
-       "p": 0.11
-      },
-      {
-       "score": "2-0",
-       "p": 0.11
+       "score": "0-1",
+       "p": 0.09
       }
      ],
      "p_home_range80": [
-      0.528,
-      0.612
+      0.422,
+      0.51
      ],
      "confidence": "medium",
      "results_only": {
@@ -3787,6 +3787,14 @@
        "category": "team_news",
        "reason": "Takahashi Issei doubtful",
        "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "away",
+       "team_id": "urawa_red_diamonds",
+       "elo": 30.0,
+       "category": "other",
+       "reason": "Kobe home game at MUFG National Stadium, Tokyo: home advantage cut from +60 to +30 (applied as +30 to Urawa)",
+       "source": "Matsu instruction 5 Nov 2026"
       },
       {
        "side": "away",
@@ -3811,9 +3819,9 @@
       "p_away": 0.288,
       "p_over_2_5": 0.526,
       "model_minus_market": {
-       "home": 0.129,
-       "draw": -0.034,
-       "away": -0.095
+       "home": 0.023,
+       "draw": -0.004,
+       "away": -0.019
       },
       "best_price": {
        "home": {
