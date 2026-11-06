@@ -1,6 +1,6 @@
 {
  "schema": "jls-forecast-feed/1",
- "created_utc": "2026-11-06T14:39:28Z",
+ "created_utc": "2026-11-06T16:26:31Z",
  "data_through_jst": "2026-11-03 14:53",
  "model": {
   "name": "J League Scout forecaster",
@@ -158,12 +158,12 @@
   "method": "Average over bookmakers of implied probabilities with the margin removed proportionally; best = highest decimal price."
  },
  "status": {
-  "model_run_utc": "2026-11-06T14:39:28Z",
-  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/42235717017",
+  "model_run_utc": "2026-11-06T16:26:31Z",
+  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/42252102902",
   "odds_fetched_utc": "2026-11-06T14:39:23Z",
   "odds_note": null,
   "team_news_sync": {
-   "run_utc": "2026-11-06T14:37:12Z",
+   "run_utc": "2026-11-06T14:50:38Z",
    "result": "ok",
    "round": 14,
    "error": null
@@ -2994,6 +2994,21 @@
   "note": "p_home/p_draw/p_away include the listed adjustments; results_only is the model before them. Season odds use results only.",
   "acl_elo": -10.0,
   "acl_window_days": 4,
+  "acl_note": "ACL congestion is no longer a flat figure (D-035). acl_elo is the full-strength case; a club that rotated gets less and a long away trip adds more, so a match can carry 0, -5, -10 or -15. Each match's own figure and reason are in its adjustments list; use those, not this number.",
+  "acl_bands": {
+   "full_strength": -10.0,
+   "part_rotation": -5.0,
+   "heavy_rotation": 0.0,
+   "long_away_trip_extra": -5.0,
+   "long_trip_km": 1600
+  },
+  "player_importance": {
+   "note": "A player's absence is scaled by how important he is (D-037).",
+   "star": 2.0,
+   "key": 1.0,
+   "squad": 0.5,
+   "fringe": 0.25
+  },
   "warnings": []
  },
  "rounds": [
@@ -3212,16 +3227,16 @@
      "kickoff_jst": "14:00",
      "venue_ja": "日産ス",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.444,
-     "p_draw": 0.266,
-     "p_away": 0.29,
+     "p_home": 0.426,
+     "p_draw": 0.269,
+     "p_away": 0.305,
      "lean": "Open game",
-     "home_xg": 1.41,
-     "away_xg": 1.08,
-     "home_clean_sheet": 0.338,
-     "away_clean_sheet": 0.245,
-     "p_over_2_5": 0.454,
-     "p_btts": 0.5,
+     "home_xg": 1.36,
+     "away_xg": 1.11,
+     "home_clean_sheet": 0.329,
+     "away_clean_sheet": 0.256,
+     "p_over_2_5": 0.45,
+     "p_btts": 0.499,
      "likely_scores": [
       {
        "score": "1-1",
@@ -3229,7 +3244,7 @@
       },
       {
        "score": "1-0",
-       "p": 0.12
+       "p": 0.11
       },
       {
        "score": "0-1",
@@ -3237,8 +3252,8 @@
       }
      ],
      "p_home_range80": [
-      0.405,
-      0.488
+      0.387,
+      0.47
      ],
      "confidence": "medium",
      "results_only": {
@@ -3250,7 +3265,7 @@
       {
        "side": "home",
        "team_id": "yokohama_f_marinos",
-       "elo": -10.0,
+       "elo": -8.6,
        "category": "team_news",
        "reason": "Chinen Kei out",
        "source": "Matsu GW sheet / Knowledge Hub"
@@ -3258,17 +3273,9 @@
       {
        "side": "home",
        "team_id": "yokohama_f_marinos",
-       "elo": -5.0,
+       "elo": -4.3,
        "category": "team_news",
        "reason": "Amano Jun doubtful",
-       "source": "Matsu GW sheet / Knowledge Hub"
-      },
-      {
-       "side": "home",
-       "team_id": "yokohama_f_marinos",
-       "elo": -10.0,
-       "category": "team_news",
-       "reason": "Squad news",
        "source": "Matsu GW sheet / Knowledge Hub"
       },
       {
@@ -3278,6 +3285,14 @@
        "category": "team_news",
        "reason": "Omori Hiroshi out",
        "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "yokohama_f_marinos",
+       "elo": -17.2,
+       "category": "team_news",
+       "reason": "Squad news (2 players)",
+       "source": "Matsu GW sheet / Knowledge Hub"
       }
      ],
      "market": {
@@ -3286,9 +3301,9 @@
       "p_away": 0.345,
       "p_over_2_5": 0.512,
       "model_minus_market": {
-       "home": 0.065,
-       "draw": -0.011,
-       "away": -0.055
+       "home": 0.048,
+       "draw": -0.008,
+       "away": -0.04
       },
       "best_price": {
        "home": {
@@ -3540,7 +3555,7 @@
       {
        "side": "home",
        "team_id": "kashiwa_reysol",
-       "elo": -7.5,
+       "elo": -6.0,
        "category": "team_news",
        "reason": "Baba Seiya out",
        "source": "official: https://www.reysol.co.jp/news/topteam/post-1131.html"
@@ -3548,7 +3563,7 @@
       {
        "side": "home",
        "team_id": "kashiwa_reysol",
-       "elo": -7.5,
+       "elo": -6.0,
        "category": "team_news",
        "reason": "Kumasaka Koki out",
        "source": "official: https://www.reysol.co.jp/news/topteam/post-1128.html"
@@ -3556,9 +3571,17 @@
       {
        "side": "home",
        "team_id": "kashiwa_reysol",
-       "elo": -15.0,
+       "elo": -12.0,
        "category": "team_news",
        "reason": "Kojima Ryosuke out (key player)",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "kashiwa_reysol",
+       "elo": -6.0,
+       "category": "team_news",
+       "reason": "Segawa Yusuke doubtful (key player)",
        "source": "Matsu GW sheet / Knowledge Hub"
       }
      ],
@@ -3825,16 +3848,16 @@
      "kickoff_jst": "15:00",
      "venue_ja": "パナスタ",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.422,
-     "p_draw": 0.257,
-     "p_away": 0.321,
+     "p_home": 0.439,
+     "p_draw": 0.255,
+     "p_away": 0.305,
      "lean": "Open game",
-     "home_xg": 1.45,
-     "away_xg": 1.23,
-     "home_clean_sheet": 0.291,
-     "away_clean_sheet": 0.233,
+     "home_xg": 1.49,
+     "away_xg": 1.2,
+     "home_clean_sheet": 0.301,
+     "away_clean_sheet": 0.225,
      "p_over_2_5": 0.504,
-     "p_btts": 0.543,
+     "p_btts": 0.541,
      "likely_scores": [
       {
        "score": "1-1",
@@ -3850,8 +3873,8 @@
       }
      ],
      "p_home_range80": [
-      0.376,
-      0.465
+      0.393,
+      0.482
      ],
      "confidence": "medium",
      "results_only": {
@@ -3889,6 +3912,14 @@
        "team_id": "cerezo_osaka",
        "elo": -5.0,
        "category": "team_news",
+       "reason": "Squad news",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "away",
+       "team_id": "cerezo_osaka",
+       "elo": -5.0,
+       "category": "team_news",
        "reason": "Kagawa Shinji doubtful",
        "source": "Matsu GW sheet / Knowledge Hub"
       },
@@ -3907,9 +3938,9 @@
       "p_away": 0.32,
       "p_over_2_5": 0.569,
       "model_minus_market": {
-       "home": 0.01,
-       "draw": -0.01,
-       "away": 0.0
+       "home": 0.027,
+       "draw": -0.012,
+       "away": -0.015
       },
       "best_price": {
        "home": {
