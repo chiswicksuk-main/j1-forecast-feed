@@ -1,6 +1,6 @@
 {
  "schema": "jls-forecast-feed/1",
- "created_utc": "2026-11-06T00:34:27Z",
+ "created_utc": "2026-11-06T08:43:29Z",
  "data_through_jst": "2026-11-03 14:53",
  "model": {
   "name": "J League Scout forecaster",
@@ -149,21 +149,21 @@
  "market_odds": {
   "available": true,
   "source": "The Odds API",
-  "fetched_utc": "2026-11-06T00:34:21Z",
+  "fetched_utc": "2026-11-06T08:43:22Z",
   "regions": "eu",
   "events_in_snapshot": 10,
   "matched_fixtures": 10,
   "unmatched_names": [],
-  "quota_remaining": "468",
+  "quota_remaining": "466",
   "method": "Average over bookmakers of implied probabilities with the margin removed proportionally; best = highest decimal price."
  },
  "status": {
-  "model_run_utc": "2026-11-06T00:34:27Z",
-  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/42137569264",
-  "odds_fetched_utc": "2026-11-06T00:34:21Z",
+  "model_run_utc": "2026-11-06T08:43:29Z",
+  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/42189545306",
+  "odds_fetched_utc": "2026-11-06T08:43:22Z",
   "odds_note": null,
   "team_news_sync": {
-   "run_utc": "2026-11-06T00:31:08Z",
+   "run_utc": "2026-11-06T08:40:41Z",
    "result": "ok",
    "round": 14,
    "error": null
@@ -3010,16 +3010,16 @@
      "kickoff_jst": "13:00",
      "venue_ja": "アイスタ",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.457,
-     "p_draw": 0.281,
-     "p_away": 0.262,
+     "p_home": 0.492,
+     "p_draw": 0.274,
+     "p_away": 0.234,
      "lean": "Lean Shimizu S-Pulse",
-     "home_xg": 1.31,
-     "away_xg": 0.92,
-     "home_clean_sheet": 0.398,
-     "away_clean_sheet": 0.269,
-     "p_over_2_5": 0.387,
-     "p_btts": 0.44,
+     "home_xg": 1.4,
+     "away_xg": 0.87,
+     "home_clean_sheet": 0.419,
+     "away_clean_sheet": 0.248,
+     "p_over_2_5": 0.395,
+     "p_btts": 0.437,
      "likely_scores": [
       {
        "score": "1-0",
@@ -3031,12 +3031,12 @@
       },
       {
        "score": "0-0",
-       "p": 0.11
+       "p": 0.1
       }
      ],
      "p_home_range80": [
-      0.421,
-      0.5
+      0.456,
+      0.536
      ],
      "confidence": "higher",
      "results_only": {
@@ -3070,28 +3070,28 @@
        "source": "Matsu GW sheet / Knowledge Hub"
       },
       {
-       "side": "home",
-       "team_id": "shimizu_s_pulse",
-       "elo": -20.0,
+       "side": "away",
+       "team_id": "tokyo_verdy",
+       "elo": -10.0,
        "category": "team_news",
-       "reason": "Squad news (3 players)",
+       "reason": "Squad news (2 players)",
        "source": "Matsu GW sheet / Knowledge Hub"
       }
      ],
      "market": {
-      "p_home": 0.413,
-      "p_draw": 0.298,
-      "p_away": 0.289,
-      "p_over_2_5": 0.401,
+      "p_home": 0.407,
+      "p_draw": 0.299,
+      "p_away": 0.294,
+      "p_over_2_5": 0.402,
       "model_minus_market": {
-       "home": 0.044,
-       "draw": -0.017,
-       "away": -0.027
+       "home": 0.085,
+       "draw": -0.025,
+       "away": -0.06
       },
       "best_price": {
        "home": {
-        "price": 2.4,
-        "bookmaker": "Betfair"
+        "price": 2.45,
+        "bookmaker": "Pinnacle"
        },
        "draw": {
         "price": 3.3,
@@ -3102,7 +3102,7 @@
         "bookmaker": "LeoVegas (SE)"
        }
       },
-      "bookmakers": 20
+      "bookmakers": 21
      }
     },
     {
@@ -3176,30 +3176,30 @@
       }
      ],
      "market": {
-      "p_home": 0.502,
-      "p_draw": 0.254,
-      "p_away": 0.245,
-      "p_over_2_5": 0.564,
+      "p_home": 0.507,
+      "p_draw": 0.251,
+      "p_away": 0.242,
+      "p_over_2_5": 0.563,
       "model_minus_market": {
-       "home": -0.051,
-       "draw": -0.002,
-       "away": 0.053
+       "home": -0.057,
+       "draw": 0.001,
+       "away": 0.056
       },
       "best_price": {
        "home": {
         "price": 1.89,
-        "bookmaker": "BetAnything"
+        "bookmaker": "Betfair"
        },
        "draw": {
-        "price": 3.88,
-        "bookmaker": "1xBet"
+        "price": 3.9,
+        "bookmaker": "Betfair"
        },
        "away": {
-        "price": 4.0,
-        "bookmaker": "Coolbet"
+        "price": 4.1,
+        "bookmaker": "Pinnacle"
        }
       },
-      "bookmakers": 20
+      "bookmakers": 21
      }
     },
     {
@@ -3268,7 +3268,7 @@
        "team_id": "yokohama_f_marinos",
        "elo": -10.0,
        "category": "team_news",
-       "reason": "Croux Jordy out",
+       "reason": "Squad news",
        "source": "Matsu GW sheet / Knowledge Hub"
       },
       {
@@ -3281,14 +3281,14 @@
       }
      ],
      "market": {
-      "p_home": 0.373,
-      "p_draw": 0.278,
-      "p_away": 0.349,
+      "p_home": 0.378,
+      "p_draw": 0.277,
+      "p_away": 0.345,
       "p_over_2_5": 0.509,
       "model_minus_market": {
-       "home": 0.053,
-       "draw": -0.009,
-       "away": -0.044
+       "home": 0.048,
+       "draw": -0.008,
+       "away": -0.04
       },
       "best_price": {
        "home": {
@@ -3296,15 +3296,15 @@
         "bookmaker": "1xBet"
        },
        "draw": {
-        "price": 3.47,
-        "bookmaker": "Pinnacle"
+        "price": 3.5,
+        "bookmaker": "Coolbet"
        },
        "away": {
-        "price": 2.82,
-        "bookmaker": "Betfair"
+        "price": 2.83,
+        "bookmaker": "Pinnacle"
        }
       },
-      "bookmakers": 18
+      "bookmakers": 20
      }
     },
     {
@@ -3317,15 +3317,15 @@
      "kickoff_jst": "15:00",
      "venue_ja": "味スタ",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.38,
-     "p_draw": 0.271,
-     "p_away": 0.349,
+     "p_home": 0.414,
+     "p_draw": 0.268,
+     "p_away": 0.318,
      "lean": "Open game",
-     "home_xg": 1.28,
-     "away_xg": 1.21,
-     "home_clean_sheet": 0.298,
-     "away_clean_sheet": 0.279,
-     "p_over_2_5": 0.453,
+     "home_xg": 1.35,
+     "away_xg": 1.15,
+     "home_clean_sheet": 0.317,
+     "away_clean_sheet": 0.259,
+     "p_over_2_5": 0.457,
      "p_btts": 0.506,
      "likely_scores": [
       {
@@ -3338,12 +3338,12 @@
       },
       {
        "score": "0-1",
-       "p": 0.1
+       "p": 0.09
       }
      ],
      "p_home_range80": [
-      0.341,
-      0.421
+      0.373,
+      0.456
      ],
      "confidence": "medium",
      "results_only": {
@@ -3377,39 +3377,39 @@
        "source": "official: https://www.antlers.co.jp/en/blogs/news/261029hb37vq"
       },
       {
-       "side": "home",
-       "team_id": "fc_tokyo",
-       "elo": -15.0,
+       "side": "away",
+       "team_id": "kashima_antlers",
+       "elo": -5.0,
        "category": "team_news",
-       "reason": "Squad news (2 players)",
+       "reason": "Hirose Rikuto doubtful",
        "source": "Matsu GW sheet / Knowledge Hub"
       }
      ],
      "market": {
-      "p_home": 0.461,
+      "p_home": 0.459,
       "p_draw": 0.265,
-      "p_away": 0.274,
-      "p_over_2_5": 0.556,
+      "p_away": 0.275,
+      "p_over_2_5": 0.555,
       "model_minus_market": {
-       "home": -0.081,
-       "draw": 0.005,
-       "away": 0.075
+       "home": -0.045,
+       "draw": 0.003,
+       "away": 0.042
       },
       "best_price": {
        "home": {
         "price": 2.08,
-        "bookmaker": "Coolbet"
+        "bookmaker": "BetOnline.ag"
        },
        "draw": {
         "price": 3.75,
         "bookmaker": "Coolbet"
        },
        "away": {
-        "price": 3.65,
-        "bookmaker": "Betfair"
+        "price": 3.6,
+        "bookmaker": "1xBet"
        }
       },
-      "bookmakers": 20
+      "bookmakers": 21
      }
     },
     {
@@ -3422,16 +3422,16 @@
      "kickoff_jst": "15:00",
      "venue_ja": "ベススタ",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.388,
-     "p_draw": 0.275,
-     "p_away": 0.336,
+     "p_home": 0.371,
+     "p_draw": 0.277,
+     "p_away": 0.352,
      "lean": "Open game",
-     "home_xg": 1.26,
-     "away_xg": 1.15,
-     "home_clean_sheet": 0.316,
-     "away_clean_sheet": 0.284,
-     "p_over_2_5": 0.434,
-     "p_btts": 0.49,
+     "home_xg": 1.22,
+     "away_xg": 1.18,
+     "home_clean_sheet": 0.308,
+     "away_clean_sheet": 0.296,
+     "p_over_2_5": 0.429,
+     "p_btts": 0.487,
      "likely_scores": [
       {
        "score": "1-1",
@@ -3443,12 +3443,12 @@
       },
       {
        "score": "0-1",
-       "p": 0.1
+       "p": 0.11
       }
      ],
      "p_home_range80": [
-      0.347,
-      0.434
+      0.332,
+      0.416
      ],
      "confidence": "medium",
      "results_only": {
@@ -3456,41 +3456,32 @@
       "p_draw": 0.277,
       "p_away": 0.352
      },
-     "adjustments": [
-      {
-       "side": "away",
-       "team_id": "v_varen_nagasaki",
-       "elo": -5.0,
-       "category": "team_news",
-       "reason": "Arai Ikki doubtful",
-       "source": "Matsu GW sheet / Knowledge Hub"
-      }
-     ],
+     "adjustments": [],
      "market": {
-      "p_home": 0.459,
-      "p_draw": 0.278,
-      "p_away": 0.262,
-      "p_over_2_5": 0.462,
+      "p_home": 0.446,
+      "p_draw": 0.281,
+      "p_away": 0.273,
+      "p_over_2_5": 0.459,
       "model_minus_market": {
-       "home": -0.071,
-       "draw": -0.003,
-       "away": 0.074
+       "home": -0.075,
+       "draw": -0.004,
+       "away": 0.079
       },
       "best_price": {
        "home": {
-        "price": 2.14,
-        "bookmaker": "Betfair"
+        "price": 2.2,
+        "bookmaker": "Pinnacle"
        },
        "draw": {
         "price": 3.55,
         "bookmaker": "Betfair"
        },
        "away": {
-        "price": 3.85,
+        "price": 3.65,
         "bookmaker": "LeoVegas (SE)"
        }
       },
-      "bookmakers": 19
+      "bookmakers": 21
      }
     },
     {
@@ -3572,30 +3563,30 @@
       }
      ],
      "market": {
-      "p_home": 0.429,
-      "p_draw": 0.248,
-      "p_away": 0.322,
+      "p_home": 0.436,
+      "p_draw": 0.247,
+      "p_away": 0.317,
       "p_over_2_5": 0.637,
       "model_minus_market": {
-       "home": -0.075,
-       "draw": -0.005,
-       "away": 0.08
+       "home": -0.081,
+       "draw": -0.003,
+       "away": 0.084
       },
       "best_price": {
        "home": {
-        "price": 2.3,
-        "bookmaker": "1xBet"
+        "price": 2.22,
+        "bookmaker": "Betfair"
        },
        "draw": {
         "price": 4.0,
         "bookmaker": "Coolbet"
        },
        "away": {
-        "price": 2.96,
-        "bookmaker": "Betfair"
+        "price": 3.06,
+        "bookmaker": "Pinnacle"
        }
       },
-      "bookmakers": 19
+      "bookmakers": 20
      }
     },
     {
@@ -3686,13 +3677,13 @@
      ],
      "market": {
       "p_home": 0.329,
-      "p_draw": 0.277,
-      "p_away": 0.394,
-      "p_over_2_5": 0.521,
+      "p_draw": 0.276,
+      "p_away": 0.395,
+      "p_over_2_5": 0.522,
       "model_minus_market": {
        "home": 0.062,
-       "draw": 0.003,
-       "away": -0.065
+       "draw": 0.004,
+       "away": -0.066
       },
       "best_price": {
        "home": {
@@ -3700,7 +3691,7 @@
         "bookmaker": "1xBet"
        },
        "draw": {
-        "price": 3.6,
+        "price": 3.5,
         "bookmaker": "Coolbet"
        },
        "away": {
@@ -3721,15 +3712,15 @@
      "kickoff_jst": "14:00",
      "venue_ja": "MUFG国立",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.463,
-     "p_draw": 0.269,
-     "p_away": 0.268,
-     "lean": "Lean Vissel Kobe",
-     "home_xg": 1.41,
-     "away_xg": 1.0,
-     "home_clean_sheet": 0.367,
-     "away_clean_sheet": 0.245,
-     "p_over_2_5": 0.433,
+     "p_home": 0.445,
+     "p_draw": 0.272,
+     "p_away": 0.283,
+     "lean": "Open game",
+     "home_xg": 1.36,
+     "away_xg": 1.03,
+     "home_clean_sheet": 0.358,
+     "away_clean_sheet": 0.255,
+     "p_over_2_5": 0.428,
      "p_btts": 0.478,
      "likely_scores": [
       {
@@ -3738,7 +3729,7 @@
       },
       {
        "score": "1-0",
-       "p": 0.13
+       "p": 0.12
       },
       {
        "score": "0-1",
@@ -3746,8 +3737,8 @@
       }
      ],
      "p_home_range80": [
-      0.422,
-      0.51
+      0.405,
+      0.492
      ],
      "confidence": "medium",
      "results_only": {
@@ -3756,6 +3747,14 @@
       "p_away": 0.228
      },
      "adjustments": [
+      {
+       "side": "home",
+       "team_id": "vissel_kobe",
+       "elo": -5.0,
+       "category": "team_news",
+       "reason": "Iino Nanasei doubtful",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
       {
        "side": "home",
        "team_id": "vissel_kobe",
@@ -3781,11 +3780,11 @@
        "source": "official: https://www.jleague.jp/news/article/35271/"
       },
       {
-       "side": "home",
-       "team_id": "vissel_kobe",
-       "elo": -20.0,
+       "side": "away",
+       "team_id": "urawa_red_diamonds",
+       "elo": -10.0,
        "category": "team_news",
-       "reason": "Squad news (3 players)",
+       "reason": "Squad news",
        "source": "Matsu GW sheet / Knowledge Hub"
       }
      ],
@@ -3795,9 +3794,9 @@
       "p_away": 0.288,
       "p_over_2_5": 0.526,
       "model_minus_market": {
-       "home": 0.024,
-       "draw": -0.004,
-       "away": -0.019
+       "home": 0.006,
+       "draw": -0.001,
+       "away": -0.005
       },
       "best_price": {
        "home": {
@@ -3908,8 +3907,8 @@
       "p_away": 0.316,
       "p_over_2_5": 0.569,
       "model_minus_market": {
-       "home": 0.023,
-       "draw": -0.012,
+       "home": 0.022,
+       "draw": -0.011,
        "away": -0.011
       },
       "best_price": {
@@ -4040,27 +4039,27 @@
       }
      ],
      "market": {
-      "p_home": 0.448,
-      "p_draw": 0.279,
-      "p_away": 0.273,
-      "p_over_2_5": 0.48,
+      "p_home": 0.459,
+      "p_draw": 0.277,
+      "p_away": 0.264,
+      "p_over_2_5": 0.479,
       "model_minus_market": {
-       "home": 0.049,
-       "draw": -0.029,
-       "away": -0.021
+       "home": 0.038,
+       "draw": -0.026,
+       "away": -0.012
       },
       "best_price": {
        "home": {
-        "price": 2.18,
-        "bookmaker": "Unibet (SE)"
+        "price": 2.12,
+        "bookmaker": "LeoVegas (SE)"
        },
        "draw": {
-        "price": 3.5,
-        "bookmaker": "Coolbet"
+        "price": 3.52,
+        "bookmaker": "Pinnacle"
        },
        "away": {
-        "price": 3.76,
-        "bookmaker": "Pinnacle"
+        "price": 3.95,
+        "bookmaker": "Betfair"
        }
       },
       "bookmakers": 19
