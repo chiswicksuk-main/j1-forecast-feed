@@ -1,6 +1,6 @@
 {
  "schema": "jls-forecast-feed/1",
- "created_utc": "2026-11-05T21:26:52Z",
+ "created_utc": "2026-11-06T00:34:27Z",
  "data_through_jst": "2026-11-03 14:53",
  "model": {
   "name": "J League Scout forecaster",
@@ -149,21 +149,21 @@
  "market_odds": {
   "available": true,
   "source": "The Odds API",
-  "fetched_utc": "2026-11-05T10:50:31Z",
+  "fetched_utc": "2026-11-06T00:34:21Z",
   "regions": "eu",
   "events_in_snapshot": 10,
   "matched_fixtures": 10,
   "unmatched_names": [],
-  "quota_remaining": "470",
+  "quota_remaining": "468",
   "method": "Average over bookmakers of implied probabilities with the margin removed proportionally; best = highest decimal price."
  },
  "status": {
-  "model_run_utc": "2026-11-05T21:26:52Z",
-  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/42112397400",
-  "odds_fetched_utc": "2026-11-05T10:50:31Z",
+  "model_run_utc": "2026-11-06T00:34:27Z",
+  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/42137569264",
+  "odds_fetched_utc": "2026-11-06T00:34:21Z",
   "odds_note": null,
   "team_news_sync": {
-   "run_utc": "2026-11-05T14:19:52Z",
+   "run_utc": "2026-11-06T00:31:08Z",
    "result": "ok",
    "round": 14,
    "error": null
@@ -3048,14 +3048,6 @@
       {
        "side": "home",
        "team_id": "shimizu_s_pulse",
-       "elo": -10.0,
-       "category": "team_news",
-       "reason": "Inoue Kenta out",
-       "source": "Matsu GW sheet / Knowledge Hub"
-      },
-      {
-       "side": "home",
-       "team_id": "shimizu_s_pulse",
        "elo": -5.0,
        "category": "team_news",
        "reason": "Kinoshita Kosuke doubtful",
@@ -3078,23 +3070,23 @@
        "source": "Matsu GW sheet / Knowledge Hub"
       },
       {
-       "side": "away",
-       "team_id": "tokyo_verdy",
-       "elo": -10.0,
+       "side": "home",
+       "team_id": "shimizu_s_pulse",
+       "elo": -20.0,
        "category": "team_news",
-       "reason": "Squad news (2 players)",
+       "reason": "Squad news (3 players)",
        "source": "Matsu GW sheet / Knowledge Hub"
       }
      ],
      "market": {
       "p_home": 0.413,
-      "p_draw": 0.299,
-      "p_away": 0.288,
+      "p_draw": 0.298,
+      "p_away": 0.289,
       "p_over_2_5": 0.401,
       "model_minus_market": {
        "home": 0.044,
        "draw": -0.017,
-       "away": -0.026
+       "away": -0.027
       },
       "best_price": {
        "home": {
@@ -3102,15 +3094,15 @@
         "bookmaker": "Betfair"
        },
        "draw": {
-        "price": 3.25,
-        "bookmaker": "Coolbet"
+        "price": 3.3,
+        "bookmaker": "Betfair"
        },
        "away": {
         "price": 3.45,
         "bookmaker": "LeoVegas (SE)"
        }
       },
-      "bookmakers": 19
+      "bookmakers": 20
      }
     },
     {
@@ -3184,19 +3176,19 @@
       }
      ],
      "market": {
-      "p_home": 0.503,
-      "p_draw": 0.253,
+      "p_home": 0.502,
+      "p_draw": 0.254,
       "p_away": 0.245,
-      "p_over_2_5": 0.562,
+      "p_over_2_5": 0.564,
       "model_minus_market": {
-       "home": -0.052,
-       "draw": -0.001,
+       "home": -0.051,
+       "draw": -0.002,
        "away": 0.053
       },
       "best_price": {
        "home": {
-        "price": 1.87,
-        "bookmaker": "Pinnacle"
+        "price": 1.89,
+        "bookmaker": "BetAnything"
        },
        "draw": {
         "price": 3.88,
@@ -3207,7 +3199,7 @@
         "bookmaker": "Coolbet"
        }
       },
-      "bookmakers": 19
+      "bookmakers": 20
      }
     },
     {
@@ -3289,23 +3281,23 @@
       }
      ],
      "market": {
-      "p_home": 0.369,
+      "p_home": 0.373,
       "p_draw": 0.278,
-      "p_away": 0.353,
+      "p_away": 0.349,
       "p_over_2_5": 0.509,
       "model_minus_market": {
-       "home": 0.057,
+       "home": 0.053,
        "draw": -0.009,
-       "away": -0.048
+       "away": -0.044
       },
       "best_price": {
        "home": {
-        "price": 2.65,
-        "bookmaker": "Unibet (NL)"
+        "price": 2.58,
+        "bookmaker": "1xBet"
        },
        "draw": {
-        "price": 3.5,
-        "bookmaker": "Coolbet"
+        "price": 3.47,
+        "bookmaker": "Pinnacle"
        },
        "away": {
         "price": 2.82,
@@ -3369,14 +3361,6 @@
        "source": "official: https://www.fctokyo.co.jp/news/details/342127/"
       },
       {
-       "side": "home",
-       "team_id": "fc_tokyo",
-       "elo": -10.0,
-       "category": "team_news",
-       "reason": "Homma Shion out",
-       "source": "Matsu GW sheet / Knowledge Hub"
-      },
-      {
        "side": "away",
        "team_id": "kashima_antlers",
        "elo": -10.0,
@@ -3393,11 +3377,11 @@
        "source": "official: https://www.antlers.co.jp/en/blogs/news/261029hb37vq"
       },
       {
-       "side": "away",
-       "team_id": "kashima_antlers",
-       "elo": -5.0,
+       "side": "home",
+       "team_id": "fc_tokyo",
+       "elo": -15.0,
        "category": "team_news",
-       "reason": "Squad news",
+       "reason": "Squad news (2 players)",
        "source": "Matsu GW sheet / Knowledge Hub"
       }
      ],
@@ -3408,7 +3392,7 @@
       "p_over_2_5": 0.556,
       "model_minus_market": {
        "home": -0.081,
-       "draw": 0.006,
+       "draw": 0.005,
        "away": 0.075
       },
       "best_price": {
@@ -3421,11 +3405,11 @@
         "bookmaker": "Coolbet"
        },
        "away": {
-        "price": 3.63,
-        "bookmaker": "Pinnacle"
+        "price": 3.65,
+        "bookmaker": "Betfair"
        }
       },
-      "bookmakers": 19
+      "bookmakers": 20
      }
     },
     {
@@ -3483,10 +3467,10 @@
       }
      ],
      "market": {
-      "p_home": 0.46,
+      "p_home": 0.459,
       "p_draw": 0.278,
       "p_away": 0.262,
-      "p_over_2_5": 0.458,
+      "p_over_2_5": 0.462,
       "model_minus_market": {
        "home": -0.071,
        "draw": -0.003,
@@ -3588,14 +3572,14 @@
       }
      ],
      "market": {
-      "p_home": 0.43,
-      "p_draw": 0.247,
-      "p_away": 0.323,
+      "p_home": 0.429,
+      "p_draw": 0.248,
+      "p_away": 0.322,
       "p_over_2_5": 0.637,
       "model_minus_market": {
        "home": -0.075,
-       "draw": -0.004,
-       "away": 0.079
+       "draw": -0.005,
+       "away": 0.08
       },
       "best_price": {
        "home": {
@@ -3611,7 +3595,7 @@
         "bookmaker": "Betfair"
        }
       },
-      "bookmakers": 18
+      "bookmakers": 19
      }
     },
     {
@@ -3716,7 +3700,7 @@
         "bookmaker": "1xBet"
        },
        "draw": {
-        "price": 3.5,
+        "price": 3.6,
         "bookmaker": "Coolbet"
        },
        "away": {
@@ -3806,12 +3790,12 @@
       }
      ],
      "market": {
-      "p_home": 0.44,
+      "p_home": 0.439,
       "p_draw": 0.273,
       "p_away": 0.288,
       "p_over_2_5": 0.526,
       "model_minus_market": {
-       "home": 0.023,
+       "home": 0.024,
        "draw": -0.004,
        "away": -0.019
       },
@@ -3921,12 +3905,12 @@
      "market": {
       "p_home": 0.417,
       "p_draw": 0.267,
-      "p_away": 0.317,
+      "p_away": 0.316,
       "p_over_2_5": 0.569,
       "model_minus_market": {
        "home": 0.023,
-       "draw": -0.011,
-       "away": -0.012
+       "draw": -0.012,
+       "away": -0.011
       },
       "best_price": {
        "home": {
@@ -4009,7 +3993,15 @@
       {
        "side": "away",
        "team_id": "mito_hollyhock",
-       "elo": -6.7,
+       "elo": -2.5,
+       "category": "team_news",
+       "reason": "Kawazura Akinari out",
+       "source": "official: https://www.jleague.jp/news/article/35096/"
+      },
+      {
+       "side": "away",
+       "team_id": "mito_hollyhock",
+       "elo": -5.0,
        "category": "team_news",
        "reason": "Mase Takumi out (key player)",
        "source": "official: https://www.jleague.jp/news/article/35271/"
@@ -4017,7 +4009,15 @@
       {
        "side": "away",
        "team_id": "mito_hollyhock",
-       "elo": -3.3,
+       "elo": -5.0,
+       "category": "team_news",
+       "reason": "Torikai Yoshiki out (key player)",
+       "source": "official: https://www.mito-hollyhock.net/news/p=55378/"
+      },
+      {
+       "side": "away",
+       "team_id": "mito_hollyhock",
+       "elo": -2.5,
        "category": "team_news",
        "reason": "Uchino Kotaro out",
        "source": "official: https://www.mito-hollyhock.net/news/p=55377/"
@@ -4025,7 +4025,7 @@
       {
        "side": "away",
        "team_id": "mito_hollyhock",
-       "elo": -3.3,
+       "elo": -5.0,
        "category": "team_news",
        "reason": "Squad news",
        "source": "Matsu GW sheet / Knowledge Hub"
@@ -4033,23 +4033,7 @@
       {
        "side": "away",
        "team_id": "mito_hollyhock",
-       "elo": -3.3,
-       "category": "team_news",
-       "reason": "Kawazura Akinari out",
-       "source": "Matsu GW sheet / Knowledge Hub"
-      },
-      {
-       "side": "away",
-       "team_id": "mito_hollyhock",
-       "elo": -6.7,
-       "category": "team_news",
-       "reason": "Torikai Yoshiki out (key player)",
-       "source": "Matsu GW sheet / Knowledge Hub"
-      },
-      {
-       "side": "away",
-       "team_id": "mito_hollyhock",
-       "elo": -6.7,
+       "elo": -10.0,
        "category": "team_news",
        "reason": "Watanabe Arata out (key player)",
        "source": "Matsu GW sheet / Knowledge Hub"
@@ -4057,7 +4041,7 @@
      ],
      "market": {
       "p_home": 0.448,
-      "p_draw": 0.28,
+      "p_draw": 0.279,
       "p_away": 0.273,
       "p_over_2_5": 0.48,
       "model_minus_market": {
