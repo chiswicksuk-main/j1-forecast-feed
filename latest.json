@@ -1,6 +1,6 @@
 {
  "schema": "jls-forecast-feed/1",
- "created_utc": "2026-11-06T23:07:09Z",
+ "created_utc": "2026-11-07T00:28:31Z",
  "data_through_jst": "2026-11-03 14:53",
  "model": {
   "name": "J League Scout forecaster",
@@ -158,12 +158,12 @@
   "method": "Average over bookmakers of implied probabilities with the margin removed proportionally; best = highest decimal price."
  },
  "status": {
-  "model_run_utc": "2026-11-06T23:07:09Z",
-  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/42309409595",
+  "model_run_utc": "2026-11-07T00:28:31Z",
+  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/42318222088",
   "odds_fetched_utc": "2026-11-06T23:07:02Z",
   "odds_note": null,
   "team_news_sync": {
-   "run_utc": "2026-11-06T14:50:38Z",
+   "run_utc": "2026-11-07T00:25:13Z",
    "result": "ok",
    "round": 14,
    "error": null
