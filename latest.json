@@ -1,6 +1,6 @@
 {
  "schema": "jls-forecast-feed/1",
- "created_utc": "2026-11-07T10:18:03Z",
+ "created_utc": "2026-11-07T10:40:18Z",
  "data_through_jst": "2026-11-07 16:03",
  "model": {
   "name": "J League Scout forecaster",
@@ -171,12 +171,12 @@
   "method": "Latest eligible snapshot strictly before each fixture's kick-off; average bookmaker implied probabilities with the margin removed proportionally."
  },
  "status": {
-  "model_run_utc": "2026-11-07T10:18:03Z",
-  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/42363206787",
+  "model_run_utc": "2026-11-07T10:40:18Z",
+  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/42364850565",
   "odds_fetched_utc": "2026-11-07T09:57:09Z",
   "odds_note": null,
   "team_news_sync": {
-   "run_utc": "2026-11-07T05:36:00Z",
+   "run_utc": "2026-11-07T10:37:42Z",
    "result": "ok",
    "round": 14,
    "error": null
@@ -3038,15 +3038,15 @@
      "kickoff_jst": "14:00",
      "venue_ja": "Gスタ",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.391,
-     "p_draw": 0.279,
-     "p_away": 0.329,
+     "p_home": 0.408,
+     "p_draw": 0.278,
+     "p_away": 0.314,
      "lean": "Open game",
-     "home_xg": 1.24,
-     "away_xg": 1.11,
-     "home_clean_sheet": 0.329,
-     "away_clean_sheet": 0.29,
-     "p_over_2_5": 0.417,
+     "home_xg": 1.27,
+     "away_xg": 1.08,
+     "home_clean_sheet": 0.34,
+     "away_clean_sheet": 0.28,
+     "p_over_2_5": 0.418,
      "p_btts": 0.476,
      "likely_scores": [
       {
@@ -3059,12 +3059,12 @@
       },
       {
        "score": "0-1",
-       "p": 0.11
+       "p": 0.1
       }
      ],
      "p_home_range80": [
-      0.351,
-      0.428
+      0.367,
+      0.445
      ],
      "confidence": "higher",
      "results_only": {
@@ -3084,7 +3084,7 @@
       {
        "side": "home",
        "team_id": "machida_zelvia",
-       "elo": -10.0,
+       "elo": -5.0,
        "category": "team_news",
        "reason": "Matsuo Yusuke out",
        "source": "Matsu GW sheet / Knowledge Hub"
@@ -3120,9 +3120,9 @@
       "p_away": 0.394,
       "p_over_2_5": 0.52,
       "model_minus_market": {
-       "home": 0.062,
-       "draw": 0.003,
-       "away": -0.064
+       "home": 0.079,
+       "draw": 0.001,
+       "away": -0.08
       },
       "best_price": {
        "home": {
@@ -3152,15 +3152,15 @@
      "kickoff_jst": "14:00",
      "venue_ja": "MUFG国立",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.428,
-     "p_draw": 0.275,
-     "p_away": 0.297,
+     "p_home": 0.437,
+     "p_draw": 0.273,
+     "p_away": 0.29,
      "lean": "Open game",
-     "home_xg": 1.33,
-     "away_xg": 1.06,
-     "home_clean_sheet": 0.348,
-     "away_clean_sheet": 0.265,
-     "p_over_2_5": 0.426,
+     "home_xg": 1.35,
+     "away_xg": 1.04,
+     "home_clean_sheet": 0.352,
+     "away_clean_sheet": 0.26,
+     "p_over_2_5": 0.428,
      "p_btts": 0.479,
      "likely_scores": [
       {
@@ -3177,8 +3177,8 @@
       }
      ],
      "p_home_range80": [
-      0.389,
-      0.475
+      0.397,
+      0.484
      ],
      "confidence": "medium",
      "results_only": {
@@ -3190,7 +3190,7 @@
       {
        "side": "home",
        "team_id": "vissel_kobe",
-       "elo": -5.0,
+       "elo": -2.5,
        "category": "team_news",
        "reason": "Iino Nanasei doubtful",
        "source": "Matsu GW sheet / Knowledge Hub"
@@ -3234,9 +3234,9 @@
       "p_away": 0.29,
       "p_over_2_5": 0.524,
       "model_minus_market": {
-       "home": -0.01,
-       "draw": 0.003,
-       "away": 0.007
+       "home": -0.001,
+       "draw": 0.002,
+       "away": -0.0
       },
       "best_price": {
        "home": {
@@ -3442,7 +3442,7 @@
       {
        "side": "away",
        "team_id": "mito_hollyhock",
-       "elo": -3.6,
+       "elo": -2.2,
        "category": "team_news",
        "reason": "Kawazura Akinari out",
        "source": "official: https://www.jleague.jp/news/article/35096/"
@@ -3450,7 +3450,7 @@
       {
        "side": "away",
        "team_id": "mito_hollyhock",
-       "elo": -7.2,
+       "elo": -8.9,
        "category": "team_news",
        "reason": "Mase Takumi out (key player)",
        "source": "official: https://www.jleague.jp/news/article/35271/"
@@ -3458,7 +3458,7 @@
       {
        "side": "away",
        "team_id": "mito_hollyhock",
-       "elo": -3.6,
+       "elo": -4.5,
        "category": "team_news",
        "reason": "Torikai Yoshiki out",
        "source": "official: https://www.mito-hollyhock.net/news/p=55378/"
@@ -3466,7 +3466,7 @@
       {
        "side": "away",
        "team_id": "mito_hollyhock",
-       "elo": -3.6,
+       "elo": -4.5,
        "category": "team_news",
        "reason": "Uchino Kotaro out",
        "source": "official: https://www.mito-hollyhock.net/news/p=55377/"
@@ -3474,7 +3474,7 @@
       {
        "side": "away",
        "team_id": "mito_hollyhock",
-       "elo": -6.0,
+       "elo": -3.3,
        "category": "team_news",
        "reason": "Squad news",
        "source": "Matsu GW sheet / Knowledge Hub"
@@ -3482,7 +3482,7 @@
       {
        "side": "away",
        "team_id": "mito_hollyhock",
-       "elo": -6.0,
+       "elo": -6.7,
        "category": "team_news",
        "reason": "Watanabe Arata out",
        "source": "Matsu GW sheet / Knowledge Hub"
@@ -3495,8 +3495,8 @@
       "p_over_2_5": 0.479,
       "model_minus_market": {
        "home": 0.028,
-       "draw": -0.023,
-       "away": -0.004
+       "draw": -0.024,
+       "away": -0.005
       },
       "best_price": {
        "home": {
