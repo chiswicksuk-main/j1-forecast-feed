@@ -180,6 +180,126 @@
     "p_draw": 0.246,
     "p_away": 0.317
    }
+  },
+  {
+   "round": 14,
+   "site_match_slug": "machida-zelvia-vs-sanfrecce-hiroshima-2026-11-08",
+   "home": "Machida Zelvia",
+   "away": "Sanfrecce Hiroshima",
+   "score": "0-0",
+   "kickoff_utc": "2026-11-08T05:00:00+00:00",
+   "model_issued_utc": "2026-11-08T00:40:00Z",
+   "model_source_commit": "1c8f79c6498ef7fa59945b90f7bf6369209c6667",
+   "market_captured_utc": "2026-11-07T23:39:26Z",
+   "model_rps": 0.13248133017902786,
+   "market_rps": 0.13186912987112787,
+   "model_probabilities": {
+    "p_home": 0.408,
+    "p_draw": 0.278,
+    "p_away": 0.313
+   },
+   "market_probabilities": {
+    "p_home": 0.329,
+    "p_draw": 0.277,
+    "p_away": 0.395
+   },
+   "issue_market_captured_utc": "2026-11-07T23:39:26Z",
+   "issue_market_rps": 0.13186912987112787,
+   "issue_market_probabilities": {
+    "p_home": 0.329,
+    "p_draw": 0.277,
+    "p_away": 0.395
+   }
+  },
+  {
+   "round": 14,
+   "site_match_slug": "vissel-kobe-vs-urawa-red-diamonds-2026-11-08",
+   "home": "Vissel Kobe",
+   "away": "Urawa Red Diamonds",
+   "score": "2-2",
+   "kickoff_utc": "2026-11-08T05:00:00+00:00",
+   "model_issued_utc": "2026-11-08T00:40:00Z",
+   "model_source_commit": "1c8f79c6498ef7fa59945b90f7bf6369209c6667",
+   "market_captured_utc": "2026-11-07T23:39:26Z",
+   "model_rps": 0.1375345,
+   "market_rps": 0.13826249999999995,
+   "model_probabilities": {
+    "p_home": 0.437,
+    "p_draw": 0.273,
+    "p_away": 0.29
+   },
+   "market_probabilities": {
+    "p_home": 0.438,
+    "p_draw": 0.271,
+    "p_away": 0.291
+   },
+   "issue_market_captured_utc": "2026-11-07T23:39:26Z",
+   "issue_market_rps": 0.13826249999999995,
+   "issue_market_probabilities": {
+    "p_home": 0.438,
+    "p_draw": 0.271,
+    "p_away": 0.291
+   }
+  },
+  {
+   "round": 14,
+   "site_match_slug": "gamba-osaka-vs-cerezo-osaka-2026-11-08",
+   "home": "Gamba Osaka",
+   "away": "Cerezo Osaka",
+   "score": "2-3",
+   "kickoff_utc": "2026-11-08T06:00:00+00:00",
+   "model_issued_utc": "2026-11-08T05:57:54Z",
+   "model_source_commit": "afedae074f2a4be9e97c976292775c20f30b3717",
+   "market_captured_utc": "2026-11-08T05:57:40Z",
+   "model_rps": 0.30280781281782276,
+   "market_rps": 0.31814449999999994,
+   "model_probabilities": {
+    "p_home": 0.406,
+    "p_draw": 0.257,
+    "p_away": 0.336
+   },
+   "market_probabilities": {
+    "p_home": 0.417,
+    "p_draw": 0.263,
+    "p_away": 0.32
+   },
+   "issue_market_captured_utc": "2026-11-08T05:57:40Z",
+   "issue_market_rps": 0.31814449999999994,
+   "issue_market_probabilities": {
+    "p_home": 0.417,
+    "p_draw": 0.263,
+    "p_away": 0.32
+   }
+  },
+  {
+   "round": 14,
+   "site_match_slug": "jef-united-chiba-vs-mito-hollyhock-2026-11-08",
+   "home": "JEF United Chiba",
+   "away": "Mito HollyHock",
+   "score": "1-0",
+   "kickoff_utc": "2026-11-08T08:00:00+00:00",
+   "model_issued_utc": "2026-11-08T05:57:54Z",
+   "model_source_commit": "afedae074f2a4be9e97c976292775c20f30b3717",
+   "market_captured_utc": "2026-11-08T05:57:40Z",
+   "model_rps": 0.170578,
+   "market_rps": 0.17270800000000003,
+   "model_probabilities": {
+    "p_home": 0.48,
+    "p_draw": 0.254,
+    "p_away": 0.266
+   },
+   "market_probabilities": {
+    "p_home": 0.47,
+    "p_draw": 0.276,
+    "p_away": 0.254
+   },
+   "issue_market_captured_utc": "2026-11-08T05:57:40Z",
+   "issue_market_rps": 0.17270800000000003,
+   "issue_market_probabilities": {
+    "p_home": 0.47,
+    "p_draw": 0.276,
+    "p_away": 0.254
+   }
   }
  ]
 }
