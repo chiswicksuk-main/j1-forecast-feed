@@ -161,7 +161,7 @@
    "model_issued_utc": "2026-11-07T00:28:31Z",
    "model_source_commit": "5211316fc773e61660b4e60dbb66b378513f9d45",
    "market_captured_utc": "2026-11-07T05:54:39Z",
-   "model_rps": 0.28841300000000003,
+   "model_rps": 0.2888819472236055,
    "market_rps": 0.2049125,
    "model_probabilities": {
     "p_home": 0.355,
@@ -204,7 +204,7 @@
     "p_away": 0.395
    },
    "issue_market_captured_utc": "2026-11-06T23:07:02Z",
-   "issue_market_rps": 0.13128199999999995,
+   "issue_market_rps": 0.13141154549745954,
    "issue_market_probabilities": {
     "p_home": 0.33,
     "p_draw": 0.278,
@@ -251,7 +251,7 @@
    "model_issued_utc": "2026-11-07T00:28:31Z",
    "model_source_commit": "5211316fc773e61660b4e60dbb66b378513f9d45",
    "market_captured_utc": "2026-11-08T05:57:40Z",
-   "model_rps": 0.3371785,
+   "model_rps": 0.33785386988590194,
    "market_rps": 0.31814449999999994,
    "model_probabilities": {
     "p_home": 0.439,
