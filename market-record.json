@@ -98,8 +98,8 @@
    "away": "V-Varen Nagasaki",
    "score": "1-1",
    "kickoff_utc": "2026-11-07T06:00:00+00:00",
-   "model_issued_utc": "2026-11-07T05:54:46Z",
-   "model_source_commit": "77e14bdf6873ae0642b055e7befe8ffb175ace2c",
+   "model_issued_utc": "2026-11-07T00:28:31Z",
+   "model_source_commit": "5211316fc773e61660b4e60dbb66b378513f9d45",
    "market_captured_utc": "2026-11-07T05:54:39Z",
    "model_rps": 0.13077249999999999,
    "market_rps": 0.139828,
@@ -113,12 +113,12 @@
     "p_draw": 0.284,
     "p_away": 0.25
    },
-   "issue_market_captured_utc": "2026-11-07T05:54:39Z",
-   "issue_market_rps": 0.139828,
+   "issue_market_captured_utc": "2026-11-06T23:07:02Z",
+   "issue_market_rps": 0.1315145,
    "issue_market_probabilities": {
-    "p_home": 0.466,
-    "p_draw": 0.284,
-    "p_away": 0.25
+    "p_home": 0.423,
+    "p_draw": 0.287,
+    "p_away": 0.29
    }
   },
   {
@@ -128,8 +128,8 @@
    "away": "Kashima Antlers",
    "score": "2-0",
    "kickoff_utc": "2026-11-07T06:00:00+00:00",
-   "model_issued_utc": "2026-11-07T05:54:46Z",
-   "model_source_commit": "77e14bdf6873ae0642b055e7befe8ffb175ace2c",
+   "model_issued_utc": "2026-11-07T00:28:31Z",
+   "model_source_commit": "5211316fc773e61660b4e60dbb66b378513f9d45",
    "market_captured_utc": "2026-11-07T05:54:39Z",
    "model_rps": 0.22226000000000007,
    "market_rps": 0.19046249999999998,
@@ -143,12 +143,12 @@
     "p_draw": 0.267,
     "p_away": 0.282
    },
-   "issue_market_captured_utc": "2026-11-07T05:54:39Z",
-   "issue_market_rps": 0.19046249999999998,
+   "issue_market_captured_utc": "2026-11-06T23:07:02Z",
+   "issue_market_rps": 0.18037699999999993,
    "issue_market_probabilities": {
-    "p_home": 0.451,
-    "p_draw": 0.267,
-    "p_away": 0.282
+    "p_home": 0.465,
+    "p_draw": 0.262,
+    "p_away": 0.273
    }
   },
   {
@@ -158,8 +158,8 @@
    "away": "Kawasaki Frontale",
    "score": "2-1",
    "kickoff_utc": "2026-11-07T07:00:00+00:00",
-   "model_issued_utc": "2026-11-07T05:54:46Z",
-   "model_source_commit": "b95f843b3284f33887df7cae557b41a76a127b37",
+   "model_issued_utc": "2026-11-07T00:28:31Z",
+   "model_source_commit": "5211316fc773e61660b4e60dbb66b378513f9d45",
    "market_captured_utc": "2026-11-07T05:54:39Z",
    "model_rps": 0.2888819472236055,
    "market_rps": 0.2049125,
@@ -188,27 +188,27 @@
    "away": "Sanfrecce Hiroshima",
    "score": "0-0",
    "kickoff_utc": "2026-11-08T05:00:00+00:00",
-   "model_issued_utc": "2026-11-08T00:40:00Z",
-   "model_source_commit": "1c8f79c6498ef7fa59945b90f7bf6369209c6667",
+   "model_issued_utc": "2026-11-07T00:28:31Z",
+   "model_source_commit": "5211316fc773e61660b4e60dbb66b378513f9d45",
    "market_captured_utc": "2026-11-07T23:39:26Z",
-   "model_rps": 0.13248133017902786,
+   "model_rps": 0.13056099999999998,
    "market_rps": 0.13186912987112787,
    "model_probabilities": {
-    "p_home": 0.408,
-    "p_draw": 0.278,
-    "p_away": 0.313
+    "p_home": 0.391,
+    "p_draw": 0.28,
+    "p_away": 0.329
    },
    "market_probabilities": {
     "p_home": 0.329,
     "p_draw": 0.277,
     "p_away": 0.395
    },
-   "issue_market_captured_utc": "2026-11-07T23:39:26Z",
-   "issue_market_rps": 0.13186912987112787,
+   "issue_market_captured_utc": "2026-11-06T23:07:02Z",
+   "issue_market_rps": 0.13141154549745954,
    "issue_market_probabilities": {
-    "p_home": 0.329,
-    "p_draw": 0.277,
-    "p_away": 0.395
+    "p_home": 0.33,
+    "p_draw": 0.278,
+    "p_away": 0.393
    }
   },
   {
@@ -218,27 +218,27 @@
    "away": "Urawa Red Diamonds",
    "score": "2-2",
    "kickoff_utc": "2026-11-08T05:00:00+00:00",
-   "model_issued_utc": "2026-11-08T00:40:00Z",
-   "model_source_commit": "1c8f79c6498ef7fa59945b90f7bf6369209c6667",
+   "model_issued_utc": "2026-11-07T00:28:31Z",
+   "model_source_commit": "5211316fc773e61660b4e60dbb66b378513f9d45",
    "market_captured_utc": "2026-11-07T23:39:26Z",
-   "model_rps": 0.1375345,
+   "model_rps": 0.13569649999999997,
    "market_rps": 0.13826249999999995,
    "model_probabilities": {
-    "p_home": 0.437,
-    "p_draw": 0.273,
-    "p_away": 0.29
+    "p_home": 0.428,
+    "p_draw": 0.275,
+    "p_away": 0.297
    },
    "market_probabilities": {
     "p_home": 0.438,
     "p_draw": 0.271,
     "p_away": 0.291
    },
-   "issue_market_captured_utc": "2026-11-07T23:39:26Z",
-   "issue_market_rps": 0.13826249999999995,
+   "issue_market_captured_utc": "2026-11-06T23:07:02Z",
+   "issue_market_rps": 0.138272,
    "issue_market_probabilities": {
-    "p_home": 0.438,
-    "p_draw": 0.271,
-    "p_away": 0.291
+    "p_home": 0.44,
+    "p_draw": 0.272,
+    "p_away": 0.288
    }
   },
   {
@@ -248,27 +248,27 @@
    "away": "Cerezo Osaka",
    "score": "2-3",
    "kickoff_utc": "2026-11-08T06:00:00+00:00",
-   "model_issued_utc": "2026-11-08T05:57:54Z",
-   "model_source_commit": "afedae074f2a4be9e97c976292775c20f30b3717",
+   "model_issued_utc": "2026-11-07T00:28:31Z",
+   "model_source_commit": "5211316fc773e61660b4e60dbb66b378513f9d45",
    "market_captured_utc": "2026-11-08T05:57:40Z",
-   "model_rps": 0.30280781281782276,
+   "model_rps": 0.33785386988590194,
    "market_rps": 0.31814449999999994,
    "model_probabilities": {
-    "p_home": 0.406,
-    "p_draw": 0.257,
-    "p_away": 0.336
+    "p_home": 0.439,
+    "p_draw": 0.255,
+    "p_away": 0.305
    },
    "market_probabilities": {
     "p_home": 0.417,
     "p_draw": 0.263,
     "p_away": 0.32
    },
-   "issue_market_captured_utc": "2026-11-08T05:57:40Z",
-   "issue_market_rps": 0.31814449999999994,
+   "issue_market_captured_utc": "2026-11-06T23:07:02Z",
+   "issue_market_rps": 0.3153925,
    "issue_market_probabilities": {
-    "p_home": 0.417,
-    "p_draw": 0.263,
-    "p_away": 0.32
+    "p_home": 0.412,
+    "p_draw": 0.267,
+    "p_away": 0.321
    }
   },
   {
@@ -278,27 +278,27 @@
    "away": "Mito HollyHock",
    "score": "1-0",
    "kickoff_utc": "2026-11-08T08:00:00+00:00",
-   "model_issued_utc": "2026-11-08T05:57:54Z",
-   "model_source_commit": "afedae074f2a4be9e97c976292775c20f30b3717",
+   "model_issued_utc": "2026-11-07T00:28:31Z",
+   "model_source_commit": "5211316fc773e61660b4e60dbb66b378513f9d45",
    "market_captured_utc": "2026-11-08T05:57:40Z",
-   "model_rps": 0.170578,
+   "model_rps": 0.1582565,
    "market_rps": 0.17270800000000003,
    "model_probabilities": {
-    "p_home": 0.48,
-    "p_draw": 0.254,
-    "p_away": 0.266
+    "p_home": 0.497,
+    "p_draw": 0.251,
+    "p_away": 0.252
    },
    "market_probabilities": {
     "p_home": 0.47,
     "p_draw": 0.276,
     "p_away": 0.254
    },
-   "issue_market_captured_utc": "2026-11-08T05:57:40Z",
-   "issue_market_rps": 0.17270800000000003,
+   "issue_market_captured_utc": "2026-11-06T23:07:02Z",
+   "issue_market_rps": 0.1737485,
    "issue_market_probabilities": {
-    "p_home": 0.47,
-    "p_draw": 0.276,
-    "p_away": 0.254
+    "p_home": 0.469,
+    "p_draw": 0.275,
+    "p_away": 0.256
    }
   }
  ]
