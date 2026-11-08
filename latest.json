@@ -1,11 +1,11 @@
 {
  "schema": "jls-forecast-feed/1",
- "created_utc": "2026-11-08T13:20:15Z",
+ "created_utc": "2026-11-08T13:40:35Z",
  "data_through_jst": "2026-11-08 17:03",
  "model": {
   "name": "J League Scout forecaster",
   "version": "blend-0.2.0 w_elo=0.4 | markets v2 (lambda tilt) | elo-0.1.1 fb3a832281",
-  "inputs": "Official J1/J2 results since 2003 only. No team news, injuries or betting odds.",
+  "inputs": "Match odds use results since 2003 plus temporary team news and ACL adjustments. Season odds stay results only. Bookmaker prices are shown beside the model and are not an input.",
   "season_simulations": 20000
  },
  "track_record": {
@@ -13,7 +13,7 @@
    "matches": 140,
    "rounds": 14,
    "published_rounds": 1,
-   "model_rps": 0.2079,
+   "model_rps": 0.208,
    "baseline_rps": 0.2316,
    "note": "Ranked probability score, lower is better; baseline = league home/draw/away rates"
   },
@@ -138,19 +138,19 @@
    {
     "round": 14,
     "matches": 10,
-    "model_rps": 0.2284,
+    "model_rps": 0.2303,
     "baseline_rps": 0.2176,
-    "model_running_avg": 0.2079,
+    "model_running_avg": 0.208,
     "baseline_running_avg": 0.2316,
     "source": "published"
    }
   ],
   "team_news_test": {
    "matches": 9,
-   "with_adjustments": 0.2393,
-   "results_only": 0.2241,
-   "difference": 0.0151,
-   "difference_se": 0.0184,
+   "with_adjustments": 0.2413,
+   "results_only": 0.2239,
+   "difference": 0.0174,
+   "difference_se": 0.0183,
    "note": "Ranked probability score, lower is better. Negative difference = team news made forecasts better."
   },
   "tested_2021_to_now": {
@@ -167,14 +167,21 @@
   "events_in_snapshot": 4,
   "matched_fixtures": 0,
   "unmatched_names": [],
+  "events_not_on_card": [
+   "FC Machida Zelvia vs Hiroshima Sanfrecce FC (2026-11-08 14:00 JST)",
+   "Vissel Kobe vs Urawa Red Diamonds (2026-11-08 14:00 JST)",
+   "Gamba Osaka vs Cerezo Osaka (2026-11-08 15:00 JST)",
+   "JEF United Chiba vs Mito HollyHock (2026-11-08 17:00 JST)"
+  ],
   "quota_remaining": "450",
-  "method": "Latest eligible snapshot strictly before each fixture's kick-off; average bookmaker implied probabilities with the margin removed proportionally."
+  "method": "Latest eligible snapshot strictly before each fixture's kick-off; average bookmaker implied probabilities with the margin removed proportionally.",
+  "note": "4 events in the latest snapshot, 0 attached. Club names resolved, but none of those fixtures are still upcoming: FC Machida Zelvia vs Hiroshima Sanfrecce FC (2026-11-08 14:00 JST); Vissel Kobe vs Urawa Red Diamonds (2026-11-08 14:00 JST); Gamba Osaka vs Cerezo Osaka (2026-11-08 15:00 JST); JEF United Chiba vs Mito HollyHock (2026-11-08 17:00 JST)."
  },
  "status": {
-  "model_run_utc": "2026-11-08T13:20:15Z",
-  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/42484249868",
+  "model_run_utc": "2026-11-08T13:40:35Z",
+  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/42485890698",
   "odds_fetched_utc": "2026-11-08T05:57:40Z",
-  "odds_note": null,
+  "odds_note": "4 events in the latest snapshot, 0 attached. Club names resolved, but none of those fixtures are still upcoming: FC Machida Zelvia vs Hiroshima Sanfrecce FC (2026-11-08 14:00 JST); Vissel Kobe vs Urawa Red Diamonds (2026-11-08 14:00 JST); Gamba Osaka vs Cerezo Osaka (2026-11-08 15:00 JST); JEF United Chiba vs Mito HollyHock (2026-11-08 17:00 JST).",
   "team_news_sync": {
    "run_utc": "2026-11-08T10:25:22Z",
    "result": "ok",
@@ -8156,14 +8163,14 @@
    "site_match_slug": "machida-zelvia-vs-sanfrecce-hiroshima-2026-11-08",
    "home": "Machida Zelvia",
    "away": "Sanfrecce Hiroshima",
-   "p_home": 0.408,
-   "p_draw": 0.278,
-   "p_away": 0.313,
+   "p_home": 0.391,
+   "p_draw": 0.28,
+   "p_away": 0.329,
    "model_call": "Open game",
    "score": "0-0",
    "result": "Draw",
    "called_it": false,
-   "p_on_result": 0.278,
+   "p_on_result": 0.28,
    "forecast_source": "published"
   },
   {
@@ -8172,14 +8179,14 @@
    "site_match_slug": "vissel-kobe-vs-urawa-red-diamonds-2026-11-08",
    "home": "Vissel Kobe",
    "away": "Urawa Red Diamonds",
-   "p_home": 0.437,
-   "p_draw": 0.273,
-   "p_away": 0.29,
+   "p_home": 0.428,
+   "p_draw": 0.275,
+   "p_away": 0.297,
    "model_call": "Open game",
    "score": "2-2",
    "result": "Draw",
    "called_it": false,
-   "p_on_result": 0.273,
+   "p_on_result": 0.275,
    "forecast_source": "published"
   },
   {
@@ -8188,14 +8195,14 @@
    "site_match_slug": "gamba-osaka-vs-cerezo-osaka-2026-11-08",
    "home": "Gamba Osaka",
    "away": "Cerezo Osaka",
-   "p_home": 0.406,
-   "p_draw": 0.257,
-   "p_away": 0.336,
+   "p_home": 0.439,
+   "p_draw": 0.255,
+   "p_away": 0.305,
    "model_call": "Open game",
    "score": "2-3",
    "result": "Away win",
    "called_it": false,
-   "p_on_result": 0.336,
+   "p_on_result": 0.305,
    "forecast_source": "published"
   },
   {
@@ -8204,14 +8211,14 @@
    "site_match_slug": "jef-united-chiba-vs-mito-hollyhock-2026-11-08",
    "home": "JEF United Chiba",
    "away": "Mito HollyHock",
-   "p_home": 0.48,
-   "p_draw": 0.254,
-   "p_away": 0.266,
+   "p_home": 0.497,
+   "p_draw": 0.251,
+   "p_away": 0.252,
    "model_call": "Lean JEF United Chiba",
    "score": "1-0",
    "result": "Home win",
    "called_it": true,
-   "p_on_result": 0.48,
+   "p_on_result": 0.497,
    "forecast_source": "published"
   }
  ],
