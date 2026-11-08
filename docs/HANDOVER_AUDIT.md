@@ -33,17 +33,19 @@ Those later issues incorporate post-Saturday information while still labelled `f
 
 **Mitigation in flight:** PR #1 restores freeze probs/RPS on the feed. **Still required in publisher:** lock scoring to the round snapshot; do not overwrite published history on later 2-hourly runs.
 
-### P0 — Live odds matcher fails silently
+### P0 — Odds snapshot contains no upcoming fixture
 
-On the current feed:
+On the 10:28 UTC feed of 8 Nov:
 
 - `events_in_snapshot: 4`
 - `matched_fixtures: 0`
-- `unmatched_names: []` (empty — no diagnostic)
+- `unmatched_names: []`
 - all upcoming J1 `market` fields null
-- site correctly shows unavailable
+- the site shows those markets as unavailable, which is the right display
 
-Quota remains (`450`), so this is matching/diagnostics, not an empty API key. Publisher should always emit the unmatched event names and fail the odds attach step loudly.
+This is not a failed name match. The four events are the Sunday Round 14 fixtures: Machida vs Hiroshima, Kobe vs Urawa, Gamba vs Cerezo, and JEF vs Mito. Every club name resolves, including `FC Machida Zelvia` and `Hiroshima Sanfrecce FC`. By 10:28 UTC those matches had kicked off, and the next open card is Round 15 on 20 Nov. The fetch policy does not call the API again when the next match is more than four days away, so this finished-round snapshot stays the latest file. An empty `unmatched_names` list means the names mapped.
+
+Quota remains (`450`). Publisher PR #5 now lists these events on `events_not_on_card` and in `odds_note` when nothing attaches. Markets stay blank until a snapshot contains a fixture that is still upcoming.
 
 ### P1 — Generated `model.inputs` text is false
 
@@ -81,12 +83,12 @@ Handover requires 2-hourly at minute 17 (not daily) and republish-on-change. Wor
 | Feed `created_utc` | 2026-11-08T10:28:27Z | ~1.4h old at audit |
 | `data_through_jst` | 2026-11-08 17:00 | Aligns with completed R14 |
 | Site embed | Same `created_utc` / model string as `main` | Cache serving current main feed |
-| Odds snapshot | 2026-11-08T05:57:40Z | Stale relative to model run; unmatched |
+| Odds snapshot | 2026-11-08T05:57:40Z | Four finished Round 14 fixtures; club names resolved |
 
 ## Priority recommendations
 
 1. **Publisher freeze lock (P0)** — Score and store published rows only from `rounds/round-N.json`. Later runs may update *upcoming* rounds and season sims, never past kick-off published probabilities. Add a CI/publish assertion: history published probs == freeze.
-2. **Odds matcher diagnostics (P0)** — Always populate `unmatched_names` (or raw event names); alert when `events_in_snapshot > 0 && matched_fixtures == 0`. Keep unavailable behaviour on the site.
+2. **Odds when the snapshot is only finished matches (diagnosed)** — Do not treat an empty `unmatched_names` list as a matcher failure. Name the events that are not on the upcoming card. Keep the site on unavailable until a snapshot actually contains Round 15 prices.
 3. **Honest `model.inputs` (P1)** — Generate copy that matches the adjustment + markets-tilt architecture; keep results-only wording only on `results_only` / season odds.
 4. **Attach `j1-forecast` to the agent environment (P1)** — Audit `forecast.yml`, D-034+, team-news sync, snapshot retention, and republish-on-change gating against code.
 5. **Adjustment calibration dashboard (P1)** — Track team-news and ACL deltas vs results-only continuously (extend `team_news_test`); no merge into baseline without out-of-sample win.
