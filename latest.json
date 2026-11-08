@@ -1,7 +1,7 @@
 {
  "schema": "jls-forecast-feed/1",
- "created_utc": "2026-11-08T10:28:27Z",
- "data_through_jst": "2026-11-08 17:00",
+ "created_utc": "2026-11-08T13:20:15Z",
+ "data_through_jst": "2026-11-08 17:03",
  "model": {
   "name": "J League Scout forecaster",
   "version": "blend-0.2.0 w_elo=0.4 | markets v2 (lambda tilt) | elo-0.1.1 fb3a832281",
@@ -171,8 +171,8 @@
   "method": "Latest eligible snapshot strictly before each fixture's kick-off; average bookmaker implied probabilities with the margin removed proportionally."
  },
  "status": {
-  "model_run_utc": "2026-11-08T10:28:27Z",
-  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/42471431765",
+  "model_run_utc": "2026-11-08T13:20:15Z",
+  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/42484249868",
   "odds_fetched_utc": "2026-11-08T05:57:40Z",
   "odds_note": null,
   "team_news_sync": {
@@ -3529,7 +3529,7 @@
      "home_clean_sheet": 0.423,
      "away_clean_sheet": 0.15,
      "p_over_2_5": 0.521,
-     "p_btts": 0.49,
+     "p_btts": 0.491,
      "likely_scores": [
       {
        "score": "1-0",
@@ -3592,7 +3592,7 @@
       }
      ],
      "p_home_range80": [
-      0.501,
+      0.5,
       0.594
      ],
      "confidence": "medium",
@@ -3713,7 +3713,7 @@
      "kickoff_jst": "19:00",
      "venue_ja": "味スタ",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.351,
+     "p_home": 0.352,
      "p_draw": 0.277,
      "p_away": 0.372,
      "lean": "Open game",
@@ -3743,7 +3743,7 @@
      ],
      "confidence": "higher",
      "results_only": {
-      "p_home": 0.351,
+      "p_home": 0.352,
       "p_draw": 0.277,
       "p_away": 0.372
      },
@@ -4044,7 +4044,7 @@
      "fixture_check": "official schedule; matches June PDF round",
      "p_home": 0.401,
      "p_draw": 0.276,
-     "p_away": 0.322,
+     "p_away": 0.323,
      "lean": "Open game",
      "home_xg": 1.28,
      "away_xg": 1.11,
@@ -4074,7 +4074,7 @@
      "results_only": {
       "p_home": 0.401,
       "p_draw": 0.276,
-      "p_away": 0.322
+      "p_away": 0.323
      },
      "adjustments": [],
      "market": null
@@ -5702,7 +5702,7 @@
    "points_now": 30,
    "projected_points": 73.2,
    "projected_gd": 37.2,
-   "p_title": 0.2839,
+   "p_title": 0.2841,
    "p_top3": 0.6774,
    "p_relegation": 0.0
   },
@@ -5716,8 +5716,8 @@
    "points_now": 33,
    "projected_points": 73.1,
    "projected_gd": 35.6,
-   "p_title": 0.28,
-   "p_top3": 0.6699,
+   "p_title": 0.2801,
+   "p_top3": 0.67,
    "p_relegation": 0.0
   },
   {
@@ -5730,7 +5730,7 @@
    "points_now": 29,
    "projected_points": 71.5,
    "projected_gd": 34.1,
-   "p_title": 0.1847,
+   "p_title": 0.1845,
    "p_top3": 0.5759,
    "p_relegation": 0.0
   },
@@ -5745,7 +5745,7 @@
    "projected_points": 69.8,
    "projected_gd": 19.6,
    "p_title": 0.1169,
-   "p_top3": 0.4297,
+   "p_top3": 0.4296,
    "p_relegation": 0.0
   },
   {
@@ -5758,7 +5758,7 @@
    "points_now": 27,
    "projected_points": 68.9,
    "projected_gd": 22.2,
-   "p_title": 0.0943,
+   "p_title": 0.0941,
    "p_top3": 0.3811,
    "p_relegation": 0.0
   },
@@ -5858,7 +5858,7 @@
    "projected_gd": -10.7,
    "p_title": 0.0,
    "p_top3": 0.0001,
-   "p_relegation": 0.0783
+   "p_relegation": 0.0784
   },
   {
    "team": "Fagiano Okayama",
@@ -5886,7 +5886,7 @@
    "projected_gd": -8.9,
    "p_title": 0.0,
    "p_top3": 0.0001,
-   "p_relegation": 0.0912
+   "p_relegation": 0.0914
   },
   {
    "team": "V-Varen Nagasaki",
@@ -5900,7 +5900,7 @@
    "projected_gd": -12.3,
    "p_title": 0.0,
    "p_top3": 0.0,
-   "p_relegation": 0.1884
+   "p_relegation": 0.1885
   },
   {
    "team": "Tokyo Verdy",
@@ -5928,7 +5928,7 @@
    "projected_gd": -23.7,
    "p_title": 0.0,
    "p_top3": 0.0,
-   "p_relegation": 0.2948
+   "p_relegation": 0.2949
   },
   {
    "team": "JEF United Chiba",
@@ -5942,7 +5942,7 @@
    "projected_gd": -22.1,
    "p_title": 0.0,
    "p_top3": 0.0,
-   "p_relegation": 0.4538
+   "p_relegation": 0.4537
   },
   {
    "team": "Avispa Fukuoka",
@@ -5956,7 +5956,7 @@
    "projected_gd": -22.1,
    "p_title": 0.0,
    "p_top3": 0.0,
-   "p_relegation": 0.6804
+   "p_relegation": 0.6801
   },
   {
    "team": "Mito HollyHock",
@@ -5970,7 +5970,7 @@
    "projected_gd": -32.4,
    "p_title": 0.0,
    "p_top3": 0.0,
-   "p_relegation": 0.8431
+   "p_relegation": 0.843
   }
  ],
  "season_history": [
