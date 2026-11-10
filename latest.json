@@ -1,6 +1,6 @@
 {
  "schema": "jls-forecast-feed/1",
- "created_utc": "2026-11-10T02:44:41Z",
+ "created_utc": "2026-11-10T12:37:09Z",
  "data_through_jst": "2026-11-08 17:03",
  "model": {
   "name": "J League Scout forecaster",
@@ -178,12 +178,12 @@
   "note": "4 events in the latest snapshot, 0 attached. Club names resolved, but none of those fixtures are still upcoming: FC Machida Zelvia vs Hiroshima Sanfrecce FC (2026-11-08 14:00 JST); Vissel Kobe vs Urawa Red Diamonds (2026-11-08 14:00 JST); Gamba Osaka vs Cerezo Osaka (2026-11-08 15:00 JST); JEF United Chiba vs Mito HollyHock (2026-11-08 17:00 JST)."
  },
  "status": {
-  "model_run_utc": "2026-11-10T02:44:41Z",
-  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/42744627019",
+  "model_run_utc": "2026-11-10T12:37:09Z",
+  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/42816958367",
   "odds_fetched_utc": "2026-11-08T05:57:40Z",
   "odds_note": "4 events in the latest snapshot, 0 attached. Club names resolved, but none of those fixtures are still upcoming: FC Machida Zelvia vs Hiroshima Sanfrecce FC (2026-11-08 14:00 JST); Vissel Kobe vs Urawa Red Diamonds (2026-11-08 14:00 JST); Gamba Osaka vs Cerezo Osaka (2026-11-08 15:00 JST); JEF United Chiba vs Mito HollyHock (2026-11-08 17:00 JST).",
   "team_news_sync": {
-   "run_utc": "2026-11-10T02:24:11Z",
+   "run_utc": "2026-11-10T10:24:15Z",
    "result": "skipped: next match in 10 days",
    "round": 15,
    "error": null
@@ -192,17 +192,17 @@
  },
  "model_v_market": {
   "source": "Closing odds: football-data.co.uk (market average, margin removed)",
-  "matches": 130,
+  "matches": 140,
   "rounds_covered": [
    1,
-   13
+   14
   ],
-  "model_score": 0.2063,
-  "market_score": 0.1997,
-  "model_favourite_won": 0.569,
-  "market_favourite_won": 0.546,
-  "big_disagreements": 22,
-  "big_disagreements_model_closer": 6,
+  "model_score": 0.208,
+  "market_score": 0.2006,
+  "model_favourite_won": 0.543,
+  "market_favourite_won": 0.529,
+  "big_disagreements": 25,
+  "big_disagreements_model_closer": 7,
   "note": "Ranked probability score, lower is better. Rounds before publishing are walk-forward backtest forecasts."
  },
  "season_race": {
