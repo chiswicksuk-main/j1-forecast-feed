@@ -12,7 +12,7 @@
 2. **[OFFICIAL/A, independently checked]** Japan vs Brazil: 14 Nov, 18:15 Singapore = 19:15 JST = 10:15 UK. Source: https://www.jfa.jp/national_team_2026/news/00036769/
 3. **[OFFICIAL/A, independently checked]** Japan U21 vs Spain: 13 Nov, 19:00 local Spain = 18:00 UK = 14 Nov 03:00 JST. Source: https://www.jfa.jp/eng/national_team/u21_2026/20261113/match_page.html
 4. **[USER-SUPPLIED GROK CLAIM, sources pending]** All 28 senior Japan players reportedly trained on 11 Nov; Minamino and Machida involved despite ACL recoveries; Ueda absent with a left-foot injury. Grok classified its claim as A. Fetch direct JFA/camp report URLs and verify before publication.
-5. **[USER-SUPPLIED GROK CLAIM, sources pending]** Brazil: Danilo withdrew with an adductor issue and was not replaced; Bruno Guimarães under managed workload. Grok classified B. Identify which Danilo from original reporter source.
+5. **[OFFICIAL/A independently checked]** Brazil: **Danilo Santos, the Botafogo midfielder, was withdrawn on 4 Nov due to injury; CBF confirmed no replacement would be called up.** https://www.cbf.com.br/selecao-brasileira/noticias/noticias/selecao-masculina/danilo-e-desconvocado-dos-amistosos-da-selecao-com-japao-e-singapura . Globo reports right-thigh adductor injury: https://ge.globo.com/futebol/times/botafogo/noticia/2026/11/04/com-lesao-na-coxa-danilo-desfalca-botafogo-contra-o-atletico-mg.ghtml . **[REPORTED/B source pending]** Bruno Guimarães reportedly on managed workload; fetch exact source.
 6. **[USER-SUPPLIED GROK CLAIM, prediction/C]** Press leans to Ogawa at striker and a senior 4-2-3-1; the public page currently has Maeda in a 3-4-2-1. Do not treat either as official.
 
 ## Senior Japan press-predicted XI
@@ -33,7 +33,7 @@ Grok notes Oiwa's U21 previously played 4-3-3 at the Asian Games. The site curre
 
 ## Brazil and Spain
 
-**Brazil:** Formation and selected starting XI not verified yet. Request CBF and Brazil camp reporter links. Brazil Danilo identity and reported withdrawal need checking.
+**Brazil:** Formation and selected starting XI not verified yet. CBF has confirmed Danilo Santos (Botafogo) is OUT and will not be replaced. Request Brazil camp reporter links for other selection questions.
 
 **Spain U21:** No supported predicted XI yet. Seek reliable federation and Spanish local coverage; do not invent one.
 
@@ -53,18 +53,20 @@ Grok notes Oiwa's U21 previously played 4-3-3 at the Asian Games. The site curre
 - **Brazil preview:** https://jleaguescout.soraretactics.com/football/samurai-blue/japan-v-brazil-2026
   - Revisit opening training paragraph only once 11 Nov training source links are supplied.
   - Present 4-2-3-1 Ogawa prediction alongside existing 3-4-2-1 Maeda projection with explicit sourcing and date, rather than making an unverified switch.
-  - Revisit Brazil XI only after confirming any withdrawal and its squad identity.
+  - **Remove Danilo Santos from the displayed Brazil predicted XI now** (the live page currently erroneously puts him in the midfield alongside Bruno Guimarães). CBF officially withdrew him on 4 November. Select a replacement only from a sourced current prediction, otherwise label the spot TBD. No other speculative changes.
 
 ## Still to check
 
 - Japan 11 Nov full session player list and any closed-session knocks.
-- Brazil possible shape; Danilo identity/withdrawal; status of Bruno Guimarães.
+- Brazil possible shape and status of Bruno Guimarães. Danilo Santos withdrawal is VERIFIED.
 - Spain U21 actual availability, formation, predicted XI.
 - Official team sheets close to kick-off; mark published predictions superseded once confirmed.
 - Direct source URLs for Soccer King Singapore camp, Sporting News Japan XI, JFATV Team Cam, Globo Singapore correspondent.
 
 ## Sources
 
+- [CBF Danilo Santos withdrawal, 4 Nov](https://www.cbf.com.br/selecao-brasileira/noticias/noticias/selecao-masculina/danilo-e-desconvocado-dos-amistosos-da-selecao-com-japao-e-singapura) — OFFICIAL/A
+- [Globo on Danilo adductor injury, 4 Nov](https://ge.globo.com/futebol/times/botafogo/noticia/2026/11/04/com-lesao-na-coxa-danilo-desfalca-botafogo-contra-o-atletico-mg.ghtml) — REPORTED/B
 - [JFA U21 replacement, 8 Nov](https://www.jfa.jp/national_team_2026/news/00036994/) — OFFICIAL/A
 - [JFA Singapore scheduling](https://www.jfa.jp/national_team_2026/news/00036769/) — OFFICIAL/A
 - [JFA U21 Spain match centre](https://www.jfa.jp/eng/national_team/u21_2026/20261113/match_page.html) — OFFICIAL/A
