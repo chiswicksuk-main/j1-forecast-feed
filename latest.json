@@ -1,6 +1,6 @@
 {
  "schema": "jls-forecast-feed/1",
- "created_utc": "2026-11-11T17:53:46Z",
+ "created_utc": "2026-11-12T00:39:26Z",
  "data_through_jst": "2026-11-08 17:03",
  "model": {
   "name": "J League Scout forecaster",
@@ -178,13 +178,13 @@
   "note": "4 events in the latest snapshot, 0 attached. Club names resolved, but none of those fixtures are still upcoming: FC Machida Zelvia vs Hiroshima Sanfrecce FC (2026-11-08 14:00 JST); Vissel Kobe vs Urawa Red Diamonds (2026-11-08 14:00 JST); Gamba Osaka vs Cerezo Osaka (2026-11-08 15:00 JST); JEF United Chiba vs Mito HollyHock (2026-11-08 17:00 JST)."
  },
  "status": {
-  "model_run_utc": "2026-11-11T17:53:46Z",
-  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/43072282211",
+  "model_run_utc": "2026-11-12T00:39:26Z",
+  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/43128634777",
   "odds_fetched_utc": "2026-11-08T05:57:40Z",
   "odds_note": "4 events in the latest snapshot, 0 attached. Club names resolved, but none of those fixtures are still upcoming: FC Machida Zelvia vs Hiroshima Sanfrecce FC (2026-11-08 14:00 JST); Vissel Kobe vs Urawa Red Diamonds (2026-11-08 14:00 JST); Gamba Osaka vs Cerezo Osaka (2026-11-08 15:00 JST); JEF United Chiba vs Mito HollyHock (2026-11-08 17:00 JST).",
   "team_news_sync": {
-   "run_utc": "2026-11-11T10:23:50Z",
-   "result": "skipped: next match in 9 days",
+   "run_utc": "2026-11-12T00:23:38Z",
+   "result": "skipped: next match in 8 days",
    "round": 15,
    "error": null
   },
