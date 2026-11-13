@@ -1,12 +1,68 @@
 # Samurai Blue and U21: latest research inbox
 
-**Updated at:** 2026-11-12, 09:45 UTC / 18:45 JST
-**Sweep ID:** sweep-3c (selection-evidence pass on top of sweep-3b)
-**Coverage cutoff:** 2026-11-12, 09:45 UK (GMT, Europe/London). Japan's third Singapore session (12 Nov, Singapore evening) and Gordo's Thursday press conference (about 16:45 UK) still fall after this cutoff. Japan U21 vs Spain, 13 November 18:00 UK; Japan vs Brazil, 14 November 10:15 UK.
+**Updated at:** 2026-11-13, 07:53 UTC / 16:53 JST
+**Sweep ID:** sweep-4 (match-eve sweep on top of sweep-3c)
+**Coverage cutoff:** 2026-11-13, 07:53 UK (GMT, Europe/London). Brazil's Friday session (late afternoon Singapore), the U-21 team sheet and the senior team sheet all fall after this cutoff. Japan U21 vs Spain, 13 November 18:00 UK (19:00 CET, 03:00 JST Saturday); Japan vs Brazil, 14 November 10:15 UK (19:15 JST).
 **Publish state:** inbox, not yet applied to the live website
-**Provenance:** Sweep 3c (12 Nov, 09:45 UTC) adds section 3b, a position-by-position selection-evidence table for Japan, Brazil and Japan U-21 with recent starts, training notes, coach comments and press picks, ranked 1st to 3rd with no invented percentages, plus Brazil's 12 Nov training news. Nothing earlier was removed. Sweep 3b is an extra predicted-XI pass, requested after sweep 3 (12 Nov, 07:35 UTC). It keeps every earlier finding unless a later source supersedes it. Continues sweep 2 (11 Nov, 11:15 UTC) and sweep 1 (imported as grok-sweep1-import, with ChatGPT's independently checked corrections). This pass searched note.com, Gekisaka, Soccer Digest Web, Football Zone, Sakanowa, Soccer King, Sporting News Japan, Number Web and Yahoo News, public X posts by named Japanese reporters, plus Marca, AS, Relevo, Mundo Deportivo, Hoy and sefutbol or RFEF for Spain U-21. Free web sources only. No El Golazo or Targma text was opened. No purchases.
+**Provenance:** Sweep 4 (13 Nov, 07:53 UTC) adds Moriyasu's and Ancelotti's 13 Nov press conferences, Gordo's 12 Nov press conference, the U-21 eve-of-match session, JFA's numbered U-21 roster, new predicted XIs from ABEMA TIMES (U-21), AERA DIGITAL (U-21), EFE (both U-21 sides), Soccer Digest (Japan, conditional back four) and the Brazilian press (ge.globo graphic, CNN Brasil, Exame, Lance), a refreshed section 3b with earlier rankings noted, and new website suggestions (6e). Scope is this weekend's two games only. Nothing earlier was removed; superseded points are marked. Sweep 3c text is backed up as sweep3c_backup.md. Sweep 3c (12 Nov, 09:45 UTC) adds section 3b, a position-by-position selection-evidence table for Japan, Brazil and Japan U-21 with recent starts, training notes, coach comments and press picks, ranked 1st to 3rd with no invented percentages, plus Brazil's 12 Nov training news. Nothing earlier was removed. Sweep 3b is an extra predicted-XI pass, requested after sweep 3 (12 Nov, 07:35 UTC). It keeps every earlier finding unless a later source supersedes it. Continues sweep 2 (11 Nov, 11:15 UTC) and sweep 1 (imported as grok-sweep1-import, with ChatGPT's independently checked corrections). This pass searched note.com, Gekisaka, Soccer Digest Web, Football Zone, Sakanowa, Soccer King, Sporting News Japan, Number Web and Yahoo News, public X posts by named Japanese reporters, plus Marca, AS, Relevo, Mundo Deportivo, Hoy and sefutbol or RFEF for Spain U-21. Free web sources only. No El Golazo or Targma text was opened. No purchases.
 
 ## 1. Material developments since the previous sweep
+
+### Sweep 4 (13 Nov, to 07:53 UK)
+
+**Status at cutoff.** No official XI for either match. No new JFA player-change notice (seniors or U-21), no new CBF withdrawal, and no RFEF squad change found. Both head coaches of the senior game and both U-21 coaches have now spoken. The U-21 team sheet is due before the 18:00 UK kick-off tonight; it had not been published when this sweep closed.
+
+**Seniors**
+
+1. **[REPORTED/B, new] Moriyasu's pre-match press conference, 13 Nov, Singapore National Stadium.** Nothing on selection or shape was reported. Sponichi (16:06 JST / 07:06 UK), Sanspo (Murata Naoto, 16:15 JST), Hochi (Kanekawa Homare, 16:03 JST) and Nikkan (Sato Takashi, 16:26 JST) carry the same core line: Japan will not "look up" at Brazil but play them "on the same level", and "チャンスは必ずあると思う". Nikkan adds that he believes the squad has reached the point where "誰が出ても同じように戦える". Hochi notes Ueda and Tomiyasu are absent injured and Taniguchi was not selected, so the back line and the striker both differ from the World Cup side. No player was reported missing from the final session.
+
+2. **[REPORTED/B, new, context] Nikkan, 13 Nov, 16:30 JST / 07:30 UK:** the JFA's planned 30 December friendly at Panasonic Stadium Suita has been dropped, after objections from J.League clubs and trouble finding an opponent, so Moriyasu's last games in charge will be Brazil and Paraguay in Singapore. Not a selection fact, but it changes the framing of Saturday from "last trip with the Europe-based players" to "last two games". JFA has not announced it.
+
+3. **[REPORTED/B] Japan's 12 Nov session.** All 28 on the pitch again; the first 15 minutes (ladder work, rondos) were open and the rest was closed (Soccer King; Mynavi 18:38 JST; Jiji 18:46 JST; Nikkan 18:49 JST). Nothing about shape or groups leaked from the closed part. **[OFFICIAL/A]** JFA's X account posted the final session on 13 Nov (06:07 UTC) with photos only, no names missing and no detail.
+
+4. **[OFFICIAL/A, player words] Minamino, JFA X, 13 Nov 03:02 UTC (12 Nov post-training comments):** "先発で試合に出るために、一から練習でアピールしていきたい". He is talking like a player who has to earn a start, not one who expects it. That fits Moriyasu's 4 Nov "managed return" line.
+
+5. **[REPORTED/B, new] Back four talk is louder, but still not a team sheet.** Maeda, to Soccer Digest on 12 Nov: "大岩さんも４バックだから、そういった意味もあると思います。でも４バックで行く場合もありますし、３バックで行く場合もあると思うので、どちらでもいい準備を選手はしておかないといけない". Hochi (Kanekawa, 12 Nov 18:46 JST) says Machida's return makes a tall back four possible (Itakura, Machida, Ito, with Nakano at right-back), and expects both systems across Brazil and Paraguay. Neither is a training observation of a back four in Singapore.
+
+6. **[PREDICTION/C, new] Soccer Digest, Ekuni Shin, 13 Nov: a 4-2-3-1 "if Japan go to a back four"**, with Maeda up front. It is a conditional companion to his 10 Nov 3-4-2-1, not a replacement. Details in section 3.
+
+7. **[PREDICTION/C, update] Sakanowa republished its graphic on 12 Nov, 18:50 JST** (topics/114484, headline: Goto "本命か"). Same eleven as its 12 Nov XI already on file; only the bracketed alternatives moved (Seko now also listed behind Watanabe, Tanaka behind Kamada, Kamada behind Yuito). Not a new prediction.
+
+8. **[REPORTED/B, new] Ancelotti's press conference, 13 Nov (CBF TV, reported by ge.globo's Cahê Mota at 04:11 Brasília / 07:11 UK and UOL at 04:17 Brasília / 07:17 UK).** Three points matter. (a) Shape: "Amanhã vamos jogar com três meio-campistas. Eu tenho na cabeça os nomes, mas não quero dizer hoje. A verdade é que o Rayan pode jogar ali", with Rayan tested at "meia-esquerda" and a comparison with Di María at Real Madrid in 2014. (b) Bruno: "Esta semana Bruno não treinou por ter um incômodo. Agora, está bem e pode jogar. Até quando? Não sei." (c) Raphinha stays at centre-forward: "Ele está indo muito bem como centroavante no Barcelona e não quero mudar essa ideia". Cahê adds that Ancelotti also wants to look at Marlon Gomes as a first volante in this window. **This supersedes the sweep 3c ranking of a 4-2-4 first** (see 3b).
+
+9. **[REPORTED/B, new] Brazil's 12 Nov session, re-read.** ge.globo changed its own headline that day, from "testa volta do 4-2-4 com Rayan no ataque" (09:12 UK) to "testa Rayan no meio de campo" (11:41 UK), and its 12 Nov graphic shows a 4-3-3: Pedro Morisco; Wesley, Jair, Gabriel Magalhães, Douglas Santos or Carlos Augusto; Andrey Santos (centre), Bruno Guimarães, Rayan; Estêvão, Raphinha, Vini Jr. CNN Brasil (Leonardo Martins, 12 Nov 11:01 Brasília) and Lance still read the same work as a 4-2-4. Ancelotti's "three midfielders" settles the label, if not how it looks in possession.
+
+10. **[REPORTED/B] Raphinha press conference, 13 Nov (ge, Cahê Mota, 02:33 Brasília / 05:33 UK):** "Quero jogar todos os jogos e a maioria dos minutos possíveis". He also noted that only his last Barcelona game was a full 90, and called his ear-cyst operation minor. Captain on Saturday per UOL. Minutes watch stays, start looks solid.
+
+11. **[REPORTED/C, upgraded from UNVERIFIED] Endrick among the reserves.** DOL (Magno Fernandes, 11 Nov 21:42 Brasília) now carries it with a byline: Endrick stayed with the reserves throughout the 11 Nov coletivo. No Globo, UOL or CNN report puts him in the first group on 11 or 12 Nov. Still not a Globo-level source, so C.
+
+12. **[REPORTED/B, Brazil goalkeeper]** Morisco is now the "tendency" in ge's graphic, Exame (citing ESPN), Lance and CNN Brasil (Morisco, with Bento as the alternative). Nobody official has confirmed it. Bento trained with the starters at points, per CNN.
+
+13. **[REPORTED/B] Brazil left-back is an open question.** ge's graphic lists "Douglas S. / Carlos Augusto"; Exame (ESPN) and Lance say Carlos Augusto was looked at; CityTudo (aggregator, C) says Carlos Augusto spent more time in the main group on Thursday.
+
+**U-21 and Spain U-21 (equal weight)**
+
+14. **[OFFICIAL/A, new] JFA X, 13 Nov 05:50 UTC: the U-21 eve-of-match session** was held at the match venue, Estadio Francisco de la Hera. About an hour: checking the pitch, then game-format work and set pieces, going back over the team's agreed principles. No names, no shape, nobody reported missing. Soccer Digest (Matsuo Yuki) adds the first 15 minutes were open.
+
+15. **[OFFICIAL/A, new] JFA's U-21 match page now lists the pre-match roster with shirt numbers** (all 25, Ishibashi No. 24, no Miidera). It is the squad list, not a starting XI. Pisano 1, Umeki 2, Kosugi 3, Kita 4, Ichihara 5, Nagano 6, Ishiwatari 7, Nakajima 8, Shiogai 9, Sato Ryunosuke 10, Yokoyama 11, Kobayashi 12, Saito 13, Ozeki 14, Mori 15, Sasa 16, Iwamoto 17, Shimamoto 18, Takaoka 19, Ishii 20, Sato Mihiro 21, Okabe 22, Hamasaki 23, Ishibashi 24, Koizumi 25.
+
+16. **[PREDICTION/B, new] ABEMA TIMES, Matsuo Yuki, 13 Nov 11:36 JST / 02:36 UK: full 4-3-3 graphic.** Pisano; Umeki, Ichihara, Kita, Kosugi; Nakajima; Ozeki, Sato Ryunosuke; Saito, Shiogai, Ishii. This is the first U-21 XI from a named reporter written during the camp. It differs from the two pre-camp sides on the anchor (Nakajima), the left wing (Saito ahead of Yokoyama) and the right wing (Ishii). Details in section 3.
+
+17. **[PREDICTION/B, new, missed in sweep 3c] AERA DIGITAL, Miwa Naoki, 12 Nov 18:00 JST: 4-3-3 narrative.** Pisano; Umeki (Koizumi worth watching), Ichihara, Kita, Kosugi; Nakajima the best fit as anchor, with Nagano and Iwamoto as other anchor options; Ozeki first-choice No. 8, Sato Ryunosuke central; left wing from Yokoyama, Saito, Ishibashi; right wing Sato or Ishii; Shiogai up front with Takaoka as the joker.
+
+18. **[PREDICTION/C, new] EFE, 12 Nov (via Infobae, 06:16 EST / 11:16 UK): probable XIs for both sides.** Japan: Pisano; Kosugi, Ichihara, Kita, Umeki; Ozeki, Ishiwatari, Nakajima, Saito; Shiogai, Yokoyama. Spain: Esquivel; Iván Fresneda, Yarek Gasiorowski, Jon Martín, Álex Valle; Marc Bernal, **Chema Andrés**, Rodrigo Mendoza; Pablo García, Iker Bravo, Espí. Chema Andrés withdrew injured on 8 Nov (Marca, AS) and Europa Press on 12 Nov still calls him "baja por lesión", so EFE's Spain XI contains an unavailable player. Recorded as published, flagged in section 7. EFE also says Pitarch is not expected to start but could get second-half minutes.
+
+19. **[REPORTED/B, new] Araki Rui (Gamba) is out injured** and not in this squad, per AERA and ABEMA. He was the U23 Asian Cup best goalkeeper and started the Asian Games final. This explains, rather than changes, why Pisano is everyone's first choice.
+
+20. **[REPORTED/B] Oiwa on Takaoka, quoted by ABEMA:** "もちろん9番（CF）で考えています", and that for team reasons he may also play at 7 or 11. The date of the quote is not given in the article. No report of Oiwa's 12 Nov media session was found.
+
+21. **[OFFICIAL/A for RFEF text; REPORTED/B for press] Gordo's press conference, 12 Nov, Almendralejo.** RFEF's own write-up (12 Nov, 19:00 CET): "Japón es un equipo excepcional", with a lot of talented players, and "Sabemos que habrá momentos en los que Japón nos quitará balón". Also: "No hay mejor manera de preparar una competición que ganando". Hoy (Paco Galeano, updated 22:08 CET) adds that he singled out Japan's full-backs moving inside to create overloads (a "partida de ajedrez"), and that Ángel Ortiz's homecoming will not condition who plays. EFE: he would not say whether Ortiz starts. Referee Jérémie Pignard (France), per RFEF. Sold out, 11,580.
+
+22. **[REPORTED/B, new] Europa Press, 12 Nov 20:57 CET, Spain shape hints.** Pitarch could make his debut alongside Bernal in midfield; Mosquera, back after two absences through injury, is "llamado a liderar la zaga"; Espí or Gonzalo García at 9; Pablo García and Iker Bravo wide. That disagrees with EFE on Pitarch and on the centre-backs. Neither is a team sheet.
+
+23. **No starting percentages** were published by any source found in this sweep. None are given.
+
+24. **Website check (07:45 UK).** Preview updated 12 Nov: the 11 Nov 4-2-4 then 4-3-3 line and Sakanowa's Goto lean are live. Hub: the U-21 camp note and Spain arrival line are live. Still not live: U-21 second predicted XI, Brazil goalkeeper, Brazil Thursday shape, Ekuni and soccer-kickoff XIs. New suggestions are in section 6e.
 
 ### Sweep 3 (12 Nov, to 07:35 UK)
 
@@ -29,7 +85,6 @@
 9. **Website check.** Most sweep 2 fixes are now live: the U-21 teaser, graphic note, profile and No. 24 entry all show Miidera out and Ishibashi in; the Brazil graphic has "Place to be decided" instead of Danilo Santos; the all-28 Wednesday line and Cahê's 4-3-3 are on the preview. Remaining suggestions are in section 6, items 9 to 12.
 
 10. **[REPORTED/B, no change]** Spain U-21: nothing newer than the 8 Nov Marca and AS reports was found. Chema Andrés still has no reported replacement. No Spain XI prediction. No public Japan U-21 training report from Almendralejo has been found.
-
 
 ### Sweep 3b (12 Nov, to 08:35 UK)
 
@@ -107,6 +162,9 @@
 - 10 Nov: only 12 trained on the pitch for about an hour after a pre-session squall, in heat of about 30C. The other 16 did a recovery programme at the hotel. This was treated as load management after club games and travel, not as a diagnosis. The 12 were Hayakawa, Itakura, Ito Hiroki, Nakano, Sugawara, Sakamoto, Soma, Doan, Tanaka, Sano Kaishu, Matsuki and Ogawa. **[REPORTED/B, Soccer King 10 Nov; Sponichi and Sanspo agree]**
 - 11 Nov: all 28 were on the pitch for the first time, including Minamino, Machida and Fukuda. First 15 minutes public; the rest closed. **[REPORTED/B]** Next sessions are due on 12 and 13 Nov, then Brazil on 14 Nov, per Sanspo's 11 Nov all-28 report. Official senior press conference: Friday 13 Nov, time still listed as TBD on JFA materials from sweep 1.
 - No senior withdrawal or separate-training report has been found since arrival.
+- **Sweep 4:** no JFA player-change notice through this cutoff; the senior news list (rechecked 13 Nov, 07:39 UK) shows only the 12 Nov shirt numbers and an unrelated charity notice. **[OFFICIAL/A]** All 28 were on the pitch on 12 Nov (first 15 minutes public). **[REPORTED/B]** JFA posted the 13 Nov final session with photos and no absentee note. **[OFFICIAL/A]** Moriyasu's 13 Nov press conference produced no injury news. **[REPORTED/B]**
+- **Sweep 4, small correction to the 10 Nov line above:** Gekisaka (11 Nov, 07:08 JST) says Soma, Ogawa and Nakano, who had played on 8 Nov, joined only the warm-up on 10 Nov and did the rest separately. That was load management after the J1 weekend, not an injury. **[REPORTED/B]**
+- **Sweep 4, context:** Nikkan (13 Nov, 16:30 JST) reports the planned 30 December Osaka friendly is off, so Brazil and Paraguay will be Moriyasu's last games. **[REPORTED/B]** JFA has not announced it.
 
 ### Brazil
 
@@ -116,6 +174,7 @@
 - Bruno Guimarães: intended starter if healthy, but his Wednesday workload is reported differently by UOL and Cahê Mota. See section 7. Not an official withdrawal.
 - No further CBF withdrawal has been found.
 - **Sweep 3:** O Globo, 12 Nov, says Bruno was spared a third day to recover from physical wear and is expected to be available if fit. **[REPORTED/B]** Still not an official fitness bulletin. O Globo also says the Ukraine- and Russia-based players had not yet arrived for that session, which conflicts with UOL and CBF's "all 25" line. CBF's own 11 Nov training piece, via Yahoo Sports, says all 25 were available, so treat CBF as the stronger source. **[OFFICIAL/A for CBF]**
+- **Sweep 4:** no further CBF withdrawal found (CBF search and press rechecked 13 Nov). **[OFFICIAL/A for the absence of a notice]** Bruno Guimarães: Ancelotti, 13 Nov, "Esta semana Bruno não treinou por ter um incômodo. Agora, está bem e pode jogar. Até quando? Não sei." **[REPORTED/B, coach's own words via ge.globo]** That replaces the "load management" readings above with the coach's own explanation: a minor complaint, now fit, minutes to be judged. Raphinha says he wants to play as many minutes as possible and has had one full 90 at Barcelona since returning from injury. **[REPORTED/B]** No other fitness doubt reported.
 
 ### Japan U-21
 
@@ -127,6 +186,9 @@
 - Schedule in local time (JFA): training 10, 11 and 12 Nov, afternoon; Spain 13 Nov, 19:00; then travel on to Egypt (out of scope for match coverage).
 - **Sweep 3b:** JFA's U-21 news list was rechecked. It still shows only the 11 Nov broadcast note, the 8 Nov change and the 6 Nov squad. No further player-change notice. The Spain match page still lists Ishibashi, and still has no official XI. **[OFFICIAL/A]**
 - **Sweep 3b, first public camp report. [OFFICIAL/A]** JFA X, 12 Nov, 03:55 UK / 12:55 JST: the side trained in cold rain; after the warm-up, as on the previous day, the work was mainly game-format to check the team concept, with frequent instructions from Oiwa and the staff. No names, no shape, nobody reported missing. https://x.com/jfa_samuraiblue/status/2120727031801397672 . Hoy independently confirms a 16:00 session at the stadium on 11 Nov, with another due at 16:00 on 12 Nov before Oiwa speaks.
+- **Sweep 4:** JFA's U-21 news list (rechecked 13 Nov, 07:39 UK) still shows no player change after 8 Nov. The match page now shows the 25-man pre-match roster with shirt numbers, Ishibashi No. 24, and no starting XI yet. **[OFFICIAL/A]** https://www.jfa.jp/national_team/u21_2026/20261113/match_page.html
+- **Sweep 4:** eve-of-match session held at the stadium on 12 Nov, about an hour, pitch check, game-format work and set pieces, "チームの約束事を再確認". No names, nobody reported missing. **[OFFICIAL/A, JFA X, 13 Nov 05:50 UTC]** https://x.com/jfa_samuraiblue/status/2121118360461254684 . Soccer Digest (Matsuo Yuki, 13 Nov 10:27 JST) adds the first 15 minutes were open. **[REPORTED/B]**
+- **Sweep 4:** Araki Rui (Gamba Osaka) is injured, which is why the U23 Asian Cup best goalkeeper is not here. **[REPORTED/B, AERA 12 Nov; ABEMA 13 Nov]** Not on the JFA squad list, so this is background, not a change.
 
 ### Spain U-21
 
@@ -141,6 +203,8 @@
   - FW: Pablo García (Racing Santander), Dani Rodríguez (Dinamo Zagreb), Javi Hernández (Espanyol), Ángel Alarcón (Utrecht), Carlos Espí (Real Madrid), Gonzalo García (Fulham)
 - An official RFEF squad page was not retrieved (earlier 403). sefutbol and RFEF pages checked in sweep 3b were fixture or ticket notes, not a squad list or an XI. Marca's 8 Nov travelling party still stands.
 - Arrival in Almendralejo is now confirmed: after 19:00 on 11 Nov, at Hotel Acosta, a day after Japan. **[REPORTED/B, Hoy, 11 Nov, 20:23 CET]** Thursday press conference still due at 17:45 local (16:45 UK) with Gordo and Ángel Ortiz, and a stadium session at 19:00. Tickets sold out, attendance expected above 10,500. Chema Andrés still has no reported replacement.
+- **Sweep 4:** Gordo and Ángel Ortiz spoke on 12 Nov at the stadium; Spain then had their last session there. **[OFFICIAL/A, RFEF, 12 Nov 19:00 CET]** https://rfef.es/es/noticias/rp-david-gordo-angel-ortiz . No new squad change was announced. Europa Press (12 Nov, 20:57 CET) still describes Chema Andrés as "baja por lesión" and no replacement has been reported. **[REPORTED/B]** Mosquera is back after two absences through injury and is expected to lead the defence. **[REPORTED/B, Europa Press]** Referee: Jérémie Pignard (France). Broadcast in Spain: Teledeporte. **[OFFICIAL/A, RFEF]** Attendance: sold out, 11,580. **[REPORTED/B, EFE]**
+- **Sweep 4, minor discrepancy:** EFE's 12 Nov preview calls the original list a "convocatoria de 21 jugadores". Marca's 8 Nov travelling party, as listed in section 2 above, has 23 names after the changes (24 were originally announced). Treat the 21 as an EFE error unless RFEF says otherwise.
 
 ## 3. Predicted XIs, formations and alternative starters
 
@@ -288,13 +352,208 @@ A separate Soccer King piece on 12 Nov, citing AS, says Barcelona have asked CBF
 
 No sourced predicted XI was found in Marca, AS, Relevo, Mundo Deportivo, Hoy or the sefutbol and RFEF pages checked in this sweep. Do not invent one. Next genuine chance is Gordo's press conference at about 17:45 local on Thursday 12 Nov, which falls after this cutoff.
 
-## 3b. Position-by-position selection evidence (added 09:45 UK, 12 Nov)
+### Sweep 4 additions (13 Nov, to 07:53 UK)
+
+Still no official XI for either match. Every entry below is a prediction or a training read, dated and attributed. Nothing above is replaced.
+
+#### Japan vs Brazil
+
+**I. Soccer Digest, Ekuni Shin, 13 Nov: 4-2-3-1 "if Japan use a back four", with Maeda. [PREDICTION/C, conditional]**
+https://www.soccerdigestweb.com/news/detail/id=199655 and https://www.soccerdigestweb.com/news/detail2/id=199655
+
+Graphic first names, bracketed alternatives as shown:
+
+Zion Suzuki (Hayakawa, Kokubo); Sugawara (Nakano), Watanabe (Seko), Itakura (Machida), Hiroki Ito (Junnosuke Suzuki); Kamada (Sano Kodai), Sano Kaishu (Tanaka); Doan (Ito Junya, Matsuki, Sakamoto), Kubo (Suzuki Yuito, Minamino), Keito Nakamura (Soma); Maeda (Ogawa, Goto, Fukuda).
+
+Text: Zion is "不動"; right-back is Sugawara against Nakano; any of Watanabe, Itakura, Seko or Machida could play centre-back; Ito at left-back with Junnosuke as back-up; Doan first on the right; Kubo, Yuito and Minamino are the candidates behind the striker; the striker is between Maeda, Ogawa and Goto, and Maeda, with his pressing, is "最有力候補か". Fukuda will not start. The piece also reports that the New Zealand back four was partly because Oiwa, Moriyasu's successor, uses one, and quotes Maeda on preparing for both. This is a what-if graphic. Ekuni's 10 Nov 3-4-2-1 (D above) remains his headline prediction.
+
+**J. Sakanowa, 12 Nov 18:50 JST republication. [PREDICTION/C, same XI as C]**
+https://sakanowa.jp/topics/114484
+
+Same eleven as entry C. Alternatives now: Watanabe (Seko), Seko (Itakura); Kamada (Tanaka); Yuito (Kamada); Ito Junya (Kubo, Maeda); Doan (Ito Junya); Goto (Ogawa). Headline: Goto "本命か". The brackets imply two options worth noting: Kamada moving up to a shadow with Tanaka in the pivot, and Seko sliding from centre to right.
+
+**K. Hochi, Kanekawa Homare, 12 Nov 18:46 JST: back four idea, no full XI. [REPORTED/B for Machida's comments; PREDICTION/B for the system lean]**
+https://hochi.news/articles/20261112-OHT1T51254.html
+
+Says Machida's return makes a tall back four possible (Itakura, Machida, Ito, with Nakano at right-back), notes Seko started all four autumn games, and writes "ブラジル、パラグアイ戦でも３バック、４バックの併用が予想される". Machida: "攻守において怖がらないことが肝心". No XI is given, so none is attributed.
+
+**Search-engine summaries ignored.** Two AI search summaries claimed a "Nikkan 予想布陣" 4-2-3-1 with Ogawa and an Ekuni 4-2-3-1 with Nakano and Ogawa. Neither matched any retrieved article: none of Nikkan's 12 and 13 Nov Japan-news headlines is a predicted XI, and Ekuni's real graphic is entry I. Not used.
+
+**Japan consensus note, sweep 4.** Back-three full XIs: site, Kawaji (pre-camp), Ekuni 10 Nov, Sakanowa, soccer-kickoff. Back-four full XIs: Sporting News, plus Ekuni's conditional 13 Nov graphic. Striker first choices among full XIs: Maeda (site, Kawaji, Ekuni in both versions), Ogawa (Sporting News, soccer-kickoff), Goto (Sakanowa). Nothing official on either point.
+
+#### Brazil vs Japan
+
+**G. ge.globo graphic, 12 Nov, 18:24 UTC: "Escalação do Brasil no treino desta quinta-feira". [REPORTED/B for what was worked on; PREDICTION/B if read as the XI]**
+https://x.com/geglobo/status/2120945970527822289 ; training-shape post https://x.com/geglobo/status/2120849286724485237 ; Cahê Mota's revised headline https://x.com/cahemota/status/2120844432002154894
+
+Pedro Morisco; Wesley, Jair, Gabriel Magalhães, Douglas Santos / Carlos Augusto; Andrey Santos, Bruno Guimarães, Rayan; Estêvão, Raphinha, Vini Jr. The graphic flags left-back as a doubt. This supersedes the sweep 3c reading of the same session as a 4-2-4 with Rayan as a fourth forward; ge changed its own headline the same day.
+
+**H. Ancelotti, 13 Nov press conference: "três meio-campistas", Rayan can play there, names not given. [REPORTED/B, coach's words via UOL and ge]**
+https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/13/ancelotti-cita-di-maria-para-explicar-teste-com-rayan-no-meio-da-selecao.htm
+
+Not an XI. It confirms the shape label and leaves the three names open.
+
+**I. Exame, citing ESPN, 12 Nov: 4-3-3. [PREDICTION/C]** Pedro Morisco; Wesley, Jair, Gabriel Magalhães, Douglas Santos (Carlos Augusto); Bruno Guimarães, Andrey Santos, Rayan; Estêvão, Raphinha, Vini Jr. https://exame.com/esporte/ancelotti-esboca-selecao-brasileira-no-4-3-3-para-enfrentar-o-japao-veja-provavel-time/
+
+**J. CNN Brasil, Leonardo Martins, 12 Nov 11:01 Brasília: 4-2-4. [PREDICTION/C]** Pedro Morisco (Bento); Wesley, Jair, Gabriel Magalhães, Douglas Santos; Andrey Santos (Marlon Gomes), Bruno Guimarães; Rayan, Estêvão, Raphinha, Vini Jr. https://www.cnnbrasil.com.br/esportes/futebol/selecao-brasileira/veja-provavel-escalacao-da-selecao-brasileira-para-enfrentar-o-japao/ . Same eleven as G and I, different label. Lance (12 Nov) reads it the same way. https://www.lance.com.br/selecao-brasileira/bruno-guimaraes-volta-e-ancelotti-comeca-a-definir-a-escalacao-da-selecao.html
+
+**K. Football Zone, 13 Nov, "citing Globo's X": 4-3-3 with Arthur Dias and Allan. [PREDICTION/C, probably a misreading]** https://www.football-zone.net/archives/684579 . It puts Arthur Dias beside Gabriel Magalhães, and Andrey Santos, Bruno and Allan in midfield. ge's own graphic (G) has Jair at centre-back and Rayan, not Allan, in midfield. Treat Football Zone's version as an error until a Globo source shows otherwise. Do not use it.
+
+All the November training-based Brazil XIs now agree on nine names (Morisco or Bento, Wesley, Jair, Gabriel Magalhães, Bruno, Andrey, Estêvão, Raphinha, Vini Jr) plus Rayan. The open questions are left-back and how Rayan is used.
+
+#### Japan U-21 vs Spain U-21
+
+**C. ABEMA TIMES, Matsuo Yuki, 13 Nov 11:36 JST / 02:36 UK: 4-3-3. [PREDICTION/B, named reporter, written during the camp]**
+https://times.abema.tv/articles/-/10288722
+
+Graphic first names, bracketed alternatives as shown:
+
+Pisano (Kobayashi, Hamasaki); Umeki (Koizumi, Mori), Ichihara (Okabe), Kita (Nagano), Kosugi (Sato Mihiro, Umeki); Nakajima (Iwamoto, Ishiwatari, Nagano); Ozeki (Ishiwatari, Sasa, Ishii), Sato Ryunosuke (Shimamoto, Nakajima); Saito (Yokoyama, Takaoka, Ishibashi), Shiogai (Takaoka, Shimamoto), Ishii (Ishibashi, Takaoka, Sato Ryunosuke).
+
+Text: Nakajima is "一番手" at anchor; the left wing is a "一騎打ち" between Saito and Yokoyama; the right wing has no natural option, with Ishii (played right at the Asian Games), Ishibashi and possibly Sato Ryunosuke as candidates; Takaoka is in Oiwa's mind as a 9.
+
+**D. AERA DIGITAL, Miwa Naoki, 12 Nov 18:00 JST: 4-3-3 narrative, not a single graphic. [PREDICTION/B]**
+https://dot.asahi.com/articles/-/297404 (d menu copy: https://topics.smt.docomo.ne.jp/article/dot/nation/dot-297404)
+
+GK Pisano; Ichihara and Kita at centre-back, Kosugi at left-back, Umeki favoured at right-back with Koizumi (191cm) to watch; Nakajima the best fit at anchor, Nagano and Iwamoto possible (Yasuda is not in the squad); Ozeki first choice at No. 8, Sato Ryunosuke central; Shimamoto, Ishiwatari or Sasa if Japan want more pressing; left wing Yokoyama, Saito or Ishibashi; right wing Sato or Ishii; Shiogai to start, Takaoka as the joker. Paraphrased, no direct quotes.
+
+**E. EFE, 12 Nov: probable Japan XI. [PREDICTION/C]**
+https://www.infobae.com/espana/agencias/2026/11/12/la-seleccion-sub-21-comienza-a-mirar-al-europeo-con-un-amistoso-ante-japon-en-almendralejo/
+
+Pisano; Kosugi, Ichihara, Kita, Umeki; Ozeki, Ishiwatari, Nakajima, Saito; Shiogai, Yokoyama. Listed in a 4-4-2 order, which may just be EFE's house format. It is the only sourced XI without Sato Ryunosuke. Weaker than the Japanese reporters on this team.
+
+**U-21 consensus, sweep 4 (five sourced sides: Nakagawara, Football Channel, AERA, ABEMA, EFE).** All five start Pisano, Umeki, Ichihara, Kita, Kosugi and Shiogai. Four of five use a three-man midfield or 4-3-3 shape; only Nakagawara has a 4-2-3-1. Nakajima starts in four of five; Ozeki in four of five; Sato Ryunosuke in four of five. Left wing: Yokoyama in three, Saito in two (ABEMA and EFE, which has both). Right wing: five different answers. No official XI yet.
+
+#### Spain U-21
+
+**A. EFE, 12 Nov: probable Spain XI, 4-3-3. [PREDICTION/C, contains a withdrawn player]**
+https://www.infobae.com/espana/agencias/2026/11/12/la-seleccion-sub-21-comienza-a-mirar-al-europeo-con-un-amistoso-ante-japon-en-almendralejo/
+
+Esquivel; Iván Fresneda, Yarek Gasiorowski, Jon Martín, Álex Valle; Marc Bernal, Chema Andrés, Rodrigo Mendoza; Pablo García, Iker Bravo, Espí.
+
+Chema Andrés withdrew on 8 Nov and is still "baja por lesión" per Europa Press on 12 Nov. His slot is therefore void. Do not fill it with a guess. EFE says Pitarch is not expected to start.
+
+**B. Europa Press, 12 Nov 20:57 CET: shape hints, not an XI. [PREDICTION/C]**
+https://www.europapress.es/deportes/futbol/mundial-00639/noticia-sub-21-comienza-japon-pruebas-cara-europeo-2027-20261112202731.html
+
+Pitarch could make his debut paired with Bernal in midfield; Mosquera to lead the back line; Espí or Gonzalo García at 9; Pablo García and Iker Bravo wide. Disagrees with EFE on Pitarch and on the centre-back pair.
+
+No Marca, AS, Relevo, Mundo Deportivo or sefutbol probable XI was found in this sweep. Gordo did not name a side.
+
+## 3b. Position-by-position selection evidence (added 09:45 UK, 12 Nov; refreshed 07:53 UK, 13 Nov in sweep 4)
 
 **Read this first.** Everything in this section is PREDICTION unless a line is marked OFFICIAL. No official XI exists yet for Japan v Brazil or Japan U-21 v Spain U-21. No source found in this pass has published a starting probability for any player, so none is given here. The 1st, 2nd and 3rd columns are a relative ranking built from the evidence in the row, not percentages. Percentages are left to the editorial workflow. Nothing here replaces the dated press XIs in section 3, which stay as they are. "Recent starts" means the September and October 2026 windows unless stated, taken from official team sheets (JFA, CBF via outlets) or same-day team-sheet reports. The official XI overrides all of this once it is out.
 
 Grade key as elsewhere in the file: A official, B named reporter or established outlet reporting facts, C prediction or opinion. "Selection evidence confidence" (High, Medium, Low) rates how strong and consistent the evidence is for the 1st choice, not how good the player is.
 
-### Japan v Brazil (senior)
+### Sweep 4 refresh (07:53 UK, 13 Nov): read this before the sweep 3c tables
+
+The sweep 4 tables below are the current ranking. The sweep 3c tables underneath are kept unchanged for the record. Where a ranking moved, the row says what it was and why. Still no official XI, and still no published starting probabilities from any source, so none are given. "Evidence" repeats only what is new or decisive; the full autumn team-sheet evidence is in the sweep 3c rows.
+
+#### Japan v Brazil (senior), sweep 4
+
+**Formation uncertainty, sweep 4.** Still open, and the gap has narrowed.
+- *For a back three:* three of four autumn starts **[OFFICIAL/A]**; five of seven full press XIs, including Ekuni's headline 10 Nov side and Sakanowa's re-posted 12 Nov side **[PREDICTION/C]**.
+- *For a back four:* the last game (NZ) **[OFFICIAL/A]**; Sporting News; Ekuni's conditional 13 Nov graphic; Hochi's 12 Nov expectation that both systems will be used across Brazil and Paraguay, with Machida making a tall four possible **[REPORTED/B]**; Maeda's 12 Nov comment that players must be ready for both, and that Oiwa uses a back four **[REPORTED/B, player quote via Soccer Digest]**.
+- *Training:* nothing. The 12 Nov session was closed after 15 minutes, and no report of the 13 Nov final session had appeared at cutoff. Moriyasu gave no shape hint on 13 Nov **[REPORTED/B, Sponichi, Sanspo, Hochi, Nikkan]**.
+- *Ranking:* back three 1st, back four 2nd, **confidence Low** (sweep 3c gave the same order without a grade; it is now explicitly Low because a B-grade outlet, Hochi, expects both systems and a C-grade predictor has hedged).
+
+**Back three (3-4-2-1), sweep 4**
+
+| Position | 1st | 2nd | 3rd | What is new in sweep 4 | Sources | Confidence |
+|-|-|-|-|-|-|-|
+| GK | Suzuki Zion | Hayakawa | Kokubo | Ekuni 13 Nov: "不動". Ancelotti praised Zion on 13 Nov (Nikkan). No change. | [Soccer Digest, 13 Nov](https://www.soccerdigestweb.com/news/detail/id=199655) | High |
+| RCB | Seko | Watanabe | Nakano | Hochi 12 Nov: Seko started all four autumn games **[REPORTED/B]**. Sakanowa's re-post lists Seko behind Watanabe as well. No change. | [Hochi, 12 Nov](https://hochi.news/articles/20261112-OHT1T51254.html); [Sakanowa, 12 Nov 18:50 JST](https://sakanowa.jp/topics/114484) | Medium |
+| CCB | Itakura | Seko | Watanabe | No new evidence. | As sweep 3c | Medium |
+| LCB | Ito Hiroki | Machida | Suzuki Junnosuke | Machida spoke at length to Hochi on 12 Nov after his return; no source puts him in a back-three XI. No change. | [Hochi, 12 Nov](https://hochi.news/articles/20261112-OHT1T51254.html) | High |
+| RWB | Doan | Ito Junya | Sugawara | Ekuni 13 Nov (4-back graphic): Doan first on the right, with Ito Junya, Matsuki and Sakamoto bracketed. No change. | [Soccer Digest, 13 Nov](https://www.soccerdigestweb.com/news/detail/id=199655) | Medium |
+| CM | Sano Kaishu | Tanaka | Sano Kodai | Sano Kaishu 12 Nov (Nikkan): "ブロックを引きすぎず前から行く" **[REPORTED/B]**. Sano Kodai JFA X 13 Nov **[OFFICIAL/A, own words, no selection hint]**. | [Nikkan, 12 Nov](https://www.nikkansports.com/soccer/japan/news/202611120002047.html); [JFA X, 13 Nov 02:45 UTC](https://x.com/jfa_samuraiblue/status/2121071897203097903) | High |
+| CM | Kamada | Tanaka | Sano Kodai | Ekuni and Sakanowa both keep Kamada in the pivot; Sakanowa offers Tanaka there if Kamada moves up. | As above; [Soccer King, Kamada, 12 Nov](https://www.soccer-king.jp/news/japan/national/20261112/2227114.html) | Medium |
+| LWB | Nakamura Keito | Soma | Suzuki Junnosuke | Nakamura JFA X 13 Nov: wants goals and assists, sees Minamino and Machida back as "a big plus" **[OFFICIAL/A, own words]**. Ekuni keeps Soma second. | [JFA X, 13 Nov 03:18 UTC](https://x.com/jfa_samuraiblue/status/2121080146065252610) | Medium |
+| Right shadow | Kubo | Ito Junya | Sakamoto | No new evidence beyond Nikkan's 12 Nov Kubo interview, which has no selection content. | As sweep 3c | Medium |
+| Left shadow | Suzuki Yuito | Kamada | Minamino | Minamino, 13 Nov, JFA X: "先発で試合に出るために、一から練習でアピールしていきたい" **[OFFICIAL/A, own words]**. That reads as not yet a starter, so he stays 3rd. | [JFA X, 13 Nov 03:02 UTC](https://x.com/jfa_samuraiblue/status/2121076133580202462) | Medium |
+| CF | Maeda | Ogawa | Goto | **No reliable estimate.** Ekuni's 13 Nov 4-back graphic also starts Maeda, calling him "最有力候補か" for his pressing; Sakanowa's re-post still has Goto "本命か". First-choice count across full XIs: Maeda 5 (counting Ekuni twice), Ogawa 2, Goto 1. Ogawa to Nikkan, 12 Nov: "二度とああいう挫折はしたくない" (no selection hint). | [Soccer Digest, 13 Nov](https://www.soccerdigestweb.com/news/detail/id=199655); [Sakanowa](https://sakanowa.jp/topics/114484) | Low |
+
+**If Japan go back four (4-2-3-1), sweep 4**
+
+| Position | 1st | 2nd | 3rd | What is new in sweep 4 | Sources | Confidence |
+|-|-|-|-|-|-|-|
+| RB | Sugawara | Nakano | Insufficient information | Ekuni 13 Nov: Sugawara v Nakano. Hochi 12 Nov names Nakano as the right-back of a tall four. Split between a C and a B source. | [Soccer Digest](https://www.soccerdigestweb.com/news/detail/id=199655); [Hochi](https://hochi.news/articles/20261112-OHT1T51254.html) | Low |
+| CB pair | Itakura and Seko | Itakura and Watanabe | Itakura and Machida | **Changed.** Sweep 3c: Itakura and Seko, then Seko and Ito, then Itakura and Ito (Medium). Ekuni now pairs Watanabe and Itakura and says any of four could play; Hochi's tall four is Itakura, Machida and Ito. Every 4-back source includes Itakura; the partner is split three ways. | As above; ABEMA and Sporting News as sweep 3c | Low (down from Medium) |
+| LB | Suzuki Junnosuke | Ito Hiroki | Insufficient information | Order unchanged, but Ekuni and Hochi both join ABEMA in using Ito at left-back, so the gap is small. | As above | Low (down from Medium) |
+| DM pair | Sano Kaishu and Kamada | Sano Kaishu and Tanaka | Sano Kodai with either | Ekuni repeats the NZ pair, with Tanaka and Sano Kodai bracketed. | [Soccer Digest](https://www.soccerdigestweb.com/news/detail/id=199655) | Medium |
+| RW / AM / LW | Doan / Kubo / Nakamura | Doan / Kubo / Maeda | Ito Junya right, Yuito or Minamino at 10 | Ekuni 13 Nov matches Sporting News. | As above | Medium |
+| ST | Maeda | Ogawa | Goto | **Changed.** Sweep 3c had Ogawa 1st in this shape, on Sporting News alone. Ekuni's 4-back graphic, published later, starts Maeda and gives his pressing as the reason. Note that in the NZ back four Maeda played on the left and Ueda led the line **[OFFICIAL/A]**, so there is no recent 4-back start at striker for any of the three. One C source against another, so Low. | As above; [Sporting News, 11 Nov](https://www.sportingnews.com/jp/soccer/news/2026-11-11-japannationalteam-vsbrasil/661269ff7e6984ca8b4d8f1b) | Low |
+
+**Japan positions without a reliable estimate, sweep 4**
+- Formation (Low either way).
+- Centre-forward in either shape.
+- The centre-back partner and the right-back if Japan play four.
+- Whether Minamino, Machida or Fukuda start at all. Ekuni says Fukuda will not.
+- There is no training evidence from Singapore for any position: no shape or bib group has been reported from any session.
+
+#### Brazil v Japan, sweep 4
+
+**Formation uncertainty, sweep 4.** Largely settled on paper. Ancelotti, 13 Nov: "Amanhã vamos jogar com três meio-campistas" **[REPORTED/B, UOL and ge.globo]**. ge's 12 Nov graphic is a 4-3-3 with Rayan in midfield. **Ranking changed: 4-3-3 1st (was 4-2-4 1st in sweep 3c), 4-2-4 2nd. Confidence Medium,** because CNN Brasil and Lance read the same personnel as a 4-2-4, and Rayan is described as a midfielder without the ball and an attacker with it (CityTudo, C), so the shape may look like a 4-2-4 in possession.
+
+| Position | 1st | 2nd | 3rd | What is new in sweep 4 | Sources | Confidence |
+|-|-|-|-|-|-|-|
+| GK | Pedro Morisco | Bento | Lucas Perri | ge graphic, Exame (ESPN), Lance and CNN all have Morisco; CNN says Bento also trained with the starters. Not confirmed by Ancelotti. | [ge X, 12 Nov 18:24 UTC](https://x.com/geglobo/status/2120945970527822289); [CNN Brasil, 12 Nov](https://www.cnnbrasil.com.br/esportes/futebol/selecao-brasileira/veja-provavel-escalacao-da-selecao-brasileira-para-enfrentar-o-japao/) | Medium |
+| RB | Wesley | Vanderson | Insufficient information | In every 12 Nov report and XI. | As above | High |
+| CB | Gabriel Magalhães | Insufficient information | Insufficient information | Every 12 Nov report. | As above | High |
+| CB | Jair Cunha | Arthur Dias (only via Football Zone's likely misreading) | Insufficient information | ge graphic, CNN, Exame all have Jair. | As above; [Football Zone, 13 Nov](https://www.football-zone.net/archives/684579) | High |
+| LB | Douglas Santos | Carlos Augusto | Insufficient information | **Confidence lowered.** ge's graphic lists "Douglas S. / Carlos Augusto", flagging a left-back doubt; Exame and Lance say Carlos Augusto was observed there; CityTudo (C) says he spent more time with the main group. | [ge X](https://x.com/geglobo/status/2120945970527822289); [Lance, 12 Nov](https://www.lance.com.br/selecao-brasileira/bruno-guimaraes-volta-e-ancelotti-comeca-a-definir-a-escalacao-da-selecao.html); [Exame, 12 Nov](https://exame.com/esporte/ancelotti-esboca-selecao-brasileira-no-4-3-3-para-enfrentar-o-japao-veja-provavel-time/) | Low (down from High) |
+| Deepest midfielder | Andrey Santos | Marlon Gomes | João Gomes | **Re-labelled.** ge's graphic has Andrey in the centre of the three, as the deepest midfielder. Ancelotti wants to look at Marlon Gomes as a first volante this window (ge, 13 Nov), and CNN brackets Marlon behind Andrey. Sweep 3c had Marlon 3rd behind João Gomes as Bruno's partner. | [ge, 13 Nov 04:11 Brasília](https://ge.globo.com/futebol/selecao-brasileira/noticia/2026/11/13/ancelotti-indica-fiz-de-testes-em-2027-e-manda-recado-para-clubes-prioridade-e-a-saude-do-atleta.ghtml) | Medium |
+| Right-sided 8 | Bruno Guimarães | João Gomes | Bontempo | Ancelotti: "Agora, está bem e pode jogar. Até quando? Não sei." So he starts on the evidence, minutes uncertain. | As above | High to start; minutes Low |
+| Left-sided 8 | Rayan | Bontempo | Marlon Gomes | **Changed.** Sweep 3c had this slot as "Third CM (4-3-3 only)" with Bontempo 1st (Low) and Rayan as a separate fourth forward. Ancelotti said Rayan "pode jogar ali" and UOL reports him tested at "meia-esquerda"; ge graphic and Exame agree. Bontempo has no 12 Nov report in the first group. | [UOL, 13 Nov](https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/13/ancelotti-cita-di-maria-para-explicar-teste-com-rayan-no-meio-da-selecao.htm) | Medium (coach did not name him as a starter) |
+| RW | Estêvão | Alisson Santana | Insufficient information | Every report. DOL says Alisson Santana replaced Estêvão late in the 11 Nov coletivo **[REPORTED/C]**, the only hint at a back-up. | [DOL, 11 Nov](https://dol.com.br/esporte/esporte-brasil/968089/ancelotti-testa-opcoes-na-selecao-endrick-treina-entre-os-reservas) | High |
+| LW | Vinícius Júnior | Insufficient information | Insufficient information | Every report. | As above | High |
+| CF | Raphinha | Endrick | Insufficient information | Ancelotti: Raphinha is "indo muito bem como centroavante no Barcelona e não quero mudar essa ideia". Raphinha wants as many minutes as possible. Endrick with the reserves on 11 Nov (DOL, C). | [Terra/Jogada10, 13 Nov](https://www.terra.com.br/esportes/brasil/ancelotti-blinda-raphinha-e-confirma-atacante-como-o-9-do-brasil,17d67db35523b758e8db7cc66186805c78ppyvik.html); [ge, Raphinha, 13 Nov](https://ge.globo.com/futebol/selecao-brasileira/noticia/2026/11/13/raphinha-se-explica-apos-polemica-na-selecao-quero-jogar-todos-os-minutos-possiveis.ghtml) | High |
+
+**Brazil positions without a reliable estimate, sweep 4**
+- Left-back.
+- Goalkeeper is a strong tendency, not confirmed.
+- How long Bruno lasts, and who replaces him.
+- Back-ups at centre-back and right-back.
+- Friday's final session (late afternoon Singapore) had not been reported at cutoff.
+
+#### Japan U-21 v Spain U-21, sweep 4
+
+**Formation uncertainty, sweep 4.** 4-3-3 1st, 4-2-3-1 2nd. Four of five sourced XIs (Football Channel, AERA, ABEMA, and EFE's list read with one anchor) have a three-man midfield; only Nakagawara (pre-camp) has a 4-2-3-1. Oiwa's quote about Takaoka playing "9番", "7番" or "11番" uses 4-3-3 numbering (ABEMA). No training report on shape. **Confidence Medium** (unchanged order; sweep 3c gave no grade).
+
+| Position | 1st | 2nd | 3rd | What is new in sweep 4 | Sources | Confidence |
+|-|-|-|-|-|-|-|
+| GK | Pisano | Kobayashi | Hamasaki | All five XIs. Araki is injured (AERA, ABEMA). Pisano wears 1 on the JFA match page (numbering only). | [ABEMA, 13 Nov](https://times.abema.tv/articles/-/10288722); [AERA, 12 Nov](https://dot.asahi.com/articles/-/297404); [JFA match page](https://www.jfa.jp/national_team/u21_2026/20261113/match_page.html) | High (up from Medium) |
+| RB | Umeki | Koizumi | Mori | **2nd and 3rd swapped.** All five XIs start Umeki. ABEMA brackets Koizumi first, AERA singles out Koizumi (191cm) as one to watch. Sweep 3c had Mori 2nd on his Asian Games semi start. | As above | High (up from Medium) |
+| CB | Ichihara | Okabe | Nagano | All five XIs. ABEMA brackets Okabe. | As above | High |
+| CB | Kita | Nagano | Okabe | All five XIs. ABEMA brackets Nagano behind Kita. Soccer Digest: his first national-team game in a year. | As above; [Soccer Digest, 13 Nov](https://topics.smt.docomo.ne.jp/article/soccerdigestweb/sports/soccerdigestweb-199659) | High (up from Medium) |
+| LB | Kosugi | Sato Mihiro | Umeki | All five XIs. ABEMA brackets Sato Mihiro, then Umeki. | As above | High (up from Medium) |
+| Anchor | Nakajima | Ozeki | Iwamoto | **Changed.** Sweep 3c had Ozeki 1st, Nakajima 2nd, Ishiwatari 3rd. ABEMA (camp report) calls Nakajima "一番手" and AERA rates him the best fit; both written during the camp, both B. Ozeki stays 2nd on Football Channel's pre-camp graphic. Iwamoto named by both ABEMA and AERA. | [ABEMA](https://times.abema.tv/articles/-/10288722); [AERA](https://dot.asahi.com/articles/-/297404) | Medium |
+| No. 8 (left in ABEMA) | Ozeki | Ishiwatari | Sasa | **Changed.** Ozeki moves here from anchor: AERA's first choice at 8, ABEMA's left 8. Ishiwatari and Sasa are ABEMA's brackets; AERA lists both as pressing options. | As above | Medium |
+| No. 8 (right in ABEMA) | Sato Ryunosuke | Shimamoto | Nakajima | Sato in four of five XIs (not EFE). Shimamoto drops from his own row: in sweep 3c he was 1st at "No. 8 / No. 10" on Football Channel alone; ABEMA now brackets him behind Sato. | As above | Medium |
+| LW | Yokoyama | Saito | Ishibashi | Order unchanged, confidence lowered. ABEMA starts Saito and calls it a "一騎打ち"; AERA lists Yokoyama, Saito, Ishibashi; EFE has both. Three XIs for Yokoyama, two for Saito. | As above; [EFE via Infobae](https://www.infobae.com/espana/agencias/2026/11/12/la-seleccion-sub-21-comienza-a-mirar-al-europeo-con-un-amistoso-ante-japon-en-almendralejo/) | Low (down from Medium) |
+| RW | Ishii | Sato Ryunosuke | Ishibashi | **Changed.** Sweep 3c: Saito, Sato Ryunosuke, Ishii (Low). ABEMA starts Ishii, who played right at the Asian Games, and AERA names Sato or Ishii. Saito, if he starts, now looks a left-winger in the camp reports. ABEMA also lists Ishibashi as a right-wing candidate. Five XIs, five different answers. | As above | Low |
+| CF | Shiogai | Takaoka | Insufficient information | All five XIs. Oiwa on Takaoka: "もちろん9番（CF）で考えています" (via ABEMA); AERA sees Takaoka as the joker off the bench. Sweep 3c had no 2nd. | As above | High (up from Medium) |
+
+**Japan U-21 positions without a reliable estimate, sweep 4**
+- Right wing.
+- Left wing, a genuine two-way call.
+- Which of the No. 8s plays and whether Nakajima or Ozeki anchors.
+- No training report names a bib group. The official XI will be out before 18:00 UK.
+
+#### Spain U-21 (short table, sweep 4, no earlier ranking)
+
+| Position | 1st | 2nd | Evidence | Confidence |
+|-|-|-|-|-|
+| GK | Esquivel | Insufficient information | EFE probable XI. | Low |
+| Back four | Fresneda, Gasiorowski, Jon Martín, Álex Valle | Mosquera at centre-back | EFE XI; Europa Press says Mosquera is "llamado a liderar la zaga". | Low |
+| Midfield | Bernal, Mendoza | Pitarch | EFE: Pitarch not expected to start; Europa Press: could debut beside Bernal. EFE's third name, Chema Andrés, is withdrawn, so the third slot is unknown. | Low |
+| Wide forwards | Pablo García, Iker Bravo | Insufficient information | EFE and Europa Press agree. | Medium |
+| CF | Espí | Gonzalo García | Both outlets: Espí or Gonzalo. | Low |
+
+Sources: [EFE via Infobae, 12 Nov](https://www.infobae.com/espana/agencias/2026/11/12/la-seleccion-sub-21-comienza-a-mirar-al-europeo-con-un-amistoso-ante-japon-en-almendralejo/); [Europa Press, 12 Nov](https://www.europapress.es/deportes/futbol/mundial-00639/noticia-sub-21-comienza-japon-pruebas-cara-europeo-2027-20261112202731.html).
+
+### Japan v Brazil (senior), sweep 3c ranking (kept for the record)
 
 **Formation uncertainty: back three or back four.** This is still open, and it changes who plays where.
 
@@ -337,7 +596,7 @@ Grade key as elsewhere in the file: A official, B named reporter or established 
 - The second shadow or No. 10 slot behind Kubo's fitness level, and whether Minamino, Machida or Fukuda start at all. "All 28 trained on 11 Nov" is not a starting hint.
 - No coach comment from Moriyasu on selection since 4 Nov. The 13 Nov press conference is the next real evidence.
 
-### Brazil v Japan
+### Brazil v Japan, sweep 3c ranking (kept for the record)
 
 **Formation uncertainty: 4-2-4 or 4-3-3.** This moved again on Thursday.
 
@@ -367,7 +626,7 @@ Grade key as elsewhere in the file: A official, B named reporter or established 
 - Bruno's partner. Andrey leads on the latest drill, but João Gomes and Marlon Gomes were both rotated in.
 - Back-up names at right-back and centre-back. Not enough November evidence.
 
-### Japan U-21 v Spain U-21
+### Japan U-21 v Spain U-21, sweep 3c ranking (kept for the record)
 
 **Formation uncertainty: 4-3-3 or 4-2-3-1.** Football Channel (6 Nov) says Oiwa used a 4-3-3 throughout the Asian Games and expects the same here **[PREDICTION/C]**; Gekisaka's line-up note for the Asian Games final also read it as a 4-3-3 **[REPORTED/B]**. The site's own projection, from Ryo Nakagawara, is a 4-2-3-1 **[PREDICTION/C]**. JFA's 12 Nov camp post gives no shape **[OFFICIAL/A]**. Ranking: 4-3-3 1st, 4-2-3-1 2nd. Mapping: the back four and Shiogai are the same in both; the 4-3-3 has one anchor and two No. 8s, the 4-2-3-1 a double pivot and a No. 10 (Ishii in Nakagawara's version).
 
@@ -415,6 +674,16 @@ For the U21s, the tactical brief from Oiwa on 6 Nov still stands, because there 
 
 On the senior side, the striker argument is now sharper than "Maeda or Ogawa". Four dated full XIs plus Motokawa's lean leave three first-choice answers: Maeda, Ogawa and Goto. Yuito appearing as the left shadow or inside attacker in three separate back-three graphics (Ekuni, Sakanowa, soccer-kickoff) is the other detail worth using. The live preview still has Kamada in that space and Tanaka next to Sano. That is a real disagreement, not a rounding error. Watanabe versus Seko on the right of a back three is the third split. None of this should be flattened into a single "most likely" graphic.
 
+**Sweep 4.** Two things are worth writing about, and neither needs a team sheet.
+
+First, both Japanese camps are now saying the same thing about Brazil: do not sit deep. Moriyasu talked about fighting Brazil "on the same level" rather than looking up at them. Sano Kaishu said Japan should not drop the block too far and should go from the front. Maeda talked about being aggressive rather than sitting back, and flagged heat above 30C as the limit on how long that lasts. Kamada wants to match Brazil on the ball and in the numbers. That is a consistent message from coach, holding midfielder, presser and playmaker. If Japan end up in a low block for long spells on Saturday, it will be against their own stated plan, not because of it.
+
+Second, Brazil's "three midfielders" is not a defensive change. Ancelotti's own comparison is Di María at Real Madrid in 2014, a winger turned into a left-sided midfielder so a front three could stay. Rayan goes in there, behind Vinícius, Raphinha and Estêvão, with Andrey Santos the deepest and Bruno to the right. For Japan that matters on their right: if Doan pushes on, the space behind him is where Rayan and Vinícius would arrive. Ancelotti also wants to look at Marlon Gomes as a first volante in this window, which suggests changes as the game goes on.
+
+The back-four story for Japan now has a reason attached rather than just a hunch. Ekuni reports the New Zealand back four was partly about Oiwa, who uses one and takes over next year, and Maeda said the same. Hochi adds Machida's return, which makes a tall four (Itakura, Machida, Ito) possible. This could be Moriyasu handing over a system, not just testing one. It is still a reading, not an announcement.
+
+For the U-21s, Gordo flagged Japan's full-backs moving inside to create overloads (Hoy), and expects spells when Japan take the ball off Spain (RFEF). The likely Japanese midfield (Nakajima deep, Ozeki and Sato Ryunosuke ahead, per ABEMA) is built for that. Spain's answer looks like a debut for Pitarch, or Bernal and Mendoza with one more, but Chema Andrés's absence leaves a gap in midfield that EFE's own probable XI did not account for. Japan's weakness is the right wing: five sources, five answers.
+
 ## 5. Relevant J1 player availability and minutes risks
 
 **Sweep 3:** no change. No new fitness news on any J1 player in either squad. Ogawa's start chances now face a third press view (Sakanowa leaning to Goto), so his Brazil minutes stay WATCH/C.
@@ -422,6 +691,8 @@ On the senior side, the striker argument is now sharper than "Maeda or Ogawa". F
 **Sweep 3b:** still no new fitness news on any J1 player in either squad. Ogawa is now first choice in two full predicted XIs (Sporting News and soccer-kickoff) and an alternative in two others (Ekuni and Sakanowa). That does not make him a confirmed starter. His Brazil minutes stay WATCH/C. Goto and Yuito, who feature in several of the new graphics, are Europe-based, not J1. Watanabe, first choice in the Ekuni and Sakanowa back threes, is also not J1.
 
 **Sweep 3c:** still no new fitness news on any J1 player. Ogawa ranks 2nd of three at centre-forward in section 3b; Nikkan (8 Nov) notes he has not scored in five club games including ACL2, which is form, not fitness. Nakano is the 2nd choice at right-back if Japan go back four. For the U-21s, Pisano (started the Asian Games semi-final) and Ozeki and Shimamoto (both started the final) remain the J1 players most likely to start against Spain, on pre-camp predictions only.
+
+**Sweep 4:** still no fitness news on any J1 player in either squad. Seniors: Ogawa is still a centre-forward candidate but now has one fewer first-choice vote relative to Maeda (Ekuni's 4-back graphic also starts Maeda); Nakano is named by Hochi as the right-back of a tall back four, and by Ekuni as Sugawara's alternative; Soma stays Nakamura's alternative on the left; Hayakawa stays behind Zion. All WATCH/C. Soma, Ogawa and Nakano only did the warm-up on 10 Nov after playing on 8 Nov (Gekisaka), which was routine load management. U-21: Pisano is a starter in all five sourced XIs, so **LIKELY/B**; Nakajima moves up to the most likely anchor on the camp reports (ABEMA "一番手", AERA), **LIKELY/B**; Ozeki is in four of five XIs, now as a No. 8, **LIKELY/B**; Yokoyama is in a straight fight with Saito on the left, **WATCH/B**; Shimamoto, Sasa, Nagano and Mori are bracketed alternatives, **WATCH/C**. The earlier per-player notes below are unchanged and kept for the record. Kick-off is 03:00 JST on Saturday for the U-21 game, so for J1 tracking the actual minutes will be known well before R15.
 
 These notes are primarily for J1 tracking. They need not be written into the casual Samurai Blue pages unless a player is clearly at risk. R15 is Friday 20 and Saturday 21 November. Senior players may also play Paraguay on Tuesday 17 Nov, 21:10 local / 22:10 JST. U-21 players are also due to play Egypt on Tuesday 17 Nov, 18:00 local / 01:00 Wednesday 18 Nov JST, then fly home. Those later games remain out of written match coverage unless asked, but they affect the turnaround.
 
@@ -532,7 +803,47 @@ Do not modify or publish the website from this file. Items 1 to 4 and 6 to 8 are
 
 **21. Preview, Japan. Optional starts box.** "Seko is the only player to have started all four of Japan's autumn games. Ito Hiroki, Sano Kaishu and Doan started three each." Source: JFA team sheets for 24 Sep, 28 Sep, 1 Oct and 5 Oct.
 
+## 6e. Sweep 4 website suggestions (checked 13 Nov, 07:45 and 07:51 UK)
+
+**Status of earlier suggestions.** Preview still shows "Updated 12 November". Now live: item 10 (the "What Brazil tried on 11 November" 4-2-4 then 4-3-3 note), item 12 (Sakanowa's 12 Nov Goto lean) and item 13 on the hub (Oiwa's practice games and "Spain arrived in Almendralejo on Wednesday"). The Japan team-news paragraph already covers Tuesday's 12 and Wednesday's 28. Not yet live: item 5 (hub "Missing this time" line), item 11, item 14 (second U-21 XI), items 15 to 18, and the sweep 3c items 19 to 21. Items 19 and 20 are now partly overtaken; use 23 and 24 below instead. Graphics, URLs, headings and links below are untouched in every suggestion.
+
+**22. Preview, Japan team-news paragraph.** Current text starts "Japan. Twelve players took to the pitch for Tuesday's first session." Keep it and add at the end: "Thursday went the same way: 15 minutes of open warm-up, then the doors shut. Moriyasu gave nothing away on Friday either. His line was that Japan should play Brazil 'on the same level' rather than look up at them." Sources: Soccer King 12 Nov; Sponichi 13 Nov.
+
+**23. Preview, Brazil team-news paragraph.** Replace "Bruno Guimarães was held out of the heavier work on Wednesday, according to reports from camp. His workload is worth watching before Saturday." with: "Ancelotti cleared up the Bruno Guimarães question on Friday. He hadn't trained much this week because of a knock, but he's fine to play. How long for, Ancelotti said he didn't know." Keep the Raphinha, UOL captaincy and Danilo sentences. Optionally add after the Raphinha sentence: "Raphinha himself says he wants every minute going." Sources: ge.globo 13 Nov; ge.globo Raphinha 13 Nov.
+
+**24. Preview, under "What Brazil tried on 11 November".** Add a short follow-on paragraph, keeping the 11 Nov one as it is: "And on Friday Ancelotti said it out loud: three midfielders. He wouldn't give the names, but he said Rayan can play there, on the left of the three, and compared it with Di María at Real Madrid. Globo's read of Thursday's session had Andrey Santos holding, Bruno and Rayan either side, and Estêvão, Raphinha and Vinícius up front. Pedro Morisco was in goal, which would mean Bento drops out from my graphic. I'm leaving the graphic as my 10 November call." Sources: UOL 13 Nov; ge.globo X graphic 12 Nov. Do not edit the Brazil graphic itself unless Matsu chooses to; the "Place to be decided" slot can stay.
+
+**25. Preview, Japan predicted block, optional note.** After the Sakanowa lean, add: "Soccer Digest's Shin Ekuni has also drawn up a back four, just in case. It's a 4-2-3-1 with Maeda up top, Sugawara at right-back and Watanabe next to Itakura. Maeda's own line: the players have to be ready for either." Source: Soccer Digest 13 Nov. Keeps the site's own 3-4-2-1 graphic as the main call.
+
+**26. Hub, U-21 predicted XI block.** Under the Nakagawara credit line ("Position-by-position projection from Ryo Nakagawara"), keep it and add: "From camp, ABEMA TIMES has gone 4-3-3: Pisano; Umeki, Ichihara, Kita, Kosugi; Nakajima holding, with Ozeki and Ryunosuke Sato ahead; Saito, Shiogai and Hisatsugu Ishii up top. The left wing is Saito or Yokoyama, and nobody's sure about the right." Source: ABEMA TIMES 13 Nov. Do not overwrite the Nakagawara graphic. This replaces item 14's Football Channel suggestion, which is older.
+
+**27. Hub, Spain block.** Current text: "Spain have lost Rafita, Fer López and Chema Andrés. Valentín Pezzolesi and Ángel Alarcón came in for the first two. Marca reported no replacement for Chema." Keep it and add: "David Gordo called Japan 'un equipo excepcional' and expects them to have the ball for spells. Spanish reports have Jesús Pitarch possibly debuting next to Marc Bernal, and Espí or Gonzalo García up front." Sources: RFEF 12 Nov; Europa Press 12 Nov. Do not use EFE's probable Spain XI on the site: it includes Chema Andrés, who is out.
+
+**28. Hub, optional U-21 note.** "Rui Araki isn't here. He's injured, which is why Pisano is everyone's pick in goal." Source: AERA DIGITAL 12 Nov; ABEMA TIMES 13 Nov.
+
+**29. Hub or preview, optional framing line.** "Nikkan reports the planned December friendly in Osaka is off, which would make Brazil and Paraguay Moriyasu's last two games in charge." Mark as reported, not official, until JFA confirms. Source: Nikkan 13 Nov.
+
+**Item 5 still optional, unchanged.** The hub line "Missing this time: Ueda, Kaoru Mitoma and Takehiro Tomiyasu are out through injury" is backed by Nikkan (4 Nov, REPORTED/B), but only Ueda's injury is JFA-confirmed. Hochi's 13 Nov press-conference piece names Ueda and Tomiyasu as injured absentees. Item 5's suggested wording still stands if Matsu wants it tighter. No change needed if not.
+
+**After kick-off.** Once the U-21 team sheet is out (before 18:00 UK tonight), the hub's predicted block should be relabelled as a prediction and the actual XI added, per the usual rule that the actual XI overrides predictions.
+
 ## 7. Outstanding checks and contradictions
+
+- **Sweep 4, resolved:** Brazil shape. Ancelotti's "três meio-campistas" (13 Nov) settles 4-3-3 over 4-2-4 as the label. ge.globo's own headline change on 12 Nov (4-2-4 to "Rayan no meio de campo") explains why CNN Brasil and Lance still read Thursday's work as a 4-2-4. Not fully closed: Rayan may push up in possession.
+- **Sweep 4, resolved:** Bruno. Ancelotti says he missed work this week with "um incômodo" and is now fit; this replaces the load-management readings from 11 and 12 Nov, which stay on file as history. Minutes still open ("Até quando? Não sei").
+- **Sweep 4, partly resolved:** Brazil goalkeeper. Morisco is now in every 12 Nov training read and XI (ge, CNN, Exame, Lance). Not confirmed by Ancelotti. Bento remains the alternative.
+- **Sweep 4, resolved:** Raphinha minutes versus start. He says he wants every minute possible; Ancelotti keeps him at 9. Barcelona's reported request stays on file as context.
+- **Sweep 4, upgraded:** Endrick among the reserves. Now carried by DOL (Magno Fernandes, 11 Nov), REPORTED/C. Romanews headline from sweep 3 is no longer the only source.
+- **Sweep 4, new:** Football Zone (13 Nov), citing Globo's X, has Arthur Dias at centre-back and Allan in midfield. ge's own graphic has Jair and Rayan. Treat Football Zone as an error.
+- **Sweep 4, new:** EFE's Spain probable XI (12 Nov) includes Chema Andrés, who withdrew injured on 8 Nov (Marca, AS) and is "baja por lesión" per Europa Press on 12 Nov. EFE also calls the list a "convocatoria de 21 jugadores". Both treated as EFE errors.
+- **Sweep 4, new:** EFE versus Europa Press on Spain: EFE says Pitarch is not expected to start; Europa Press says he could debut beside Bernal. EFE has Gasiorowski and Jon Martín at centre-back; Europa Press says Mosquera will lead the back line. Unresolved until the team sheet.
+- **Sweep 4, new:** EFE's Japan U-21 XI has no Sato Ryunosuke and is written in a 4-4-2 order. Every Japanese source has Sato. Low weight.
+- **Sweep 4, new:** U-21 anchor. Sweep 3c had Ozeki 1st on Football Channel's pre-camp graphic; ABEMA and AERA, both written during the camp, put Nakajima there. Camp reports preferred.
+- **Sweep 4, new:** Sponichi's 13 Nov head-to-head line ("15戦11勝2分け12敗") does not add up. Not used for any figure.
+- **Sweep 4, new:** Japanese outlets describe Japan's World Cup defeat by Brazil as round of 32, round of 16 or "決勝T1回戦" in different pieces. This file keeps "last 16" as used earlier, but it should be checked against the official FIFA naming before any website use.
+- **Sweep 4, new:** two search-engine summaries (a "Nikkan 予想布陣" with Ogawa, and an Ekuni back four with Nakano and Ogawa) did not match any retrieved article and are ignored.
+- **Sweep 4, context to confirm:** Nikkan's report that the 30 December Osaka friendly is off (13 Nov) has no JFA announcement yet.
+- **Sweep 4, still open:** Oiwa's 12 Nov media comments (no report found); Brazil's Friday session (late afternoon Singapore, after this cutoff); any late knock in either Japan camp; both official XIs. Next checkpoints: U-21 team sheet (about 17:00 UK tonight, JFA match page and JFA X), then Japan v Brazil team sheet (about 09:15 UK Saturday).
 
 - **Sweep 3 update on Bruno:** O Globo's 12 Nov line (spared three days for physical wear, expected if fit) sits with Cahê Mota. UOL's "took part normally" is best read as the open warm-up only, which TMC also describes (warm-up, then load control). Still not resolved until Thursday's or Friday's training reports.
 - **New, sweep 3:** O Globo says Ukraine- and Russia-based players were missing on 11 Nov; CBF says all 25 were available. CBF wins unless corrected.
@@ -565,6 +876,63 @@ Do not modify or publish the website from this file. Items 1 to 4 and 6 to 8 are
 - Opposition federation pages beyond CBF's Danilo notice: no fresh CBF or RFEF XI material was retrieved.
 
 ## 8. Sources
+
+### Added in sweep 4 (accessed 13 Nov, 07:36 to 07:53 UK)
+
+**Japan seniors**
+- [Sponichi, 13 Nov, 16:06 JST, Moriyasu press conference](https://www.sponichi.co.jp/soccer/news/2026/11/13/kiji/20261113s00002014174000c.html): REPORTED/B.
+- [Sanspo via d menu, Murata Naoto, 13 Nov, 16:15 JST, Moriyasu press conference](https://topics.smt.docomo.ne.jp/article/sanspo/sports/sanspo-_sports_soccer_domestic_JDN6GE3LWRHPHLOJI7D3L374FI): REPORTED/B.
+- [Hochi via d menu, Kanekawa Homare, 13 Nov, 16:03 JST, press conference; Ueda and Tomiyasu absent injured](https://topics.smt.docomo.ne.jp/article/hochi/sports/hochi-20261113-OHT1T51227): REPORTED/B.
+- [Nikkan, Sato Takashi, 13 Nov, 16:26 JST, press conference](https://www.nikkansports.com/soccer/japan/news/202611130001116.html): REPORTED/B.
+- [Nikkan, 13 Nov, 16:30 JST, December friendly cancelled, last two games](https://www.nikkansports.com/soccer/japan/news/202611130001129.html): REPORTED/B.
+- [JFA X, 13 Nov, 06:07 UTC, final training](https://x.com/jfa_samuraiblue/status/2121122816888393842) and [05:31 UTC, leaving for training](https://x.com/jfa_samuraiblue/status/2121113666259152955): OFFICIAL/A.
+- [JFA X, 13 Nov, 03:02 UTC, Minamino comments](https://x.com/jfa_samuraiblue/status/2121076133580202462); [03:18 UTC, Nakamura Keito](https://x.com/jfa_samuraiblue/status/2121080146065252610); [02:45 UTC, Sano Kodai](https://x.com/jfa_samuraiblue/status/2121071897203097903): OFFICIAL/A for the quotes.
+- [Soccer King, 12 Nov, Japan training](https://www.soccer-king.jp/news/japan/national/20261112/2226894.html): REPORTED/B.
+- [Mynavi, 12 Nov, 18:38 JST, training](https://news.mynavi.jp/article/20261112-5309888/): REPORTED/B.
+- [Jiji, 12 Nov, 18:46 JST, training](https://www.jiji.com/jc/article?g=spo&k=2026111200929): REPORTED/B.
+- [Nikkan, 12 Nov, 18:49 JST, training](https://www.nikkansports.com/soccer/japan/news/202611120001586.html): REPORTED/B.
+- [Nikkan, 12 Nov, Sano Kaishu](https://www.nikkansports.com/soccer/japan/news/202611120002047.html): REPORTED/B.
+- [Mynavi, 12 Nov, 23:19 JST, Maeda](https://news.mynavi.jp/article/20261112-5311322/): REPORTED/B.
+- [Soccer King, 12 Nov, Kamada](https://www.soccer-king.jp/news/japan/national/20261112/2227114.html): REPORTED/B.
+- [Gekisaka, 11 Nov, 07:08 JST, 10 Nov photo report, Soma, Ogawa and Nakano warm-up only](https://web.gekisaka.jp/photonews/japan/detail/?462945-462945-pn=): REPORTED/B.
+- [Hochi, Kanekawa Homare, 12 Nov, 18:46 JST, Machida and back four](https://hochi.news/articles/20261112-OHT1T51254.html): REPORTED/B.
+- [Soccer Digest, Ekuni Shin, 13 Nov, 4-2-3-1 if back four](https://www.soccerdigestweb.com/news/detail/id=199655) and [page 2](https://www.soccerdigestweb.com/news/detail2/id=199655): PREDICTION/C; Maeda quote REPORTED/B. Publication time not shown in the retrieved text.
+- [Sakanowa, 12 Nov, 18:50 JST, republished XI](https://sakanowa.jp/topics/114484): PREDICTION/C.
+- [Morita Yasushi X, 13 Nov, 02:28 UTC, shape discussion, no XI](https://x.com/YasushiMorita15/status/2121067670401659306): opinion, C.
+
+**Brazil**
+- [ge.globo, Cahê Mota, 13 Nov, 04:11 Brasília / 07:11 UK, Ancelotti press conference](https://ge.globo.com/futebol/selecao-brasileira/noticia/2026/11/13/ancelotti-indica-fiz-de-testes-em-2027-e-manda-recado-para-clubes-prioridade-e-a-saude-do-atleta.ghtml): REPORTED/B.
+- [UOL, 13 Nov, 04:17 Brasília / 07:17 UK, updated 04:29, three midfielders and Rayan](https://www.uol.com.br/esporte/futebol/ultimas-noticias/2026/11/13/ancelotti-cita-di-maria-para-explicar-teste-com-rayan-no-meio-da-selecao.htm): REPORTED/B.
+- [Terra / Jogada10, 13 Nov, 03:33 Brasília, Raphinha as 9](https://www.terra.com.br/esportes/brasil/ancelotti-blinda-raphinha-e-confirma-atacante-como-o-9-do-brasil,17d67db35523b758e8db7cc66186805c78ppyvik.html): REPORTED/C.
+- [ge.globo, Cahê Mota, 13 Nov, 02:33 Brasília / 05:33 UK, Raphinha press conference](https://ge.globo.com/futebol/selecao-brasileira/noticia/2026/11/13/raphinha-se-explica-apos-polemica-na-selecao-quero-jogar-todos-os-minutos-possiveis.ghtml): REPORTED/B.
+- [Nikkan, 13 Nov, 14:38 JST, Raphinha](https://www.nikkansports.com/soccer/japan/news/202611130000790.html) and [16:25 JST, Ancelotti](https://www.nikkansports.com/soccer/japan/news/202611130001041.html): REPORTED/B.
+- [Sanspo, 13 Nov, 14:55 JST, Ancelotti on Moriyasu](https://www.sanspo.com/article/20261113-3EI6KTE6JBCAJML33642GNWAJM/): REPORTED/B.
+- [ge.globo X, 12 Nov, 12:00 UTC, Thursday training shape](https://x.com/geglobo/status/2120849286724485237) and [18:24 UTC, Thursday XI graphic](https://x.com/geglobo/status/2120945970527822289): REPORTED/B.
+- [Cahê Mota X, 12 Nov, 11:41 UTC, revised headline](https://x.com/cahemota/status/2120844432002154894): REPORTED/B.
+- [CNN Brasil, Leonardo Martins, 12 Nov, 11:01 Brasília, probable XI](https://www.cnnbrasil.com.br/esportes/futebol/selecao-brasileira/veja-provavel-escalacao-da-selecao-brasileira-para-enfrentar-o-japao/): PREDICTION/C.
+- [Lance, 12 Nov, Bruno back, 4-2-4 reading](https://www.lance.com.br/selecao-brasileira/bruno-guimaraes-volta-e-ancelotti-comeca-a-definir-a-escalacao-da-selecao.html): REPORTED/B for training, PREDICTION/C for XI.
+- [Exame, citing ESPN, 12 Nov, 4-3-3](https://exame.com/esporte/ancelotti-esboca-selecao-brasileira-no-4-3-3-para-enfrentar-o-japao-veja-provavel-time/): PREDICTION/C.
+- [CityTudo, 12 Nov, aggregator](https://citytudo.com/futebol/escalacao-da-selecao-contra-o-japao-rayan-meio-raphinha-capitao/2026-11-12/): REPORTED/C.
+- [DOL, Magno Fernandes, 11 Nov, 21:42 Brasília, Endrick with reserves](https://dol.com.br/esporte/esporte-brasil/968089/ancelotti-testa-opcoes-na-selecao-endrick-treina-entre-os-reservas): REPORTED/C.
+- [Football Zone, 13 Nov, Brazil XI citing Globo](https://www.football-zone.net/archives/684579): PREDICTION/C, contradicted by ge graphic.
+
+**Japan U-21**
+- [JFA U-21 match page, pre-match roster with numbers, checked 13 Nov](https://www.jfa.jp/national_team/u21_2026/20261113/match_page.html): OFFICIAL/A.
+- [JFA X, 13 Nov, 05:50 UTC, eve-of-match session](https://x.com/jfa_samuraiblue/status/2121118360461254684): OFFICIAL/A.
+- [Soccer Digest via d menu, Matsuo Yuki, 13 Nov, 10:27 JST, U-21 session and Kita](https://topics.smt.docomo.ne.jp/article/soccerdigestweb/sports/soccerdigestweb-199659): REPORTED/B.
+- [ABEMA TIMES, Matsuo Yuki, 13 Nov, 11:36 JST, 4-3-3 graphic](https://times.abema.tv/articles/-/10288722): PREDICTION/B; Oiwa quote REPORTED/B.
+- [AERA DIGITAL, Miwa Naoki, 12 Nov, 18:00 JST](https://dot.asahi.com/articles/-/297404) ([d menu copy](https://topics.smt.docomo.ne.jp/article/dot/nation/dot-297404)): PREDICTION/B.
+
+**Spain U-21**
+- [RFEF, 12 Nov, 19:00 CET, Gordo and Ángel Ortiz press conference](https://rfef.es/es/noticias/rp-david-gordo-angel-ortiz): OFFICIAL/A. Opened with curl (WebFetch returned 403).
+- [RFEF, 12 Nov, Spain ready for Japan](https://rfef.es/es/noticias/espana-lista-reto-japon): OFFICIAL/A.
+- [Hoy, Paco Galeano, 12 Nov, updated 22:08 CET](https://www.hoy.es/deportes/futbol/seleccion-espanola/espana-angelortiz-seleccion-sub21-almendralejo-20261112210527-nt.html): REPORTED/B.
+- [EFE via Infobae, 12 Nov, 06:16 EST / 11:16 UK, preview and probable XIs](https://www.infobae.com/espana/agencias/2026/11/12/la-seleccion-sub-21-comienza-a-mirar-al-europeo-con-un-amistoso-ante-japon-en-almendralejo/): PREDICTION/C, contains a withdrawn player.
+- [EFE via Infobae, 12 Nov, 13:46 EST, Gordo](https://www.infobae.com/espana/agencias/2026/11/12/david-gordo-no-hay-mejor-preparacion-que-ganar/): REPORTED/B.
+- [Europa Press, 12 Nov, 20:57 CET](https://www.europapress.es/deportes/futbol/mundial-00639/noticia-sub-21-comienza-japon-pruebas-cara-europeo-2027-20261112202731.html): REPORTED/B, PREDICTION/C on shape.
+- [Soccer Digest via d menu, 13 Nov, 14:04 JST, Gordo](https://topics.smt.docomo.ne.jp/article/soccerdigestweb/sports/soccerdigestweb-199642): REPORTED/B.
+
+**Blocked or unavailable in sweep 4:** RFEF via WebFetch (403; curl worked); antenna via WebFetch (403); Soccer Digest Kita page 2 (404); an ABEMA photo page (404); JFA senior match page for 14 Nov (404, not yet published). Japan's 12 Nov session was closed after 15 minutes and the 13 Nov final session had no public report at cutoff, so no shape or bib report exists. No El Golazo or Targma text was opened. No purchases.
 
 ### Added in sweep 3c (accessed 12 Nov, 09:37 to 09:45 UK)
 - [ge.globo, Cahê Mota, 12 Nov, 06:03 Brasília / 09:03 UK, Bruno back, 4-2-4 with Rayan, Morisco tendency](https://ge.globo.com/futebol/selecao-brasileira/noticia/2026/11/12/escalacao-da-selecao-bruno-guimaraes-retorna-e-ancelotti-testa-volta-do-4-2-4-com-rayan-no-ataque.ghtml): REPORTED/B.
@@ -662,6 +1030,8 @@ Times below are in the publication's own time zone where the page stated one, th
 - J.League official match pages for R15 kick-offs, all OFFICIAL/A: [Kashima v Shimizu, 20 Nov, 19:00](https://www.jleague.jp/match/j1/2026/112002/), [Verdy v Nagoya, 21 Nov, 14:00](https://www.jleague.jp/match/j1/2026/112101/), [Machida v Nagasaki, 21 Nov, 14:00](https://www.jleague.jp/match/j1/2026/112102/), [Hiroshima v Marinos, 21 Nov, 14:00](https://www.jleague.jp/match/j1/2026/112103/), [Kawasaki v Avispa, 21 Nov, 15:00](https://www.jleague.jp/match/j1/2026/112104/), [Cerezo v FC Tokyo, 21 Nov, 15:00](https://www.jleague.jp/match/j1/2026/112105/), [Gamba v Okayama, 21 Nov, 16:00](https://www.jleague.jp/match/j1/2026/112106/), [Kyoto v Urawa, 21 Nov, 14:00](https://www.jleague.jp/match/j1/2026/112108/).
 - Live pages compared in this sweep: [Samurai Blue hub](https://jleaguescout.soraretactics.com/football/samurai-blue) and [Japan v Brazil preview](https://jleaguescout.soraretactics.com/football/samurai-blue/japan-v-brazil-2026).
 - Sweep 1 local notes, preserved but not a public source: `/workspace/japan-nt-20261113/sweep1.md`.
+
+**GitHub, sweep 4:** written locally to `/workspace/japan-nt-20261113/latest.md`, with the sweep 3c text backed up as `/workspace/japan-nt-20261113/sweep3c_backup.md`. No GitHub push from this pass; that is handed to the main chat.
 
 **GitHub, sweep 3c:** written locally to `/workspace/japan-nt-20261113/latest.md`, with the sweep 3b text backed up as `/workspace/japan-nt-20261113/sweep3b_backup.md`. No GitHub push from this pass.
 
