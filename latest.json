@@ -1,7 +1,7 @@
 {
  "schema": "jls-forecast-feed/1",
- "created_utc": "2026-11-15T06:23:20Z",
- "data_through_jst": "2026-11-14 14:03",
+ "created_utc": "2026-11-15T15:39:34Z",
+ "data_through_jst": "2026-11-15 14:03",
  "model": {
   "name": "J League Scout forecaster",
   "version": "blend-0.2.0 w_elo=0.4 | markets v2 (lambda tilt) | elo-0.1.1 fb3a832281",
@@ -178,12 +178,12 @@
   "note": "4 events in the latest snapshot, 0 attached. Club names resolved, but none of those fixtures are still upcoming: FC Machida Zelvia vs Hiroshima Sanfrecce FC (2026-11-08 14:00 JST); Vissel Kobe vs Urawa Red Diamonds (2026-11-08 14:00 JST); Gamba Osaka vs Cerezo Osaka (2026-11-08 15:00 JST); JEF United Chiba vs Mito HollyHock (2026-11-08 17:00 JST)."
  },
  "status": {
-  "model_run_utc": "2026-11-15T06:23:20Z",
-  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/43685085777",
+  "model_run_utc": "2026-11-15T15:39:34Z",
+  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/43730961676",
   "odds_fetched_utc": "2026-11-08T05:57:40Z",
   "odds_note": "4 events in the latest snapshot, 0 attached. Club names resolved, but none of those fixtures are still upcoming: FC Machida Zelvia vs Hiroshima Sanfrecce FC (2026-11-08 14:00 JST); Vissel Kobe vs Urawa Red Diamonds (2026-11-08 14:00 JST); Gamba Osaka vs Cerezo Osaka (2026-11-08 15:00 JST); JEF United Chiba vs Mito HollyHock (2026-11-08 17:00 JST).",
   "team_news_sync": {
-   "run_utc": "2026-11-15T05:24:15Z",
+   "run_utc": "2026-11-15T10:24:02Z",
    "result": "skipped: next match in 5 days",
    "round": 15,
    "error": null
@@ -3016,7 +3016,7 @@
     "projected_points": 33.2,
     "p_title": 0.0,
     "p_top3": 0.0,
-    "p_relegation": 0.6822
+    "p_relegation": 0.6818
    },
    {
     "after_round": 14,
@@ -3026,7 +3026,7 @@
     "projected_points": 49.0,
     "p_title": 0.0,
     "p_top3": 0.0006,
-    "p_relegation": 0.025
+    "p_relegation": 0.0251
    },
    {
     "after_round": 14,
@@ -3035,7 +3035,7 @@
     "points": 33,
     "projected_points": 73.2,
     "p_title": 0.2808,
-    "p_top3": 0.6713,
+    "p_top3": 0.672,
     "p_relegation": 0.0
    },
    {
@@ -3046,7 +3046,7 @@
     "projected_points": 45.1,
     "p_title": 0.0,
     "p_top3": 0.0002,
-    "p_relegation": 0.0803
+    "p_relegation": 0.0801
    },
    {
     "after_round": 14,
@@ -3056,7 +3056,7 @@
     "projected_points": 44.5,
     "p_title": 0.0,
     "p_top3": 0.0001,
-    "p_relegation": 0.0895
+    "p_relegation": 0.0894
    },
    {
     "after_round": 14,
@@ -3066,7 +3066,7 @@
     "projected_points": 37.0,
     "p_title": 0.0,
     "p_top3": 0.0,
-    "p_relegation": 0.449
+    "p_relegation": 0.45
    },
    {
     "after_round": 14,
@@ -3074,7 +3074,7 @@
     "team_slug": "kashima-antlers",
     "points": 23,
     "projected_points": 65.4,
-    "p_title": 0.0366,
+    "p_title": 0.0368,
     "p_top3": 0.2074,
     "p_relegation": 0.0
    },
@@ -3085,7 +3085,7 @@
     "points": 31,
     "projected_points": 69.7,
     "p_title": 0.1136,
-    "p_top3": 0.4278,
+    "p_top3": 0.4271,
     "p_relegation": 0.0
    },
    {
@@ -3103,10 +3103,10 @@
     "team": "Kyoto Sanga",
     "team_slug": "kyoto-sanga",
     "points": 16,
-    "projected_points": 48.4,
+    "projected_points": 48.5,
     "p_title": 0.0,
-    "p_top3": 0.0005,
-    "p_relegation": 0.0266
+    "p_top3": 0.0006,
+    "p_relegation": 0.0268
    },
    {
     "after_round": 14,
@@ -3114,7 +3114,7 @@
     "team_slug": "machida-zelvia",
     "points": 29,
     "projected_points": 71.5,
-    "p_title": 0.185,
+    "p_title": 0.1842,
     "p_top3": 0.5755,
     "p_relegation": 0.0
    },
@@ -3126,7 +3126,7 @@
     "projected_points": 30.3,
     "p_title": 0.0,
     "p_top3": 0.0,
-    "p_relegation": 0.8426
+    "p_relegation": 0.8427
    },
    {
     "after_round": 14,
@@ -3144,8 +3144,8 @@
     "team_slug": "sanfrecce-hiroshima",
     "points": 30,
     "projected_points": 73.2,
-    "p_title": 0.2872,
-    "p_top3": 0.681,
+    "p_title": 0.2879,
+    "p_top3": 0.6808,
     "p_relegation": 0.0
    },
    {
@@ -3156,7 +3156,7 @@
     "projected_points": 39.7,
     "p_title": 0.0,
     "p_top3": 0.0,
-    "p_relegation": 0.2956
+    "p_relegation": 0.2954
    },
    {
     "after_round": 14,
@@ -3186,7 +3186,7 @@
     "projected_points": 41.2,
     "p_title": 0.0,
     "p_top3": 0.0,
-    "p_relegation": 0.192
+    "p_relegation": 0.1916
    },
    {
     "after_round": 14,
@@ -3203,9 +3203,9 @@
     "team": "Yokohama F. Marinos",
     "team_slug": "yokohama-f-marinos",
     "points": 22,
-    "projected_points": 56.5,
+    "projected_points": 56.6,
     "p_title": 0.0017,
-    "p_top3": 0.0187,
+    "p_top3": 0.0188,
     "p_relegation": 0.0009
    }
   ]
@@ -3245,7 +3245,7 @@
      "kickoff_jst": "19:00",
      "venue_ja": "三協F柏",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.62,
+     "p_home": 0.621,
      "p_draw": 0.209,
      "p_away": 0.171,
      "lean": "Strong lean Kashiwa Reysol",
@@ -3254,7 +3254,7 @@
      "home_clean_sheet": 0.386,
      "away_clean_sheet": 0.133,
      "p_over_2_5": 0.57,
-     "p_btts": 0.533,
+     "p_btts": 0.532,
      "likely_scores": [
       {
        "score": "2-0",
@@ -3275,7 +3275,7 @@
      ],
      "confidence": "medium",
      "results_only": {
-      "p_home": 0.62,
+      "p_home": 0.621,
       "p_draw": 0.209,
       "p_away": 0.171
      },
@@ -3301,7 +3301,7 @@
      "home_clean_sheet": 0.48,
      "away_clean_sheet": 0.122,
      "p_over_2_5": 0.54,
-     "p_btts": 0.457,
+     "p_btts": 0.456,
      "likely_scores": [
       {
        "score": "2-0",
@@ -3392,7 +3392,7 @@
      "lean": "Open game",
      "home_xg": 1.34,
      "away_xg": 1.25,
-     "home_clean_sheet": 0.286,
+     "home_clean_sheet": 0.285,
      "away_clean_sheet": 0.262,
      "p_over_2_5": 0.48,
      "p_btts": 0.527,
@@ -3459,7 +3459,7 @@
      ],
      "p_home_range80": [
       0.513,
-      0.596
+      0.595
      ],
      "confidence": "medium",
      "results_only": {
@@ -3486,10 +3486,10 @@
      "lean": "Open game",
      "home_xg": 1.16,
      "away_xg": 1.21,
-     "home_clean_sheet": 0.298,
+     "home_clean_sheet": 0.297,
      "away_clean_sheet": 0.313,
      "p_over_2_5": 0.423,
-     "p_btts": 0.482,
+     "p_btts": 0.483,
      "likely_scores": [
       {
        "score": "1-1",
@@ -3505,7 +3505,7 @@
       }
      ],
      "p_home_range80": [
-      0.308,
+      0.307,
       0.382
      ],
      "confidence": "higher",
@@ -3531,12 +3531,12 @@
      "p_draw": 0.218,
      "p_away": 0.164,
      "lean": "Strong lean Machida Zelvia",
-     "home_xg": 1.9,
+     "home_xg": 1.89,
      "away_xg": 0.86,
      "home_clean_sheet": 0.424,
      "away_clean_sheet": 0.15,
-     "p_over_2_5": 0.52,
-     "p_btts": 0.49,
+     "p_over_2_5": 0.519,
+     "p_btts": 0.489,
      "likely_scores": [
       {
        "score": "1-0",
@@ -3583,7 +3583,7 @@
      "home_clean_sheet": 0.365,
      "away_clean_sheet": 0.174,
      "p_over_2_5": 0.52,
-     "p_btts": 0.524,
+     "p_btts": 0.525,
      "likely_scores": [
       {
        "score": "1-1",
@@ -3725,7 +3725,7 @@
      "p_away": 0.372,
      "lean": "Open game",
      "home_xg": 1.18,
-     "away_xg": 1.22,
+     "away_xg": 1.23,
      "home_clean_sheet": 0.294,
      "away_clean_sheet": 0.307,
      "p_over_2_5": 0.432,
@@ -3767,14 +3767,14 @@
      "kickoff_jst": "19:00",
      "venue_ja": "フクアリ",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.34,
+     "p_home": 0.339,
      "p_draw": 0.257,
      "p_away": 0.403,
      "lean": "Open game",
      "home_xg": 1.28,
      "away_xg": 1.42,
      "home_clean_sheet": 0.242,
-     "away_clean_sheet": 0.277,
+     "away_clean_sheet": 0.278,
      "p_over_2_5": 0.507,
      "p_btts": 0.548,
      "likely_scores": [
@@ -3792,12 +3792,12 @@
       }
      ],
      "p_home_range80": [
-      0.302,
+      0.301,
       0.379
      ],
      "confidence": "higher",
      "results_only": {
-      "p_home": 0.34,
+      "p_home": 0.339,
       "p_draw": 0.257,
       "p_away": 0.403
      },
@@ -3821,20 +3821,20 @@
      "home_xg": 1.3,
      "away_xg": 1.0,
      "home_clean_sheet": 0.368,
-     "away_clean_sheet": 0.272,
+     "away_clean_sheet": 0.273,
      "p_over_2_5": 0.404,
      "p_btts": 0.46,
      "likely_scores": [
-      {
-       "score": "1-1",
-       "p": 0.13
-      },
       {
        "score": "1-0",
        "p": 0.13
       },
       {
-       "score": "0-1",
+       "score": "1-1",
+       "p": 0.13
+      },
+      {
+       "score": "0-0",
        "p": 0.1
       }
      ],
@@ -3861,14 +3861,14 @@
      "kickoff_jst": "19:00",
      "venue_ja": "水戸信ス",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.323,
+     "p_home": 0.322,
      "p_draw": 0.286,
      "p_away": 0.391,
      "lean": "Open game",
      "home_xg": 1.06,
      "away_xg": 1.2,
      "home_clean_sheet": 0.303,
-     "away_clean_sheet": 0.347,
+     "away_clean_sheet": 0.348,
      "p_over_2_5": 0.391,
      "p_btts": 0.455,
      "likely_scores": [
@@ -3891,7 +3891,7 @@
      ],
      "confidence": "higher",
      "results_only": {
-      "p_home": 0.323,
+      "p_home": 0.322,
       "p_draw": 0.286,
       "p_away": 0.391
      },
@@ -3957,14 +3957,14 @@
      "fixture_check": "official schedule; matches June PDF round",
      "p_home": 0.322,
      "p_draw": 0.241,
-     "p_away": 0.436,
+     "p_away": 0.437,
      "lean": "Open game",
      "home_xg": 1.36,
      "away_xg": 1.62,
      "home_clean_sheet": 0.197,
      "away_clean_sheet": 0.256,
      "p_over_2_5": 0.574,
-     "p_btts": 0.598,
+     "p_btts": 0.597,
      "likely_scores": [
       {
        "score": "1-1",
@@ -3980,14 +3980,14 @@
       }
      ],
      "p_home_range80": [
-      0.279,
+      0.278,
       0.368
      ],
      "confidence": "medium",
      "results_only": {
       "p_home": 0.322,
       "p_draw": 0.241,
-      "p_away": 0.436
+      "p_away": 0.437
      },
      "adjustments": [],
      "market": null
@@ -4049,13 +4049,13 @@
      "kickoff_jst": "19:00",
      "venue_ja": "メルスタ",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.402,
+     "p_home": 0.401,
      "p_draw": 0.276,
      "p_away": 0.322,
      "lean": "Open game",
      "home_xg": 1.28,
      "away_xg": 1.11,
-     "home_clean_sheet": 0.329,
+     "home_clean_sheet": 0.328,
      "away_clean_sheet": 0.279,
      "p_over_2_5": 0.428,
      "p_btts": 0.484,
@@ -4079,7 +4079,7 @@
      ],
      "confidence": "higher",
      "results_only": {
-      "p_home": 0.402,
+      "p_home": 0.401,
       "p_draw": 0.276,
       "p_away": 0.322
      },
@@ -4195,7 +4195,7 @@
      "kickoff_jst": "14:00",
      "venue_ja": "サンガS",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.378,
+     "p_home": 0.377,
      "p_draw": 0.257,
      "p_away": 0.366,
      "lean": "Open game",
@@ -4298,16 +4298,16 @@
      "kickoff_jst": "15:00",
      "venue_ja": "ノエスタ",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.598,
+     "p_home": 0.599,
      "p_draw": 0.227,
-     "p_away": 0.175,
+     "p_away": 0.174,
      "lean": "Strong lean Vissel Kobe",
      "home_xg": 1.81,
      "away_xg": 0.86,
      "home_clean_sheet": 0.423,
      "away_clean_sheet": 0.164,
      "p_over_2_5": 0.499,
-     "p_btts": 0.483,
+     "p_btts": 0.482,
      "likely_scores": [
       {
        "score": "1-0",
@@ -4514,13 +4514,13 @@
      "venue_ja": "水戸信ス",
      "fixture_check": "official schedule; matches June PDF round",
      "p_home": 0.304,
-     "p_draw": 0.262,
+     "p_draw": 0.263,
      "p_away": 0.433,
      "lean": "Open game",
      "home_xg": 1.15,
      "away_xg": 1.42,
      "home_clean_sheet": 0.241,
-     "away_clean_sheet": 0.316,
+     "away_clean_sheet": 0.317,
      "p_over_2_5": 0.475,
      "p_btts": 0.519,
      "likely_scores": [
@@ -4544,7 +4544,7 @@
      "confidence": "higher",
      "results_only": {
       "p_home": 0.304,
-      "p_draw": 0.262,
+      "p_draw": 0.263,
       "p_away": 0.433
      },
      "adjustments": [],
@@ -4562,14 +4562,14 @@
      "fixture_check": "official schedule; matches June PDF round",
      "p_home": 0.459,
      "p_draw": 0.269,
-     "p_away": 0.272,
+     "p_away": 0.273,
      "lean": "Lean Nagoya Grampus",
      "home_xg": 1.4,
      "away_xg": 1.02,
      "home_clean_sheet": 0.362,
      "away_clean_sheet": 0.245,
      "p_over_2_5": 0.436,
-     "p_btts": 0.481,
+     "p_btts": 0.482,
      "likely_scores": [
       {
        "score": "1-1",
@@ -4592,7 +4592,7 @@
      "results_only": {
       "p_home": 0.459,
       "p_draw": 0.269,
-      "p_away": 0.272
+      "p_away": 0.273
      },
      "adjustments": [],
      "market": null
@@ -4616,7 +4616,7 @@
      "home_clean_sheet": 0.284,
      "away_clean_sheet": 0.165,
      "p_over_2_5": 0.59,
-     "p_btts": 0.597,
+     "p_btts": 0.598,
      "likely_scores": [
       {
        "score": "1-1",
@@ -4671,7 +4671,7 @@
      "away_xg": 0.75,
      "home_clean_sheet": 0.473,
      "away_clean_sheet": 0.197,
-     "p_over_2_5": 0.423,
+     "p_over_2_5": 0.424,
      "p_btts": 0.423,
      "likely_scores": [
       {
@@ -4688,7 +4688,7 @@
       }
      ],
      "p_home_range80": [
-      0.546,
+      0.545,
       0.626
      ],
      "confidence": "medium",
@@ -4771,7 +4771,7 @@
      "kickoff_jst": "13:00",
      "venue_ja": "フクアリ",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.22,
+     "p_home": 0.219,
      "p_draw": 0.242,
      "p_away": 0.539,
      "lean": "Lean Kashima Antlers",
@@ -4779,7 +4779,7 @@
      "away_xg": 1.68,
      "home_clean_sheet": 0.186,
      "away_clean_sheet": 0.375,
-     "p_over_2_5": 0.498,
+     "p_over_2_5": 0.497,
      "p_btts": 0.509,
      "likely_scores": [
       {
@@ -4788,7 +4788,7 @@
       },
       {
        "score": "1-1",
-       "p": 0.12
+       "p": 0.11
       },
       {
        "score": "0-2",
@@ -4888,7 +4888,7 @@
      "p_away": 0.279,
      "lean": "Lean Urawa Red Diamonds",
      "home_xg": 1.53,
-     "away_xg": 1.12,
+     "away_xg": 1.13,
      "home_clean_sheet": 0.325,
      "away_clean_sheet": 0.216,
      "p_over_2_5": 0.496,
@@ -4938,8 +4938,8 @@
      "away_xg": 1.12,
      "home_clean_sheet": 0.326,
      "away_clean_sheet": 0.246,
-     "p_over_2_5": 0.463,
-     "p_btts": 0.509,
+     "p_over_2_5": 0.462,
+     "p_btts": 0.508,
      "likely_scores": [
       {
        "score": "1-1",
@@ -4983,7 +4983,7 @@
      "lean": "Strong lean Cerezo Osaka",
      "home_xg": 1.86,
      "away_xg": 0.95,
-     "home_clean_sheet": 0.387,
+     "home_clean_sheet": 0.388,
      "away_clean_sheet": 0.156,
      "p_over_2_5": 0.533,
      "p_btts": 0.517,
@@ -5003,7 +5003,7 @@
      ],
      "p_home_range80": [
       0.542,
-      0.633
+      0.634
      ],
      "confidence": "medium",
      "results_only": {
@@ -5261,7 +5261,7 @@
      ],
      "p_home_range80": [
       0.19,
-      0.243
+      0.242
      ],
      "confidence": "higher",
      "results_only": {
@@ -5290,7 +5290,7 @@
      "away_xg": 1.48,
      "home_clean_sheet": 0.227,
      "away_clean_sheet": 0.347,
-     "p_over_2_5": 0.466,
+     "p_over_2_5": 0.467,
      "p_btts": 0.505,
      "likely_scores": [
       {
@@ -5329,13 +5329,13 @@
      "kickoff_jst": "16:00",
      "venue_ja": "パナスタ",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.489,
+     "p_home": 0.488,
      "p_draw": 0.263,
      "p_away": 0.248,
      "lean": "Lean Gamba Osaka",
      "home_xg": 1.47,
      "away_xg": 0.97,
-     "home_clean_sheet": 0.381,
+     "home_clean_sheet": 0.38,
      "away_clean_sheet": 0.23,
      "p_over_2_5": 0.44,
      "p_btts": 0.477,
@@ -5359,7 +5359,7 @@
      ],
      "confidence": "medium",
      "results_only": {
-      "p_home": 0.489,
+      "p_home": 0.488,
       "p_draw": 0.263,
       "p_away": 0.248
      },
@@ -5381,7 +5381,7 @@
      "p_away": 0.244,
      "lean": "Lean Yokohama F. Marinos",
      "home_xg": 1.72,
-     "away_xg": 1.11,
+     "away_xg": 1.1,
      "home_clean_sheet": 0.331,
      "away_clean_sheet": 0.179,
      "p_over_2_5": 0.536,
@@ -5423,16 +5423,16 @@
      "kickoff_jst": "14:00",
      "venue_ja": "サンガS",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.525,
+     "p_home": 0.526,
      "p_draw": 0.239,
-     "p_away": 0.236,
+     "p_away": 0.235,
      "lean": "Lean Kyoto Sanga",
      "home_xg": 1.71,
      "away_xg": 1.07,
-     "home_clean_sheet": 0.344,
+     "home_clean_sheet": 0.345,
      "away_clean_sheet": 0.18,
      "p_over_2_5": 0.526,
-     "p_btts": 0.538,
+     "p_btts": 0.537,
      "likely_scores": [
       {
        "score": "1-1",
@@ -5449,13 +5449,13 @@
      ],
      "p_home_range80": [
       0.475,
-      0.567
+      0.568
      ],
      "confidence": "medium",
      "results_only": {
-      "p_home": 0.525,
+      "p_home": 0.526,
       "p_draw": 0.239,
-      "p_away": 0.236
+      "p_away": 0.235
      },
      "adjustments": [],
      "market": null
@@ -5566,7 +5566,7 @@
      "fixture_check": "official schedule; matches June PDF round",
      "p_home": 0.549,
      "p_draw": 0.238,
-     "p_away": 0.214,
+     "p_away": 0.213,
      "lean": "Lean Nagoya Grampus",
      "home_xg": 1.73,
      "away_xg": 0.98,
@@ -5596,7 +5596,7 @@
      "results_only": {
       "p_home": 0.549,
       "p_draw": 0.238,
-      "p_away": 0.214
+      "p_away": 0.213
      },
      "adjustments": [],
      "market": null
@@ -5616,7 +5616,7 @@
      "p_away": 0.35,
      "lean": "Open game",
      "home_xg": 1.49,
-     "away_xg": 1.37,
+     "away_xg": 1.38,
      "home_clean_sheet": 0.253,
      "away_clean_sheet": 0.225,
      "p_over_2_5": 0.546,
@@ -5709,8 +5709,8 @@
    "points_now": 30,
    "projected_points": 73.2,
    "projected_gd": 37.3,
-   "p_title": 0.2872,
-   "p_top3": 0.6811,
+   "p_title": 0.2876,
+   "p_top3": 0.6808,
    "p_relegation": 0.0
   },
   {
@@ -5722,9 +5722,9 @@
    "goals_against_vs_avg": 0.99,
    "points_now": 33,
    "projected_points": 73.2,
-   "projected_gd": 35.6,
-   "p_title": 0.2808,
-   "p_top3": 0.6714,
+   "projected_gd": 35.7,
+   "p_title": 0.2809,
+   "p_top3": 0.6717,
    "p_relegation": 0.0
   },
   {
@@ -5737,8 +5737,8 @@
    "points_now": 29,
    "projected_points": 71.5,
    "projected_gd": 34.1,
-   "p_title": 0.1848,
-   "p_top3": 0.5753,
+   "p_title": 0.1844,
+   "p_top3": 0.5754,
    "p_relegation": 0.0
   },
   {
@@ -5751,8 +5751,8 @@
    "points_now": 31,
    "projected_points": 69.7,
    "projected_gd": 19.6,
-   "p_title": 0.1139,
-   "p_top3": 0.428,
+   "p_title": 0.1137,
+   "p_top3": 0.4275,
    "p_relegation": 0.0
   },
   {
@@ -5765,8 +5765,8 @@
    "points_now": 27,
    "projected_points": 68.8,
    "projected_gd": 22.2,
-   "p_title": 0.0921,
-   "p_top3": 0.3787,
+   "p_title": 0.0923,
+   "p_top3": 0.3789,
    "p_relegation": 0.0
   },
   {
@@ -5780,7 +5780,7 @@
    "projected_points": 65.4,
    "projected_gd": 19.2,
    "p_title": 0.0367,
-   "p_top3": 0.2073,
+   "p_top3": 0.2074,
    "p_relegation": 0.0
   },
   {
@@ -5805,10 +5805,10 @@
    "goals_for_vs_avg": 1.32,
    "goals_against_vs_avg": 1.24,
    "points_now": 22,
-   "projected_points": 56.5,
+   "projected_points": 56.6,
    "projected_gd": 8.3,
-   "p_title": 0.0017,
-   "p_top3": 0.0188,
+   "p_title": 0.0016,
+   "p_top3": 0.0187,
    "p_relegation": 0.0009
   },
   {
@@ -5837,7 +5837,7 @@
    "projected_gd": -10.4,
    "p_title": 0.0,
    "p_top3": 0.0006,
-   "p_relegation": 0.025
+   "p_relegation": 0.0251
   },
   {
    "team": "Kyoto Sanga",
@@ -5847,11 +5847,11 @@
    "goals_for_vs_avg": 1.23,
    "goals_against_vs_avg": 1.28,
    "points_now": 16,
-   "projected_points": 48.4,
+   "projected_points": 48.5,
    "projected_gd": -4.8,
    "p_title": 0.0001,
    "p_top3": 0.0006,
-   "p_relegation": 0.0265
+   "p_relegation": 0.0267
   },
   {
    "team": "Nagoya Grampus",
@@ -5865,7 +5865,7 @@
    "projected_gd": -10.6,
    "p_title": 0.0,
    "p_top3": 0.0001,
-   "p_relegation": 0.0769
+   "p_relegation": 0.0768
   },
   {
    "team": "Fagiano Okayama",
@@ -5878,8 +5878,8 @@
    "projected_points": 45.1,
    "projected_gd": -13.0,
    "p_title": 0.0,
-   "p_top3": 0.0002,
-   "p_relegation": 0.0804
+   "p_top3": 0.0003,
+   "p_relegation": 0.0799
   },
   {
    "team": "Gamba Osaka",
@@ -5893,7 +5893,7 @@
    "projected_gd": -8.8,
    "p_title": 0.0,
    "p_top3": 0.0001,
-   "p_relegation": 0.0895
+   "p_relegation": 0.0894
   },
   {
    "team": "V-Varen Nagasaki",
@@ -5906,8 +5906,8 @@
    "projected_points": 41.2,
    "projected_gd": -12.3,
    "p_title": 0.0,
-   "p_top3": 0.0,
-   "p_relegation": 0.192
+   "p_top3": 0.0001,
+   "p_relegation": 0.1915
   },
   {
    "team": "Tokyo Verdy",
@@ -5921,7 +5921,7 @@
    "projected_gd": -19.2,
    "p_title": 0.0,
    "p_top3": 0.0,
-   "p_relegation": 0.2378
+   "p_relegation": 0.2377
   },
   {
    "team": "Shimizu S-Pulse",
@@ -5935,13 +5935,13 @@
    "projected_gd": -23.7,
    "p_title": 0.0,
    "p_top3": 0.0,
-   "p_relegation": 0.2956
+   "p_relegation": 0.2951
   },
   {
    "team": "JEF United Chiba",
    "team_slug": "jef-united-chiba",
    "elo": 1535,
-   "rating": 34.4,
+   "rating": 34.3,
    "goals_for_vs_avg": 1.07,
    "goals_against_vs_avg": 1.48,
    "points_now": 13,
@@ -5949,7 +5949,7 @@
    "projected_gd": -22.0,
    "p_title": 0.0,
    "p_top3": 0.0,
-   "p_relegation": 0.4489
+   "p_relegation": 0.45
   },
   {
    "team": "Avispa Fukuoka",
@@ -5963,7 +5963,7 @@
    "projected_gd": -22.1,
    "p_title": 0.0,
    "p_top3": 0.0,
-   "p_relegation": 0.6825
+   "p_relegation": 0.6817
   },
   {
    "team": "Mito HollyHock",
@@ -5977,7 +5977,7 @@
    "projected_gd": -32.4,
    "p_title": 0.0,
    "p_top3": 0.0,
-   "p_relegation": 0.8421
+   "p_relegation": 0.843
   }
  ],
  "season_history": [
