@@ -1,6 +1,6 @@
 {
  "schema": "jls-forecast-feed/1",
- "created_utc": "2026-11-17T07:00:14Z",
+ "created_utc": "2026-11-17T10:22:47Z",
  "data_through_jst": "2026-11-15 14:03",
  "model": {
   "name": "J League Scout forecaster",
@@ -172,8 +172,8 @@
   "method": "Latest eligible snapshot strictly before each fixture's kick-off; average bookmaker implied probabilities with the margin removed proportionally."
  },
  "status": {
-  "model_run_utc": "2026-11-17T07:00:14Z",
-  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/44035082546",
+  "model_run_utc": "2026-11-17T10:22:47Z",
+  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/44064047676",
   "odds_fetched_utc": "2026-11-17T04:28:53Z",
   "odds_note": null,
   "team_news_sync": {
@@ -3555,15 +3555,15 @@
      "kickoff_jst": "19:00",
      "venue_ja": "メルスタ",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.615,
-     "p_draw": 0.222,
-     "p_away": 0.163,
+     "p_home": 0.632,
+     "p_draw": 0.215,
+     "p_away": 0.153,
      "lean": "Strong lean Kashima Antlers",
-     "home_xg": 1.85,
-     "away_xg": 0.83,
-     "home_clean_sheet": 0.438,
-     "away_clean_sheet": 0.158,
-     "p_over_2_5": 0.5,
+     "home_xg": 1.91,
+     "away_xg": 0.81,
+     "home_clean_sheet": 0.443,
+     "away_clean_sheet": 0.148,
+     "p_over_2_5": 0.512,
      "p_btts": 0.474,
      "likely_scores": [
       {
@@ -3576,12 +3576,12 @@
       },
       {
        "score": "1-1",
-       "p": 0.11
+       "p": 0.1
       }
      ],
      "p_home_range80": [
-      0.572,
-      0.656
+      0.589,
+      0.671
      ],
      "confidence": "medium",
      "results_only": {
@@ -3674,6 +3674,14 @@
        "side": "away",
        "team_id": "shimizu_s_pulse",
        "elo": -5.0,
+       "category": "morale",
+       "reason": "Four straight league defeats without scoring (0-5, 0-4, 0-2, 0-1); manager under pressure",
+       "source": "Matsu instruction 17 Nov 2026 (D-043)"
+      },
+      {
+       "side": "away",
+       "team_id": "shimizu_s_pulse",
+       "elo": -5.0,
        "category": "team_news",
        "reason": "Hasukawa Sodai out",
        "source": "official: https://www.jleague.jp/news/article/35362/"
@@ -3717,9 +3725,9 @@
       "p_away": 0.168,
       "p_over_2_5": 0.521,
       "model_minus_market": {
-       "home": 0.013,
-       "draw": -0.008,
-       "away": -0.005
+       "home": 0.03,
+       "draw": -0.015,
+       "away": -0.015
       },
       "best_price": {
        "home": {
