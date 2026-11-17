@@ -1,6 +1,6 @@
 {
  "schema": "jls-forecast-feed/1",
- "created_utc": "2026-11-17T06:47:59Z",
+ "created_utc": "2026-11-17T07:00:14Z",
  "data_through_jst": "2026-11-15 14:03",
  "model": {
   "name": "J League Scout forecaster",
@@ -172,8 +172,8 @@
   "method": "Latest eligible snapshot strictly before each fixture's kick-off; average bookmaker implied probabilities with the margin removed proportionally."
  },
  "status": {
-  "model_run_utc": "2026-11-17T06:47:59Z",
-  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/44033750973",
+  "model_run_utc": "2026-11-17T07:00:14Z",
+  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/44035082546",
   "odds_fetched_utc": "2026-11-17T04:28:53Z",
   "odds_note": null,
   "team_news_sync": {
@@ -3239,33 +3239,33 @@
      "kickoff_jst": "19:00",
      "venue_ja": "三協F柏",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.604,
-     "p_draw": 0.216,
-     "p_away": 0.18,
+     "p_home": 0.62,
+     "p_draw": 0.209,
+     "p_away": 0.171,
      "lean": "Strong lean Kashiwa Reysol",
-     "home_xg": 1.94,
-     "away_xg": 0.96,
-     "home_clean_sheet": 0.384,
-     "away_clean_sheet": 0.143,
-     "p_over_2_5": 0.554,
-     "p_btts": 0.528,
+     "home_xg": 2.01,
+     "away_xg": 0.95,
+     "home_clean_sheet": 0.386,
+     "away_clean_sheet": 0.134,
+     "p_over_2_5": 0.569,
+     "p_btts": 0.532,
      "likely_scores": [
-      {
-       "score": "1-0",
-       "p": 0.11
-      },
       {
        "score": "2-0",
        "p": 0.1
       },
       {
-       "score": "1-1",
+       "score": "1-0",
+       "p": 0.1
+      },
+      {
+       "score": "2-1",
        "p": 0.1
       }
      ],
      "p_home_range80": [
-      0.556,
-      0.647
+      0.571,
+      0.662
      ],
      "confidence": "medium",
      "results_only": {
@@ -3277,7 +3277,7 @@
       {
        "side": "home",
        "team_id": "kashiwa_reysol",
-       "elo": -5.0,
+       "elo": -3.8,
        "category": "team_news",
        "reason": "Baba Seiya out",
        "source": "official: https://www.reysol.co.jp/news/topteam/post-1131.html"
@@ -3285,7 +3285,7 @@
       {
        "side": "home",
        "team_id": "kashiwa_reysol",
-       "elo": -10.0,
+       "elo": -7.5,
        "category": "team_news",
        "reason": "Kumasaka Koki out",
        "source": "official: https://www.reysol.co.jp/news/topteam/post-1128.html"
@@ -3293,15 +3293,47 @@
       {
        "side": "home",
        "team_id": "kashiwa_reysol",
-       "elo": -5.0,
+       "elo": -3.8,
        "category": "team_news",
        "reason": "Watai Masaki out",
        "source": "official: https://www.jleague.jp/match/leaguecup/2026/111504/live-commentary/"
       },
       {
+       "side": "home",
+       "team_id": "kashiwa_reysol",
+       "elo": -3.8,
+       "category": "team_news",
+       "reason": "Wakahara Tomoya out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "kashiwa_reysol",
+       "elo": -1.9,
+       "category": "team_news",
+       "reason": "Tezuka Kohei out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "kashiwa_reysol",
+       "elo": -1.9,
+       "category": "team_news",
+       "reason": "Okubo Tomoaki out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "kashiwa_reysol",
+       "elo": -7.5,
+       "category": "team_news",
+       "reason": "Segawa Yusuke doubtful (key player)",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
        "side": "away",
        "team_id": "jef_united_chiba",
-       "elo": -10.0,
+       "elo": -9.2,
        "category": "team_news",
        "reason": "Matheus Indio out",
        "source": "official: https://sakanowa.jp/topics/113871"
@@ -3309,10 +3341,34 @@
       {
        "side": "away",
        "team_id": "jef_united_chiba",
-       "elo": -5.0,
+       "elo": -4.6,
        "category": "team_news",
        "reason": "Kida Hinata out",
        "source": "official: https://www.jleague.jp/news/article/34872/?navicode=j1"
+      },
+      {
+       "side": "away",
+       "team_id": "jef_united_chiba",
+       "elo": -9.2,
+       "category": "team_news",
+       "reason": "Hall Daniel out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "away",
+       "team_id": "jef_united_chiba",
+       "elo": -2.3,
+       "category": "team_news",
+       "reason": "Iida Takahiro doubtful",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "away",
+       "team_id": "jef_united_chiba",
+       "elo": -4.6,
+       "category": "team_news",
+       "reason": "Yonekura Koki out",
+       "source": "Matsu GW sheet / Knowledge Hub"
       }
      ],
      "market": {
@@ -3321,9 +3377,9 @@
       "p_away": 0.181,
       "p_over_2_5": 0.582,
       "model_minus_market": {
-       "home": 0.006,
-       "draw": -0.005,
-       "away": -0.001
+       "home": 0.022,
+       "draw": -0.012,
+       "away": -0.01
       },
       "best_price": {
        "home": {
@@ -3353,33 +3409,33 @@
      "kickoff_jst": "19:00",
      "venue_ja": "ノエスタ",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.771,
-     "p_draw": 0.148,
-     "p_away": 0.081,
+     "p_home": 0.74,
+     "p_draw": 0.165,
+     "p_away": 0.095,
      "lean": "Strong lean Vissel Kobe",
-     "home_xg": 2.52,
-     "away_xg": 0.69,
-     "home_clean_sheet": 0.5,
-     "away_clean_sheet": 0.081,
-     "p_over_2_5": 0.622,
-     "p_btts": 0.459,
+     "home_xg": 2.34,
+     "away_xg": 0.71,
+     "home_clean_sheet": 0.493,
+     "away_clean_sheet": 0.096,
+     "p_over_2_5": 0.588,
+     "p_btts": 0.458,
      "likely_scores": [
       {
        "score": "2-0",
        "p": 0.13
       },
       {
-       "score": "3-0",
+       "score": "1-0",
        "p": 0.11
       },
       {
-       "score": "1-0",
+       "score": "3-0",
        "p": 0.1
       }
      ],
      "p_home_range80": [
-      0.734,
-      0.805
+      0.701,
+      0.776
      ],
      "confidence": "higher",
      "results_only": {
@@ -3389,9 +3445,33 @@
      },
      "adjustments": [
       {
+       "side": "home",
+       "team_id": "vissel_kobe",
+       "elo": -5.0,
+       "category": "team_news",
+       "reason": "Iwanami Takuya out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "vissel_kobe",
+       "elo": -2.5,
+       "category": "team_news",
+       "reason": "Iino Nanasei doubtful",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "vissel_kobe",
+       "elo": -5.0,
+       "category": "team_news",
+       "reason": "Takahashi Issei doubtful",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
        "side": "away",
        "team_id": "mito_hollyhock",
-       "elo": -3.8,
+       "elo": -2.5,
        "category": "team_news",
        "reason": "Kawazura Akinari out",
        "source": "official: https://www.jleague.jp/news/article/35096/"
@@ -3399,7 +3479,7 @@
       {
        "side": "away",
        "team_id": "mito_hollyhock",
-       "elo": -7.5,
+       "elo": -5.0,
        "category": "team_news",
        "reason": "Mase Takumi doubtful (key player)",
        "source": "official: https://www.jleague.jp/news/article/35271/"
@@ -3407,7 +3487,7 @@
       {
        "side": "away",
        "team_id": "mito_hollyhock",
-       "elo": -3.8,
+       "elo": -2.5,
        "category": "team_news",
        "reason": "Okamoto Kazuma out",
        "source": "official: https://www.mito-hollyhock.net/news/p=55379/"
@@ -3415,7 +3495,7 @@
       {
        "side": "away",
        "team_id": "mito_hollyhock",
-       "elo": -7.5,
+       "elo": -5.0,
        "category": "team_news",
        "reason": "Torikai Yoshiki out",
        "source": "official: https://www.mito-hollyhock.net/news/p=55378/"
@@ -3423,10 +3503,18 @@
       {
        "side": "away",
        "team_id": "mito_hollyhock",
-       "elo": -7.5,
+       "elo": -5.0,
        "category": "team_news",
        "reason": "Uchino Kotaro out",
        "source": "official: https://www.mito-hollyhock.net/news/p=55377/"
+      },
+      {
+       "side": "away",
+       "team_id": "mito_hollyhock",
+       "elo": -10.0,
+       "category": "team_news",
+       "reason": "Squad news (2 players)",
+       "source": "Matsu GW sheet / Knowledge Hub"
       }
      ],
      "market": {
@@ -3435,9 +3523,9 @@
       "p_away": 0.134,
       "p_over_2_5": 0.514,
       "model_minus_market": {
-       "home": 0.12,
-       "draw": -0.067,
-       "away": -0.053
+       "home": 0.09,
+       "draw": -0.05,
+       "away": -0.039
       },
       "best_price": {
        "home": {
@@ -3467,33 +3555,33 @@
      "kickoff_jst": "19:00",
      "venue_ja": "メルスタ",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.555,
-     "p_draw": 0.245,
-     "p_away": 0.2,
+     "p_home": 0.615,
+     "p_draw": 0.222,
+     "p_away": 0.163,
      "lean": "Strong lean Kashima Antlers",
-     "home_xg": 1.65,
-     "away_xg": 0.88,
-     "home_clean_sheet": 0.416,
-     "away_clean_sheet": 0.193,
-     "p_over_2_5": 0.462,
-     "p_btts": 0.472,
+     "home_xg": 1.85,
+     "away_xg": 0.83,
+     "home_clean_sheet": 0.438,
+     "away_clean_sheet": 0.158,
+     "p_over_2_5": 0.5,
+     "p_btts": 0.474,
      "likely_scores": [
       {
        "score": "1-0",
        "p": 0.13
       },
       {
-       "score": "1-1",
+       "score": "2-0",
        "p": 0.12
       },
       {
-       "score": "2-0",
+       "score": "1-1",
        "p": 0.11
       }
      ],
      "p_home_range80": [
-      0.511,
-      0.598
+      0.572,
+      0.656
      ],
      "confidence": "medium",
      "results_only": {
@@ -3505,7 +3593,7 @@
       {
        "side": "home",
        "team_id": "kashima_antlers",
-       "elo": -8.6,
+       "elo": -4.1,
        "category": "team_news",
        "reason": "Kim Tae-Hyeon out",
        "source": "official: https://www.antlers.co.jp/en/blogs/news/261029hb37vq"
@@ -3513,7 +3601,7 @@
       {
        "side": "home",
        "team_id": "kashima_antlers",
-       "elo": -4.3,
+       "elo": -2.1,
        "category": "team_news",
        "reason": "Higuchi Yuta out",
        "source": "official: https://www.antlers.co.jp/blogs/news/26111216vj03"
@@ -3521,10 +3609,66 @@
       {
        "side": "home",
        "team_id": "kashima_antlers",
-       "elo": -17.1,
+       "elo": -8.2,
        "category": "team_news",
        "reason": "Suzuki Yuma out (key player)",
        "source": "official: https://www.jleague.jp/news/article/35322/"
+      },
+      {
+       "side": "home",
+       "team_id": "kashima_antlers",
+       "elo": -1.2,
+       "category": "team_news",
+       "reason": "Squad news",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "kashima_antlers",
+       "elo": -1.2,
+       "category": "team_news",
+       "reason": "Anzai Koki out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "kashima_antlers",
+       "elo": -2.4,
+       "category": "team_news",
+       "reason": "Motosuna Anthony out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "kashima_antlers",
+       "elo": -1.2,
+       "category": "team_news",
+       "reason": "Koike Ryuta doubtful",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "kashima_antlers",
+       "elo": -2.4,
+       "category": "team_news",
+       "reason": "Hirose Rikuto doubtful",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "kashima_antlers",
+       "elo": -4.8,
+       "category": "team_news",
+       "reason": "Yan out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "kashima_antlers",
+       "elo": -2.4,
+       "category": "team_news",
+       "reason": "Tagawa Kyosuke out",
+       "source": "Matsu GW sheet / Knowledge Hub"
       },
       {
        "side": "away",
@@ -3533,6 +3677,38 @@
        "category": "team_news",
        "reason": "Hasukawa Sodai out",
        "source": "official: https://www.jleague.jp/news/article/35362/"
+      },
+      {
+       "side": "away",
+       "team_id": "shimizu_s_pulse",
+       "elo": -5.0,
+       "category": "team_news",
+       "reason": "Sumiyoshi Jelani out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "away",
+       "team_id": "shimizu_s_pulse",
+       "elo": -5.0,
+       "category": "team_news",
+       "reason": "Won Du-Jae doubtful",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "away",
+       "team_id": "shimizu_s_pulse",
+       "elo": -2.5,
+       "category": "team_news",
+       "reason": "Kitagawa Koya doubtful",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "away",
+       "team_id": "shimizu_s_pulse",
+       "elo": -5.0,
+       "category": "team_news",
+       "reason": "Kinoshita Kosuke out",
+       "source": "Matsu GW sheet / Knowledge Hub"
       }
      ],
      "market": {
@@ -3541,9 +3717,9 @@
       "p_away": 0.168,
       "p_over_2_5": 0.521,
       "model_minus_market": {
-       "home": -0.047,
-       "draw": 0.015,
-       "away": 0.032
+       "home": 0.013,
+       "draw": -0.008,
+       "away": -0.005
       },
       "best_price": {
        "home": {
@@ -3573,20 +3749,20 @@
      "kickoff_jst": "14:00",
      "venue_ja": "サンガS",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.38,
-     "p_draw": 0.264,
-     "p_away": 0.356,
+     "p_home": 0.413,
+     "p_draw": 0.263,
+     "p_away": 0.324,
      "lean": "Open game",
-     "home_xg": 1.32,
-     "away_xg": 1.27,
-     "home_clean_sheet": 0.28,
-     "away_clean_sheet": 0.267,
-     "p_over_2_5": 0.48,
-     "p_btts": 0.528,
+     "home_xg": 1.39,
+     "away_xg": 1.2,
+     "home_clean_sheet": 0.3,
+     "away_clean_sheet": 0.248,
+     "p_over_2_5": 0.481,
+     "p_btts": 0.526,
      "likely_scores": [
       {
        "score": "1-1",
-       "p": 0.13
+       "p": 0.12
       },
       {
        "score": "1-0",
@@ -3594,14 +3770,14 @@
       },
       {
        "score": "0-1",
-       "p": 0.1
+       "p": 0.09
       }
      ],
      "p_home_range80": [
-      0.344,
-      0.423
+      0.376,
+      0.457
      ],
-     "confidence": "higher",
+     "confidence": "medium",
      "results_only": {
       "p_home": 0.388,
       "p_draw": 0.264,
@@ -3625,12 +3801,52 @@
        "source": "official: https://www.jleague.jp/match/acle/2026/102706/live-commentary/"
       },
       {
+       "side": "home",
+       "team_id": "kyoto_sanga",
+       "elo": -5.0,
+       "category": "team_news",
+       "reason": "Henrique Trevisan out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "kyoto_sanga",
+       "elo": -2.5,
+       "category": "team_news",
+       "reason": "Saito Mitsuki out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "kyoto_sanga",
+       "elo": -2.5,
+       "category": "team_news",
+       "reason": "Thiago doubtful",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
        "side": "away",
        "team_id": "urawa_red_diamonds",
        "elo": -5.0,
        "category": "team_news",
        "reason": "Katayama Eiichi out",
        "source": "official: https://sakanowa.jp/topics/114356"
+      },
+      {
+       "side": "away",
+       "team_id": "urawa_red_diamonds",
+       "elo": -10.0,
+       "category": "team_news",
+       "reason": "Sasa Shuta out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "away",
+       "team_id": "urawa_red_diamonds",
+       "elo": -10.0,
+       "category": "team_news",
+       "reason": "Squad news (2 players)",
+       "source": "Matsu GW sheet / Knowledge Hub"
       }
      ],
      "market": {
@@ -3639,9 +3855,9 @@
       "p_away": 0.443,
       "p_over_2_5": 0.546,
       "model_minus_market": {
-       "home": 0.082,
-       "draw": 0.005,
-       "away": -0.087
+       "home": 0.116,
+       "draw": 0.003,
+       "away": -0.119
       },
       "best_price": {
        "home": {
@@ -3671,35 +3887,35 @@
      "kickoff_jst": "14:00",
      "venue_ja": "Eピース",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.657,
-     "p_draw": 0.199,
-     "p_away": 0.144,
+     "p_home": 0.554,
+     "p_draw": 0.238,
+     "p_away": 0.209,
      "lean": "Strong lean Sanfrecce Hiroshima",
-     "home_xg": 2.08,
-     "away_xg": 0.86,
-     "home_clean_sheet": 0.423,
-     "away_clean_sheet": 0.124,
-     "p_over_2_5": 0.564,
-     "p_btts": 0.505,
+     "home_xg": 1.72,
+     "away_xg": 0.96,
+     "home_clean_sheet": 0.383,
+     "away_clean_sheet": 0.178,
+     "p_over_2_5": 0.503,
+     "p_btts": 0.507,
      "likely_scores": [
       {
-       "score": "2-0",
-       "p": 0.11
-      },
-      {
        "score": "1-0",
+       "p": 0.12
+      },
+      {
+       "score": "1-1",
        "p": 0.11
       },
       {
-       "score": "2-1",
+       "score": "2-0",
        "p": 0.1
       }
      ],
      "p_home_range80": [
-      0.616,
-      0.694
+      0.513,
+      0.595
      ],
-     "confidence": "higher",
+     "confidence": "medium",
      "results_only": {
       "p_home": 0.554,
       "p_draw": 0.237,
@@ -3707,9 +3923,49 @@
      },
      "adjustments": [
       {
+       "side": "home",
+       "team_id": "sanfrecce_hiroshima",
+       "elo": -2.4,
+       "category": "team_news",
+       "reason": "Kim Ju-Sung doubtful",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "sanfrecce_hiroshima",
+       "elo": -2.4,
+       "category": "team_news",
+       "reason": "Yamasaki Taichi out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "sanfrecce_hiroshima",
+       "elo": -2.4,
+       "category": "team_news",
+       "reason": "Shiotani Tsukasa out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "sanfrecce_hiroshima",
+       "elo": -9.6,
+       "category": "team_news",
+       "reason": "Sasaki Sho out (key player)",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "sanfrecce_hiroshima",
+       "elo": -1.2,
+       "category": "team_news",
+       "reason": "Haller Sebastien doubtful",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
        "side": "away",
        "team_id": "yokohama_f_marinos",
-       "elo": -20.0,
+       "elo": -9.2,
        "category": "team_news",
        "reason": "Suwama Kosei out (key player)",
        "source": "official: https://www.jleague.jp/news/article/35322/"
@@ -3717,10 +3973,50 @@
       {
        "side": "away",
        "team_id": "yokohama_f_marinos",
-       "elo": -10.0,
+       "elo": -4.6,
        "category": "team_news",
        "reason": "Miyaichi Ryo out",
        "source": "official: https://aboutj.jleague.jp/corporate//news/article/114"
+      },
+      {
+       "side": "away",
+       "team_id": "yokohama_f_marinos",
+       "elo": -2.3,
+       "category": "team_news",
+       "reason": "Blanco Ruben out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "away",
+       "team_id": "yokohama_f_marinos",
+       "elo": -4.6,
+       "category": "team_news",
+       "reason": "Chinen Kei out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "away",
+       "team_id": "yokohama_f_marinos",
+       "elo": -4.6,
+       "category": "team_news",
+       "reason": "Yamane Riku out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "away",
+       "team_id": "yokohama_f_marinos",
+       "elo": -4.6,
+       "category": "team_news",
+       "reason": "Croux Jordy out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "sanfrecce_hiroshima",
+       "elo": -12.0,
+       "category": "team_news",
+       "reason": "Squad news (3 players)",
+       "source": "Matsu GW sheet / Knowledge Hub"
       }
      ],
      "market": {
@@ -3729,9 +4025,9 @@
       "p_away": 0.148,
       "p_over_2_5": 0.642,
       "model_minus_market": {
-       "home": 0.0,
-       "draw": 0.003,
-       "away": -0.003
+       "home": -0.103,
+       "draw": 0.042,
+       "away": 0.061
       },
       "best_price": {
        "home": {
@@ -3761,33 +4057,33 @@
      "kickoff_jst": "14:00",
      "venue_ja": "味スタ",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.365,
-     "p_draw": 0.278,
-     "p_away": 0.357,
+     "p_home": 0.317,
+     "p_draw": 0.277,
+     "p_away": 0.406,
      "lean": "Open game",
-     "home_xg": 1.2,
-     "away_xg": 1.18,
-     "home_clean_sheet": 0.307,
-     "away_clean_sheet": 0.302,
-     "p_over_2_5": 0.425,
-     "p_btts": 0.484,
+     "home_xg": 1.09,
+     "away_xg": 1.28,
+     "home_clean_sheet": 0.278,
+     "away_clean_sheet": 0.335,
+     "p_over_2_5": 0.423,
+     "p_btts": 0.48,
      "likely_scores": [
       {
        "score": "1-1",
        "p": 0.13
       },
       {
-       "score": "1-0",
-       "p": 0.11
+       "score": "0-1",
+       "p": 0.12
       },
       {
-       "score": "0-1",
-       "p": 0.11
+       "score": "1-0",
+       "p": 0.1
       }
      ],
      "p_home_range80": [
-      0.323,
-      0.399
+      0.278,
+      0.35
      ],
      "confidence": "higher",
      "results_only": {
@@ -3797,12 +4093,68 @@
      },
      "adjustments": [
       {
+       "side": "home",
+       "team_id": "tokyo_verdy",
+       "elo": -2.2,
+       "category": "team_news",
+       "reason": "Yoshida Taiju out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "tokyo_verdy",
+       "elo": -4.4,
+       "category": "team_news",
+       "reason": "Miyahara Kazuya out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "tokyo_verdy",
+       "elo": -1.1,
+       "category": "team_news",
+       "reason": "Tanabe Shuto doubtful",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "tokyo_verdy",
+       "elo": -4.4,
+       "category": "team_news",
+       "reason": "Fukuda Yuya doubtful",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "tokyo_verdy",
+       "elo": -4.4,
+       "category": "team_news",
+       "reason": "Meshino Soma out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
        "side": "away",
        "team_id": "nagoya_grampus",
        "elo": -5.0,
        "category": "team_news",
        "reason": "Asano Yuya out",
        "source": "official: https://nagoya-grampus.jp/news/pressrelease/2026/0917post-2830.php"
+      },
+      {
+       "side": "away",
+       "team_id": "nagoya_grampus",
+       "elo": -10.0,
+       "category": "team_news",
+       "reason": "Nagai Kensuke out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "tokyo_verdy",
+       "elo": -18.3,
+       "category": "team_news",
+       "reason": "Squad news (4 players)",
+       "source": "Matsu GW sheet / Knowledge Hub"
       }
      ],
      "market": {
@@ -3811,9 +4163,9 @@
       "p_away": 0.429,
       "p_over_2_5": 0.473,
       "model_minus_market": {
-       "home": 0.079,
-       "draw": -0.007,
-       "away": -0.072
+       "home": 0.031,
+       "draw": -0.008,
+       "away": -0.023
       },
       "best_price": {
        "home": {
@@ -3843,16 +4195,16 @@
      "kickoff_jst": "14:00",
      "venue_ja": "Gスタ",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.618,
-     "p_draw": 0.218,
-     "p_away": 0.164,
+     "p_home": 0.592,
+     "p_draw": 0.228,
+     "p_away": 0.179,
      "lean": "Strong lean Machida Zelvia",
-     "home_xg": 1.89,
-     "away_xg": 0.86,
-     "home_clean_sheet": 0.424,
-     "away_clean_sheet": 0.15,
-     "p_over_2_5": 0.519,
-     "p_btts": 0.489,
+     "home_xg": 1.8,
+     "away_xg": 0.87,
+     "home_clean_sheet": 0.417,
+     "away_clean_sheet": 0.165,
+     "p_over_2_5": 0.5,
+     "p_btts": 0.487,
      "likely_scores": [
       {
        "score": "1-0",
@@ -3864,12 +4216,12 @@
       },
       {
        "score": "1-1",
-       "p": 0.1
+       "p": 0.11
       }
      ],
      "p_home_range80": [
-      0.575,
-      0.661
+      0.549,
+      0.636
      ],
      "confidence": "medium",
      "results_only": {
@@ -3877,16 +4229,89 @@
       "p_draw": 0.218,
       "p_away": 0.164
      },
-     "adjustments": [],
+     "adjustments": [
+      {
+       "side": "home",
+       "team_id": "machida_zelvia",
+       "elo": -8.6,
+       "category": "team_news",
+       "reason": "Okamura Daihachi out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "machida_zelvia",
+       "elo": -4.3,
+       "category": "team_news",
+       "reason": "Ouwejan Thomas doubtful",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "machida_zelvia",
+       "elo": -8.6,
+       "category": "team_news",
+       "reason": "Shoji Gen doubtful (key player)",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "machida_zelvia",
+       "elo": -8.6,
+       "category": "team_news",
+       "reason": "Yengi Tete out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "away",
+       "team_id": "v_varen_nagasaki",
+       "elo": -5.0,
+       "category": "team_news",
+       "reason": "Arai Ikki doubtful",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "away",
+       "team_id": "v_varen_nagasaki",
+       "elo": -5.0,
+       "category": "team_news",
+       "reason": "Takahata Keita out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "away",
+       "team_id": "v_varen_nagasaki",
+       "elo": -5.0,
+       "category": "team_news",
+       "reason": "Ominami Takuma out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "away",
+       "team_id": "v_varen_nagasaki",
+       "elo": -5.0,
+       "category": "team_news",
+       "reason": "Masuyama Asahi out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "away",
+       "team_id": "v_varen_nagasaki",
+       "elo": -2.5,
+       "category": "team_news",
+       "reason": "Campbell Norman doubtful",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      }
+     ],
      "market": {
       "p_home": 0.618,
       "p_draw": 0.223,
       "p_away": 0.158,
       "p_over_2_5": 0.527,
       "model_minus_market": {
-       "home": -0.001,
-       "draw": -0.005,
-       "away": 0.006
+       "home": -0.026,
+       "draw": 0.005,
+       "away": 0.021
       },
       "best_price": {
        "home": {
@@ -3916,15 +4341,15 @@
      "kickoff_jst": "15:00",
      "venue_ja": "U等々力",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.459,
-     "p_draw": 0.258,
-     "p_away": 0.283,
+     "p_home": 0.468,
+     "p_draw": 0.256,
+     "p_away": 0.276,
      "lean": "Lean Kawasaki Frontale",
-     "home_xg": 1.5,
-     "away_xg": 1.12,
-     "home_clean_sheet": 0.327,
-     "away_clean_sheet": 0.224,
-     "p_over_2_5": 0.485,
+     "home_xg": 1.52,
+     "away_xg": 1.1,
+     "home_clean_sheet": 0.331,
+     "away_clean_sheet": 0.219,
+     "p_over_2_5": 0.487,
      "p_btts": 0.522,
      "likely_scores": [
       {
@@ -3941,8 +4366,8 @@
       }
      ],
      "p_home_range80": [
-      0.413,
-      0.506
+      0.423,
+      0.515
      ],
      "confidence": "medium",
      "results_only": {
@@ -3954,7 +4379,7 @@
       {
        "side": "home",
        "team_id": "kawasaki_frontale",
-       "elo": -5.0,
+       "elo": -4.3,
        "category": "team_news",
        "reason": "Taniguchi Hiroto doubtful",
        "source": "official: https://www.frontale.co.jp/info/2026/1012_2.html"
@@ -3962,7 +4387,7 @@
       {
        "side": "home",
        "team_id": "kawasaki_frontale",
-       "elo": -2.5,
+       "elo": -2.1,
        "category": "team_news",
        "reason": "Hayashi Shunsuke out",
        "source": "official: https://www.frontale.co.jp/info/2026/1004_1.html"
@@ -3970,7 +4395,7 @@
       {
        "side": "home",
        "team_id": "kawasaki_frontale",
-       "elo": -2.5,
+       "elo": -2.1,
        "category": "team_news",
        "reason": "Noda Hiroto out",
        "source": "official: https://www.frontale.co.jp/info/2026/1018_1.html"
@@ -3978,7 +4403,7 @@
       {
        "side": "home",
        "team_id": "kawasaki_frontale",
-       "elo": -5.0,
+       "elo": -4.3,
        "category": "team_news",
        "reason": "Romanic Lazar out",
        "source": "official: https://www.frontale.co.jp/info/2026/0907_1.html"
@@ -3986,7 +4411,7 @@
       {
        "side": "home",
        "team_id": "kawasaki_frontale",
-       "elo": -5.0,
+       "elo": -4.3,
        "category": "team_news",
        "reason": "Konno Kazuya out",
        "source": "official: https://www.frontale.co.jp/info/2026/1012_1.html"
@@ -3994,10 +4419,50 @@
       {
        "side": "home",
        "team_id": "kawasaki_frontale",
-       "elo": -5.0,
+       "elo": -4.3,
        "category": "team_news",
        "reason": "Queiroz Kayke out",
        "source": "official: https://www.jleague.jp/match/leaguecup/2026/111504/live-commentary/"
+      },
+      {
+       "side": "home",
+       "team_id": "kawasaki_frontale",
+       "elo": -2.1,
+       "category": "team_news",
+       "reason": "Takahashi Tetsuya doubtful",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "kawasaki_frontale",
+       "elo": -2.1,
+       "category": "team_news",
+       "reason": "Ozeki Yuto doubtful",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "kawasaki_frontale",
+       "elo": -4.3,
+       "category": "team_news",
+       "reason": "Miyagi Ten out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "away",
+       "team_id": "avispa_fukuoka",
+       "elo": -5.0,
+       "category": "team_news",
+       "reason": "Fukazawa Daiki out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "away",
+       "team_id": "avispa_fukuoka",
+       "elo": -2.5,
+       "category": "team_news",
+       "reason": "Fukushima Kazuki out",
+       "source": "Matsu GW sheet / Knowledge Hub"
       }
      ],
      "market": {
@@ -4006,9 +4471,9 @@
       "p_away": 0.239,
       "p_over_2_5": 0.526,
       "model_minus_market": {
-       "home": -0.041,
-       "draw": -0.003,
-       "away": 0.044
+       "home": -0.031,
+       "draw": -0.005,
+       "away": 0.037
       },
       "best_price": {
        "home": {
@@ -4038,16 +4503,16 @@
      "kickoff_jst": "15:00",
      "venue_ja": "ハナサカ",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.294,
-     "p_draw": 0.258,
-     "p_away": 0.449,
+     "p_home": 0.293,
+     "p_draw": 0.257,
+     "p_away": 0.45,
      "lean": "Open game",
      "home_xg": 1.15,
-     "away_xg": 1.48,
-     "home_clean_sheet": 0.227,
+     "away_xg": 1.49,
+     "home_clean_sheet": 0.226,
      "away_clean_sheet": 0.317,
-     "p_over_2_5": 0.49,
-     "p_btts": 0.528,
+     "p_over_2_5": 0.491,
+     "p_btts": 0.529,
      "likely_scores": [
       {
        "score": "1-1",
@@ -4063,8 +4528,8 @@
       }
      ],
      "p_home_range80": [
-      0.258,
-      0.336
+      0.257,
+      0.335
      ],
      "confidence": "higher",
      "results_only": {
@@ -4076,7 +4541,7 @@
       {
        "side": "home",
        "team_id": "cerezo_osaka",
-       "elo": -7.5,
+       "elo": -4.3,
        "category": "team_news",
        "reason": "Hatanaka Shinnosuke out",
        "source": "official: https://sakanowa.jp/topics/114463"
@@ -4084,7 +4549,7 @@
       {
        "side": "home",
        "team_id": "cerezo_osaka",
-       "elo": -15.0,
+       "elo": -8.6,
        "category": "team_news",
        "reason": "Fernandes Lucas out (key player)",
        "source": "official: https://www.jleague.jp/news/article/35322/"
@@ -4092,15 +4557,47 @@
       {
        "side": "home",
        "team_id": "cerezo_osaka",
-       "elo": -7.5,
+       "elo": -4.3,
        "category": "team_news",
        "reason": "Sabbag Daccarett Pablo David out",
        "source": "official: https://www.jleague.jp/match/leaguecup/2026/111502/lineup/"
       },
       {
+       "side": "home",
+       "team_id": "cerezo_osaka",
+       "elo": -2.9,
+       "category": "team_news",
+       "reason": "Yokoyama Yumeki doubtful",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "cerezo_osaka",
+       "elo": -2.9,
+       "category": "team_news",
+       "reason": "Kagawa Shinji doubtful",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "cerezo_osaka",
+       "elo": -1.4,
+       "category": "team_news",
+       "reason": "Shibayama Masaya out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "cerezo_osaka",
+       "elo": -5.7,
+       "category": "team_news",
+       "reason": "Thiago Andrade out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
        "side": "away",
        "team_id": "fc_tokyo",
-       "elo": -3.3,
+       "elo": -2.8,
        "category": "team_news",
        "reason": "Muroya Sei doubtful",
        "source": "official: https://sakanowa.jp/topics/114325"
@@ -4108,7 +4605,7 @@
       {
        "side": "away",
        "team_id": "fc_tokyo",
-       "elo": -3.3,
+       "elo": -2.8,
        "category": "team_news",
        "reason": "Nagatomo Yuto out",
        "source": "official: https://www.fctokyo.co.jp/news/details/341523/"
@@ -4116,7 +4613,7 @@
       {
        "side": "away",
        "team_id": "fc_tokyo",
-       "elo": -6.7,
+       "elo": -5.7,
        "category": "team_news",
        "reason": "Homma Shion out",
        "source": "official: https://www.jleague.jp/match/j1/2026/103109/lineup/"
@@ -4124,7 +4621,7 @@
       {
        "side": "away",
        "team_id": "fc_tokyo",
-       "elo": -6.7,
+       "elo": -5.7,
        "category": "team_news",
        "reason": "Vallys Nicolai out",
        "source": "official: https://www.fctokyo.co.jp/news/details/339493/"
@@ -4132,7 +4629,7 @@
       {
        "side": "away",
        "team_id": "fc_tokyo",
-       "elo": -6.7,
+       "elo": -5.7,
        "category": "team_news",
        "reason": "Sato Kein out",
        "source": "official: https://www.fctokyo.co.jp/news/details/344010/"
@@ -4140,10 +4637,18 @@
       {
        "side": "away",
        "team_id": "fc_tokyo",
-       "elo": -3.3,
+       "elo": -2.8,
        "category": "team_news",
        "reason": "Gomez Dani out",
        "source": "official: https://www.jleague.jp/news/article/35322/"
+      },
+      {
+       "side": "away",
+       "team_id": "fc_tokyo",
+       "elo": -4.3,
+       "category": "team_news",
+       "reason": "Bangnagande Kashif doubtful",
+       "source": "Matsu GW sheet / Knowledge Hub"
       }
      ],
      "market": {
@@ -4152,9 +4657,9 @@
       "p_away": 0.561,
       "p_over_2_5": 0.591,
       "model_minus_market": {
-       "home": 0.087,
+       "home": 0.086,
        "draw": 0.025,
-       "away": -0.113
+       "away": -0.112
       },
       "best_price": {
        "home": {
@@ -4184,15 +4689,15 @@
      "kickoff_jst": "16:00",
      "venue_ja": "パナスタ",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.461,
-     "p_draw": 0.264,
-     "p_away": 0.275,
+     "p_home": 0.453,
+     "p_draw": 0.265,
+     "p_away": 0.282,
      "lean": "Lean Gamba Osaka",
-     "home_xg": 1.45,
-     "away_xg": 1.05,
-     "home_clean_sheet": 0.349,
-     "away_clean_sheet": 0.235,
-     "p_over_2_5": 0.456,
+     "home_xg": 1.43,
+     "away_xg": 1.07,
+     "home_clean_sheet": 0.345,
+     "away_clean_sheet": 0.24,
+     "p_over_2_5": 0.454,
      "p_btts": 0.498,
      "likely_scores": [
       {
@@ -4209,8 +4714,8 @@
       }
      ],
      "p_home_range80": [
-      0.418,
-      0.505
+      0.41,
+      0.497
      ],
      "confidence": "medium",
      "results_only": {
@@ -4222,7 +4727,7 @@
       {
        "side": "home",
        "team_id": "gamba_osaka",
-       "elo": -5.0,
+       "elo": -2.3,
        "category": "team_news",
        "reason": "Araki Rui out",
        "source": "official: https://www.gamba-osaka.net/news/index/no/21103/c/0/year/2026/month/10/"
@@ -4230,15 +4735,71 @@
       {
        "side": "home",
        "team_id": "gamba_osaka",
-       "elo": -10.0,
+       "elo": -4.6,
        "category": "team_news",
        "reason": "Welton out",
        "source": "official: https://www.gamba-osaka.net/news/index/no/21229/c/0/year/2026/month/11/"
       },
       {
+       "side": "home",
+       "team_id": "gamba_osaka",
+       "elo": -2.3,
+       "category": "team_news",
+       "reason": "Ichimori Jun doubtful",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "gamba_osaka",
+       "elo": -4.6,
+       "category": "team_news",
+       "reason": "Miura Genta out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "gamba_osaka",
+       "elo": -1.2,
+       "category": "team_news",
+       "reason": "Juanpe doubtful",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "gamba_osaka",
+       "elo": -2.3,
+       "category": "team_news",
+       "reason": "Uenaka Asahi out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "gamba_osaka",
+       "elo": -2.3,
+       "category": "team_news",
+       "reason": "Toshida Yusei out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "gamba_osaka",
+       "elo": -9.2,
+       "category": "team_news",
+       "reason": "Hummet Deniz out (key player)",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "home",
+       "team_id": "gamba_osaka",
+       "elo": -1.2,
+       "category": "team_news",
+       "reason": "Okunuki Kanji out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
        "side": "away",
        "team_id": "fagiano_okayama",
-       "elo": -5.0,
+       "elo": -3.8,
        "category": "team_news",
        "reason": "Tagami Daichi out",
        "source": "official: https://www.jleague.jp/news/article/35137/?navicode=j1"
@@ -4246,7 +4807,7 @@
       {
        "side": "away",
        "team_id": "fagiano_okayama",
-       "elo": -10.0,
+       "elo": -7.5,
        "category": "team_news",
        "reason": "Suzuki Yoshitake out",
        "source": "official: https://www.jleague.jp/news/article/35322/"
@@ -4254,10 +4815,42 @@
       {
        "side": "away",
        "team_id": "fagiano_okayama",
-       "elo": -2.5,
+       "elo": -1.9,
        "category": "team_news",
        "reason": "Ogura Kosei out",
        "source": "official: https://www.jleague.jp/news/article/34592/?navicode=j1"
+      },
+      {
+       "side": "away",
+       "team_id": "fagiano_okayama",
+       "elo": -7.5,
+       "category": "team_news",
+       "reason": "Omori Hiroshi out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "away",
+       "team_id": "fagiano_okayama",
+       "elo": -1.9,
+       "category": "team_news",
+       "reason": "Kimura Takaya out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "away",
+       "team_id": "fagiano_okayama",
+       "elo": -3.8,
+       "category": "team_news",
+       "reason": "Tabei Ryo out",
+       "source": "Matsu GW sheet / Knowledge Hub"
+      },
+      {
+       "side": "away",
+       "team_id": "fagiano_okayama",
+       "elo": -3.8,
+       "category": "team_news",
+       "reason": "Nishikawa Jun out",
+       "source": "Matsu GW sheet / Knowledge Hub"
       }
      ],
      "market": {
@@ -4266,9 +4859,9 @@
       "p_away": 0.299,
       "p_over_2_5": 0.521,
       "model_minus_market": {
-       "home": 0.034,
-       "draw": -0.011,
-       "away": -0.024
+       "home": 0.026,
+       "draw": -0.009,
+       "away": -0.017
       },
       "best_price": {
        "home": {
