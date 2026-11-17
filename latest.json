@@ -1,6 +1,6 @@
 {
  "schema": "jls-forecast-feed/1",
- "created_utc": "2026-11-17T15:56:25Z",
+ "created_utc": "2026-11-17T23:31:11Z",
  "data_through_jst": "2026-11-15 14:03",
  "model": {
   "name": "J League Scout forecaster",
@@ -162,19 +162,19 @@
  "market_odds": {
   "available": true,
   "source": "The Odds API",
-  "fetched_utc": "2026-11-17T04:28:53Z",
+  "fetched_utc": "2026-11-17T23:30:58Z",
   "regions": "eu",
   "events_in_snapshot": 10,
   "matched_fixtures": 10,
   "unmatched_names": [],
   "events_not_on_card": [],
-  "quota_remaining": "446",
+  "quota_remaining": "444",
   "method": "Latest eligible snapshot strictly before each fixture's kick-off; average bookmaker implied probabilities with the margin removed proportionally."
  },
  "status": {
-  "model_run_utc": "2026-11-17T15:56:25Z",
-  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/44119815277",
-  "odds_fetched_utc": "2026-11-17T04:28:53Z",
+  "model_run_utc": "2026-11-17T23:31:11Z",
+  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/44199738689",
+  "odds_fetched_utc": "2026-11-17T23:30:58Z",
   "odds_note": null,
   "team_news_sync": {
    "run_utc": "2026-11-17T10:25:28Z",
@@ -3373,30 +3373,30 @@
      ],
      "market": {
       "p_home": 0.598,
-      "p_draw": 0.221,
-      "p_away": 0.181,
+      "p_draw": 0.222,
+      "p_away": 0.18,
       "p_over_2_5": 0.582,
       "model_minus_market": {
-       "home": 0.022,
-       "draw": -0.012,
-       "away": -0.01
+       "home": 0.021,
+       "draw": -0.013,
+       "away": -0.009
       },
       "best_price": {
        "home": {
         "price": 1.58,
-        "bookmaker": "1xBet"
+        "bookmaker": "Coolbet"
        },
        "draw": {
-        "price": 4.5,
-        "bookmaker": "Coolbet"
+        "price": 4.44,
+        "bookmaker": "Pinnacle"
        },
        "away": {
         "price": 5.6,
         "bookmaker": "Unibet (SE)"
        }
       },
-      "bookmakers": 17,
-      "fetched_utc": "2026-11-17T04:28:53Z"
+      "bookmakers": 18,
+      "fetched_utc": "2026-11-17T23:30:58Z"
      }
     },
     {
@@ -3518,14 +3518,14 @@
       }
      ],
      "market": {
-      "p_home": 0.65,
-      "p_draw": 0.216,
-      "p_away": 0.134,
-      "p_over_2_5": 0.514,
+      "p_home": 0.653,
+      "p_draw": 0.214,
+      "p_away": 0.133,
+      "p_over_2_5": 0.515,
       "model_minus_market": {
-       "home": 0.09,
-       "draw": -0.05,
-       "away": -0.039
+       "home": 0.087,
+       "draw": -0.049,
+       "away": -0.038
       },
       "best_price": {
        "home": {
@@ -3537,12 +3537,12 @@
         "bookmaker": "Pinnacle"
        },
        "away": {
-        "price": 7.86,
-        "bookmaker": "Pinnacle"
+        "price": 8.4,
+        "bookmaker": "Betfair"
        }
       },
-      "bookmakers": 17,
-      "fetched_utc": "2026-11-17T04:28:53Z"
+      "bookmakers": 19,
+      "fetched_utc": "2026-11-17T23:30:58Z"
      }
     },
     {
@@ -3720,14 +3720,14 @@
       }
      ],
      "market": {
-      "p_home": 0.602,
+      "p_home": 0.605,
       "p_draw": 0.23,
-      "p_away": 0.168,
+      "p_away": 0.166,
       "p_over_2_5": 0.521,
       "model_minus_market": {
-       "home": 0.03,
+       "home": 0.027,
        "draw": -0.015,
-       "away": -0.015
+       "away": -0.012
       },
       "best_price": {
        "home": {
@@ -3739,12 +3739,12 @@
         "bookmaker": "Pinnacle"
        },
        "away": {
-        "price": 6.0,
-        "bookmaker": "Coolbet"
+        "price": 6.6,
+        "bookmaker": "Betfair"
        }
       },
-      "bookmakers": 17,
-      "fetched_utc": "2026-11-17T04:28:53Z"
+      "bookmakers": 19,
+      "fetched_utc": "2026-11-17T23:30:58Z"
      }
     },
     {
@@ -3882,7 +3882,7 @@
        }
       },
       "bookmakers": 17,
-      "fetched_utc": "2026-11-17T04:28:53Z"
+      "fetched_utc": "2026-11-17T23:30:58Z"
      }
     },
     {
@@ -4028,13 +4028,13 @@
       }
      ],
      "market": {
-      "p_home": 0.657,
-      "p_draw": 0.196,
-      "p_away": 0.148,
+      "p_home": 0.658,
+      "p_draw": 0.194,
+      "p_away": 0.147,
       "p_over_2_5": 0.642,
       "model_minus_market": {
-       "home": -0.103,
-       "draw": 0.042,
+       "home": -0.105,
+       "draw": 0.043,
        "away": 0.061
       },
       "best_price": {
@@ -4047,12 +4047,12 @@
         "bookmaker": "Pinnacle"
        },
        "away": {
-        "price": 7.01,
-        "bookmaker": "Pinnacle"
+        "price": 7.25,
+        "bookmaker": "Coolbet"
        }
       },
       "bookmakers": 17,
-      "fetched_utc": "2026-11-17T04:28:53Z"
+      "fetched_utc": "2026-11-17T23:30:58Z"
      }
     },
     {
@@ -4169,7 +4169,7 @@
       "p_home": 0.286,
       "p_draw": 0.285,
       "p_away": 0.429,
-      "p_over_2_5": 0.473,
+      "p_over_2_5": 0.472,
       "model_minus_market": {
        "home": 0.031,
        "draw": -0.008,
@@ -4190,7 +4190,7 @@
        }
       },
       "bookmakers": 17,
-      "fetched_utc": "2026-11-17T04:28:53Z"
+      "fetched_utc": "2026-11-17T23:30:58Z"
      }
     },
     {
@@ -4312,14 +4312,14 @@
       }
      ],
      "market": {
-      "p_home": 0.618,
-      "p_draw": 0.223,
-      "p_away": 0.158,
+      "p_home": 0.616,
+      "p_draw": 0.224,
+      "p_away": 0.161,
       "p_over_2_5": 0.527,
       "model_minus_market": {
-       "home": -0.026,
+       "home": -0.023,
        "draw": 0.005,
-       "away": 0.021
+       "away": 0.019
       },
       "best_price": {
        "home": {
@@ -4336,7 +4336,7 @@
        }
       },
       "bookmakers": 17,
-      "fetched_utc": "2026-11-17T04:28:53Z"
+      "fetched_utc": "2026-11-17T23:30:58Z"
      }
     },
     {
@@ -4474,23 +4474,23 @@
       }
      ],
      "market": {
-      "p_home": 0.499,
+      "p_home": 0.5,
       "p_draw": 0.261,
-      "p_away": 0.239,
+      "p_away": 0.24,
       "p_over_2_5": 0.526,
       "model_minus_market": {
-       "home": -0.031,
+       "home": -0.032,
        "draw": -0.005,
-       "away": 0.037
+       "away": 0.036
       },
       "best_price": {
        "home": {
         "price": 1.92,
-        "bookmaker": "Coolbet"
+        "bookmaker": "Pinnacle"
        },
        "draw": {
-        "price": 3.71,
-        "bookmaker": "1xBet"
+        "price": 3.75,
+        "bookmaker": "Coolbet"
        },
        "away": {
         "price": 4.2,
@@ -4498,7 +4498,7 @@
        }
       },
       "bookmakers": 17,
-      "fetched_utc": "2026-11-17T04:28:53Z"
+      "fetched_utc": "2026-11-17T23:30:58Z"
      }
     },
     {
@@ -4660,14 +4660,14 @@
       }
      ],
      "market": {
-      "p_home": 0.206,
-      "p_draw": 0.232,
-      "p_away": 0.561,
-      "p_over_2_5": 0.591,
+      "p_home": 0.204,
+      "p_draw": 0.231,
+      "p_away": 0.565,
+      "p_over_2_5": 0.594,
       "model_minus_market": {
-       "home": 0.086,
-       "draw": 0.025,
-       "away": -0.112
+       "home": 0.089,
+       "draw": 0.026,
+       "away": -0.115
       },
       "best_price": {
        "home": {
@@ -4679,12 +4679,12 @@
         "bookmaker": "Pinnacle"
        },
        "away": {
-        "price": 1.75,
-        "bookmaker": "LeoVegas (SE)"
+        "price": 1.68,
+        "bookmaker": "1xBet"
        }
       },
       "bookmakers": 17,
-      "fetched_utc": "2026-11-17T04:28:53Z"
+      "fetched_utc": "2026-11-17T23:30:58Z"
      }
     },
     {
@@ -4862,31 +4862,31 @@
       }
      ],
      "market": {
-      "p_home": 0.427,
+      "p_home": 0.428,
       "p_draw": 0.274,
-      "p_away": 0.299,
+      "p_away": 0.298,
       "p_over_2_5": 0.521,
       "model_minus_market": {
-       "home": 0.026,
+       "home": 0.025,
        "draw": -0.009,
-       "away": -0.017
+       "away": -0.016
       },
       "best_price": {
        "home": {
         "price": 2.25,
-        "bookmaker": "Coolbet"
+        "bookmaker": "LeoVegas (SE)"
        },
        "draw": {
-        "price": 3.52,
+        "price": 3.54,
         "bookmaker": "Pinnacle"
        },
        "away": {
-        "price": 3.27,
+        "price": 3.32,
         "bookmaker": "Pinnacle"
        }
       },
       "bookmakers": 17,
-      "fetched_utc": "2026-11-17T04:28:53Z"
+      "fetched_utc": "2026-11-17T23:30:58Z"
      }
     }
    ]
