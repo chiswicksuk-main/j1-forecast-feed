@@ -1,6 +1,6 @@
 {
  "schema": "jls-forecast-feed/1",
- "created_utc": "2026-11-17T10:22:47Z",
+ "created_utc": "2026-11-17T10:28:59Z",
  "data_through_jst": "2026-11-15 14:03",
  "model": {
   "name": "J League Scout forecaster",
@@ -172,12 +172,12 @@
   "method": "Latest eligible snapshot strictly before each fixture's kick-off; average bookmaker implied probabilities with the margin removed proportionally."
  },
  "status": {
-  "model_run_utc": "2026-11-17T10:22:47Z",
-  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/44064047676",
+  "model_run_utc": "2026-11-17T10:28:59Z",
+  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/44064919230",
   "odds_fetched_utc": "2026-11-17T04:28:53Z",
   "odds_note": null,
   "team_news_sync": {
-   "run_utc": "2026-11-17T06:45:35Z",
+   "run_utc": "2026-11-17T10:25:28Z",
    "result": "ok",
    "round": 15,
    "error": null
@@ -3798,7 +3798,15 @@
        "elo": -5.0,
        "category": "team_news",
        "reason": "Kato Ren out",
-       "source": "official: https://www.jleague.jp/match/j1/2026/102112/"
+       "source": "official: https://www.sanga-fc.jp/news/detail/22137"
+      },
+      {
+       "side": "home",
+       "team_id": "kyoto_sanga",
+       "elo": -5.0,
+       "category": "team_news",
+       "reason": "Henrique Trevisan out",
+       "source": "official: https://www.sanga-fc.jp/news/detail/22137"
       },
       {
        "side": "home",
@@ -3807,14 +3815,6 @@
        "category": "team_news",
        "reason": "Okugawa Masaya doubtful",
        "source": "official: https://www.jleague.jp/match/acle/2026/102706/live-commentary/"
-      },
-      {
-       "side": "home",
-       "team_id": "kyoto_sanga",
-       "elo": -5.0,
-       "category": "team_news",
-       "reason": "Henrique Trevisan out",
-       "source": "Matsu GW sheet / Knowledge Hub"
       },
       {
        "side": "home",
@@ -4560,7 +4560,7 @@
        "elo": -8.6,
        "category": "team_news",
        "reason": "Fernandes Lucas out (key player)",
-       "source": "official: https://www.jleague.jp/news/article/35322/"
+       "source": "official: https://www.cerezo.jp/news/2026-1116-1900/"
       },
       {
        "side": "home",
