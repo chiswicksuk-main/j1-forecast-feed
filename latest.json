@@ -1,6 +1,6 @@
 {
  "schema": "jls-forecast-feed/1",
- "created_utc": "2026-11-18T07:21:48Z",
+ "created_utc": "2026-11-18T10:33:41Z",
  "data_through_jst": "2026-11-15 14:03",
  "model": {
   "name": "J League Scout forecaster",
@@ -172,12 +172,12 @@
   "method": "Latest eligible snapshot strictly before each fixture's kick-off; average bookmaker implied probabilities with the margin removed proportionally."
  },
  "status": {
-  "model_run_utc": "2026-11-18T07:21:48Z",
-  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/44258119041",
+  "model_run_utc": "2026-11-18T10:33:41Z",
+  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/44286258615",
   "odds_fetched_utc": "2026-11-17T23:30:58Z",
   "odds_note": null,
   "team_news_sync": {
-   "run_utc": "2026-11-18T05:37:26Z",
+   "run_utc": "2026-11-18T10:30:37Z",
    "result": "ok",
    "round": 15,
    "error": null
@@ -3471,7 +3471,7 @@
       {
        "side": "away",
        "team_id": "mito_hollyhock",
-       "elo": -2.5,
+       "elo": -3.3,
        "category": "team_news",
        "reason": "Kawazura Akinari out",
        "source": "official: https://www.jleague.jp/news/article/35096/"
@@ -3479,7 +3479,7 @@
       {
        "side": "away",
        "team_id": "mito_hollyhock",
-       "elo": -5.0,
+       "elo": -6.7,
        "category": "team_news",
        "reason": "Mase Takumi doubtful (key player)",
        "source": "official: https://www.jleague.jp/news/article/35271/"
@@ -3487,7 +3487,7 @@
       {
        "side": "away",
        "team_id": "mito_hollyhock",
-       "elo": -2.5,
+       "elo": -3.3,
        "category": "team_news",
        "reason": "Okamoto Kazuma out",
        "source": "official: https://www.mito-hollyhock.net/news/p=55379/"
@@ -3495,18 +3495,10 @@
       {
        "side": "away",
        "team_id": "mito_hollyhock",
-       "elo": -5.0,
+       "elo": -6.7,
        "category": "team_news",
        "reason": "Torikai Yoshiki out",
        "source": "official: https://www.mito-hollyhock.net/news/p=55378/"
-      },
-      {
-       "side": "away",
-       "team_id": "mito_hollyhock",
-       "elo": -5.0,
-       "category": "team_news",
-       "reason": "Uchino Kotaro out",
-       "source": "official: https://www.mito-hollyhock.net/news/p=55377/"
       },
       {
        "side": "away",
@@ -3555,15 +3547,15 @@
      "kickoff_jst": "19:00",
      "venue_ja": "メルスタ",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.632,
+     "p_home": 0.631,
      "p_draw": 0.215,
-     "p_away": 0.153,
+     "p_away": 0.154,
      "lean": "Strong lean Kashima Antlers",
      "home_xg": 1.91,
      "away_xg": 0.81,
      "home_clean_sheet": 0.443,
-     "away_clean_sheet": 0.148,
-     "p_over_2_5": 0.512,
+     "away_clean_sheet": 0.149,
+     "p_over_2_5": 0.511,
      "p_btts": 0.474,
      "likely_scores": [
       {
@@ -3593,7 +3585,7 @@
       {
        "side": "home",
        "team_id": "kashima_antlers",
-       "elo": -4.1,
+       "elo": -6.3,
        "category": "team_news",
        "reason": "Kim Tae-Hyeon out",
        "source": "official: https://www.antlers.co.jp/en/blogs/news/261029hb37vq"
@@ -3601,7 +3593,7 @@
       {
        "side": "home",
        "team_id": "kashima_antlers",
-       "elo": -2.1,
+       "elo": -3.2,
        "category": "team_news",
        "reason": "Higuchi Yuta out",
        "source": "official: https://www.antlers.co.jp/blogs/news/26111216vj03"
@@ -3609,23 +3601,15 @@
       {
        "side": "home",
        "team_id": "kashima_antlers",
-       "elo": -8.2,
+       "elo": -1.6,
        "category": "team_news",
-       "reason": "Suzuki Yuma out (key player)",
-       "source": "official: https://www.jleague.jp/news/article/35322/"
-      },
-      {
-       "side": "home",
-       "team_id": "kashima_antlers",
-       "elo": -1.2,
-       "category": "team_news",
-       "reason": "Squad news",
+       "reason": "Omori Sho doubtful",
        "source": "Matsu GW sheet / Knowledge Hub"
       },
       {
        "side": "home",
        "team_id": "kashima_antlers",
-       "elo": -1.2,
+       "elo": -1.6,
        "category": "team_news",
        "reason": "Anzai Koki out",
        "source": "Matsu GW sheet / Knowledge Hub"
@@ -3633,7 +3617,7 @@
       {
        "side": "home",
        "team_id": "kashima_antlers",
-       "elo": -2.4,
+       "elo": -3.2,
        "category": "team_news",
        "reason": "Motosuna Anthony out",
        "source": "Matsu GW sheet / Knowledge Hub"
@@ -3641,7 +3625,7 @@
       {
        "side": "home",
        "team_id": "kashima_antlers",
-       "elo": -1.2,
+       "elo": -1.6,
        "category": "team_news",
        "reason": "Koike Ryuta doubtful",
        "source": "Matsu GW sheet / Knowledge Hub"
@@ -3649,7 +3633,7 @@
       {
        "side": "home",
        "team_id": "kashima_antlers",
-       "elo": -2.4,
+       "elo": -3.2,
        "category": "team_news",
        "reason": "Hirose Rikuto doubtful",
        "source": "Matsu GW sheet / Knowledge Hub"
@@ -3657,7 +3641,7 @@
       {
        "side": "home",
        "team_id": "kashima_antlers",
-       "elo": -4.8,
+       "elo": -6.3,
        "category": "team_news",
        "reason": "Yan out",
        "source": "Matsu GW sheet / Knowledge Hub"
@@ -3665,7 +3649,7 @@
       {
        "side": "home",
        "team_id": "kashima_antlers",
-       "elo": -2.4,
+       "elo": -3.2,
        "category": "team_news",
        "reason": "Tagawa Kyosuke out",
        "source": "Matsu GW sheet / Knowledge Hub"
@@ -3725,8 +3709,8 @@
       "p_away": 0.166,
       "p_over_2_5": 0.521,
       "model_minus_market": {
-       "home": 0.027,
-       "draw": -0.015,
+       "home": 0.026,
+       "draw": -0.014,
        "away": -0.012
       },
       "best_price": {
