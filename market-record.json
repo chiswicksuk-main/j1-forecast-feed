@@ -300,6 +300,96 @@
     "p_draw": 0.275,
     "p_away": 0.256
    }
+  },
+  {
+   "round": 15,
+   "site_match_slug": "kashima-antlers-vs-shimizu-s-pulse-2026-11-20",
+   "home": "Kashima Antlers",
+   "away": "Shimizu S-Pulse",
+   "score": "1-1",
+   "kickoff_utc": "2026-11-20T10:00:00+00:00",
+   "model_issued_utc": "2026-11-20T09:59:30Z",
+   "model_source_commit": "d8359d457efc72549dee8af2a1a0a5a4ef39525f",
+   "market_captured_utc": "2026-11-20T09:59:19Z",
+   "model_rps": 0.2065465,
+   "market_rps": 0.20770450000000001,
+   "model_probabilities": {
+    "p_home": 0.623,
+    "p_draw": 0.219,
+    "p_away": 0.158
+   },
+   "market_probabilities": {
+    "p_home": 0.628,
+    "p_draw": 0.227,
+    "p_away": 0.145
+   },
+   "issue_market_captured_utc": "2026-11-20T09:59:19Z",
+   "issue_market_rps": 0.20770450000000001,
+   "issue_market_probabilities": {
+    "p_home": 0.628,
+    "p_draw": 0.227,
+    "p_away": 0.145
+   }
+  },
+  {
+   "round": 15,
+   "site_match_slug": "kashiwa-reysol-vs-jef-united-chiba-2026-11-20",
+   "home": "Kashiwa Reysol",
+   "away": "JEF United Chiba",
+   "score": "0-1",
+   "kickoff_utc": "2026-11-20T10:00:00+00:00",
+   "model_issued_utc": "2026-11-20T09:59:30Z",
+   "model_source_commit": "d8359d457efc72549dee8af2a1a0a5a4ef39525f",
+   "market_captured_utc": "2026-11-20T09:59:19Z",
+   "model_rps": 0.518608,
+   "market_rps": 0.554618,
+   "model_probabilities": {
+    "p_home": 0.604,
+    "p_draw": 0.216,
+    "p_away": 0.18
+   },
+   "market_probabilities": {
+    "p_home": 0.63,
+    "p_draw": 0.214,
+    "p_away": 0.156
+   },
+   "issue_market_captured_utc": "2026-11-20T09:59:19Z",
+   "issue_market_rps": 0.554618,
+   "issue_market_probabilities": {
+    "p_home": 0.63,
+    "p_draw": 0.214,
+    "p_away": 0.156
+   }
+  },
+  {
+   "round": 15,
+   "site_match_slug": "vissel-kobe-vs-mito-hollyhock-2026-11-20",
+   "home": "Vissel Kobe",
+   "away": "Mito HollyHock",
+   "score": "1-2",
+   "kickoff_utc": "2026-11-20T10:00:00+00:00",
+   "model_issued_utc": "2026-11-20T09:59:30Z",
+   "model_source_commit": "d8359d457efc72549dee8af2a1a0a5a4ef39525f",
+   "market_captured_utc": "2026-11-20T09:59:19Z",
+   "model_rps": 0.6287109493902702,
+   "market_rps": 0.5901460000000001,
+   "model_probabilities": {
+    "p_home": 0.693,
+    "p_draw": 0.19,
+    "p_away": 0.118
+   },
+   "market_probabilities": {
+    "p_home": 0.656,
+    "p_draw": 0.21,
+    "p_away": 0.134
+   },
+   "issue_market_captured_utc": "2026-11-20T09:59:19Z",
+   "issue_market_rps": 0.5901460000000001,
+   "issue_market_probabilities": {
+    "p_home": 0.656,
+    "p_draw": 0.21,
+    "p_away": 0.134
+   }
   }
  ]
 }
