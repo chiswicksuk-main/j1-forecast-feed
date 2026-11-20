@@ -1,6 +1,6 @@
 {
  "schema": "jls-forecast-feed/1",
- "created_utc": "2026-11-20T07:17:55Z",
+ "created_utc": "2026-11-20T08:16:04Z",
  "data_through_jst": "2026-11-15 14:03",
  "model": {
   "name": "J League Scout forecaster",
@@ -172,12 +172,12 @@
   "method": "Latest eligible snapshot strictly before each fixture's kick-off; average bookmaker implied probabilities with the margin removed proportionally."
  },
  "status": {
-  "model_run_utc": "2026-11-20T07:17:55Z",
-  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/44693655582",
+  "model_run_utc": "2026-11-20T08:16:04Z",
+  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/44700864259",
   "odds_fetched_utc": "2026-11-20T06:26:13Z",
   "odds_note": null,
   "team_news_sync": {
-   "run_utc": "2026-11-20T07:14:16Z",
+   "run_utc": "2026-11-20T08:11:52Z",
    "result": "ok",
    "round": 15,
    "error": null
@@ -3409,16 +3409,16 @@
      "kickoff_jst": "19:00",
      "venue_ja": "ノエスタ",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.72,
-     "p_draw": 0.176,
-     "p_away": 0.104,
+     "p_home": 0.692,
+     "p_draw": 0.19,
+     "p_away": 0.118,
      "lean": "Strong lean Vissel Kobe",
-     "home_xg": 2.24,
-     "away_xg": 0.72,
-     "home_clean_sheet": 0.488,
-     "away_clean_sheet": 0.107,
-     "p_over_2_5": 0.567,
-     "p_btts": 0.458,
+     "home_xg": 2.11,
+     "away_xg": 0.73,
+     "home_clean_sheet": 0.48,
+     "away_clean_sheet": 0.122,
+     "p_over_2_5": 0.54,
+     "p_btts": 0.456,
      "likely_scores": [
       {
        "score": "2-0",
@@ -3429,21 +3429,29 @@
        "p": 0.12
       },
       {
-       "score": "3-0",
+       "score": "2-1",
        "p": 0.1
       }
      ],
      "p_home_range80": [
-      0.681,
-      0.758
+      0.651,
+      0.732
      ],
-     "confidence": "higher",
+     "confidence": "medium",
      "results_only": {
       "p_home": 0.692,
       "p_draw": 0.19,
       "p_away": 0.118
      },
      "adjustments": [
+      {
+       "side": "home",
+       "team_id": "vissel_kobe",
+       "elo": -5.0,
+       "category": "team_news",
+       "reason": "Erik out",
+       "source": "official: https://www.jleague.jp/match/j1/2026/103113/lineup/"
+      },
       {
        "side": "home",
        "team_id": "vissel_kobe",
@@ -3495,9 +3503,9 @@
       {
        "side": "away",
        "team_id": "mito_hollyhock",
-       "elo": -10.0,
+       "elo": -5.0,
        "category": "team_news",
-       "reason": "Squad news (2 players)",
+       "reason": "Squad news",
        "source": "Matsu GW sheet / Knowledge Hub"
       }
      ],
@@ -3507,9 +3515,9 @@
       "p_away": 0.119,
       "p_over_2_5": 0.538,
       "model_minus_market": {
-       "home": 0.039,
-       "draw": -0.024,
-       "away": -0.015
+       "home": 0.011,
+       "draw": -0.01,
+       "away": -0.001
       },
       "best_price": {
        "home": {
@@ -3539,7 +3547,7 @@
      "kickoff_jst": "19:00",
      "venue_ja": "メルスタ",
      "fixture_check": "official schedule; matches June PDF round",
-     "p_home": 0.632,
+     "p_home": 0.633,
      "p_draw": 0.215,
      "p_away": 0.153,
      "lean": "Strong lean Kashima Antlers",
@@ -3547,7 +3555,7 @@
      "away_xg": 0.81,
      "home_clean_sheet": 0.443,
      "away_clean_sheet": 0.148,
-     "p_over_2_5": 0.512,
+     "p_over_2_5": 0.513,
      "p_btts": 0.474,
      "likely_scores": [
       {
@@ -3564,7 +3572,7 @@
       }
      ],
      "p_home_range80": [
-      0.59,
+      0.591,
       0.672
      ],
      "confidence": "medium",
@@ -3577,7 +3585,7 @@
       {
        "side": "home",
        "team_id": "kashima_antlers",
-       "elo": -5.2,
+       "elo": -4.4,
        "category": "team_news",
        "reason": "Kim Tae-Hyeon out",
        "source": "official: https://www.antlers.co.jp/en/blogs/news/261029hb37vq"
@@ -3585,7 +3593,7 @@
       {
        "side": "home",
        "team_id": "kashima_antlers",
-       "elo": -2.6,
+       "elo": -2.2,
        "category": "team_news",
        "reason": "Higuchi Yuta out",
        "source": "official: https://www.antlers.co.jp/blogs/news/26111216vj03"
@@ -3593,7 +3601,15 @@
       {
        "side": "home",
        "team_id": "kashima_antlers",
-       "elo": -2.6,
+       "elo": -4.4,
+       "category": "team_news",
+       "reason": "Shibasaki Gaku out",
+       "source": "official: https://www.jleague.jp/match/j1/2026/110709/lineup/"
+      },
+      {
+       "side": "home",
+       "team_id": "kashima_antlers",
+       "elo": -2.2,
        "category": "team_news",
        "reason": "Omori Sho out",
        "source": "Matsu GW sheet / Knowledge Hub"
@@ -3601,7 +3617,7 @@
       {
        "side": "home",
        "team_id": "kashima_antlers",
-       "elo": -1.3,
+       "elo": -1.1,
        "category": "team_news",
        "reason": "Anzai Koki out",
        "source": "Matsu GW sheet / Knowledge Hub"
@@ -3609,7 +3625,7 @@
       {
        "side": "home",
        "team_id": "kashima_antlers",
-       "elo": -2.6,
+       "elo": -2.2,
        "category": "team_news",
        "reason": "Motosuna Anthony out",
        "source": "Matsu GW sheet / Knowledge Hub"
@@ -3617,7 +3633,7 @@
       {
        "side": "home",
        "team_id": "kashima_antlers",
-       "elo": -2.6,
+       "elo": -2.2,
        "category": "team_news",
        "reason": "Koike Ryuta out",
        "source": "Matsu GW sheet / Knowledge Hub"
@@ -3625,7 +3641,7 @@
       {
        "side": "home",
        "team_id": "kashima_antlers",
-       "elo": -5.2,
+       "elo": -4.4,
        "category": "team_news",
        "reason": "Hirose Rikuto out",
        "source": "Matsu GW sheet / Knowledge Hub"
@@ -3633,7 +3649,7 @@
       {
        "side": "home",
        "team_id": "kashima_antlers",
-       "elo": -5.2,
+       "elo": -4.4,
        "category": "team_news",
        "reason": "Yan out",
        "source": "Matsu GW sheet / Knowledge Hub"
@@ -3641,7 +3657,7 @@
       {
        "side": "home",
        "team_id": "kashima_antlers",
-       "elo": -2.6,
+       "elo": -2.2,
        "category": "team_news",
        "reason": "Tagawa Kyosuke out",
        "source": "Matsu GW sheet / Knowledge Hub"
@@ -3701,9 +3717,9 @@
       "p_away": 0.127,
       "p_over_2_5": 0.497,
       "model_minus_market": {
-       "home": -0.032,
+       "home": -0.031,
        "draw": 0.006,
-       "away": 0.026
+       "away": 0.025
       },
       "best_price": {
        "home": {
