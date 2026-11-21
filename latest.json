@@ -1,6 +1,6 @@
 {
  "schema": "jls-forecast-feed/1",
- "created_utc": "2026-11-21T00:25:22Z",
+ "created_utc": "2026-11-21T00:29:27Z",
  "data_through_jst": "2026-11-20 19:03",
  "model": {
   "name": "J League Scout forecaster",
@@ -181,12 +181,12 @@
   "method": "Latest eligible snapshot strictly before each fixture's kick-off; average bookmaker implied probabilities with the margin removed proportionally."
  },
  "status": {
-  "model_run_utc": "2026-11-21T00:25:22Z",
-  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/44843573925",
+  "model_run_utc": "2026-11-21T00:29:27Z",
+  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/44843985516",
   "odds_fetched_utc": "2026-11-21T00:25:13Z",
   "odds_note": null,
   "team_news_sync": {
-   "run_utc": "2026-11-20T10:37:47Z",
+   "run_utc": "2026-11-21T00:26:32Z",
    "result": "ok",
    "round": 15,
    "error": null
@@ -3490,23 +3490,15 @@
        "team_id": "yokohama_f_marinos",
        "elo": -4.6,
        "category": "team_news",
-       "reason": "Yamane Riku out",
-       "source": "Matsu GW sheet / Knowledge Hub"
-      },
-      {
-       "side": "away",
-       "team_id": "yokohama_f_marinos",
-       "elo": -4.6,
-       "category": "team_news",
        "reason": "Croux Jordy out",
        "source": "Matsu GW sheet / Knowledge Hub"
       },
       {
        "side": "home",
        "team_id": "sanfrecce_hiroshima",
-       "elo": -12.5,
+       "elo": -17.1,
        "category": "team_news",
-       "reason": "Squad news (3 players)",
+       "reason": "Squad news (4 players)",
        "source": "Matsu GW sheet / Knowledge Hub"
       }
      ],
