@@ -1827,6 +1827,41 @@
    "site_match_slug": "kashima-antlers-vs-shimizu-s-pulse-2026-11-20",
    "score": "1-1",
    "called_it": false
+  },
+  {
+   "site_match_slug": "kyoto-sanga-vs-urawa-red-diamonds-2026-11-21",
+   "score": "2-1",
+   "called_it": true
+  },
+  {
+   "site_match_slug": "sanfrecce-hiroshima-vs-yokohama-f-marinos-2026-11-21",
+   "score": "2-2",
+   "called_it": false
+  },
+  {
+   "site_match_slug": "tokyo-verdy-vs-nagoya-grampus-2026-11-21",
+   "score": "0-0",
+   "called_it": false
+  },
+  {
+   "site_match_slug": "machida-zelvia-vs-v-varen-nagasaki-2026-11-21",
+   "score": "0-0",
+   "called_it": false
+  },
+  {
+   "site_match_slug": "kawasaki-frontale-vs-avispa-fukuoka-2026-11-21",
+   "score": "1-0",
+   "called_it": true
+  },
+  {
+   "site_match_slug": "cerezo-osaka-vs-fc-tokyo-2026-11-21",
+   "score": "0-3",
+   "called_it": true
+  },
+  {
+   "site_match_slug": "gamba-osaka-vs-fagiano-okayama-2026-11-21",
+   "score": "0-1",
+   "called_it": false
   }
  ]
 }
