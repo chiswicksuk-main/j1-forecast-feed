@@ -1,8 +1,8 @@
 {
  "schema": "jls-j2-table/1",
  "season": "2026-27",
- "forecast_created_utc": "2026-11-25T13:31:53+00:00",
- "results_through_jst": "2026-11-25 19:00",
+ "forecast_created_utc": "2026-11-25T18:26:24+00:00",
+ "results_through_jst": "2026-11-25 19:04",
  "completed_rounds": 19,
  "completed_matches": 190,
  "model_version": "elo-baseline-0.1.0",
