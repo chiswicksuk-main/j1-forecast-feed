@@ -1,7 +1,7 @@
 {
  "schema": "jls-forecast-feed/1",
- "created_utc": "2026-11-25T13:31:49Z",
- "data_through_jst": "2026-11-25 19:30",
+ "created_utc": "2026-11-25T18:26:17Z",
+ "data_through_jst": "2026-11-25 19:33",
  "model": {
   "name": "J League Scout forecaster",
   "version": "blend-0.2.0 w_elo=0.4 | markets v2 (lambda tilt) | elo-0.1.1 fb3a832281",
@@ -180,27 +180,19 @@
  "market_odds": {
   "available": true,
   "source": "The Odds API",
-  "fetched_utc": "2026-11-25T06:26:03Z",
+  "fetched_utc": "2026-11-25T18:26:03Z",
   "regions": "eu",
-  "events_in_snapshot": 17,
+  "events_in_snapshot": 10,
   "matched_fixtures": 10,
   "unmatched_names": [],
-  "events_not_on_card": [
-   "Avispa Fukuoka vs Yokohama F Marinos (2026-11-25 19:00 JST)",
-   "FC Tokyo vs Hiroshima Sanfrecce FC (2026-11-25 19:00 JST)",
-   "Fagiano Okayama vs Shimizu S Pulse (2026-11-25 19:00 JST)",
-   "JEF United Chiba vs Nagoya Grampus (2026-11-25 19:00 JST)",
-   "V-Varen Nagasaki vs Kawasaki Frontale (2026-11-25 19:00 JST)",
-   "Mito HollyHock vs Tokyo Verdy (2026-11-25 19:00 JST)",
-   "Urawa Red Diamonds vs Cerezo Osaka (2026-11-25 19:30 JST)"
-  ],
-  "quota_remaining": "408",
+  "events_not_on_card": [],
+  "quota_remaining": "406",
   "method": "Latest eligible snapshot strictly before each fixture's kick-off; average bookmaker implied probabilities with the margin removed proportionally."
  },
  "status": {
-  "model_run_utc": "2026-11-25T13:31:49Z",
-  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/45624304937",
-  "odds_fetched_utc": "2026-11-25T06:26:03Z",
+  "model_run_utc": "2026-11-25T18:26:17Z",
+  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/45674786333",
+  "odds_fetched_utc": "2026-11-25T18:26:03Z",
   "odds_note": null,
   "team_news_sync": {
    "run_utc": "2026-11-25T10:24:05Z",
@@ -3254,7 +3246,7 @@
     "team_slug": "fc-tokyo",
     "points": 36,
     "projected_points": 75.5,
-    "p_title": 0.4742,
+    "p_title": 0.4741,
     "p_top3": 0.8498,
     "p_relegation": 0.0
    },
@@ -3365,7 +3357,7 @@
     "points": 31,
     "projected_points": 72.2,
     "p_title": 0.2443,
-    "p_top3": 0.699,
+    "p_top3": 0.6989,
     "p_relegation": 0.0
    },
    {
@@ -3386,7 +3378,7 @@
     "projected_points": 40.1,
     "p_title": 0.0,
     "p_top3": 0.0,
-    "p_relegation": 0.293
+    "p_relegation": 0.2929
    },
    {
     "after_round": 15,
@@ -3656,14 +3648,14 @@
       }
      ],
      "market": {
-      "p_home": 0.347,
-      "p_draw": 0.27,
-      "p_away": 0.383,
-      "p_over_2_5": 0.563,
+      "p_home": 0.374,
+      "p_draw": 0.273,
+      "p_away": 0.353,
+      "p_over_2_5": 0.55,
       "model_minus_market": {
-       "home": 0.043,
-       "draw": -0.014,
-       "away": -0.029
+       "home": 0.016,
+       "draw": -0.017,
+       "away": 0.001
       },
       "best_price": {
        "home": {
@@ -3671,16 +3663,16 @@
         "bookmaker": "Unibet (SE)"
        },
        "draw": {
-        "price": 3.45,
-        "bookmaker": "LeoVegas (SE)"
+        "price": 3.52,
+        "bookmaker": "1xBet"
        },
        "away": {
-        "price": 2.4,
-        "bookmaker": "Unibet (SE)"
+        "price": 2.78,
+        "bookmaker": "Pinnacle"
        }
       },
-      "bookmakers": 4,
-      "fetched_utc": "2026-11-25T06:26:03Z"
+      "bookmakers": 19,
+      "fetched_utc": "2026-11-25T18:26:03Z"
      }
     },
     {
@@ -3729,31 +3721,31 @@
      },
      "adjustments": [],
      "market": {
-      "p_home": 0.287,
-      "p_draw": 0.28,
-      "p_away": 0.433,
-      "p_over_2_5": 0.49,
+      "p_home": 0.262,
+      "p_draw": 0.274,
+      "p_away": 0.465,
+      "p_over_2_5": 0.488,
       "model_minus_market": {
-       "home": 0.013,
-       "draw": -0.009,
-       "away": -0.004
+       "home": 0.039,
+       "draw": -0.003,
+       "away": -0.036
       },
       "best_price": {
        "home": {
-        "price": 3.25,
-        "bookmaker": "LeoVegas (SE)"
+        "price": 3.85,
+        "bookmaker": "Betfair"
        },
        "draw": {
-        "price": 3.3,
-        "bookmaker": "Unibet (NL)"
+        "price": 3.53,
+        "bookmaker": "1xBet"
        },
        "away": {
-        "price": 2.14,
+        "price": 2.05,
         "bookmaker": "LeoVegas (SE)"
        }
       },
-      "bookmakers": 4,
-      "fetched_utc": "2026-11-25T06:26:03Z"
+      "bookmakers": 19,
+      "fetched_utc": "2026-11-25T18:26:03Z"
      }
     },
     {
@@ -3811,31 +3803,31 @@
       }
      ],
      "market": {
-      "p_home": 0.638,
-      "p_draw": 0.215,
-      "p_away": 0.146,
-      "p_over_2_5": 0.548,
+      "p_home": 0.59,
+      "p_draw": 0.23,
+      "p_away": 0.18,
+      "p_over_2_5": 0.527,
       "model_minus_market": {
-       "home": -0.054,
-       "draw": 0.017,
-       "away": 0.037
+       "home": -0.005,
+       "draw": 0.002,
+       "away": 0.003
       },
       "best_price": {
        "home": {
-        "price": 1.44,
-        "bookmaker": "LeoVegas (SE)"
+        "price": 1.63,
+        "bookmaker": "BetOnline.ag"
        },
        "draw": {
         "price": 4.25,
-        "bookmaker": "Unibet (NL)"
+        "bookmaker": "Pinnacle"
        },
        "away": {
-        "price": 6.25,
+        "price": 5.8,
         "bookmaker": "Unibet (NL)"
        }
       },
-      "bookmakers": 4,
-      "fetched_utc": "2026-11-25T06:26:03Z"
+      "bookmakers": 19,
+      "fetched_utc": "2026-11-25T18:26:03Z"
      }
     },
     {
@@ -3893,31 +3885,31 @@
       }
      ],
      "market": {
-      "p_home": 0.525,
-      "p_draw": 0.26,
-      "p_away": 0.214,
-      "p_over_2_5": 0.5,
+      "p_home": 0.52,
+      "p_draw": 0.261,
+      "p_away": 0.219,
+      "p_over_2_5": 0.501,
       "model_minus_market": {
-       "home": 0.021,
-       "draw": -0.011,
-       "away": -0.01
+       "home": 0.026,
+       "draw": -0.012,
+       "away": -0.014
       },
       "best_price": {
        "home": {
-        "price": 1.76,
-        "bookmaker": "LeoVegas (SE)"
+        "price": 1.84,
+        "bookmaker": "Betfair"
        },
        "draw": {
-        "price": 3.55,
-        "bookmaker": "Unibet (NL)"
+        "price": 3.75,
+        "bookmaker": "1xBet"
        },
        "away": {
-        "price": 4.3,
-        "bookmaker": "Unibet (NL)"
+        "price": 4.5,
+        "bookmaker": "Coolbet"
        }
       },
-      "bookmakers": 4,
-      "fetched_utc": "2026-11-25T06:26:03Z"
+      "bookmakers": 19,
+      "fetched_utc": "2026-11-25T18:26:03Z"
      }
     },
     {
@@ -3975,31 +3967,31 @@
       }
      ],
      "market": {
-      "p_home": 0.326,
-      "p_draw": 0.263,
-      "p_away": 0.411,
-      "p_over_2_5": 0.588,
+      "p_home": 0.308,
+      "p_draw": 0.255,
+      "p_away": 0.437,
+      "p_over_2_5": 0.58,
       "model_minus_market": {
-       "home": -0.051,
-       "draw": -0.004,
-       "away": 0.055
+       "home": -0.032,
+       "draw": 0.003,
+       "away": 0.029
       },
       "best_price": {
        "home": {
-        "price": 2.85,
-        "bookmaker": "LeoVegas (SE)"
+        "price": 3.23,
+        "bookmaker": "1xBet"
        },
        "draw": {
-        "price": 3.5,
-        "bookmaker": "Unibet (NL)"
+        "price": 3.81,
+        "bookmaker": "Pinnacle"
        },
        "away": {
         "price": 2.25,
         "bookmaker": "LeoVegas (SE)"
        }
       },
-      "bookmakers": 4,
-      "fetched_utc": "2026-11-25T06:26:03Z"
+      "bookmakers": 19,
+      "fetched_utc": "2026-11-25T18:26:03Z"
      }
     },
     {
@@ -4048,31 +4040,31 @@
      },
      "adjustments": [],
      "market": {
-      "p_home": 0.245,
-      "p_draw": 0.253,
-      "p_away": 0.501,
-      "p_over_2_5": 0.577,
+      "p_home": 0.215,
+      "p_draw": 0.248,
+      "p_away": 0.537,
+      "p_over_2_5": 0.542,
       "model_minus_market": {
-       "home": 0.073,
-       "draw": 0.006,
-       "away": -0.079
+       "home": 0.104,
+       "draw": 0.011,
+       "away": -0.115
       },
       "best_price": {
        "home": {
-        "price": 3.75,
-        "bookmaker": "Unibet (NL)"
+        "price": 4.75,
+        "bookmaker": "Coolbet"
        },
        "draw": {
-        "price": 3.65,
-        "bookmaker": "Unibet (NL)"
+        "price": 3.95,
+        "bookmaker": "1xBet"
        },
        "away": {
-        "price": 1.85,
+        "price": 1.79,
         "bookmaker": "LeoVegas (SE)"
        }
       },
-      "bookmakers": 4,
-      "fetched_utc": "2026-11-25T06:26:03Z"
+      "bookmakers": 18,
+      "fetched_utc": "2026-11-25T18:26:03Z"
      }
     },
     {
@@ -4121,31 +4113,31 @@
      },
      "adjustments": [],
      "market": {
-      "p_home": 0.368,
-      "p_draw": 0.292,
-      "p_away": 0.34,
-      "p_over_2_5": 0.457,
+      "p_home": 0.332,
+      "p_draw": 0.289,
+      "p_away": 0.379,
+      "p_over_2_5": 0.463,
       "model_minus_market": {
-       "home": -0.051,
-       "draw": -0.026,
-       "away": 0.077
+       "home": -0.015,
+       "draw": -0.023,
+       "away": 0.038
       },
       "best_price": {
        "home": {
-        "price": 2.5,
-        "bookmaker": "LeoVegas (SE)"
+        "price": 2.93,
+        "bookmaker": "Pinnacle"
        },
        "draw": {
-        "price": 3.15,
-        "bookmaker": "LeoVegas (SE)"
+        "price": 3.33,
+        "bookmaker": "1xBet"
        },
        "away": {
-        "price": 2.7,
+        "price": 2.6,
         "bookmaker": "LeoVegas (SE)"
        }
       },
-      "bookmakers": 4,
-      "fetched_utc": "2026-11-25T06:26:03Z"
+      "bookmakers": 18,
+      "fetched_utc": "2026-11-25T18:26:03Z"
      }
     },
     {
@@ -4194,31 +4186,31 @@
      },
      "adjustments": [],
      "market": {
-      "p_home": 0.439,
-      "p_draw": 0.281,
-      "p_away": 0.279,
-      "p_over_2_5": 0.489,
+      "p_home": 0.478,
+      "p_draw": 0.274,
+      "p_away": 0.247,
+      "p_over_2_5": 0.477,
       "model_minus_market": {
-       "home": 0.029,
-       "draw": -0.012,
-       "away": -0.017
+       "home": -0.01,
+       "draw": -0.005,
+       "away": 0.015
       },
       "best_price": {
        "home": {
-        "price": 2.1,
+        "price": 2.02,
         "bookmaker": "LeoVegas (SE)"
        },
        "draw": {
-        "price": 3.3,
-        "bookmaker": "LeoVegas (SE)"
+        "price": 3.57,
+        "bookmaker": "1xBet"
        },
        "away": {
-        "price": 3.3,
-        "bookmaker": "LeoVegas (SE)"
+        "price": 4.1,
+        "bookmaker": "Pinnacle"
        }
       },
-      "bookmakers": 4,
-      "fetched_utc": "2026-11-25T06:26:03Z"
+      "bookmakers": 18,
+      "fetched_utc": "2026-11-25T18:26:03Z"
      }
     },
     {
@@ -4276,31 +4268,31 @@
       }
      ],
      "market": {
-      "p_home": 0.529,
-      "p_draw": 0.234,
-      "p_away": 0.237,
-      "p_over_2_5": null,
+      "p_home": 0.475,
+      "p_draw": 0.241,
+      "p_away": 0.285,
+      "p_over_2_5": 0.623,
       "model_minus_market": {
-       "home": -0.019,
-       "draw": -0.004,
-       "away": 0.023
+       "home": 0.036,
+       "draw": -0.011,
+       "away": -0.025
       },
       "best_price": {
        "home": {
-        "price": 1.75,
-        "bookmaker": "LeoVegas (SE)"
+        "price": 2.08,
+        "bookmaker": "Coolbet"
        },
        "draw": {
-        "price": 3.95,
-        "bookmaker": "Unibet (NL)"
+        "price": 4.05,
+        "bookmaker": "Pinnacle"
        },
        "away": {
-        "price": 3.9,
+        "price": 3.65,
         "bookmaker": "Unibet (NL)"
        }
       },
-      "bookmakers": 4,
-      "fetched_utc": "2026-11-25T06:26:03Z"
+      "bookmakers": 18,
+      "fetched_utc": "2026-11-25T18:26:03Z"
      }
     },
     {
@@ -4358,31 +4350,31 @@
       }
      ],
      "market": {
-      "p_home": 0.603,
-      "p_draw": 0.244,
-      "p_away": 0.153,
-      "p_over_2_5": 0.448,
+      "p_home": 0.598,
+      "p_draw": 0.246,
+      "p_away": 0.156,
+      "p_over_2_5": 0.441,
       "model_minus_market": {
-       "home": -0.02,
-       "draw": 0.005,
-       "away": 0.015
+       "home": -0.015,
+       "draw": 0.003,
+       "away": 0.012
       },
       "best_price": {
        "home": {
-        "price": 1.53,
-        "bookmaker": "Unibet (NL)"
+        "price": 1.57,
+        "bookmaker": "BetOnline.ag"
        },
        "draw": {
-        "price": 3.8,
-        "bookmaker": "LeoVegas (SE)"
+        "price": 3.92,
+        "bookmaker": "1xBet"
        },
        "away": {
-        "price": 6.1,
-        "bookmaker": "LeoVegas (SE)"
+        "price": 6.5,
+        "bookmaker": "Coolbet"
        }
       },
-      "bookmakers": 4,
-      "fetched_utc": "2026-11-25T06:26:03Z"
+      "bookmakers": 18,
+      "fetched_utc": "2026-11-25T18:26:03Z"
      }
     }
    ]
@@ -5931,7 +5923,7 @@
    "projected_points": 64.1,
    "projected_gd": 17.7,
    "p_title": 0.0291,
-   "p_top3": 0.1944,
+   "p_top3": 0.1943,
    "p_relegation": 0.0
   },
   {
@@ -5958,7 +5950,7 @@
    "points_now": 26,
    "projected_points": 58.6,
    "projected_gd": 10.5,
-   "p_title": 0.004,
+   "p_title": 0.0039,
    "p_top3": 0.0401,
    "p_relegation": 0.0003
   },
@@ -6044,7 +6036,7 @@
    "projected_gd": -10.9,
    "p_title": 0.0,
    "p_top3": 0.0001,
-   "p_relegation": 0.143
+   "p_relegation": 0.1431
   },
   {
    "team": "V-Varen Nagasaki",
@@ -6128,7 +6120,7 @@
    "projected_gd": -23.8,
    "p_title": 0.0,
    "p_top3": 0.0,
-   "p_relegation": 0.8212
+   "p_relegation": 0.8211
   }
  ],
  "season_history": [
