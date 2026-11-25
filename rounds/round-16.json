@@ -940,5 +940,41 @@
    "market": null
   }
  ],
- "results": []
+ "results": [
+  {
+   "site_match_slug": "fc-tokyo-vs-sanfrecce-hiroshima-2026-11-25",
+   "score": "2-2",
+   "called_it": false
+  },
+  {
+   "site_match_slug": "jef-united-chiba-vs-nagoya-grampus-2026-11-25",
+   "score": "1-2",
+   "called_it": true
+  },
+  {
+   "site_match_slug": "fagiano-okayama-vs-shimizu-s-pulse-2026-11-25",
+   "score": "2-0",
+   "called_it": true
+  },
+  {
+   "site_match_slug": "mito-hollyhock-vs-tokyo-verdy-2026-11-25",
+   "score": "1-0",
+   "called_it": false
+  },
+  {
+   "site_match_slug": "avispa-fukuoka-vs-yokohama-f-marinos-2026-11-25",
+   "score": "1-2",
+   "called_it": true
+  },
+  {
+   "site_match_slug": "v-varen-nagasaki-vs-kawasaki-frontale-2026-11-25",
+   "score": "1-2",
+   "called_it": true
+  },
+  {
+   "site_match_slug": "urawa-red-diamonds-vs-cerezo-osaka-2026-11-25",
+   "score": "2-2",
+   "called_it": false
+  }
+ ]
 }

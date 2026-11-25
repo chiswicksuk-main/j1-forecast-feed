@@ -600,6 +600,216 @@
     "p_draw": 0.271,
     "p_away": 0.298
    }
+  },
+  {
+   "round": 16,
+   "site_match_slug": "avispa-fukuoka-vs-yokohama-f-marinos-2026-11-25",
+   "home": "Avispa Fukuoka",
+   "away": "Yokohama F. Marinos",
+   "score": "1-2",
+   "kickoff_utc": "2026-11-25T10:00:00+00:00",
+   "model_issued_utc": "2026-11-25T06:26:15Z",
+   "model_source_commit": "418c7882d6a7ef71fa2f0c874030957636886845",
+   "market_captured_utc": "2026-11-25T06:26:03Z",
+   "model_rps": 0.18824650000000004,
+   "market_rps": 0.20839550060329284,
+   "model_probabilities": {
+    "p_home": 0.278,
+    "p_draw": 0.269,
+    "p_away": 0.453
+   },
+   "market_probabilities": {
+    "p_home": 0.293,
+    "p_draw": 0.283,
+    "p_away": 0.425
+   },
+   "issue_market_captured_utc": "2026-11-25T06:26:03Z",
+   "issue_market_rps": 0.20839550060329284,
+   "issue_market_probabilities": {
+    "p_home": 0.293,
+    "p_draw": 0.283,
+    "p_away": 0.425
+   }
+  },
+  {
+   "round": 16,
+   "site_match_slug": "fagiano-okayama-vs-shimizu-s-pulse-2026-11-25",
+   "home": "Fagiano Okayama",
+   "away": "Shimizu S-Pulse",
+   "score": "2-0",
+   "kickoff_utc": "2026-11-25T10:00:00+00:00",
+   "model_issued_utc": "2026-11-25T06:26:15Z",
+   "model_source_commit": "418c7882d6a7ef71fa2f0c874030957636886845",
+   "market_captured_utc": "2026-11-25T06:26:03Z",
+   "model_rps": 0.2007905,
+   "market_rps": 0.16409,
+   "model_probabilities": {
+    "p_home": 0.434,
+    "p_draw": 0.281,
+    "p_away": 0.285
+   },
+   "market_probabilities": {
+    "p_home": 0.478,
+    "p_draw": 0.286,
+    "p_away": 0.236
+   },
+   "issue_market_captured_utc": "2026-11-25T06:26:03Z",
+   "issue_market_rps": 0.16409,
+   "issue_market_probabilities": {
+    "p_home": 0.478,
+    "p_draw": 0.286,
+    "p_away": 0.236
+   }
+  },
+  {
+   "round": 16,
+   "site_match_slug": "fc-tokyo-vs-sanfrecce-hiroshima-2026-11-25",
+   "home": "FC Tokyo",
+   "away": "Sanfrecce Hiroshima",
+   "score": "2-2",
+   "kickoff_utc": "2026-11-25T10:00:00+00:00",
+   "model_issued_utc": "2026-11-25T06:26:15Z",
+   "model_source_commit": "418c7882d6a7ef71fa2f0c874030957636886845",
+   "market_captured_utc": "2026-11-25T06:26:03Z",
+   "model_rps": 0.13140849999999998,
+   "market_rps": 0.14202880037045873,
+   "model_probabilities": {
+    "p_home": 0.364,
+    "p_draw": 0.275,
+    "p_away": 0.361
+   },
+   "market_probabilities": {
+    "p_home": 0.451,
+    "p_draw": 0.265,
+    "p_away": 0.285
+   },
+   "issue_market_captured_utc": "2026-11-25T06:26:03Z",
+   "issue_market_rps": 0.14202880037045873,
+   "issue_market_probabilities": {
+    "p_home": 0.451,
+    "p_draw": 0.265,
+    "p_away": 0.285
+   }
+  },
+  {
+   "round": 16,
+   "site_match_slug": "jef-united-chiba-vs-nagoya-grampus-2026-11-25",
+   "home": "JEF United Chiba",
+   "away": "Nagoya Grampus",
+   "score": "1-2",
+   "kickoff_utc": "2026-11-25T10:00:00+00:00",
+   "model_issued_utc": "2026-11-25T06:26:15Z",
+   "model_source_commit": "418c7882d6a7ef71fa2f0c874030957636886845",
+   "market_captured_utc": "2026-11-25T06:26:03Z",
+   "model_rps": 0.242525,
+   "market_rps": 0.21031249999999996,
+   "model_probabilities": {
+    "p_home": 0.345,
+    "p_draw": 0.26,
+    "p_away": 0.395
+   },
+   "market_probabilities": {
+    "p_home": 0.3,
+    "p_draw": 0.275,
+    "p_away": 0.425
+   },
+   "issue_market_captured_utc": "2026-11-25T06:26:03Z",
+   "issue_market_rps": 0.21031249999999996,
+   "issue_market_probabilities": {
+    "p_home": 0.3,
+    "p_draw": 0.275,
+    "p_away": 0.425
+   }
+  },
+  {
+   "round": 16,
+   "site_match_slug": "mito-hollyhock-vs-tokyo-verdy-2026-11-25",
+   "home": "Mito HollyHock",
+   "away": "Tokyo Verdy",
+   "score": "1-0",
+   "kickoff_utc": "2026-11-25T10:00:00+00:00",
+   "model_issued_utc": "2026-11-25T06:26:15Z",
+   "model_source_commit": "418c7882d6a7ef71fa2f0c874030957636886845",
+   "market_captured_utc": "2026-11-25T06:26:03Z",
+   "model_rps": 0.29846500000000004,
+   "market_rps": 0.30401649999999997,
+   "model_probabilities": {
+    "p_home": 0.329,
+    "p_draw": 0.288,
+    "p_away": 0.383
+   },
+   "market_probabilities": {
+    "p_home": 0.312,
+    "p_draw": 0.321,
+    "p_away": 0.367
+   },
+   "issue_market_captured_utc": "2026-11-25T06:26:03Z",
+   "issue_market_rps": 0.30401649999999997,
+   "issue_market_probabilities": {
+    "p_home": 0.312,
+    "p_draw": 0.321,
+    "p_away": 0.367
+   }
+  },
+  {
+   "round": 16,
+   "site_match_slug": "v-varen-nagasaki-vs-kawasaki-frontale-2026-11-25",
+   "home": "V-Varen Nagasaki",
+   "away": "Kawasaki Frontale",
+   "score": "1-2",
+   "kickoff_utc": "2026-11-25T10:00:00+00:00",
+   "model_issued_utc": "2026-11-25T06:26:15Z",
+   "model_source_commit": "418c7882d6a7ef71fa2f0c874030957636886845",
+   "market_captured_utc": "2026-11-25T06:26:03Z",
+   "model_rps": 0.20880250000000003,
+   "market_rps": 0.14982399999999998,
+   "model_probabilities": {
+    "p_home": 0.319,
+    "p_draw": 0.243,
+    "p_away": 0.438
+   },
+   "market_probabilities": {
+    "p_home": 0.248,
+    "p_draw": 0.24,
+    "p_away": 0.512
+   },
+   "issue_market_captured_utc": "2026-11-25T06:26:03Z",
+   "issue_market_rps": 0.14982399999999998,
+   "issue_market_probabilities": {
+    "p_home": 0.248,
+    "p_draw": 0.24,
+    "p_away": 0.512
+   }
+  },
+  {
+   "round": 16,
+   "site_match_slug": "urawa-red-diamonds-vs-cerezo-osaka-2026-11-25",
+   "home": "Urawa Red Diamonds",
+   "away": "Cerezo Osaka",
+   "score": "2-2",
+   "kickoff_utc": "2026-11-25T10:30:00+00:00",
+   "model_issued_utc": "2026-11-25T06:26:15Z",
+   "model_source_commit": "418c7882d6a7ef71fa2f0c874030957636886845",
+   "market_captured_utc": "2026-11-25T06:26:03Z",
+   "model_rps": 0.14204450000000002,
+   "market_rps": 0.1588,
+   "model_probabilities": {
+    "p_home": 0.435,
+    "p_draw": 0.257,
+    "p_away": 0.308
+   },
+   "market_probabilities": {
+    "p_home": 0.508,
+    "p_draw": 0.248,
+    "p_away": 0.244
+   },
+   "issue_market_captured_utc": "2026-11-25T06:26:03Z",
+   "issue_market_rps": 0.1588,
+   "issue_market_probabilities": {
+    "p_home": 0.508,
+    "p_draw": 0.248,
+    "p_away": 0.244
+   }
   }
  ]
 }
