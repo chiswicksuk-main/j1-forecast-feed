@@ -2,175 +2,60 @@
  "schema": "jls-j2-forecast-feed/1",
  "league": "J2",
  "season": "2026-27",
- "created_utc": "2026-11-25T06:26:22+00:00",
+ "created_utc": "2026-11-25T11:13:59+00:00",
  "results_through_jst": "2026-11-22 14:03",
  "model": "Connected J1/J2 Elo, with home/draw/away probabilities calibrated on earlier regular J2 seasons",
  "track_record": {
   "historical": {
    "matches": 2146,
-   "model_rps": 0.21778440638093846,
+   "model_rps": 0.2177844063670477,
    "baseline_rps": 0.23064824895346367
   },
   "current_season": {
    "matches": 180,
-   "model_rps": 0.22594974886666275,
+   "model_rps": 0.22594974848420146,
    "baseline_rps": 0.23489063602259125
   },
   "by_season": [
    {
     "season": "2021",
     "matches": 462,
-    "model_rps": 0.2111297858406321,
+    "model_rps": 0.2111297859089936,
     "baseline_rps": 0.22962134973915543
    },
    {
     "season": "2022",
     "matches": 462,
-    "model_rps": 0.22392086244910425,
+    "model_rps": 0.22392086244910434,
     "baseline_rps": 0.2294918668617665
    },
    {
     "season": "2023",
     "matches": 462,
-    "model_rps": 0.21970176552944506,
+    "model_rps": 0.21970176553890108,
     "baseline_rps": 0.22919938152196695
    },
    {
     "season": "2024",
     "matches": 380,
-    "model_rps": 0.2149832197317989,
+    "model_rps": 0.21498321963772948,
     "baseline_rps": 0.23599990733961862
    },
    {
     "season": "2025",
     "matches": 380,
-    "model_rps": 0.21888446687091723,
+    "model_rps": 0.21888446679193055,
     "baseline_rps": 0.22971251876921917
    },
    {
     "season": "2026-27",
     "matches": 180,
-    "model_rps": 0.22594974886666275,
+    "model_rps": 0.22594974848420146,
     "baseline_rps": 0.23489063602259125
    }
   ]
  },
  "rounds": [
-  {
-   "round": 19,
-   "matches": [
-    {
-     "home": "FC Imabari",
-     "away": "Tegevajaro Miyazaki",
-     "home_id": "fc_imabari",
-     "away_id": "tegevajaro_miyazaki",
-     "date_jst": "2026-11-25",
-     "kickoff_jst": "18:30",
-     "p_home": 0.27274627181812383,
-     "p_draw": 0.2752449844856498,
-     "p_away": 0.45200874369622634
-    },
-    {
-     "home": "Vanraure Hachinohe",
-     "away": "Albirex Niigata",
-     "home_id": "vanraure_hachinohe",
-     "away_id": "albirex_niigata",
-     "date_jst": "2026-11-25",
-     "kickoff_jst": "18:30",
-     "p_home": 0.2344414911037308,
-     "p_draw": 0.26303145104042835,
-     "p_away": 0.5025270578558408
-    },
-    {
-     "home": "Iwaki FC",
-     "away": "Kataller Toyama",
-     "home_id": "iwaki_fc",
-     "away_id": "kataller_toyama",
-     "date_jst": "2026-11-25",
-     "kickoff_jst": "19:00",
-     "p_home": 0.4036196154089945,
-     "p_draw": 0.2826820501132554,
-     "p_away": 0.3136983344777501
-    },
-    {
-     "home": "RB Omiya Ardija",
-     "away": "Tokushima Vortis",
-     "home_id": "omiya_ardija",
-     "away_id": "tokushima_vortis",
-     "date_jst": "2026-11-25",
-     "kickoff_jst": "19:00",
-     "p_home": 0.4245247184087967,
-     "p_draw": 0.28002643670771576,
-     "p_away": 0.29544884488348755
-    },
-    {
-     "home": "Montedio Yamagata",
-     "away": "Jubilo Iwata",
-     "home_id": "montedio_yamagata",
-     "away_id": "jubilo_iwata",
-     "date_jst": "2026-11-25",
-     "kickoff_jst": "19:00",
-     "p_home": 0.307046059502737,
-     "p_draw": 0.28183108958047537,
-     "p_away": 0.41112285091678763
-    },
-    {
-     "home": "Hokkaido Consadole Sapporo",
-     "away": "Fujieda MYFC",
-     "home_id": "hokkaido_consadole_sapporo",
-     "away_id": "fujieda_myfc",
-     "date_jst": "2026-11-25",
-     "kickoff_jst": "19:00",
-     "p_home": 0.4738617258564446,
-     "p_draw": 0.27047699854940316,
-     "p_away": 0.25566127559415225
-    },
-    {
-     "home": "Tochigi City",
-     "away": "Blaublitz Akita",
-     "home_id": "tochigi_city",
-     "away_id": "blaublitz_akita",
-     "date_jst": "2026-11-25",
-     "kickoff_jst": "19:00",
-     "p_home": 0.29459478747671786,
-     "p_draw": 0.2798769853944376,
-     "p_away": 0.4255282271288445
-    },
-    {
-     "home": "Yokohama FC",
-     "away": "Vegalta Sendai",
-     "home_id": "yokohama_fc",
-     "away_id": "vegalta_sendai",
-     "date_jst": "2026-11-25",
-     "kickoff_jst": "19:00",
-     "p_home": 0.3902783576786788,
-     "p_draw": 0.28390096408585125,
-     "p_away": 0.32582067823546995
-    },
-    {
-     "home": "Shonan Bellmare",
-     "away": "Ventforet Kofu",
-     "home_id": "shonan_bellmare",
-     "away_id": "ventforet_kofu",
-     "date_jst": "2026-11-25",
-     "kickoff_jst": "19:00",
-     "p_home": 0.6060892739706483,
-     "p_draw": 0.22651450178519433,
-     "p_away": 0.16739622424415734
-    },
-    {
-     "home": "Sagan Tosu",
-     "away": "Oita Trinita",
-     "home_id": "sagan_tosu",
-     "away_id": "oita_trinita",
-     "date_jst": "2026-11-25",
-     "kickoff_jst": "19:00",
-     "p_home": 0.45829500407688406,
-     "p_draw": 0.27395784346240554,
-     "p_away": 0.2677471524607104
-    }
-   ]
-  },
   {
    "round": 20,
    "matches": [
@@ -181,9 +66,9 @@
      "away_id": "fc_imabari",
      "date_jst": "2026-11-28",
      "kickoff_jst": "14:00",
-     "p_home": 0.5517766255613831,
-     "p_draw": 0.24739786090512345,
-     "p_away": 0.20082551353349348
+     "p_home": 0.5517766351567042,
+     "p_draw": 0.24739784647818783,
+     "p_away": 0.20082551836510806
     },
     {
      "home": "Vanraure Hachinohe",
@@ -192,9 +77,9 @@
      "away_id": "fujieda_myfc",
      "date_jst": "2026-11-29",
      "kickoff_jst": "13:00",
-     "p_home": 0.31983521742081567,
-     "p_draw": 0.2833517751066064,
-     "p_away": 0.3968130074725779
+     "p_home": 0.3198352245416578,
+     "p_draw": 0.28335175932875545,
+     "p_away": 0.39681301612958675
     },
     {
      "home": "Vegalta Sendai",
@@ -203,9 +88,9 @@
      "away_id": "montedio_yamagata",
      "date_jst": "2026-11-29",
      "kickoff_jst": "14:00",
-     "p_home": 0.539382663916044,
-     "p_draw": 0.25164795236747173,
-     "p_away": 0.20896938371648424
+     "p_home": 0.5393826734769352,
+     "p_draw": 0.2516479377781953,
+     "p_away": 0.20896938874486945
     },
     {
      "home": "Oita Trinita",
@@ -214,9 +99,9 @@
      "away_id": "tokushima_vortis",
      "date_jst": "2026-11-29",
      "kickoff_jst": "14:00",
-     "p_home": 0.33084637417363505,
-     "p_draw": 0.28428451004900296,
-     "p_away": 0.384869115777362
+     "p_home": 0.33084638149036727,
+     "p_draw": 0.28428449424441277,
+     "p_away": 0.38486912426521996
     },
     {
      "home": "Tegevajaro Miyazaki",
@@ -225,9 +110,9 @@
      "away_id": "sagan_tosu",
      "date_jst": "2026-11-29",
      "kickoff_jst": "14:00",
-     "p_home": 0.3936843319853397,
-     "p_draw": 0.2836263149695275,
-     "p_away": 0.3226893530451328
+     "p_home": 0.3936843402840141,
+     "p_draw": 0.2836262992102148,
+     "p_away": 0.3226893605057711
     },
     {
      "home": "Albirex Niigata",
@@ -236,9 +121,9 @@
      "away_id": "ventforet_kofu",
      "date_jst": "2026-11-29",
      "kickoff_jst": "14:00",
-     "p_home": 0.587973306235004,
-     "p_draw": 0.2338697656863312,
-     "p_away": 0.17815692807866482
+     "p_home": 0.5879733158595932,
+     "p_draw": 0.2338697517902282,
+     "p_away": 0.17815693235017863
     },
     {
      "home": "Shonan Bellmare",
@@ -247,9 +132,9 @@
      "away_id": "kataller_toyama",
      "date_jst": "2026-11-29",
      "kickoff_jst": "14:00",
-     "p_home": 0.4609076198367278,
-     "p_draw": 0.2734025541994893,
-     "p_away": 0.26568982596378293
+     "p_home": 0.46090762890603587,
+     "p_draw": 0.27340253880869125,
+     "p_away": 0.2656898322852729
     },
     {
      "home": "Jubilo Iwata",
@@ -258,9 +143,9 @@
      "away_id": "tochigi_city",
      "date_jst": "2026-11-29",
      "kickoff_jst": "14:00",
-     "p_home": 0.5696842430905655,
-     "p_draw": 0.2409066574474566,
-     "p_away": 0.18940909946197781
+     "p_home": 0.569684252713813,
+     "p_draw": 0.24090664327250394,
+     "p_away": 0.1894091040136831
     },
     {
      "home": "Blaublitz Akita",
@@ -269,9 +154,9 @@
      "away_id": "yokohama_fc",
      "date_jst": "2026-11-29",
      "kickoff_jst": "14:00",
-     "p_home": 0.27622721170006903,
-     "p_draw": 0.27608997472917296,
-     "p_away": 0.447682813570758
+     "p_home": 0.27622721798137906,
+     "p_draw": 0.27608995917955176,
+     "p_away": 0.4476828228390692
     },
     {
      "home": "Iwaki FC",
@@ -280,9 +165,9 @@
      "away_id": "hokkaido_consadole_sapporo",
      "date_jst": "2026-11-29",
      "kickoff_jst": "15:00",
-     "p_home": 0.37497656950113145,
-     "p_draw": 0.2848150357439842,
-     "p_away": 0.34020839475488435
+     "p_home": 0.3749765775325694,
+     "p_draw": 0.28481501993847647,
+     "p_away": 0.3402084025289541
     }
    ]
   },
@@ -296,9 +181,9 @@
      "away_id": "jubilo_iwata",
      "date_jst": "2026-12-05",
      "kickoff_jst": "14:00",
-     "p_home": 0.34597583793157416,
-     "p_draw": 0.28502572227372475,
-     "p_away": 0.3689984397947011
+     "p_home": 0.3459758455062609,
+     "p_draw": 0.28502570645038294,
+     "p_away": 0.36899844804335613
     },
     {
      "home": "Hokkaido Consadole Sapporo",
@@ -307,9 +192,9 @@
      "away_id": "albirex_niigata",
      "date_jst": "2026-12-05",
      "kickoff_jst": "14:00",
-     "p_home": 0.36969653293906346,
-     "p_draw": 0.2850054688288445,
-     "p_away": 0.34529799823209206
+     "p_home": 0.3696965408911309,
+     "p_draw": 0.285005453015089,
+     "p_away": 0.3452980060937801
     },
     {
      "home": "Tochigi City",
@@ -318,9 +203,9 @@
      "away_id": "tegevajaro_miyazaki",
      "date_jst": "2026-12-05",
      "kickoff_jst": "14:00",
-     "p_home": 0.26924016632044845,
-     "p_draw": 0.2743514337291724,
-     "p_away": 0.45640839995037913
+     "p_home": 0.2692401724583092,
+     "p_draw": 0.2743514182365645,
+     "p_away": 0.4564084093051263
     },
     {
      "home": "Yokohama FC",
@@ -329,9 +214,9 @@
      "away_id": "vanraure_hachinohe",
      "date_jst": "2026-12-05",
      "kickoff_jst": "14:00",
-     "p_home": 0.6305037956681936,
-     "p_draw": 0.21603003032918247,
-     "p_away": 0.15346617400262394
+     "p_home": 0.6305038051860754,
+     "p_draw": 0.21603001716758266,
+     "p_away": 0.15346617764634193
     },
     {
      "home": "Ventforet Kofu",
@@ -340,9 +225,9 @@
      "away_id": "sagan_tosu",
      "date_jst": "2026-12-05",
      "kickoff_jst": "14:00",
-     "p_home": 0.25491753773109427,
-     "p_draw": 0.2702453084797432,
-     "p_away": 0.4748371537891625
+     "p_home": 0.2549175435676928,
+     "p_draw": 0.270245293124233,
+     "p_away": 0.4748371633080742
     },
     {
      "home": "Fujieda MYFC",
@@ -351,9 +236,9 @@
      "away_id": "blaublitz_akita",
      "date_jst": "2026-12-05",
      "kickoff_jst": "14:00",
-     "p_home": 0.356939854574987,
-     "p_draw": 0.2851899905443842,
-     "p_away": 0.3578701548806288
+     "p_home": 0.35693986232828434,
+     "p_draw": 0.2851899747197639,
+     "p_away": 0.3578701629519518
     },
     {
      "home": "Montedio Yamagata",
@@ -362,9 +247,9 @@
      "away_id": "iwaki_fc",
      "date_jst": "2026-12-06",
      "kickoff_jst": "13:00",
-     "p_home": 0.3440385933568031,
-     "p_draw": 0.28496466577114804,
-     "p_away": 0.37099674087204887
+     "p_home": 0.344038600899197,
+     "p_draw": 0.28496464994908716,
+     "p_away": 0.3709967491517158
     },
     {
      "home": "Vegalta Sendai",
@@ -373,9 +258,9 @@
      "away_id": "shonan_bellmare",
      "date_jst": "2026-12-06",
      "kickoff_jst": "14:00",
-     "p_home": 0.43089802890404105,
-     "p_draw": 0.2790441240175846,
-     "p_away": 0.29005784707837434
+     "p_home": 0.43089803766710444,
+     "p_draw": 0.2790441084246211,
+     "p_away": 0.2900578539082745
     },
     {
      "home": "Kataller Toyama",
@@ -384,9 +269,9 @@
      "away_id": "omiya_ardija",
      "date_jst": "2026-12-06",
      "kickoff_jst": "14:00",
-     "p_home": 0.3522221698685051,
-     "p_draw": 0.2851566890867706,
-     "p_away": 0.3626211410447243
+     "p_home": 0.3522221775458183,
+     "p_draw": 0.2851566732614702,
+     "p_away": 0.3626211491927115
     },
     {
      "home": "FC Imabari",
@@ -395,9 +280,9 @@
      "away_id": "oita_trinita",
      "date_jst": "2026-12-06",
      "kickoff_jst": "15:00",
-     "p_home": 0.3331981203940638,
-     "p_draw": 0.2844400810757847,
-     "p_away": 0.38236179853015145
+     "p_home": 0.3331981277517524,
+     "p_draw": 0.2844400652669415,
+     "p_away": 0.3823618069813061
     }
    ]
   },
@@ -411,9 +296,9 @@
      "away_id": "blaublitz_akita",
      "date_jst": "2026-12-12",
      "kickoff_jst": "13:30",
-     "p_home": 0.27719609901897957,
-     "p_draw": 0.2763177806688614,
-     "p_away": 0.446486120312159
+     "p_home": 0.2771961053199965,
+     "p_draw": 0.27631776511182055,
+     "p_away": 0.44648612956818295
     },
     {
      "home": "Hokkaido Consadole Sapporo",
@@ -422,9 +307,9 @@
      "away_id": "kataller_toyama",
      "date_jst": "2026-12-12",
      "kickoff_jst": "13:45",
-     "p_home": 0.42006684159698005,
-     "p_draw": 0.2806664706703353,
-     "p_away": 0.29926668773268467
+     "p_home": 0.420066850234342,
+     "p_draw": 0.28066645501908966,
+     "p_away": 0.29926669474656836
     },
     {
      "home": "Oita Trinita",
@@ -433,9 +318,9 @@
      "away_id": "tegevajaro_miyazaki",
      "date_jst": "2026-12-12",
      "kickoff_jst": "14:00",
-     "p_home": 0.3251954810116282,
-     "p_draw": 0.28384833235599805,
-     "p_away": 0.39095618663237375
+     "p_home": 0.32519548822867594,
+     "p_draw": 0.2838483165637071,
+     "p_away": 0.39095619520761693
     },
     {
      "home": "RB Omiya Ardija",
@@ -444,9 +329,9 @@
      "away_id": "vegalta_sendai",
      "date_jst": "2026-12-12",
      "kickoff_jst": "14:00",
-     "p_home": 0.3256530749079882,
-     "p_draw": 0.28388696202452496,
-     "p_away": 0.3904599630674868
+     "p_home": 0.32565308213317334,
+     "p_draw": 0.28388694623112737,
+     "p_away": 0.3904599716356993
     },
     {
      "home": "Fujieda MYFC",
@@ -455,9 +340,9 @@
      "away_id": "tochigi_city",
      "date_jst": "2026-12-12",
      "kickoff_jst": "14:00",
-     "p_home": 0.46045323452643916,
-     "p_draw": 0.2734999800771654,
-     "p_away": 0.2660467853963954
+     "p_home": 0.460453243591581,
+     "p_draw": 0.2734999646828681,
+     "p_away": 0.2660467917255509
     },
     {
      "home": "Sagan Tosu",
@@ -466,9 +351,9 @@
      "away_id": "yokohama_fc",
      "date_jst": "2026-12-12",
      "kickoff_jst": "14:00",
-     "p_home": 0.29961922565214705,
-     "p_draw": 0.280723274625161,
-     "p_away": 0.41965749972269195
+     "p_home": 0.299619232396106,
+     "p_draw": 0.2807232589274076,
+     "p_away": 0.4196575086764864
     },
     {
      "home": "Iwaki FC",
@@ -477,9 +362,9 @@
      "away_id": "tokushima_vortis",
      "date_jst": "2026-12-12",
      "kickoff_jst": "15:00",
-     "p_home": 0.39702418451076926,
-     "p_draw": 0.28333248292082497,
-     "p_away": 0.31964333256840577
+     "p_home": 0.39702419285482116,
+     "p_draw": 0.2833324671724694,
+     "p_away": 0.31964333997270944
     },
     {
      "home": "Montedio Yamagata",
@@ -488,9 +373,9 @@
      "away_id": "vanraure_hachinohe",
      "date_jst": "2026-12-13",
      "kickoff_jst": "13:00",
-     "p_home": 0.48416174349570795,
-     "p_draw": 0.26795190257766954,
-     "p_away": 0.24788635392662248
+     "p_home": 0.4841617527584876,
+     "p_draw": 0.26795188738361997,
+     "p_away": 0.24788635985789242
     },
     {
      "home": "Shonan Bellmare",
@@ -499,9 +384,9 @@
      "away_id": "fc_imabari",
      "date_jst": "2026-12-13",
      "kickoff_jst": "14:00",
-     "p_home": 0.5812517899308123,
-     "p_draw": 0.23650241389399482,
-     "p_away": 0.18224579617519285
+     "p_home": 0.5812517995581403,
+     "p_draw": 0.23650239989286526,
+     "p_away": 0.18224580054899442
     },
     {
      "home": "Jubilo Iwata",
@@ -510,9 +395,9 @@
      "away_id": "albirex_niigata",
      "date_jst": "2026-12-13",
      "kickoff_jst": "14:00",
-     "p_home": 0.39345599367109074,
-     "p_draw": 0.28364552043415625,
-     "p_away": 0.322898485894753
+     "p_home": 0.3934560019666381,
+     "p_draw": 0.283645504674124,
+     "p_away": 0.32289849335923787
     }
    ]
   }
