@@ -1,6 +1,6 @@
 {
  "schema": "jls-forecast-feed/1",
- "created_utc": "2026-11-26T00:25:54Z",
+ "created_utc": "2026-11-26T04:09:34Z",
  "data_through_jst": "2026-11-25 19:33",
  "model": {
   "name": "J League Scout forecaster",
@@ -190,15 +190,15 @@
   "method": "Latest eligible snapshot strictly before each fixture's kick-off; average bookmaker implied probabilities with the margin removed proportionally."
  },
  "status": {
-  "model_run_utc": "2026-11-26T00:25:54Z",
-  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/45728507795",
+  "model_run_utc": "2026-11-26T04:09:34Z",
+  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/45753256122",
   "odds_fetched_utc": "2026-11-25T18:26:03Z",
   "odds_note": null,
   "team_news_sync": {
-   "run_utc": "2026-11-25T10:24:05Z",
-   "result": "error",
+   "run_utc": "2026-11-26T02:24:11Z",
+   "result": "skipped: next match in 20 days",
    "round": 16,
-   "error": "ValueError: GW tab parsed to only 0 player rows (expected about 600): check the saved ranges"
+   "error": null
   },
   "adjustment_warnings": []
  },
