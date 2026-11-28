@@ -1,10 +1,10 @@
 {
  "schema": "jls-j2-table/1",
  "season": "2026-27",
- "forecast_created_utc": "2026-11-28T06:26:23+00:00",
- "results_through_jst": "2026-11-25 19:04",
+ "forecast_created_utc": "2026-11-28T12:26:10+00:00",
+ "results_through_jst": "2026-11-28 14:08",
  "completed_rounds": 19,
- "completed_matches": 190,
+ "completed_matches": 191,
  "model_version": "elo-baseline-0.1.0",
  "rows": [
   {
@@ -13,7 +13,7 @@
    "preseason_elo": 1503.7,
    "current_elo": 1511.3,
    "elo_change": 7.6,
-   "elo_rank": 4,
+   "elo_rank": 5,
    "played": 19,
    "won": 12,
    "drawn": 2,
@@ -25,12 +25,29 @@
    "league_position": 1
   },
   {
+   "team_id": "omiya_ardija",
+   "club": "RB Omiya Ardija",
+   "preseason_elo": 1497.0,
+   "current_elo": 1511.5,
+   "elo_change": 14.6,
+   "elo_rank": 4,
+   "played": 20,
+   "won": 10,
+   "drawn": 6,
+   "lost": 4,
+   "goals_for": 36,
+   "goals_against": 25,
+   "points": 36,
+   "goal_difference": 11,
+   "league_position": 2
+  },
+  {
    "team_id": "kataller_toyama",
    "club": "Kataller Toyama",
    "preseason_elo": 1491.5,
    "current_elo": 1510.5,
    "elo_change": 19.1,
-   "elo_rank": 5,
+   "elo_rank": 6,
    "played": 19,
    "won": 10,
    "drawn": 5,
@@ -39,7 +56,7 @@
    "goals_against": 19,
    "points": 35,
    "goal_difference": 14,
-   "league_position": 2
+   "league_position": 3
   },
   {
    "team_id": "vegalta_sendai",
@@ -56,7 +73,7 @@
    "goals_against": 18,
    "points": 34,
    "goal_difference": 16,
-   "league_position": 3
+   "league_position": 4
   },
   {
    "team_id": "yokohama_fc",
@@ -73,23 +90,6 @@
    "goals_against": 22,
    "points": 34,
    "goal_difference": 12,
-   "league_position": 4
-  },
-  {
-   "team_id": "omiya_ardija",
-   "club": "RB Omiya Ardija",
-   "preseason_elo": 1497.0,
-   "current_elo": 1509.8,
-   "elo_change": 12.8,
-   "elo_rank": 6,
-   "played": 19,
-   "won": 9,
-   "drawn": 6,
-   "lost": 4,
-   "goals_for": 33,
-   "goals_against": 23,
-   "points": 33,
-   "goal_difference": 10,
    "league_position": 5
   },
   {
@@ -300,17 +300,17 @@
    "team_id": "fc_imabari",
    "club": "FC Imabari",
    "preseason_elo": 1490.7,
-   "current_elo": 1472.2,
-   "elo_change": -18.5,
+   "current_elo": 1470.5,
+   "elo_change": -20.3,
    "elo_rank": 17,
-   "played": 19,
+   "played": 20,
    "won": 5,
    "drawn": 3,
-   "lost": 11,
-   "goals_for": 19,
-   "goals_against": 35,
+   "lost": 12,
+   "goals_for": 21,
+   "goals_against": 38,
    "points": 18,
-   "goal_difference": -16,
+   "goal_difference": -17,
    "league_position": 18
   },
   {
