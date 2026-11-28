@@ -1,6 +1,6 @@
 {
  "schema": "jls-forecast-feed/1",
- "created_utc": "2026-11-28T00:26:41Z",
+ "created_utc": "2026-11-28T02:41:25Z",
  "data_through_jst": "2026-11-25 19:33",
  "model": {
   "name": "J League Scout forecaster",
@@ -190,13 +190,13 @@
   "method": "Latest eligible snapshot strictly before each fixture's kick-off; average bookmaker implied probabilities with the margin removed proportionally."
  },
  "status": {
-  "model_run_utc": "2026-11-28T00:26:41Z",
-  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/46087702798",
+  "model_run_utc": "2026-11-28T02:41:25Z",
+  "run_url": "https://github.com/chiswicksuk-main/j1-forecast/actions/runs/46099131186",
   "odds_fetched_utc": "2026-11-28T00:26:27Z",
   "odds_note": null,
   "team_news_sync": {
-   "run_utc": "2026-11-27T10:24:16Z",
-   "result": "skipped: next match in 19 days",
+   "run_utc": "2026-11-28T02:23:58Z",
+   "result": "skipped: next match in 18 days",
    "round": 16,
    "error": null
   },
